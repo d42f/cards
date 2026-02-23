@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import { signIn } from "next-auth/react";
-import { useRouter } from "next/navigation";
-import Link from "next/link";
+import { useState } from 'react';
+import { signIn } from 'next-auth/react';
+import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 
 export default function LoginPage() {
   const router = useRouter();
@@ -12,15 +12,15 @@ export default function LoginPage() {
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const form = new FormData(e.currentTarget);
-    const result = await signIn("credentials", {
-      email: form.get("email"),
-      password: form.get("password"),
+    const result = await signIn('credentials', {
+      email: form.get('email'),
+      password: form.get('password'),
       redirect: false,
     });
     if (result?.error) {
-      setError("Invalid email or password");
+      setError('Invalid email or password');
     } else {
-      router.push("/");
+      router.push('/');
       router.refresh();
     }
   }
@@ -57,7 +57,7 @@ export default function LoginPage() {
           </button>
         </form>
         <p className="mt-4 text-sm text-center text-gray-600">
-          No account?{" "}
+          No account?{' '}
           <Link href="/register" className="text-blue-600 hover:underline">
             Register
           </Link>

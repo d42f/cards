@@ -4,13 +4,13 @@ A flashcard-based vocabulary learning app with role-based access (Teacher / Stud
 
 ## Stack
 
-| Layer | Technology |
-|---|---|
-| Framework | Next.js 16 (App Router, Turbopack) |
-| Database | SQLite via Prisma 7 + `@prisma/adapter-better-sqlite3` |
-| Auth | NextAuth v5 (Credentials, JWT) |
-| API | Apollo Server + Apollo Client 4 (GraphQL) |
-| Styles | Tailwind CSS |
+| Layer     | Technology                                             |
+| --------- | ------------------------------------------------------ |
+| Framework | Next.js 16 (App Router, Turbopack)                     |
+| Database  | SQLite via Prisma 7 + `@prisma/adapter-better-sqlite3` |
+| Auth      | NextAuth v5 (Credentials, JWT)                         |
+| API       | Apollo Server + Apollo Client 4 (GraphQL)              |
+| Styles    | Tailwind CSS                                           |
 
 ## Getting Started
 
@@ -57,6 +57,7 @@ Open [http://localhost:3000](http://localhost:3000).
 Endpoint: `POST /api/graphql`
 
 **Queries:**
+
 ```graphql
 query { wordSets { id title teacher { name } words { term definition } } }
 query { wordSet(id: "...") { ... } }
@@ -64,11 +65,28 @@ query { myProgress(wordSetId: "...") { wordId score } }
 ```
 
 **Mutations:**
+
 ```graphql
-mutation { register(email: "...", password: "...", role: TEACHER) { id } }
-mutation { createWordSet(title: "...") { id } }        # Teacher only
-mutation { addWord(wordSetId: "...", term: "...", definition: "...") { id } }
-mutation { updateProgress(wordId: "...", wordSetId: "...", score: 1) { id } }
+mutation {
+  register(email: "...", password: "...", role: TEACHER) {
+    id
+  }
+}
+mutation {
+  createWordSet(title: "...") {
+    id
+  }
+} # Teacher only
+mutation {
+  addWord(wordSetId: "...", term: "...", definition: "...") {
+    id
+  }
+}
+mutation {
+  updateProgress(wordId: "...", wordSetId: "...", score: 1) {
+    id
+  }
+}
 ```
 
 ## Project Structure

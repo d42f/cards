@@ -1,19 +1,19 @@
-import bcrypt from "bcryptjs";
-import { prisma } from "@/lib/prisma";
-import type { Session } from "next-auth";
+import bcrypt from 'bcryptjs';
+import { prisma } from '@/lib/prisma';
+import type { Session } from 'next-auth';
 
 interface Context {
   session: Session | null;
 }
 
 function requireAuth(ctx: Context) {
-  if (!ctx.session?.user) throw new Error("Not authenticated");
+  if (!ctx.session?.user) throw new Error('Not authenticated');
   return ctx.session.user;
 }
 
 function requireTeacher(ctx: Context) {
   const user = requireAuth(ctx);
-  if (user.role !== "TEACHER") throw new Error("Requires TEACHER role");
+  if (user.role !== 'TEACHER') throw new Error('Requires TEACHER role');
   return user;
 }
 
@@ -74,11 +74,11 @@ export const resolvers = {
   Mutation: {
     register: async (
       _: unknown,
-      { email, password, name, role }: { email: string; password: string; name: string; role?: string }
+      { email, password, name, role }: { email: string; password: string; name: string; role?: string },
     ) => {
       const hashed = await bcrypt.hash(password, 10);
       return prisma.user.create({
-        data: { email, password: hashed, name, role: (role as "STUDENT" | "TEACHER") ?? "STUDENT" },
+        data: { email, password: hashed, name, role: (role as 'STUDENT' | 'TEACHER') ?? 'STUDENT' },
       });
     },
 
@@ -93,7 +93,7 @@ export const resolvers = {
     addWord: async (
       _: unknown,
       { wordSetId, term, definition }: { wordSetId: string; term: string; definition: string },
-      ctx: Context
+      ctx: Context,
     ) => {
       requireAuth(ctx);
       return prisma.word.create({ data: { wordSetId, term, definition } });
@@ -102,7 +102,7 @@ export const resolvers = {
     updateProgress: async (
       _: unknown,
       { wordId, wordSetId, score }: { wordId: string; wordSetId: string; score: number },
-      ctx: Context
+      ctx: Context,
     ) => {
       const user = requireAuth(ctx);
       return prisma.progress.upsert({
@@ -112,11 +112,7 @@ export const resolvers = {
       });
     },
 
-    addStudent: async (
-      _: unknown,
-      { studentId }: { studentId: string },
-      ctx: Context
-    ) => {
+    addStudent: async (_: unknown, { studentId }: { studentId: string }, ctx: Context) => {
       const user = requireTeacher(ctx);
       return prisma.user.update({
         where: { id: user.id! },
@@ -125,11 +121,7 @@ export const resolvers = {
       });
     },
 
-    removeStudent: async (
-      _: unknown,
-      { studentId }: { studentId: string },
-      ctx: Context
-    ) => {
+    removeStudent: async (_: unknown, { studentId }: { studentId: string }, ctx: Context) => {
       const user = requireTeacher(ctx);
       return prisma.user.update({
         where: { id: user.id! },

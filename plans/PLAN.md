@@ -10,6 +10,7 @@
 Bootstrap a full-stack Next.js flashcard-learning app from an empty git repo.
 
 **Requirements:**
+
 - Prisma + SQLite — schema: User(role), WordSet, Word, Progress
 - NextAuth v5 — roles STUDENT / TEACHER
 - Apollo Server + Apollo Client
@@ -117,18 +118,18 @@ npx prisma migrate dev --name init
 ## Step 4 — Prisma client singleton (`src/lib/prisma.ts`)
 
 ```ts
-import { PrismaClient } from "@/generated/prisma/client";
-import { PrismaBetterSqlite3 } from "@prisma/adapter-better-sqlite3";
-import path from "path";
+import { PrismaClient } from '@/generated/prisma/client';
+import { PrismaBetterSqlite3 } from '@prisma/adapter-better-sqlite3';
+import path from 'path';
 
 function createPrismaClient() {
-  const adapter = new PrismaBetterSqlite3({ url: path.resolve("./dev.db") });
+  const adapter = new PrismaBetterSqlite3({ url: path.resolve('./dev.db') });
   return new PrismaClient({ adapter });
 }
 
 const globalForPrisma = globalThis as unknown as { prisma: PrismaClient };
 export const prisma = globalForPrisma.prisma ?? createPrismaClient();
-if (process.env.NODE_ENV !== "production") globalForPrisma.prisma = prisma;
+if (process.env.NODE_ENV !== 'production') globalForPrisma.prisma = prisma;
 ```
 
 > **[adjusted]** Prisma 7 constructor requires `adapter` — no bare `new PrismaClient()`.
@@ -139,19 +140,29 @@ if (process.env.NODE_ENV !== "production") globalForPrisma.prisma = prisma;
 ## Step 5 — NextAuth v5
 
 **`src/auth.config.ts`** — edge-safe config (no Prisma import):
+
 ```ts
 export const authConfig: NextAuthConfig = {
-  pages: { signIn: "/login" },
+  pages: { signIn: '/login' },
   callbacks: {
-    authorized({ auth, request }) { /* JWT-only check */ },
-    jwt({ token, user }) { if (user) token.role = user.role; return token; },
-    session({ session, token }) { session.user.role = token.role; return session; },
+    authorized({ auth, request }) {
+      /* JWT-only check */
+    },
+    jwt({ token, user }) {
+      if (user) token.role = user.role;
+      return token;
+    },
+    session({ session, token }) {
+      session.user.role = token.role;
+      return session;
+    },
   },
   providers: [],
 };
 ```
 
 **`src/auth.ts`** — full config with Prisma:
+
 ```ts
 export const { handlers, auth, signIn, signOut } = NextAuth({
   ...authConfig,
@@ -160,8 +171,9 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
 ```
 
 **`src/app/api/auth/[...nextauth]/route.ts`:**
+
 ```ts
-import { handlers } from "@/auth";
+import { handlers } from '@/auth';
 export const { GET, POST } = handlers;
 ```
 
@@ -175,11 +187,11 @@ export const { GET, POST } = handlers;
 ## Step 6 — Route protection (`src/proxy.ts`)
 
 ```ts
-import NextAuth from "next-auth";
-import { authConfig } from "@/auth.config";
+import NextAuth from 'next-auth';
+import { authConfig } from '@/auth.config';
 
 export default NextAuth(authConfig).auth;
-export const config = { matcher: ["/((?!api|_next/static|_next/image|favicon.ico).*)"] };
+export const config = { matcher: ['/((?!api|_next/static|_next/image|favicon.ico).*)'] };
 ```
 
 > **[adjusted]** File is `proxy.ts`, not `middleware.ts` — Next.js 16 renamed the convention.
@@ -225,14 +237,18 @@ from `context.session`.
 ```ts
 const server = new ApolloServer<GraphQLContext>({ typeDefs, resolvers });
 
-export async function GET(req: NextRequest) { return handler(req); }
-export async function POST(req: NextRequest) { return handler(req); }
+export async function GET(req: NextRequest) {
+  return handler(req);
+}
+export async function POST(req: NextRequest) {
+  return handler(req);
+}
 
 async function handler(req: NextRequest) {
-  await ensureStarted();            // server.start() once
+  await ensureStarted(); // server.start() once
   const result = await server.executeOperation(
     { query, variables, operationName },
-    { contextValue: { session: await auth(), prisma } }
+    { contextValue: { session: await auth(), prisma } },
   );
   return NextResponse.json(result.body.singleResult);
 }
@@ -246,16 +262,17 @@ async function handler(req: NextRequest) {
 ## Step 10 — Apollo Client (`src/lib/apollo-client.ts`)
 
 ```ts
-import { ApolloClient, InMemoryCache, HttpLink } from "@apollo/client";
+import { ApolloClient, InMemoryCache, HttpLink } from '@apollo/client';
 export const apolloClient = new ApolloClient({
-  link: new HttpLink({ uri: "/api/graphql" }),
+  link: new HttpLink({ uri: '/api/graphql' }),
   cache: new InMemoryCache(),
 });
 ```
 
 `src/app/providers.tsx` (`"use client"`):
+
 ```ts
-import { ApolloProvider } from "@apollo/client/react";   // Apollo Client 4
+import { ApolloProvider } from '@apollo/client/react'; // Apollo Client 4
 ```
 
 > **[adjusted]** Apollo Client 4: `ApolloProvider`, `useQuery`, `useMutation`
@@ -277,7 +294,7 @@ NEXTAUTH_URL="http://localhost:3000"
 
 ```ts
 const nextConfig: NextConfig = {
-  turbopack: { root: __dirname },   // avoids workspace root warning
+  turbopack: { root: __dirname }, // avoids workspace root warning
 };
 ```
 

@@ -1,10 +1,10 @@
-import { ApolloServer } from "@apollo/server";
-import { typeDefs } from "@/graphql/schema";
-import { resolvers } from "@/graphql/resolvers";
-import { auth } from "@/auth";
-import { prisma } from "@/lib/prisma";
-import { NextRequest, NextResponse } from "next/server";
-import type { Session } from "next-auth";
+import { ApolloServer } from '@apollo/server';
+import { typeDefs } from '@/graphql/schema';
+import { resolvers } from '@/graphql/resolvers';
+import { auth } from '@/auth';
+import { prisma } from '@/lib/prisma';
+import { NextRequest, NextResponse } from 'next/server';
+import type { Session } from 'next-auth';
 
 interface GraphQLContext {
   session: Session | null;
@@ -31,7 +31,7 @@ async function handler(req: NextRequest): Promise<NextResponse> {
   try {
     body = await req.json();
   } catch {
-    return NextResponse.json({ errors: [{ message: "Invalid JSON" }] }, { status: 400 });
+    return NextResponse.json({ errors: [{ message: 'Invalid JSON' }] }, { status: 400 });
   }
 
   const { query, variables, operationName } = body as {
@@ -41,12 +41,11 @@ async function handler(req: NextRequest): Promise<NextResponse> {
   };
 
   const result = await server.executeOperation(
-    { query: query ?? "", variables, operationName },
-    { contextValue: context }
+    { query: query ?? '', variables, operationName },
+    { contextValue: context },
   );
 
-  const responseBody =
-    result.body.kind === "single" ? result.body.singleResult : result.body;
+  const responseBody = result.body.kind === 'single' ? result.body.singleResult : result.body;
 
   return NextResponse.json(responseBody);
 }

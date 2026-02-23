@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import { useRouter } from "next/navigation";
-import Link from "next/link";
-import { gql } from "@apollo/client";
-import { useMutation } from "@apollo/client/react";
+import { useState } from 'react';
+import { useRouter } from 'next/navigation';
+import Link from 'next/link';
+import { gql } from '@apollo/client';
+import { useMutation } from '@apollo/client/react';
 
 const REGISTER = gql`
   mutation Register($email: String!, $password: String!, $name: String!, $role: Role) {
@@ -26,15 +26,15 @@ export default function RegisterPage() {
     try {
       await register({
         variables: {
-          email: form.get("email"),
-          password: form.get("password"),
-          name: form.get("name"),
-          role: form.get("role"),
+          email: form.get('email'),
+          password: form.get('password'),
+          name: form.get('name'),
+          role: form.get('role'),
         },
       });
-      router.push("/login");
+      router.push('/login');
     } catch (err: unknown) {
-      setError(err instanceof Error ? err.message : "Registration failed");
+      setError(err instanceof Error ? err.message : 'Registration failed');
     }
   }
 
@@ -90,7 +90,7 @@ export default function RegisterPage() {
           </button>
         </form>
         <p className="mt-4 text-sm text-center text-gray-600">
-          Already have an account?{" "}
+          Already have an account?{' '}
           <Link href="/login" className="text-blue-600 hover:underline">
             Sign in
           </Link>

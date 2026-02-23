@@ -1,16 +1,16 @@
-import type { NextAuthConfig } from "next-auth";
+import type { NextAuthConfig } from 'next-auth';
 
 export const authConfig: NextAuthConfig = {
   pages: {
-    signIn: "/login",
+    signIn: '/login',
   },
   callbacks: {
     authorized({ auth, request: { nextUrl } }) {
       const isLoggedIn = !!auth?.user;
       const isPublicPage =
-        nextUrl.pathname.startsWith("/login") ||
-        nextUrl.pathname.startsWith("/register") ||
-        nextUrl.pathname.startsWith("/api/graphql");
+        nextUrl.pathname.startsWith('/login') ||
+        nextUrl.pathname.startsWith('/register') ||
+        nextUrl.pathname.startsWith('/api/graphql');
 
       if (isPublicPage) return true;
       return isLoggedIn;
