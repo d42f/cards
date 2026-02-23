@@ -7,7 +7,7 @@ import { gql } from "@apollo/client";
 import { useMutation } from "@apollo/client/react";
 
 const REGISTER = gql`
-  mutation Register($email: String!, $password: String!, $name: String, $role: Role) {
+  mutation Register($email: String!, $password: String!, $name: String!, $role: Role) {
     register(email: $email, password: $password, name: $name, role: $role) {
       id
       email
@@ -28,7 +28,7 @@ export default function RegisterPage() {
         variables: {
           email: form.get("email"),
           password: form.get("password"),
-          name: form.get("name") || undefined,
+          name: form.get("name"),
           role: form.get("role"),
         },
       });
@@ -48,6 +48,7 @@ export default function RegisterPage() {
             <input
               name="name"
               type="text"
+              required
               className="w-full border rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>

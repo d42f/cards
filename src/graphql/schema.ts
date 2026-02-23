@@ -7,14 +7,15 @@ export const typeDefs = `#graphql
   type User {
     id: ID!
     email: String!
-    name: String
+    name: String!
     role: Role!
+    students: [User!]!
+    teachers: [User!]!
   }
 
   type WordSet {
     id: ID!
     title: String!
-    teacher: User!
     words: [Word!]!
   }
 
@@ -35,12 +36,16 @@ export const typeDefs = `#graphql
     wordSets: [WordSet!]!
     wordSet(id: ID!): WordSet
     myProgress(wordSetId: ID!): [Progress!]!
+    myStudents: [User!]!
+    myTeachers: [User!]!
   }
 
   type Mutation {
+    register(email: String!, password: String!, name: String!, role: Role): User!
     createWordSet(title: String!): WordSet!
     addWord(wordSetId: ID!, term: String!, definition: String!): Word!
     updateProgress(wordId: ID!, wordSetId: ID!, score: Int!): Progress!
-    register(email: String!, password: String!, name: String, role: Role): User!
+    addStudent(studentId: ID!): User!
+    removeStudent(studentId: ID!): User!
   }
 `;
