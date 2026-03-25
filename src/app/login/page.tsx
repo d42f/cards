@@ -3,8 +3,8 @@
 import { useState } from 'react';
 import { signIn } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
-import Link from 'next/link';
 import { Button } from '@/shared/Button';
+import { Link } from '@/shared/Link';
 import { FormInput } from '@/shared/FormInput';
 
 export default function LoginPage() {
@@ -40,10 +40,7 @@ export default function LoginPage() {
           </Button>
         </form>
         <p className="mt-4 text-sm text-center">
-          No account?{' '}
-          <Link href="/register" className="text-blue-600 hover:underline">
-            Register
-          </Link>
+          No account? <Link href="/register">Register</Link>
         </p>
       </div>
     </main>

@@ -2,8 +2,8 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import Link from 'next/link';
 import { Button } from '@/shared/Button';
+import { Link } from '@/shared/Link';
 import { FormInput } from '@/shared/FormInput';
 import { FormSelect } from '@/shared/FormSelect';
 import { gql } from '@apollo/client';
@@ -63,10 +63,7 @@ export default function RegisterPage() {
           </Button>
         </form>
         <p className="mt-4 text-sm text-center">
-          Already have an account?{' '}
-          <Link href="/login" className="text-blue-600 hover:underline">
-            Sign in
-          </Link>
+          Already have an account? <Link href="/login">Sign in</Link>
         </p>
       </div>
     </main>
