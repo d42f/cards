@@ -51,7 +51,7 @@
 
 ### Code Quality
 
-- **Prettier** — formatter, config in `.prettierrc` (singleQuote, printWidth: 120, trailingComma: all)
+- **Prettier** — formatter, config in `.prettierrc` (singleQuote, printWidth: 120, trailingComma: all); `prettier-plugin-tailwindcss` sorts Tailwind classes automatically
 - **ESLint** — flat config `eslint.config.mjs`, `eslint-config-prettier` disables conflicting rules
 - **Husky + lint-staged** — pre-commit hook runs ESLint + Prettier on staged files
 - **Commitlint** — enforces [Conventional Commits](https://www.conventionalcommits.org/) via commit-msg hook
