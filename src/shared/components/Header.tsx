@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { auth } from '@/auth';
-import { Link } from '@/shared/ui/Link';
-import { SignOutButton } from '@/shared/ui/SignOutButton';
+import { Link } from '@/shared/components/Link';
+import { SignOutButton } from '@/shared/components/SignOutButton';
 
 interface Props {
   title?: Metadata['title'];

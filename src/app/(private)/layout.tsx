@@ -1,7 +1,7 @@
-import { auth } from '@/auth';
 import { redirect } from 'next/navigation';
-import { Header } from '@/shared/ui/Header';
-import { metadata } from '../layout';
+import { auth } from '@/auth';
+import { metadata } from '@/app/layout';
+import { Header } from '@/shared/components/Header';
 
 export default async function InternalLayout({ children }: { children: React.ReactNode }) {
   const session = await auth();

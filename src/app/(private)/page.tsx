@@ -1,28 +1,25 @@
 import { auth } from '@/auth';
 import { prisma } from '@/lib/prisma';
+import { UserProgress } from '@/entities/UserProgress';
+import { LatestWordSet } from '@/entities/LatestWordSet';
 
 export default async function Home() {
   const session = await auth();
   const userId = session!.user.id!;
 
-  const [totalWords, studiedWords] = await Promise.all([
+  const [totalWords, studiedWords, latestWordSet] = await Promise.all([
     prisma.word.count(),
     prisma.progress.count({ where: { userId } }),
+    prisma.wordSet.findFirst({
+      orderBy: { createdAt: 'desc' },
+      include: { words: { select: { id: true } } },
+    }),
   ]);
 
   return (
-    <div className="w-full max-w-md space-y-4 rounded-xl bg-white p-8 text-sm shadow">
-      <h1 className="text-2xl font-bold">Your progress</h1>
-      <div className="flex gap-4">
-        <div className="flex-1 rounded-lg bg-gray-50 p-4 text-center">
-          <div className="text-3xl font-bold">{totalWords}</div>
-          <div className="mt-1 text-gray-500">total cards</div>
-        </div>
-        <div className="flex-1 rounded-lg bg-gray-50 p-4 text-center">
-          <div className="text-3xl font-bold">{studiedWords}</div>
-          <div className="mt-1 text-gray-500">studied</div>
-        </div>
-      </div>
+    <div className="grid grid-cols-2 gap-8">
+      <UserProgress totalWords={totalWords} studiedWords={studiedWords} />
+      <LatestWordSet wordSet={latestWordSet} />
     </div>
   );
 }

@@ -1,5 +1,5 @@
-import NextLink from 'next/link';
 import { ComponentProps } from 'react';
+import NextLink from 'next/link';
 
 type Variant = 'inline' | 'subtle';
 

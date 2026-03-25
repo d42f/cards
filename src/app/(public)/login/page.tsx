@@ -3,9 +3,9 @@
 import { useState } from 'react';
 import { signIn } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
-import { Button } from '@/shared/ui/Button';
-import { Link } from '@/shared/ui/Link';
-import { FormInput } from '@/shared/ui/FormInput';
+import { Button } from '@/shared/components/Button';
+import { Link } from '@/shared/components/Link';
+import { FormInput } from '@/shared/components/FormInput';
 
 export default function LoginPage() {
   const router = useRouter();
