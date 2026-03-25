@@ -8,7 +8,7 @@ Request
        ├─ public paths → pass through
        └─ no session   → redirect /login
 
-       (internal)/layout.tsx (Server, auth() check)
+       (private)/layout.tsx (Server, auth() check)
             └─ no session → redirect /login
 ```
 
@@ -20,10 +20,10 @@ Request
 
 | URL                       | File                                  | Auth           | Render  |
 | ------------------------- | ------------------------------------- | -------------- | ------- |
-| `/login`                  | `app/login/page.tsx`                  | public         | client  |
-| `/register`               | `app/register/page.tsx`               | public         | client  |
-| `/`                       | `app/(internal)/page.tsx`             | protected      | server  |
-| `/profile`                | `app/(internal)/profile/page.tsx`     | protected      | server  |
+| `/login`                  | `app/(public)/login/page.tsx`         | public         | client  |
+| `/register`               | `app/(public)/register/page.tsx`      | public         | client  |
+| `/`                       | `app/(private)/page.tsx`              | protected      | server  |
+| `/profile`                | `app/(private)/profile/page.tsx`      | protected      | server  |
 | `/api/auth/[...nextauth]` | `app/api/auth/[...nextauth]/route.ts` | —              | handler |
 | `/api/graphql`            | `app/api/graphql/route.ts`            | resolver-level | handler |
 
@@ -31,16 +31,34 @@ Request
 
 ## Route groups
 
-### `(internal)` — authenticated pages
+### `(public)` — unauthenticated pages
 
-Shared layout: `app/(internal)/layout.tsx`
+Shared layout: `app/(public)/layout.tsx`
+
+- Renders `<main className="flex min-h-screen items-center justify-center bg-gray-50">`
+- Pages return only their card content (no wrapper)
+
+```
+app/(public)/
+  layout.tsx       ← centered full-screen wrapper
+  login/
+    page.tsx       → /login     credentials sign-in form
+  register/
+    page.tsx       → /register  registration form
+```
+
+---
+
+### `(private)` — authenticated pages
+
+Shared layout: `app/(private)/layout.tsx`
 
 - Verifies session, redirects to `/login` if absent
 - Renders `<Header>` + `<main className="max-w-5xl mx-auto px-6 py-6">`
 - Pages return only their content, no wrapper
 
 ```
-app/(internal)/
+app/(private)/
   layout.tsx       ← Header + main wrapper + auth guard
   page.tsx         → /           dashboard (progress stats)
   profile/
@@ -50,6 +68,8 @@ app/(internal)/
 ---
 
 ## Public pages
+
+Grouped under `(public)` with a shared centered layout.
 
 ### `/login`
 

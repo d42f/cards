@@ -42,30 +42,28 @@ export default function RegisterPage() {
   }
 
   return (
-    <main className="flex min-h-screen items-center justify-center">
-      <div className="w-full max-w-md rounded-xl bg-white p-8 shadow">
-        <h1 className="mb-6 text-2xl font-bold">Register</h1>
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <FormInput name="name" type="text" label="Name" required />
-          <FormInput name="email" type="email" label="Email" required />
-          <FormInput name="password" type="password" label="Password" required minLength={6} />
-          <FormSelect
-            name="role"
-            label="Role"
-            options={[
-              { value: 'STUDENT', label: 'Student' },
-              { value: 'TEACHER', label: 'Teacher' },
-            ]}
-          />
-          {error && <p className="text-sm text-red-500">{error}</p>}
-          <Button type="submit" className="w-full">
-            Create account
-          </Button>
-        </form>
-        <p className="mt-4 text-center text-sm">
-          Already have an account? <Link href="/login">Sign in</Link>
-        </p>
-      </div>
-    </main>
+    <div className="w-full max-w-md rounded-xl bg-white p-8 shadow">
+      <h1 className="mb-6 text-2xl font-bold">Register</h1>
+      <form onSubmit={handleSubmit} className="space-y-4">
+        <FormInput name="name" type="text" label="Name" required />
+        <FormInput name="email" type="email" label="Email" required />
+        <FormInput name="password" type="password" label="Password" required minLength={6} />
+        <FormSelect
+          name="role"
+          label="Role"
+          options={[
+            { value: 'STUDENT', label: 'Student' },
+            { value: 'TEACHER', label: 'Teacher' },
+          ]}
+        />
+        {error && <p className="text-sm text-red-500">{error}</p>}
+        <Button type="submit" className="w-full">
+          Create account
+        </Button>
+      </form>
+      <p className="mt-4 text-center text-sm">
+        Already have an account? <Link href="/login">Sign in</Link>
+      </p>
+    </div>
   );
 }
