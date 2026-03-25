@@ -79,3 +79,10 @@ DATABASE_URL="file:./dev.db"
 AUTH_SECRET="<openssl rand -base64 32>"
 NEXTAUTH_URL="http://localhost:3000"
 ```
+
+## Plans & Reference Docs
+
+| File                                 | Description                                                                                                                                                                                 |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [plans/SETUP.md](plans/SETUP.md)     | Initial project setup: step-by-step bootstrap of Prisma 7, NextAuth v5, Apollo Server/Client, and Next.js 16. Status: ✅ implemented. Contains adjusted notes for version-specific gotchas. |
+| [plans/ROUTING.md](plans/ROUTING.md) | Route map, protection layers (`proxy.ts` → layout auth guard), route groups, and GraphQL auth matrix.                                                                                       |

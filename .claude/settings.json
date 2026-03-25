@@ -12,7 +12,8 @@
       "Bash(npx husky init)",
       "Bash(npm run format:*)",
       "Bash(npx eslint:*)",
-      "Skill(update-config:*)"
+      "Skill(update-config:*)",
+      "Bash(ls /c/Users/dmitr/Dev/cards/*.md)"
     ]
   }
 }
