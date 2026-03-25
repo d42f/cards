@@ -11,7 +11,8 @@
       "Bash(npx prisma migrate dev:*)",
       "Bash(npx husky init)",
       "Bash(npm run format:*)",
-      "Bash(npx eslint:*)"
+      "Bash(npx eslint:*)",
+      "Skill(update-config:*)"
     ]
   }
 }

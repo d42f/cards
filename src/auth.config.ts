@@ -12,8 +12,7 @@ export const authConfig: NextAuthConfig = {
         nextUrl.pathname.startsWith('/register') ||
         nextUrl.pathname.startsWith('/api/graphql');
 
-      if (isPublicPage) return true;
-      return isLoggedIn;
+      return isPublicPage ? true : isLoggedIn;
     },
     jwt({ token, user }) {
       if (user) token.role = (user as { role: string }).role;

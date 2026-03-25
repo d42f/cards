@@ -1,5 +1,6 @@
-import { auth, signOut } from '@/auth';
+import { auth } from '@/auth';
 import { redirect } from 'next/navigation';
+import { Header } from '@/components/Header';
 
 export default async function Home() {
   const session = await auth();
@@ -7,16 +8,12 @@ export default async function Home() {
 
   const { name, email, role } = session.user;
 
-  async function handleSignOut() {
-    'use server';
-    await signOut({ redirectTo: '/login' });
-  }
-
   return (
-    <main className="min-h-screen flex items-center justify-center bg-gray-50">
-      <div className="w-full max-w-md bg-white rounded-xl shadow p-8 space-y-4">
-        <h1 className="text-2xl font-bold">Profile</h1>
-        <div className="space-y-2 text-sm text-gray-700">
+    <div className="min-h-screen">
+      <Header />
+      <main className="max-w-5xl mx-auto px-6 py-6">
+        <div className="w-full max-w-md bg-white rounded-xl shadow p-8 space-y-2 text-sm text-gray-700">
+          <h1 className="text-2xl font-bold mb-4">Profile</h1>
           <div>
             <span className="font-medium">Name: </span>
             {name ?? '—'}
@@ -30,14 +27,7 @@ export default async function Home() {
             <span className="capitalize">{role?.toLowerCase() ?? '—'}</span>
           </div>
         </div>
-        <button
-          className="w-full bg-red-500 text-white rounded-lg py-2 font-medium hover:bg-red-600 transition"
-          type="button"
-          onClick={handleSignOut}
-        >
-          Sign out
-        </button>
-      </div>
-    </main>
+      </main>
+    </div>
   );
 }

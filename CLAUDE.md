@@ -45,6 +45,10 @@
 - Route protection file: `src/proxy.ts` (not `middleware.ts`)
 - `turbopack.root: __dirname` in `next.config.ts` (avoids workspace root warning)
 
+### Components
+
+- Use **named exports** for all components (no `export default`)
+
 ### Code Quality
 
 - **Prettier** — formatter, config in `.prettierrc` (singleQuote, printWidth: 120, trailingComma: all)
