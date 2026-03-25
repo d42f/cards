@@ -1,5 +1,5 @@
 import { InputHTMLAttributes } from 'react';
-import { Input } from '@/components/Input';
+import { Input } from '@/shared/Input';
 
 interface FormInputProps extends InputHTMLAttributes<HTMLInputElement> {
   label: string;

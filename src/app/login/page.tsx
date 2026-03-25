@@ -4,8 +4,8 @@ import { useState } from 'react';
 import { signIn } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { Button } from '@/components/Button';
-import { FormInput } from '@/components/FormInput';
+import { Button } from '@/shared/Button';
+import { FormInput } from '@/shared/FormInput';
 
 export default function LoginPage() {
   const router = useRouter();
@@ -39,7 +39,7 @@ export default function LoginPage() {
             Sign in
           </Button>
         </form>
-        <p className="mt-4 text-sm text-center text-gray-600">
+        <p className="mt-4 text-sm text-center">
           No account?{' '}
           <Link href="/register" className="text-blue-600 hover:underline">
             Register

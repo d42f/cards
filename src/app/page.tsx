@@ -1,6 +1,7 @@
 import { auth } from '@/auth';
 import { redirect } from 'next/navigation';
-import { Header } from '@/components/Header';
+import { Header } from '@/shared/Header';
+import { metadata } from './layout';
 
 export default async function Home() {
   const session = await auth();
@@ -10,9 +11,9 @@ export default async function Home() {
 
   return (
     <div className="min-h-screen">
-      <Header />
+      <Header title={metadata.title} />
       <main className="max-w-5xl mx-auto px-6 py-6">
-        <div className="w-full max-w-md bg-white rounded-xl shadow p-8 space-y-2 text-sm text-gray-700">
+        <div className="w-full max-w-md bg-white rounded-xl shadow p-8 space-y-2 text-sm">
           <h1 className="text-2xl font-bold mb-4">Profile</h1>
           <div>
             <span className="font-medium">Name: </span>

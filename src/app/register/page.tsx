@@ -3,9 +3,9 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { Button } from '@/components/Button';
-import { FormInput } from '@/components/FormInput';
-import { FormSelect } from '@/components/FormSelect';
+import { Button } from '@/shared/Button';
+import { FormInput } from '@/shared/FormInput';
+import { FormSelect } from '@/shared/FormSelect';
 import { gql } from '@apollo/client';
 import { useMutation } from '@apollo/client/react';
 
@@ -44,7 +44,7 @@ export default function RegisterPage() {
   return (
     <main className="min-h-screen flex items-center justify-center">
       <div className="w-full max-w-md bg-white rounded-xl shadow p-8">
-        <h1 className="text-2xl font-bold mb-6 text-gray-900">Register</h1>
+        <h1 className="text-2xl font-bold mb-6">Register</h1>
         <form onSubmit={handleSubmit} className="space-y-4">
           <FormInput name="name" type="text" label="Name" required />
           <FormInput name="email" type="email" label="Email" required />
@@ -62,7 +62,7 @@ export default function RegisterPage() {
             Create account
           </Button>
         </form>
-        <p className="mt-4 text-sm text-center text-gray-600">
+        <p className="mt-4 text-sm text-center">
           Already have an account?{' '}
           <Link href="/login" className="text-blue-600 hover:underline">
             Sign in

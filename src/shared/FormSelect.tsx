@@ -1,4 +1,4 @@
-import { Select, SelectProps } from '@/components/Select';
+import { Select, SelectProps } from '@/shared/Select';
 
 interface FormSelectProps extends SelectProps {
   label: string;
