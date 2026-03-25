@@ -3,7 +3,7 @@ import { auth } from '@/auth';
 import { metadata } from '@/app/layout';
 import { Header } from '@/shared/components/Header';
 
-export default async function InternalLayout({ children }: { children: React.ReactNode }) {
+export default async function PrivateLayout({ children }: { children: React.ReactNode }) {
   const session = await auth();
   if (!session?.user) redirect('/login');
 

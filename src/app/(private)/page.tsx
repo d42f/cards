@@ -3,7 +3,7 @@ import { prisma } from '@/lib/prisma';
 import { UserProgress } from '@/entities/UserProgress';
 import { LatestWordSet } from '@/entities/LatestWordSet';
 
-export default async function Home() {
+export default async function DashboardPage() {
   const session = await auth();
   const userId = session!.user.id!;
 

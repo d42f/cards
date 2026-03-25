@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { SubmitEvent, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { gql } from '@apollo/client';
 import { useMutation } from '@apollo/client/react';
@@ -23,7 +23,7 @@ export default function RegisterPage() {
   const [error, setError] = useState<string | null>(null);
   const [register] = useMutation(REGISTER);
 
-  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: SubmitEvent<HTMLFormElement>) {
     e.preventDefault();
     const form = new FormData(e.currentTarget);
     try {
@@ -44,7 +44,7 @@ export default function RegisterPage() {
   return (
     <div className="w-full max-w-md rounded-xl bg-white p-8 shadow">
       <h1 className="mb-6 text-2xl font-bold">Register</h1>
-      <form onSubmit={handleSubmit} className="space-y-4">
+      <form className="space-y-4" onSubmit={handleSubmit}>
         <FormInput name="name" type="text" label="Name" required />
         <FormInput name="email" type="email" label="Email" required />
         <FormInput name="password" type="password" label="Password" required minLength={6} error={error ?? undefined} />

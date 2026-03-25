@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { SubmitEvent, useState } from 'react';
 import { signIn } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 import { Button } from '@/shared/components/Button';
@@ -11,7 +11,7 @@ export default function LoginPage() {
   const router = useRouter();
   const [error, setError] = useState<string | null>(null);
 
-  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: SubmitEvent<HTMLFormElement>) {
     e.preventDefault();
     const form = new FormData(e.currentTarget);
     const result = await signIn('credentials', {
@@ -30,7 +30,7 @@ export default function LoginPage() {
   return (
     <div className="w-full max-w-md rounded-xl bg-white p-8 shadow">
       <h1 className="mb-6 text-2xl font-bold">Sign in</h1>
-      <form onSubmit={handleSubmit} className="space-y-4">
+      <form className="space-y-4" onSubmit={handleSubmit}>
         <FormInput name="email" type="email" label="Email" required />
         <FormInput name="password" type="password" label="Password" required error={error ?? undefined} />
         <Button type="submit" className="w-full">
