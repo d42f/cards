@@ -32,8 +32,7 @@ export default function LoginPage() {
       <h1 className="mb-6 text-2xl font-bold">Sign in</h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         <FormInput name="email" type="email" label="Email" required />
-        <FormInput name="password" type="password" label="Password" required />
-        {error && <p className="text-sm text-red-500">{error}</p>}
+        <FormInput name="password" type="password" label="Password" required error={error ?? undefined} />
         <Button type="submit" className="w-full">
           Sign in
         </Button>

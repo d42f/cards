@@ -47,7 +47,7 @@ export default function RegisterPage() {
       <form onSubmit={handleSubmit} className="space-y-4">
         <FormInput name="name" type="text" label="Name" required />
         <FormInput name="email" type="email" label="Email" required />
-        <FormInput name="password" type="password" label="Password" required minLength={6} />
+        <FormInput name="password" type="password" label="Password" required minLength={6} error={error ?? undefined} />
         <FormSelect
           name="role"
           label="Role"
@@ -56,7 +56,6 @@ export default function RegisterPage() {
             { value: 'TEACHER', label: 'Teacher' },
           ]}
         />
-        {error && <p className="text-sm text-red-500">{error}</p>}
         <Button type="submit" className="w-full">
           Create account
         </Button>
