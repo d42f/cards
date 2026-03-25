@@ -96,3 +96,9 @@ Auth enforced per-resolver with `requireAuth` / `requireTeacher` guards.
 **Mutations** (public): `register`
 **Mutations** (require auth): `createWordSet`, `addWord`, `updateProgress`
 **Mutations** (require TEACHER): `addStudent`, `removeStudent`
+
+---
+
+## Shared UI components
+
+All reusable UI components live in `src/shared/ui/` and use **named exports**.
