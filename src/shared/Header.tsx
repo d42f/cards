@@ -25,7 +25,7 @@ export async function Header({ title }: Props) {
           </Link>
         )}
 
-        <Link href="/settings" className="flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900 transition">
+        <Link href="/profile" className="flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900 transition">
           <span className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center font-medium text-gray-700 text-xs uppercase">
             {name.slice(0, 2)}
           </span>
