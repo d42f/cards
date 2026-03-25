@@ -5,8 +5,8 @@ export default async function ProfilePage() {
   const { name, email, role } = session!.user;
 
   return (
-    <div className="w-full max-w-md bg-white rounded-xl shadow p-8 space-y-2 text-sm">
-      <h1 className="text-2xl font-bold mb-4">Profile</h1>
+    <div className="w-full max-w-md space-y-2 rounded-xl bg-white p-8 text-sm shadow">
+      <h1 className="mb-4 text-2xl font-bold">Profile</h1>
       <div>
         <span className="font-medium">Name: </span>
         {name ?? '—'}

@@ -4,16 +4,14 @@
       "Bash(npx tsc:*)",
       "Bash(npx prisma generate:*)",
       "Bash(npm install:*)",
-      "Bash(npm run build:*)",
+      "Bash(npm run:*)",
       "Bash(node -e \":*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(npx prisma migrate dev:*)",
       "Bash(npx husky init)",
-      "Bash(npm run format:*)",
       "Bash(npx eslint:*)",
-      "Skill(update-config:*)",
-      "Bash(ls /c/Users/dmitr/Dev/cards/*.md)"
+      "Skill(update-config:*)"
     ]
   }
 }

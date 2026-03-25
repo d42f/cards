@@ -10,7 +10,7 @@ export default async function InternalLayout({ children }: { children: React.Rea
   return (
     <div className="min-h-screen">
       <Header title={metadata.title} />
-      <main className="max-w-5xl mx-auto px-6 py-6">{children}</main>
+      <main className="mx-auto max-w-5xl px-6 py-6">{children}</main>
     </div>
   );
 }

@@ -11,7 +11,7 @@ export default async function Home() {
   ]);
 
   return (
-    <div className="w-full max-w-md bg-white rounded-xl shadow p-8 space-y-4 text-sm">
+    <div className="w-full max-w-md space-y-4 rounded-xl bg-white p-8 text-sm shadow">
       <h1 className="text-2xl font-bold">Your progress</h1>
       <div className="flex gap-4">
         <div className="flex-1 rounded-lg bg-gray-50 p-4 text-center">

@@ -17,16 +17,16 @@ export async function Header({ title }: Props) {
   }
 
   return (
-    <header className="bg-white border-b border-gray-200">
-      <div className="max-w-5xl mx-auto h-14 flex items-center px-6 gap-4">
+    <header className="border-b border-gray-200 bg-white">
+      <div className="mx-auto flex h-14 max-w-5xl items-center gap-4 px-6">
         {title && (
-          <Link href="/" className="font-semibold mr-auto">
+          <Link href="/" className="mr-auto font-semibold">
             {title as string}
           </Link>
         )}
 
-        <Link href="/profile" className="flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900 transition">
-          <span className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center font-medium text-gray-700 text-xs uppercase">
+        <Link href="/profile" className="flex items-center gap-2 text-sm text-gray-600 transition hover:text-gray-900">
+          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-gray-100 text-xs font-medium text-gray-700 uppercase">
             {name.slice(0, 2)}
           </span>
           <span className="hidden sm:inline">{name}</span>

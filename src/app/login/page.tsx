@@ -28,18 +28,18 @@ export default function LoginPage() {
   }
 
   return (
-    <main className="min-h-screen flex items-center justify-center bg-gray-50">
-      <div className="w-full max-w-md bg-white rounded-xl shadow p-8">
-        <h1 className="text-2xl font-bold mb-6">Sign in</h1>
+    <main className="flex min-h-screen items-center justify-center bg-gray-50">
+      <div className="w-full max-w-md rounded-xl bg-white p-8 shadow">
+        <h1 className="mb-6 text-2xl font-bold">Sign in</h1>
         <form onSubmit={handleSubmit} className="space-y-4">
           <FormInput name="email" type="email" label="Email" required />
           <FormInput name="password" type="password" label="Password" required />
-          {error && <p className="text-red-500 text-sm">{error}</p>}
+          {error && <p className="text-sm text-red-500">{error}</p>}
           <Button type="submit" className="w-full">
             Sign in
           </Button>
         </form>
-        <p className="mt-4 text-sm text-center">
+        <p className="mt-4 text-center text-sm">
           No account? <Link href="/register">Register</Link>
         </p>
       </div>
