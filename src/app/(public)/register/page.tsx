@@ -2,12 +2,14 @@
 
 import { SubmitEvent, useState } from 'react';
 import { useRouter } from 'next/navigation';
+
 import { gql } from '@apollo/client';
 import { useMutation } from '@apollo/client/react';
+
 import { Button } from '@/shared/components/Button';
-import { Link } from '@/shared/components/Link';
 import { FormInput } from '@/shared/components/FormInput';
 import { FormSelect } from '@/shared/components/FormSelect';
+import { Link } from '@/shared/components/Link';
 
 const REGISTER = gql`
   mutation Register($email: String!, $password: String!, $name: String!, $role: Role) {

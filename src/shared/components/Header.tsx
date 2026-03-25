@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+
 import { auth } from '@/auth';
 import { Link } from '@/shared/components/Link';
 import { SignOutButton } from '@/shared/components/SignOutButton';

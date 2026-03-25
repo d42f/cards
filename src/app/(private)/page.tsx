@@ -1,7 +1,7 @@
 import { auth } from '@/auth';
-import { prisma } from '@/lib/prisma';
-import { UserProgress } from '@/entities/UserProgress';
 import { LatestWordSet } from '@/entities/LatestWordSet';
+import { UserProgress } from '@/entities/UserProgress';
+import { prisma } from '@/lib/prisma';
 
 export default async function DashboardPage() {
   const session = await auth();

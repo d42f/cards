@@ -1,6 +1,8 @@
-import bcrypt from 'bcryptjs';
-import { prisma } from '@/lib/prisma';
 import type { Session } from 'next-auth';
+
+import bcrypt from 'bcryptjs';
+
+import { prisma } from '@/lib/prisma';
 
 interface Context {
   session: Session | null;

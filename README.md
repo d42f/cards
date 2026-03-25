@@ -106,8 +106,6 @@ src/
     providers.tsx         # ApolloProvider wrapper
     api/auth/[...nextauth]/route.ts
     api/graphql/route.ts
-    login/page.tsx
-    register/page.tsx
   types/next-auth.d.ts    # session type augmentation
 prisma/
   schema.prisma           # models: User, WordSet, Word, Progress

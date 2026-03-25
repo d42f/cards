@@ -1,6 +1,7 @@
 import { redirect } from 'next/navigation';
-import { auth } from '@/auth';
+
 import { metadata } from '@/app/layout';
+import { auth } from '@/auth';
 import { Header } from '@/shared/components/Header';
 
 export default async function PrivateLayout({ children }: { children: React.ReactNode }) {

@@ -1,5 +1,6 @@
 import { ComponentProps } from 'react';
 import NextLink from 'next/link';
+
 import { cn } from '@/lib/cn';
 
 type Variant = 'inline' | 'subtle';

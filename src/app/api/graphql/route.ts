@@ -1,10 +1,12 @@
-import { ApolloServer } from '@apollo/server';
-import { typeDefs } from '@/graphql/schema';
-import { resolvers } from '@/graphql/resolvers';
-import { auth } from '@/auth';
-import { prisma } from '@/lib/prisma';
 import { NextRequest, NextResponse } from 'next/server';
 import type { Session } from 'next-auth';
+
+import { ApolloServer } from '@apollo/server';
+
+import { auth } from '@/auth';
+import { resolvers } from '@/graphql/resolvers';
+import { typeDefs } from '@/graphql/schema';
+import { prisma } from '@/lib/prisma';
 
 interface GraphQLContext {
   session: Session | null;

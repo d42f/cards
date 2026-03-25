@@ -1,11 +1,12 @@
 'use client';
 
 import { SubmitEvent, useState } from 'react';
-import { signIn } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
+import { signIn } from 'next-auth/react';
+
 import { Button } from '@/shared/components/Button';
-import { Link } from '@/shared/components/Link';
 import { FormInput } from '@/shared/components/FormInput';
+import { Link } from '@/shared/components/Link';
 
 export default function LoginPage() {
   const router = useRouter();
