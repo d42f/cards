@@ -1,4 +1,4 @@
-import { Select, SelectProps } from '@/shared/Select';
+import { Select, SelectProps } from '@/shared/ui/Select';
 
 interface FormSelectProps extends SelectProps {
   label: string;

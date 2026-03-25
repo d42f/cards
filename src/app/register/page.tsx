@@ -2,10 +2,10 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { Button } from '@/shared/Button';
-import { Link } from '@/shared/Link';
-import { FormInput } from '@/shared/FormInput';
-import { FormSelect } from '@/shared/FormSelect';
+import { Button } from '@/shared/ui/Button';
+import { Link } from '@/shared/ui/Link';
+import { FormInput } from '@/shared/ui/FormInput';
+import { FormSelect } from '@/shared/ui/FormSelect';
 import { gql } from '@apollo/client';
 import { useMutation } from '@apollo/client/react';
 

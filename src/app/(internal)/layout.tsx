@@ -1,6 +1,6 @@
 import { auth } from '@/auth';
 import { redirect } from 'next/navigation';
-import { Header } from '@/shared/Header';
+import { Header } from '@/shared/ui/Header';
 import { metadata } from '../layout';
 
 export default async function InternalLayout({ children }: { children: React.ReactNode }) {
