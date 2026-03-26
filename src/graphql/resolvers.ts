@@ -58,7 +58,7 @@ export const resolvers = {
     myStudents: async (_: unknown, __: unknown, ctx: Context) => {
       const user = requireTeacher(ctx);
       const teacher = await prisma.user.findUnique({
-        where: { id: user.id! },
+        where: { id: user.id },
         include: { students: true },
       });
       return teacher?.students ?? [];
@@ -66,7 +66,7 @@ export const resolvers = {
     myTeachers: async (_: unknown, __: unknown, ctx: Context) => {
       const user = requireAuth(ctx);
       const student = await prisma.user.findUnique({
-        where: { id: user.id! },
+        where: { id: user.id },
         include: { teachers: true },
       });
       return student?.teachers ?? [];
@@ -108,16 +108,16 @@ export const resolvers = {
     ) => {
       const user = requireAuth(ctx);
       return prisma.progress.upsert({
-        where: { userId_wordId: { userId: user.id!, wordId } },
+        where: { userId_wordId: { userId: user.id, wordId } },
         update: { score },
-        create: { userId: user.id!, wordId, wordSetId, score },
+        create: { userId: user.id, wordId, wordSetId, score },
       });
     },
 
     addStudent: async (_: unknown, { studentId }: { studentId: string }, ctx: Context) => {
       const user = requireTeacher(ctx);
       return prisma.user.update({
-        where: { id: user.id! },
+        where: { id: user.id },
         data: { students: { connect: { id: studentId } } },
         include: { students: true },
       });
@@ -126,7 +126,7 @@ export const resolvers = {
     removeStudent: async (_: unknown, { studentId }: { studentId: string }, ctx: Context) => {
       const user = requireTeacher(ctx);
       return prisma.user.update({
-        where: { id: user.id! },
+        where: { id: user.id },
         data: { students: { disconnect: { id: studentId } } },
         include: { students: true },
       });

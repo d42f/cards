@@ -13,7 +13,7 @@ export function Card({ className, title, action, children }: CardProps) {
   return (
     <div className={cn('space-y-4 rounded-xl bg-white p-8 shadow', className)}>
       <div className="flex items-center justify-between">
-        <h2 className="text-2xl font-bold">{title}</h2>
+        <h2 className="text-xl font-bold">{title}</h2>
         {action}
       </div>
       {children}
