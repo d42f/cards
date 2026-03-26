@@ -61,6 +61,7 @@ export default function TrainPage({ params }: { params: Promise<{ id: string }> 
 
     const newResults =
       score >= 3 ? { ...results, known: results.known + 1 } : { ...results, unknown: results.unknown + 1 };
+
     setResults(newResults);
 
     if (currentIndex + 1 >= total) {
@@ -72,12 +73,12 @@ export default function TrainPage({ params }: { params: Promise<{ id: string }> 
   };
 
   if (loading) {
-    return <div className="flex min-h-96 items-center justify-center text-gray-400">Loading…</div>;
+    return <div className="m-auto flex items-center justify-center text-gray-400">Loading…</div>;
   }
 
   if (!loading && total === 0) {
     return (
-      <div className="flex min-h-96 flex-col items-center justify-center gap-4">
+      <div className="m-auto flex flex-col items-center justify-center gap-6">
         <div className="text-lg font-medium text-gray-700">No words in this set yet</div>
         <Button variant="secondary" onClick={() => router.push('/')}>
           Back to dashboard
@@ -88,15 +89,15 @@ export default function TrainPage({ params }: { params: Promise<{ id: string }> 
 
   if (done) {
     return (
-      <div className="flex min-h-96 flex-col items-center justify-center gap-6">
-        <div className="text-3xl font-bold">Done!</div>
+      <div className="m-auto flex flex-col items-center justify-center gap-6">
+        <div className="text-2xl font-bold">Done!</div>
         <div className="flex gap-12 text-center">
           <div>
-            <div className="text-4xl font-bold text-green-500">{results.known}</div>
+            <div className="text-4xl font-bold">{results.known}</div>
             <div className="mt-1 text-sm text-gray-500">Got it</div>
           </div>
           <div>
-            <div className="text-4xl font-bold text-red-400">{results.unknown}</div>
+            <div className="text-4xl font-bold">{results.unknown}</div>
             <div className="mt-1 text-sm text-gray-500">Need practice</div>
           </div>
         </div>
@@ -106,7 +107,7 @@ export default function TrainPage({ params }: { params: Promise<{ id: string }> 
   }
 
   return (
-    <div className="flex min-h-96 flex-col items-center justify-center gap-8 py-12">
+    <div className="m-auto flex w-full flex-col items-center justify-center gap-6">
       <div className="w-full">
         <div className="mb-6 text-center text-2xl font-bold">{data?.wordSet?.title}</div>
         <div className="mb-4 text-center text-sm text-gray-400">

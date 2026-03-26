@@ -12,7 +12,7 @@ export default async function PrivateLayout({ children }: { children: React.Reac
     <div className="flex min-h-screen flex-col">
       <Header title={metadata.title} />
       <main className="flex w-full flex-1 flex-col overflow-auto p-6">
-        <div className="mx-auto w-full max-w-5xl flex-1">{children}</div>
+        <div className="mx-auto flex w-full max-w-5xl flex-1 flex-col">{children}</div>
       </main>
     </div>
   );
