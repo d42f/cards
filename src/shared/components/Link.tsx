@@ -10,7 +10,7 @@ const variants: Record<Variant, string> = {
   subtle: cn('text-gray-600 transition hover:text-gray-900'),
 };
 
-interface LinkProps extends ComponentProps<typeof NextLink> {
+export interface LinkProps extends ComponentProps<typeof NextLink> {
   variant?: Variant;
 }
 

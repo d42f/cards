@@ -7,6 +7,7 @@ import { gql } from '@apollo/client';
 import { useMutation } from '@apollo/client/react';
 
 import { Button } from '@/shared/components/Button';
+import { Card } from '@/shared/components/Card';
 import { FormInput } from '@/shared/components/FormInput';
 import { FormSelect } from '@/shared/components/FormSelect';
 import { Link } from '@/shared/components/Link';
@@ -44,8 +45,7 @@ export default function RegisterPage() {
   }
 
   return (
-    <div className="w-full max-w-md rounded-xl bg-white p-8 shadow">
-      <h1 className="mb-6 text-2xl font-bold">Register</h1>
+    <Card className="w-full max-w-md" title="Register">
       <form className="space-y-4" onSubmit={handleSubmit}>
         <FormInput name="name" type="text" label="Name" required />
         <FormInput name="email" type="email" label="Email" required />
@@ -62,9 +62,9 @@ export default function RegisterPage() {
           Create account
         </Button>
       </form>
-      <p className="mt-4 text-center text-sm">
+      <p className="text-center text-sm">
         Already have an account? <Link href="/login">Sign in</Link>
       </p>
-    </div>
+    </Card>
   );
 }

@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { signIn } from 'next-auth/react';
 
 import { Button } from '@/shared/components/Button';
+import { Card } from '@/shared/components/Card';
 import { FormInput } from '@/shared/components/FormInput';
 import { Link } from '@/shared/components/Link';
 
@@ -29,8 +30,7 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="w-full max-w-md rounded-xl bg-white p-8 shadow">
-      <h1 className="mb-6 text-2xl font-bold">Sign in</h1>
+    <Card className="w-full max-w-md" title="Sign in">
       <form className="space-y-4" onSubmit={handleSubmit}>
         <FormInput name="email" type="email" label="Email" required />
         <FormInput name="password" type="password" label="Password" required error={error ?? undefined} />
@@ -38,9 +38,9 @@ export default function LoginPage() {
           Sign in
         </Button>
       </form>
-      <p className="mt-4 text-center text-sm">
+      <p className="text-center text-sm">
         No account? <Link href="/register">Register</Link>
       </p>
-    </div>
+    </Card>
   );
 }

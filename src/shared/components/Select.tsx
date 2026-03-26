@@ -16,7 +16,7 @@ export function Select({ options, className, ...props }: SelectProps) {
     <select
       {...props}
       className={cn(
-        'w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none',
+        'w-full rounded-lg border border-gray-300 px-3 py-2 text-base font-normal focus:ring-2 focus:ring-blue-500 focus:outline-none',
         className,
       )}
     >

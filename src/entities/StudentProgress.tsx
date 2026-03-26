@@ -1,4 +1,4 @@
-import { cn } from '@/lib/cn';
+import { Card } from '@/shared/components/Card';
 
 interface Props {
   className?: string;
@@ -13,8 +13,7 @@ export function StudentProgress({ className, totalWords, studiedWords }: Props) 
   ];
 
   return (
-    <div className={cn('space-y-4 rounded-xl bg-white p-8 text-sm shadow', className)}>
-      <h1 className="text-2xl font-bold">Your progress</h1>
+    <Card className={className} title="Your progress">
       <div className="flex gap-4">
         {sections.map((section, index) => (
           <div key={index} className="flex-1 rounded-lg bg-gray-50 p-4 text-center">
@@ -23,6 +22,6 @@ export function StudentProgress({ className, totalWords, studiedWords }: Props) 
           </div>
         ))}
       </div>
-    </div>
+    </Card>
   );
 }

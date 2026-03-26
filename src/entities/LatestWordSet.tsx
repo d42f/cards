@@ -1,4 +1,4 @@
-import { cn } from '@/lib/cn';
+import { Card } from '@/shared/components/Card';
 
 interface Props {
   className?: string;
@@ -11,8 +11,7 @@ interface Props {
 
 export function LatestWordSet({ className, wordSet }: Props) {
   return (
-    <div className={cn('space-y-4 rounded-xl bg-white p-8 text-sm shadow', className)}>
-      <h2 className="text-2xl font-bold">Latest word set</h2>
+    <Card className={className} title="Latest word set">
       {wordSet ? (
         <div className="rounded-lg bg-gray-50 p-4">
           <div className="font-medium">{wordSet.title}</div>
@@ -21,6 +20,6 @@ export function LatestWordSet({ className, wordSet }: Props) {
       ) : (
         <div className="text-gray-500">No word sets yet</div>
       )}
-    </div>
+    </Card>
   );
 }

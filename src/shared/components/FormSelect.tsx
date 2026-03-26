@@ -1,7 +1,7 @@
 import { cn } from '@/lib/cn';
 import { Select, SelectProps } from '@/shared/components/Select';
 
-interface FormSelectProps extends SelectProps {
+export interface FormSelectProps extends SelectProps {
   label: string;
   error?: string;
 }
