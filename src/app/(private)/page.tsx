@@ -1,6 +1,6 @@
 import { auth } from '@/auth';
 import { LatestWordSet } from '@/entities/LatestWordSet';
-import { UserProgress } from '@/entities/UserProgress';
+import { StudentProgress } from '@/entities/StudentProgress';
 import { prisma } from '@/lib/prisma';
 
 export default async function DashboardPage() {
@@ -18,7 +18,7 @@ export default async function DashboardPage() {
 
   return (
     <div className="grid grid-cols-2 gap-8">
-      <UserProgress totalWords={totalWords} studiedWords={studiedWords} />
+      <StudentProgress totalWords={totalWords} studiedWords={studiedWords} />
       <LatestWordSet wordSet={latestWordSet} />
     </div>
   );

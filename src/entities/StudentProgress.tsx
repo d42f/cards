@@ -6,7 +6,7 @@ interface Props {
   studiedWords: number;
 }
 
-export function UserProgress({ className, totalWords, studiedWords }: Props) {
+export function StudentProgress({ className, totalWords, studiedWords }: Props) {
   const sections = [
     { value: totalWords, label: 'total cards' },
     { value: studiedWords, label: 'studied' },

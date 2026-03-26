@@ -2,7 +2,7 @@ import { redirect } from 'next/navigation';
 
 import { metadata } from '@/app/layout';
 import { auth } from '@/auth';
-import { Header } from '@/shared/components/Header';
+import { Header } from '@/entities/Header';
 
 export default async function PrivateLayout({ children }: { children: React.ReactNode }) {
   const session = await auth();

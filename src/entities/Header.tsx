@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 import { auth } from '@/auth';
+import { SignOutButton } from '@/entities/SignOutButton';
 import { Link } from '@/shared/components/Link';
-import { SignOutButton } from '@/shared/components/SignOutButton';
 
 interface Props {
   title?: Metadata['title'];
