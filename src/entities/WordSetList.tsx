@@ -37,7 +37,7 @@ export function WordSetList({ className }: { className?: string }) {
       {!loading && data?.wordSets.length === 0 ? (
         <div className="text-gray-500">No word sets yet</div>
       ) : (
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {data?.wordSets.map(ws => (
             <Card key={ws.id}>
               <WordSet key={ws.id} id={ws.id} title={ws.title} wordCount={ws.words.length} />

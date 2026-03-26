@@ -3,6 +3,7 @@ import { Card } from '@/shared/components/Card';
 
 interface Props {
   className?: string;
+  title?: string;
   wordSet: {
     id: string;
     title: string;
@@ -10,9 +11,9 @@ interface Props {
   } | null;
 }
 
-export function LatestWordSet({ className, wordSet }: Props) {
+export function LatestWordSet({ className, title = 'Latest word set', wordSet }: Props) {
   return (
-    <Card className={className} title="Latest word set">
+    <Card className={className} title={title}>
       {wordSet ? (
         <WordSet id={wordSet.id} title={wordSet.title} wordCount={wordSet.words.length} />
       ) : (
