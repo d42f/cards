@@ -14,8 +14,8 @@ export async function Header({ title }: Props) {
 
   return (
     <header className="border-b border-gray-200 bg-white">
-      <div className="gap-4 px-6">
-        <div className="mx-auto flex h-14 max-w-5xl items-center">
+      <div className="px-6">
+        <div className="mx-auto flex h-14 max-w-5xl items-center gap-4">
           {title && (
             <Link href="/" variant="subtle" className="mr-auto font-semibold">
               {title as string}

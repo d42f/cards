@@ -30,7 +30,7 @@ export function WordSetList({ className }: { className?: string }) {
         className={className}
         title="Word sets"
         action={
-          <Button variant="secondary" onClick={show}>
+          <Button variant="secondary" size="small" onClick={show}>
             + New
           </Button>
         }

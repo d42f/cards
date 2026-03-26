@@ -3,6 +3,12 @@ import { Button as BaseButton, ButtonProps as BaseButtonProps } from '@headlessu
 import { cn } from '@/lib/cn';
 
 type Variant = 'primary' | 'secondary' | 'ghost';
+type Size = 'medium' | 'small';
+
+const sizes: Record<Size, string> = {
+  medium: 'px-4 py-2 text-base',
+  small: 'px-3 py-1 text-sm',
+};
 
 const variants: Record<Variant, string> = {
   primary: cn(
@@ -24,15 +30,17 @@ const variants: Record<Variant, string> = {
 
 export interface ButtonProps extends BaseButtonProps {
   variant?: Variant;
+  size?: Size;
 }
 
-export function Button({ className, variant = 'primary', type = 'button', ...props }: ButtonProps) {
+export function Button({ className, variant = 'primary', size = 'medium', type = 'button', ...props }: ButtonProps) {
   return (
     <BaseButton
       {...props}
       type={type}
       className={cn(
-        'cursor-pointer rounded-md px-4 py-2 text-base font-medium transition disabled:cursor-not-allowed disabled:opacity-50',
+        'cursor-pointer rounded-md font-medium transition disabled:cursor-not-allowed disabled:opacity-50',
+        sizes[size],
         variants[variant],
         className,
       )}

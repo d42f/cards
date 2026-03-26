@@ -93,7 +93,7 @@ function CreateWordSetDialogContent({ onClose }: { onClose: () => void }) {
           </div>
         ))}
       </div>
-      <Button variant="ghost" type="button" onClick={() => setRows(prev => [...prev, emptyRow()])}>
+      <Button variant="ghost" size="small" type="button" onClick={() => setRows(prev => [...prev, emptyRow()])}>
         + Add word
       </Button>
       <div className="flex justify-end gap-2">
