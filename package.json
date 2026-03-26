@@ -28,6 +28,7 @@
     "@apollo/client": "^4.1.5",
     "@apollo/server": "^5.4.0",
     "@as-integrations/next": "^4.1.0",
+    "@headlessui/react": "^2.2.9",
     "@prisma/adapter-better-sqlite3": "^7.4.1",
     "@prisma/client": "^7.4.1",
     "bcryptjs": "^3.0.3",

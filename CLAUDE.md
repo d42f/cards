@@ -49,6 +49,34 @@
 
 - Use **named exports** for all components (no `export default`)
 
+### Dialogs
+
+- Library: **`@headlessui/react`** — `Dialog`, `DialogPanel`, `DialogTitle`
+- Shared wrapper: `src/shared/components/Dialog.tsx` — accepts `open`, `onClose`, `title`, `children`, `className`, `dismissible` (default `true`; when `false`, clicking outside and pressing Escape do not close the dialog)
+- Shared close button: `src/shared/components/CloseButton.tsx` — wrapper around `Button` with a ✕ icon
+- Generic hook: `src/shared/hooks/useDialog.ts` — returns `{ show, hide, render }`:
+  - `show()` / `hide()` — open/close
+  - `render(props)` — renders `<Dialog>` with current `open` and `onClose: hide`
+- Entity dialog pattern: create a `useXxxDialog()` hook in the entity file that uses `useDialog` internally and returns `{ show, render }`:
+
+```tsx
+// src/entities/MyDialog.tsx
+function MyDialogContent({ onClose }) { ... }
+
+export function useMyDialog() {
+  const { show, hide, render } = useDialog();
+  return {
+    show,
+    render: () => render({ title: '...', children: <MyDialogContent onClose={hide} /> }),
+  };
+}
+
+// Usage
+const { show, render } = useMyDialog();
+<Button onClick={show}>Open</Button>
+{render()}
+```
+
 ### Code Quality
 
 - **Prettier** — formatter, config in `.prettierrc` (singleQuote, printWidth: 120, trailingComma: all); `prettier-plugin-tailwindcss` sorts Tailwind classes automatically

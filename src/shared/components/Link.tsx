@@ -6,7 +6,7 @@ import { cn } from '@/lib/cn';
 type Variant = 'inline' | 'subtle';
 
 const variants: Record<Variant, string> = {
-  inline: cn('text-blue-600 hover:underline'),
+  inline: cn('text-sky-600 hover:underline'),
   subtle: cn('text-gray-600 transition hover:text-gray-900'),
 };
 
