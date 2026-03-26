@@ -9,7 +9,7 @@ export default async function PrivateLayout({ children }: { children: React.Reac
   if (!session?.user) redirect('/login');
 
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex h-screen flex-col">
       <Header title={metadata.title} />
       <main className="flex w-full flex-1 flex-col overflow-auto p-6">
         <div className="mx-auto flex w-full max-w-5xl flex-1 flex-col">{children}</div>
