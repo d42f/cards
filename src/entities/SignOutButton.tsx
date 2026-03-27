@@ -2,12 +2,8 @@
 
 import { signOut } from 'next-auth/react';
 
-import { Button } from '@/shared/components/Button';
+import { Button, ButtonProps } from '@/shared/components/Button';
 
-export function SignOutButton() {
-  return (
-    <Button variant="ghost" onClick={() => signOut({ callbackUrl: '/login' })}>
-      Sign out
-    </Button>
-  );
+export function SignOutButton(props: Omit<ButtonProps, 'onClick'>) {
+  return <Button {...props} onClick={() => signOut({ callbackUrl: '/login' })} />;
 }

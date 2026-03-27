@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 import { auth } from '@/auth';
 import { SignOutButton } from '@/entities/SignOutButton';
 import { Link } from '@/shared/components/Link';
+import LogoIcon from '@/shared/icons/logo.svg';
 
 interface Props {
   title?: Metadata['title'];
@@ -16,11 +17,10 @@ export async function Header({ title }: Props) {
     <header className="border-b border-gray-200 bg-white">
       <div className="px-6">
         <div className="mx-auto flex h-14 max-w-5xl items-center gap-4">
-          {title && (
-            <Link href="/" variant="subtle" className="mr-auto font-semibold">
-              {title as string}
-            </Link>
-          )}
+          <Link href="/" variant="subtle" className="mr-auto flex items-center gap-2 font-semibold">
+            <LogoIcon className="h-6 w-6" />
+            {title as string}
+          </Link>
 
           <Link href="/profile" variant="subtle" className="flex items-center gap-2">
             <span className="flex h-8 w-8 items-center justify-center rounded-full bg-gray-100 text-xs font-medium text-gray-700 uppercase">
@@ -29,7 +29,9 @@ export async function Header({ title }: Props) {
             <span className="hidden sm:inline">{name}</span>
           </Link>
 
-          <SignOutButton />
+          <SignOutButton variant="inline" size="inline">
+            Sign out
+          </SignOutButton>
         </div>
       </div>
     </header>
