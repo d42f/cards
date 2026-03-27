@@ -12,6 +12,7 @@ import { Card } from '@/shared/components/Card';
 import { FormInput } from '@/shared/components/FormInput';
 import { FormSelect } from '@/shared/components/FormSelect';
 import { Link } from '@/shared/components/Link';
+import LogoIcon from '@/shared/icons/logo.svg';
 
 const REGISTER = gql`
   mutation Register($email: String!, $password: String!, $name: String!, $role: Role) {
@@ -49,7 +50,11 @@ export default function RegisterPage() {
   }
 
   return (
-    <Card className="w-full max-w-md" title="Register">
+    <Card className="flex w-full max-w-md flex-col gap-4">
+      <div className="mx-auto rounded-full border border-gray-200 bg-white p-4 shadow-sm">
+        <LogoIcon className="h-10" />
+      </div>
+      <h1 className="text-center text-xl font-bold">Register</h1>
       <form className="space-y-4" onSubmit={handleSubmit(onSubmit)} noValidate>
         <FormInput
           size="lg"

@@ -8,6 +8,7 @@ import { Button } from '@/shared/components/Button';
 import { Card } from '@/shared/components/Card';
 import { FormInput } from '@/shared/components/FormInput';
 import { Link } from '@/shared/components/Link';
+import LogoIcon from '@/shared/icons/logo.svg';
 
 interface LoginFormValues {
   email: string;
@@ -38,7 +39,11 @@ export default function LoginPage() {
   }
 
   return (
-    <Card className="w-full max-w-md" title="Sign in">
+    <Card className="flex w-full max-w-md flex-col gap-4">
+      <div className="mx-auto rounded-full border border-gray-200 bg-white p-4 shadow-sm">
+        <LogoIcon className="h-10" />
+      </div>
+      <h1 className="text-center text-xl font-bold">Sign in</h1>
       <form className="space-y-4" onSubmit={handleSubmit(onSubmit)} noValidate>
         <FormInput
           size="lg"
@@ -59,13 +64,13 @@ export default function LoginPage() {
         </Button>
       </form>
 
-      <div className="mt-4 flex items-center gap-3">
+      <div className="flex items-center gap-3">
         <div className="h-px flex-1 bg-gray-200" />
         <span className="text-xs text-gray-400">or</span>
         <div className="h-px flex-1 bg-gray-200" />
       </div>
 
-      <p className="mt-4 text-center text-sm">
+      <p className="text-center text-sm">
         No account? <Link href="/register">Register</Link>
       </p>
     </Card>
