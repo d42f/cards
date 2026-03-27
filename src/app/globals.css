@@ -1,7 +1,7 @@
 @import 'tailwindcss';
 
 :root {
-  --background: var(--color-gray-50);
+  --background: var(--color-gray-100);
   --foreground: var(--color-gray-900);
 }
 
@@ -13,4 +13,11 @@
 body {
   background-color: var(--background);
   color: var(--foreground);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 1000px white inset;
+  box-shadow: 0 0 0 1000px white inset;
 }

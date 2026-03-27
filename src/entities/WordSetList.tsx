@@ -29,7 +29,7 @@ export function WordSetList({ className }: { className?: string }) {
     <div className={cn('flex flex-col gap-4', className)}>
       <div className="flex items-center justify-between">
         <h3 className="text-xl font-bold">Word sets</h3>
-        <Button variant="secondary" size="small" onClick={show}>
+        <Button variant="secondary" size="sm" onClick={show}>
           + New
         </Button>
       </div>

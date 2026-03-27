@@ -19,7 +19,7 @@ export function WordSet({ id, title, wordCount }: WordSetProps) {
         <div className="font-medium">{title}</div>
         <div className="text-sm text-gray-500">{wordCount} words</div>
       </div>
-      <Button variant="secondary" size="small" onClick={() => router.push(`/train/${id}`)}>
+      <Button variant="secondary" size="sm" onClick={() => router.push(`/train/${id}`)}>
         Train
       </Button>
     </div>

@@ -1,6 +1,6 @@
 'use client';
 
-import { SubmitEvent, useState } from 'react';
+import { useForm } from 'react-hook-form';
 import { useRouter } from 'next/navigation';
 import { signIn } from 'next-auth/react';
 
@@ -9,20 +9,28 @@ import { Card } from '@/shared/components/Card';
 import { FormInput } from '@/shared/components/FormInput';
 import { Link } from '@/shared/components/Link';
 
+interface LoginFormValues {
+  email: string;
+  password: string;
+}
+
 export default function LoginPage() {
   const router = useRouter();
-  const [error, setError] = useState<string | null>(null);
+  const {
+    register,
+    handleSubmit,
+    setError,
+    formState: { errors, isSubmitting },
+  } = useForm<LoginFormValues>();
 
-  async function handleSubmit(e: SubmitEvent<HTMLFormElement>) {
-    e.preventDefault();
-    const form = new FormData(e.currentTarget);
+  async function onSubmit(data: LoginFormValues) {
     const result = await signIn('credentials', {
-      email: form.get('email'),
-      password: form.get('password'),
+      email: data.email,
+      password: data.password,
       redirect: false,
     });
     if (result?.error) {
-      setError('Invalid email or password');
+      setError('password', { message: 'Invalid email or password' });
     } else {
       router.push('/');
       router.refresh();
@@ -31,14 +39,33 @@ export default function LoginPage() {
 
   return (
     <Card className="w-full max-w-md" title="Sign in">
-      <form className="space-y-4" onSubmit={handleSubmit}>
-        <FormInput name="email" type="email" label="Email" required />
-        <FormInput name="password" type="password" label="Password" required error={error ?? undefined} />
-        <Button type="submit" className="w-full">
+      <form className="space-y-4" onSubmit={handleSubmit(onSubmit)} noValidate>
+        <FormInput
+          size="lg"
+          type="email"
+          label="Email"
+          error={errors.email?.message}
+          {...register('email', { required: 'Email is required' })}
+        />
+        <FormInput
+          size="lg"
+          type="password"
+          label="Password"
+          error={errors.password?.message}
+          {...register('password', { required: 'Password is required' })}
+        />
+        <Button className="w-full" size="lg" type="submit" disabled={isSubmitting}>
           Sign in
         </Button>
       </form>
-      <p className="text-center text-sm">
+
+      <div className="mt-4 flex items-center gap-3">
+        <div className="h-px flex-1 bg-gray-200" />
+        <span className="text-xs text-gray-400">or</span>
+        <div className="h-px flex-1 bg-gray-200" />
+      </div>
+
+      <p className="mt-4 text-center text-sm">
         No account? <Link href="/register">Register</Link>
       </p>
     </Card>
