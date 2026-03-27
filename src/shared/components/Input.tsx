@@ -1,4 +1,5 @@
-import { Input as BaseInput, InputProps as BaseInputProps } from '@headlessui/react';
+import { ComponentPropsWithoutRef, forwardRef } from 'react';
+
 import { cva, VariantProps } from 'class-variance-authority';
 
 import { cn } from '@/lib/cn';
@@ -24,8 +25,8 @@ const input = cva(
   },
 );
 
-export type InputProps = Omit<BaseInputProps, 'size'> & VariantProps<typeof input>;
+export type InputProps = Omit<ComponentPropsWithoutRef<'input'>, 'size'> & VariantProps<typeof input>;
 
-export function Input({ className, size, ...props }: InputProps) {
-  return <BaseInput className={cn(input({ size }), className)} {...props} />;
-}
+export const Input = forwardRef<HTMLInputElement, InputProps>(function Input({ className, size, ...props }, ref) {
+  return <input ref={ref} className={cn(input({ size }), className)} {...props} />;
+});

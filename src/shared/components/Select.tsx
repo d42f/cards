@@ -1,4 +1,4 @@
-import { SelectHTMLAttributes } from 'react';
+import { ComponentPropsWithoutRef, forwardRef } from 'react';
 
 import { cva, VariantProps } from 'class-variance-authority';
 
@@ -30,14 +30,16 @@ export interface SelectOption {
   label: string;
 }
 
-export interface SelectProps
-  extends Omit<SelectHTMLAttributes<HTMLSelectElement>, 'size'>, VariantProps<typeof select> {
+export interface SelectProps extends Omit<ComponentPropsWithoutRef<'select'>, 'size'>, VariantProps<typeof select> {
   options: SelectOption[];
 }
 
-export function Select({ options, size, className, ...props }: SelectProps) {
+export const Select = forwardRef<HTMLSelectElement, SelectProps>(function Select(
+  { options, size, className, ...props },
+  ref,
+) {
   return (
-    <select className={cn(select({ size }), className)} {...props}>
+    <select ref={ref} className={cn(select({ size }), className)} {...props}>
       {options.map(o => (
         <option key={o.value} value={o.value}>
           {o.label}
@@ -45,4 +47,4 @@ export function Select({ options, size, className, ...props }: SelectProps) {
       ))}
     </select>
   );
-}
+});

@@ -1,4 +1,4 @@
-import { ComponentProps } from 'react';
+import { ComponentPropsWithoutRef, forwardRef } from 'react';
 import NextLink from 'next/link';
 
 import { cva, VariantProps } from 'class-variance-authority';
@@ -17,8 +17,8 @@ const link = cva('rounded-sm focus-visible:ring-2 focus-visible:ring-sky-500 foc
   },
 });
 
-export interface LinkProps extends ComponentProps<typeof NextLink>, VariantProps<typeof link> {}
+export interface LinkProps extends ComponentPropsWithoutRef<typeof NextLink>, VariantProps<typeof link> {}
 
-export function Link({ className, variant, ...props }: LinkProps) {
-  return <NextLink className={cn(link({ variant }), className)} {...props} />;
-}
+export const Link = forwardRef<HTMLAnchorElement, LinkProps>(function Link({ className, variant, ...props }, ref) {
+  return <NextLink ref={ref} className={cn(link({ variant }), className)} {...props} />;
+});

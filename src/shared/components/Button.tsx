@@ -1,4 +1,5 @@
-import { Button as BaseButton, ButtonProps as BaseButtonProps } from '@headlessui/react';
+import { ComponentPropsWithoutRef, forwardRef } from 'react';
+
 import { cva, VariantProps } from 'class-variance-authority';
 
 import { cn } from '@/lib/cn';
@@ -46,8 +47,11 @@ const button = cva(
   },
 );
 
-export type ButtonProps = Omit<BaseButtonProps, 'size'> & VariantProps<typeof button>;
+export type ButtonProps = Omit<ComponentPropsWithoutRef<'button'>, 'size'> & VariantProps<typeof button>;
 
-export function Button({ className, variant, size, type = 'button', ...props }: ButtonProps) {
-  return <BaseButton className={cn(button({ variant, size }), className)} type={type} {...props} />;
-}
+export const Button = forwardRef<HTMLButtonElement, ButtonProps>(function Button(
+  { className, variant, size, type = 'button', ...props },
+  ref,
+) {
+  return <button ref={ref} className={cn(button({ variant, size }), className)} type={type} {...props} />;
+});

@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-import { Dialog as BaseDialog, DialogPanel, DialogTitle } from '@headlessui/react';
+import { Close, Content, Overlay, Portal, Root, Title } from '@radix-ui/react-dialog';
 
 import { cn } from '@/lib/cn';
 import { CloseButton } from '@/shared/components/CloseButton';
@@ -8,55 +8,44 @@ import { CloseButton } from '@/shared/components/CloseButton';
 export interface DialogProps {
   className?: string;
   open: boolean;
+  variant?: 'modal' | 'fullscreen';
   title: string;
   children: ReactNode;
   onClose: () => void;
-  dismissible?: boolean;
-  variant?: 'modal' | 'fullscreen';
 }
 
-export function Dialog({
-  className,
-  open,
-  title,
-  children,
-  onClose,
-  dismissible = true,
-  variant = 'modal',
-}: DialogProps) {
+export function Dialog({ className, open, variant = 'modal', title, children, onClose }: DialogProps) {
   const dialogTitle = (
     <>
-      <DialogTitle className="text-2xl font-bold">{title}</DialogTitle>
-      <CloseButton onClick={onClose} />
+      <Title className="text-2xl font-bold">{title}</Title>
+      <Close asChild>
+        <CloseButton onClick={onClose} />
+      </Close>
     </>
   );
 
-  const fullscreenDialogPanel = (
-    <DialogPanel className={cn('fixed inset-0 flex flex-col bg-white', className)}>
+  const fullscreenContent = (
+    <Content className={cn('fixed inset-0 z-50 flex flex-col bg-white', className)}>
       <div className="flex items-center justify-between border-b px-6 py-4">{dialogTitle}</div>
       <div className="flex-1 overflow-y-auto">{children}</div>
-    </DialogPanel>
+    </Content>
   );
 
-  const modalDialogPanel = (
-    <DialogPanel className={cn('w-full max-w-md space-y-4 rounded-xl bg-white p-8 shadow', className)}>
-      <div className="flex items-center justify-between">{dialogTitle}</div>
-      {children}
-    </DialogPanel>
+  const content = (
+    <>
+      <Overlay className="fixed inset-0 z-50 bg-black/30" />
+      <div className="fixed inset-0 z-50 flex max-h-screen items-start justify-center overflow-y-auto px-4 py-20">
+        <Content className={cn('w-full max-w-md space-y-4 rounded-xl bg-white p-8 shadow', className)}>
+          <div className="flex items-center justify-between">{dialogTitle}</div>
+          {children}
+        </Content>
+      </div>
+    </>
   );
 
   return (
-    <BaseDialog open={open} onClose={dismissible ? onClose : () => {}} className="relative z-50">
-      {variant === 'fullscreen' ? (
-        fullscreenDialogPanel
-      ) : (
-        <>
-          <div className="fixed inset-0 bg-black/30" aria-hidden="true" />
-          <div className="fixed inset-0 flex max-h-screen items-start justify-center space-y-2 overflow-y-auto px-4 py-20">
-            {modalDialogPanel}
-          </div>
-        </>
-      )}
-    </BaseDialog>
+    <Root open={open} onOpenChange={o => !o && onClose()}>
+      <Portal>{variant === 'fullscreen' ? fullscreenContent : content}</Portal>
+    </Root>
   );
 }
