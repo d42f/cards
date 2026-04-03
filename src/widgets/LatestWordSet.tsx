@@ -1,5 +1,5 @@
-import { WordSet } from '@/entities/WordSet';
 import { Card } from '@/shared/components/Card';
+import { WordSet } from '@/widgets/WordSet';
 
 interface Props {
   className?: string;
@@ -13,7 +13,7 @@ interface Props {
 
 export function LatestWordSet({ className, title = 'Latest word set', wordSet }: Props) {
   return (
-    <Card className={className} title={title}>
+    <Card className={className}>
       {wordSet ? (
         <WordSet id={wordSet.id} title={wordSet.title} wordCount={wordSet.words.length} />
       ) : (

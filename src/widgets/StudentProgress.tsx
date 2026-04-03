@@ -13,7 +13,7 @@ export function StudentProgress({ className, totalWords, studiedWords }: Props) 
   ];
 
   return (
-    <Card className={className} title="Your progress">
+    <Card className={className}>
       <div className="flex gap-4">
         {sections.map((section, index) => (
           <div key={index} className="flex-1 rounded-lg bg-gray-50 p-4 text-center">

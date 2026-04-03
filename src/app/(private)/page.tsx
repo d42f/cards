@@ -1,8 +1,8 @@
 import { auth } from '@/auth';
-import { LatestWordSet } from '@/entities/LatestWordSet';
-import { StudentProgress } from '@/entities/StudentProgress';
-import { WordSetList } from '@/entities/WordSetList';
 import { prisma } from '@/lib/prisma';
+import { LatestWordSet } from '@/widgets/LatestWordSet';
+import { StudentProgress } from '@/widgets/StudentProgress';
+import { WordSetList } from '@/widgets/WordSetList';
 
 export default async function DashboardPage() {
   const session = await auth();

@@ -37,7 +37,7 @@ const button = cva(
         sm: 'rounded-md px-3 py-2 text-sm font-medium',
         md: 'rounded-md px-3 py-2 text-base font-medium',
         lg: 'rounded-lg px-4 py-3 text-base font-semibold',
-        inline: 'p-0 text-base font-medium',
+        inline: 'text-base font-medium',
       },
     },
     defaultVariants: {

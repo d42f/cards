@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 import { auth } from '@/auth';
-import { SignOutButton } from '@/entities/SignOutButton';
+import { SignOutButton } from '@/features/SignOutButton';
 import { Link } from '@/shared/components/Link';
 import LogoIcon from '@/shared/icons/logo.svg';
 

@@ -3,11 +3,11 @@
 import { gql } from '@apollo/client';
 import { useQuery } from '@apollo/client/react';
 
-import { useCreateWordSetDialog } from '@/entities/CreateWordSetDialog';
-import { WordSet } from '@/entities/WordSet';
+import { useCreateWordSetDialog } from '@/features/CreateWordSetDialog';
 import { cn } from '@/lib/cn';
 import { Button } from '@/shared/components/Button';
 import { Card } from '@/shared/components/Card';
+import { WordSet } from '@/widgets/WordSet';
 
 const WORD_SETS = gql`
   query WordSets {

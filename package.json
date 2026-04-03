@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "format": "prettier --write .",
-    "format:check": "prettier --check .",
+    "format": "eslint --fix && prettier --write .",
+    "format:check": "eslint && prettier --check .",
     "prepare": "husky"
   },
   "lint-staged": {
