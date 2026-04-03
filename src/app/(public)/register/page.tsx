@@ -6,13 +6,13 @@ import { useRouter } from 'next/navigation';
 import { gql } from '@apollo/client';
 import { useMutation } from '@apollo/client/react';
 
-import { Role } from '@/generated/prisma/enums';
 import { Button } from '@/shared/components/Button';
 import { Card } from '@/shared/components/Card';
 import { FormInput } from '@/shared/components/FormInput';
 import { FormSelect } from '@/shared/components/FormSelect';
 import { Link } from '@/shared/components/Link';
 import LogoIcon from '@/shared/icons/logo.svg';
+import { Role } from '@/types/prisma';
 
 const REGISTER = gql`
   mutation Register($email: String!, $password: String!, $name: String!, $role: Role) {

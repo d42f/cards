@@ -28,9 +28,9 @@ export function WordSetList({ className }: { className?: string }) {
   return (
     <div className={cn('flex flex-col gap-4', className)}>
       <div className="flex items-center justify-between">
-        <h3 className="text-xl font-bold">Word sets</h3>
+        <h3 className="text-xl font-bold">My decks</h3>
         <Button variant="secondary" size="sm" onClick={show}>
-          + New
+          + New deck
         </Button>
       </div>
       {loading && <div className="text-gray-400">Loading…</div>}

@@ -1,35 +1,58 @@
-import { auth } from '@/auth';
-import { prisma } from '@/lib/prisma';
+'use client';
+
+import { gql } from '@apollo/client';
+import { useQuery } from '@apollo/client/react';
+
 import { LatestWordSet } from '@/widgets/LatestWordSet';
 import { StudentProgress } from '@/widgets/StudentProgress';
 import { WordSetList } from '@/widgets/WordSetList';
 
-export default async function DashboardPage() {
-  const session = await auth();
-  const userId = session!.user.id!;
+const DASHBOARD = gql`
+  query Dashboard {
+    myStats {
+      totalWords
+      studiedWords
+      wordSetCount
+      streak
+    }
+    latestWordSet {
+      id
+      title
+      words {
+        id
+      }
+    }
+  }
+`;
 
-  const [totalWords, studiedWords, lastTrainedProgress, lastAddedWordSet] = await Promise.all([
-    prisma.word.count(),
-    prisma.progress.count({ where: { userId } }),
-    prisma.progress.findFirst({
-      where: { userId },
-      orderBy: { updatedAt: 'desc' },
-      include: { wordSet: { include: { words: { select: { id: true } } } } },
-    }),
-    prisma.wordSet.findFirst({
-      orderBy: { createdAt: 'desc' },
-      include: { words: { select: { id: true } } },
-    }),
-  ]);
+interface DashboardData {
+  myStats: {
+    totalWords: number;
+    studiedWords: number;
+    wordSetCount: number;
+    streak: number;
+  };
+  latestWordSet: { id: string; title: string; words: { id: string }[] } | null;
+}
 
-  const latestWordSet = lastTrainedProgress?.wordSet ?? lastAddedWordSet;
-  const latestWordSetTitle = lastTrainedProgress ? 'Last trained set' : 'Latest word set';
+export default function DashboardPage() {
+  const { data, loading } = useQuery<DashboardData>(DASHBOARD);
 
   return (
     <div className="grid grid-cols-2 gap-8">
-      <StudentProgress totalWords={totalWords} studiedWords={studiedWords} />
-      <LatestWordSet title={latestWordSetTitle} wordSet={latestWordSet} />
-      <WordSetList className="col-span-2" />
+      {!loading && (
+        <>
+          <StudentProgress
+            className="col-span-2"
+            totalWords={data?.myStats.totalWords ?? 0}
+            studiedWords={data?.myStats.studiedWords ?? 0}
+            wordSetCount={data?.myStats.wordSetCount ?? 0}
+            streak={data?.myStats.streak ?? 0}
+          />
+          <LatestWordSet wordSet={data?.latestWordSet ?? null} />
+          <WordSetList className="col-span-2" />
+        </>
+      )}
     </div>
   );
 }

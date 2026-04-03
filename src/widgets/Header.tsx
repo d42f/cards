@@ -22,8 +22,14 @@ export async function Header({ title }: Props) {
             {title as string}
           </Link>
 
+          {session?.user?.role && (
+            <span className="rounded-full bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800 capitalize">
+              {session.user.role === 'TEACHER' ? 'Teacher' : 'Student'}
+            </span>
+          )}
+
           <Link href="/profile" variant="subtle" className="flex items-center gap-2">
-            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-gray-100 text-xs font-medium text-gray-700 uppercase">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-blue-500 text-xs font-medium text-white uppercase">
               {name.slice(0, 2)}
             </span>
             <span className="hidden sm:inline">{name}</span>

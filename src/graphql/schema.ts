@@ -9,6 +9,7 @@ export const typeDefs = `#graphql
     email: String!
     name: String!
     role: Role!
+    streak: Int!
     students: [User!]!
     teachers: [User!]!
   }
@@ -32,7 +33,16 @@ export const typeDefs = `#graphql
     score: Int!
   }
 
+  type MyStats {
+    totalWords: Int!
+    studiedWords: Int!
+    wordSetCount: Int!
+    streak: Int!
+  }
+
   type Query {
+    myStats: MyStats!
+    latestWordSet: WordSet
     wordSets: [WordSet!]!
     wordSet(id: ID!): WordSet
     myProgress(wordSetId: ID!): [Progress!]!

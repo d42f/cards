@@ -38,6 +38,29 @@ export const resolvers = {
   },
 
   Query: {
+    myStats: async (_: unknown, __: unknown, ctx: Context) => {
+      const user = requireAuth(ctx);
+      const [totalWords, studiedWords, wordSetCount, dbUser] = await Promise.all([
+        prisma.word.count(),
+        prisma.progress.count({ where: { userId: user.id } }),
+        prisma.wordSet.count(),
+        prisma.user.findUnique({ where: { id: user.id }, select: { streak: true } }),
+      ]);
+      return { totalWords, studiedWords, wordSetCount, streak: dbUser?.streak ?? 0 };
+    },
+    latestWordSet: async (_: unknown, __: unknown, ctx: Context) => {
+      const user = requireAuth(ctx);
+      const lastTrainedProgress = await prisma.progress.findFirst({
+        where: { userId: user.id },
+        orderBy: { updatedAt: 'desc' },
+        include: { wordSet: { include: { words: { select: { id: true } } } } },
+      });
+      if (lastTrainedProgress?.wordSet) return lastTrainedProgress.wordSet;
+      return prisma.wordSet.findFirst({
+        orderBy: { createdAt: 'desc' },
+        include: { words: { select: { id: true } } },
+      });
+    },
     wordSets: async (_: unknown, __: unknown, ctx: Context) => {
       requireAuth(ctx);
       return prisma.wordSet.findMany({ include: { words: true } });
@@ -107,11 +130,28 @@ export const resolvers = {
       ctx: Context,
     ) => {
       const user = requireAuth(ctx);
-      return prisma.progress.upsert({
-        where: { userId_wordId: { userId: user.id, wordId } },
-        update: { score },
-        create: { userId: user.id, wordId, wordSetId, score },
-      });
+
+      const dbUser = await prisma.user.findUniqueOrThrow({ where: { id: user.id } });
+      const today = new Date();
+      today.setHours(0, 0, 0, 0);
+      const last = dbUser.lastActivityAt ? new Date(dbUser.lastActivityAt.setHours(0, 0, 0, 0)) : null;
+      const diffDays = last ? Math.round((today.getTime() - last.getTime()) / 86400000) : null;
+
+      const newStreak = diffDays === 0 ? dbUser.streak : diffDays === 1 ? dbUser.streak + 1 : 1;
+
+      const [progress] = await prisma.$transaction([
+        prisma.progress.upsert({
+          where: { userId_wordId: { userId: user.id, wordId } },
+          update: { score },
+          create: { userId: user.id, wordId, wordSetId, score },
+        }),
+        prisma.user.update({
+          where: { id: user.id },
+          data: { streak: newStreak, lastActivityAt: new Date() },
+        }),
+      ]);
+
+      return progress;
     },
 
     addStudent: async (_: unknown, { studentId }: { studentId: string }, ctx: Context) => {

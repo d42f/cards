@@ -13,16 +13,18 @@ enum Role {
 }
 
 model User {
-  id        String     @id @default(cuid())
-  email     String     @unique
-  name      String
-  password  String
-  role      Role       @default(STUDENT)
-  students  User[]     @relation("TeacherStudents")
-  teachers  User[]     @relation("TeacherStudents")
-  progress  Progress[]
-  createdAt DateTime   @default(now())
-  updatedAt DateTime   @updatedAt
+  id             String     @id @default(cuid())
+  email          String     @unique
+  name           String
+  password       String
+  role           Role       @default(STUDENT)
+  streak         Int        @default(0)
+  lastActivityAt DateTime?
+  students       User[]     @relation("TeacherStudents")
+  teachers       User[]     @relation("TeacherStudents")
+  progress       Progress[]
+  createdAt      DateTime   @default(now())
+  updatedAt      DateTime   @updatedAt
 }
 
 model WordSet {
