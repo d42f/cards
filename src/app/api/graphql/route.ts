@@ -27,7 +27,7 @@ async function handler(req: NextRequest): Promise<NextResponse> {
   await ensureStarted();
 
   const session = await auth();
-  const context: GraphQLContext = { session, prisma };
+  const contextValue: GraphQLContext = { session, prisma };
 
   let body: unknown;
   try {
@@ -42,10 +42,7 @@ async function handler(req: NextRequest): Promise<NextResponse> {
     operationName?: string;
   };
 
-  const result = await server.executeOperation(
-    { query: query ?? '', variables, operationName },
-    { contextValue: context },
-  );
+  const result = await server.executeOperation({ query: query ?? '', variables, operationName }, { contextValue });
 
   const responseBody = result.body.kind === 'single' ? result.body.singleResult : result.body;
 
