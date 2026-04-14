@@ -1,18 +1,4 @@
 {
-  "hooks": {
-    "PostToolUse": [
-      {
-        "matcher": "Write|Edit",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "npm run format 2>/dev/null || true",
-            "statusMessage": "Running Prettier..."
-          }
-        ]
-      }
-    ]
-  },
   "permissions": {
     "allow": [
       "Bash(npx tsc:*)",
@@ -25,7 +11,34 @@
       "Bash(npx prisma migrate dev:*)",
       "Bash(npx husky init)",
       "Bash(npx eslint:*)",
-      "Skill(update-config:*)"
+      "Skill(update-config:*)",
+      "Bash(where pnpm:*)",
+      "Bash(pnpm --version)",
+      "Bash(rm -f package-lock.json)",
+      "Bash(pnpm install:*)",
+      "Bash(pnpm approve-builds:*)",
+      "Bash(npx create-expo-app:*)",
+      "Bash(grep \"^next$\")",
+      "Bash(pnpm lint:*)",
+      "Bash(systeminfo)",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm exec:*)",
+      "Bash(pnpm format:check)",
+      "Bash(pnpm format:*)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npm run format 2>/dev/null || true",
+            "statusMessage": "Running Prettier..."
+          }
+        ]
+      }
     ]
   }
 }
