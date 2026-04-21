@@ -8,7 +8,7 @@ const link = cva('focus-visible:ring-sage rounded-sm focus-visible:ring-2 focus-
   variants: {
     variant: {
       inline: 'text-sage hover:underline',
-      subtle: 'text-gray-600 transition hover:text-gray-900',
+      subtle: 'text-neutral hover:text-coal transition',
     },
   },
   defaultVariants: {

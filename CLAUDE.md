@@ -51,7 +51,7 @@
 
 ### Dialogs
 
-- Library: **`@headlessui/react`** — `Dialog`, `DialogPanel`, `DialogTitle`
+- Library: **`@radix-ui/react-dialog`** — `Root`, `Portal`, `Overlay`, `Content`, `Title`, `Close`
 - Shared wrapper: `src/shared/components/Dialog.tsx` — accepts `open`, `onClose`, `title`, `children`, `className`, `dismissible` (default `true`; when `false`, clicking outside and pressing Escape do not close the dialog)
 - Shared close button: `src/shared/components/CloseButton.tsx` — wrapper around `Button` with a ✕ icon
 - Generic hook: `src/shared/hooks/useDialog.ts` — returns `{ show, hide, render }`:
