@@ -23,6 +23,7 @@ model User {
   students       User[]     @relation("TeacherStudents")
   teachers       User[]     @relation("TeacherStudents")
   progress       Progress[]
+  wordSets       WordSet[]
   createdAt      DateTime   @default(now())
   updatedAt      DateTime   @updatedAt
 }
@@ -30,6 +31,8 @@ model User {
 model WordSet {
   id        String     @id @default(cuid())
   title     String
+  user      User?      @relation(fields: [userId], references: [id])
+  userId    String?
   words     Word[]
   progress  Progress[]
   createdAt DateTime   @default(now())

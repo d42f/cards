@@ -40,9 +40,9 @@ export const resolvers = {
     myStats: async (_: unknown, __: unknown, ctx: Context) => {
       const user = requireAuth(ctx);
       const [totalWords, studiedWords, wordSetCount, dbUser] = await Promise.all([
-        prisma.word.count(),
+        prisma.word.count({ where: { wordSet: { userId: user.id } } }),
         prisma.progress.count({ where: { userId: user.id } }),
-        prisma.wordSet.count(),
+        prisma.wordSet.count({ where: { userId: user.id } }),
         prisma.user.findUnique({
           where: { id: user.id },
           select: { streak: true },
@@ -64,18 +64,19 @@ export const resolvers = {
       });
       if (lastTrainedProgress?.wordSet) return lastTrainedProgress.wordSet;
       return prisma.wordSet.findFirst({
+        where: { userId: user.id },
         orderBy: { createdAt: 'desc' },
         include: { words: { select: { id: true } } },
       });
     },
     wordSets: async (_: unknown, __: unknown, ctx: Context) => {
-      requireAuth(ctx);
-      return prisma.wordSet.findMany({ include: { words: true } });
+      const user = requireAuth(ctx);
+      return prisma.wordSet.findMany({ where: { userId: user.id }, include: { words: true } });
     },
     wordSet: async (_: unknown, { id }: { id: string }, ctx: Context) => {
-      requireAuth(ctx);
+      const user = requireAuth(ctx);
       return prisma.wordSet.findUnique({
-        where: { id },
+        where: { id, userId: user.id },
         include: { words: true },
       });
     },
@@ -109,20 +110,36 @@ export const resolvers = {
       { email, password, name, role }: { email: string; password: string; name: string; role?: string },
     ) => {
       const hashed = await bcrypt.hash(password, 10);
-      return prisma.user.create({
-        data: {
-          email,
-          password: hashed,
-          name,
-          role: (role as 'STUDENT' | 'TEACHER') ?? 'STUDENT',
-        },
+      const templates = await prisma.wordSet.findMany({
+        where: { userId: null },
+        include: { words: { select: { term: true, definition: true } } },
+      });
+      return prisma.$transaction(async tx => {
+        const user = await tx.user.create({
+          data: {
+            email,
+            password: hashed,
+            name,
+            role: (role as 'STUDENT' | 'TEACHER') ?? 'STUDENT',
+          },
+        });
+        for (const template of templates) {
+          await tx.wordSet.create({
+            data: {
+              title: template.title,
+              userId: user.id,
+              words: { create: template.words },
+            },
+          });
+        }
+        return user;
       });
     },
 
     createWordSet: async (_: unknown, { title }: { title: string }, ctx: Context) => {
-      requireAuth(ctx);
+      const user = requireAuth(ctx);
       return prisma.wordSet.create({
-        data: { title },
+        data: { title, userId: user.id },
         include: { words: true },
       });
     },

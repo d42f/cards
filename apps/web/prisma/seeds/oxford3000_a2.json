@@ -1,0 +1,3681 @@
+{
+  "title": "Oxford 3000 — A2",
+  "words": [
+    {
+      "term": "Earth",
+      "definition": "Земля"
+    },
+    {
+      "term": "Moon",
+      "definition": "Луна"
+    },
+    {
+      "term": "a bit",
+      "definition": "немного"
+    },
+    {
+      "term": "ability",
+      "definition": "способность, возможность"
+    },
+    {
+      "term": "able",
+      "definition": "способный"
+    },
+    {
+      "term": "abroad",
+      "definition": "за границей"
+    },
+    {
+      "term": "accident",
+      "definition": "происшествие, авария, случайность"
+    },
+    {
+      "term": "according to",
+      "definition": "в соответствии с"
+    },
+    {
+      "term": "active",
+      "definition": "активный"
+    },
+    {
+      "term": "actually",
+      "definition": "фактически, на самом деле, действительно"
+    },
+    {
+      "term": "advantage",
+      "definition": "преимущество, выгода"
+    },
+    {
+      "term": "adventure",
+      "definition": "приключение, риск"
+    },
+    {
+      "term": "advertisement",
+      "definition": "реклама, объявление"
+    },
+    {
+      "term": "advertising",
+      "definition": "реклама (деятельность)"
+    },
+    {
+      "term": "against",
+      "definition": "против"
+    },
+    {
+      "term": "ah",
+      "definition": "а, ах"
+    },
+    {
+      "term": "airline",
+      "definition": "авиакомпания, авиалиния"
+    },
+    {
+      "term": "alive",
+      "definition": "живой, действующий, работоспособный"
+    },
+    {
+      "term": "all right",
+      "definition": "отлично, (всё) в порядке, порядок"
+    },
+    {
+      "term": "almost",
+      "definition": "почти"
+    },
+    {
+      "term": "alone",
+      "definition": "один, одинокий, наедине"
+    },
+    {
+      "term": "along",
+      "definition": "вдоль"
+    },
+    {
+      "term": "already",
+      "definition": "уже"
+    },
+    {
+      "term": "alternative",
+      "definition": "альтернативный, переменный, альтернатива, выбор"
+    },
+    {
+      "term": "although",
+      "definition": "хотя, несмотря на то что"
+    },
+    {
+      "term": "among",
+      "definition": "среди"
+    },
+    {
+      "term": "amount",
+      "definition": "количество, сумма, объем"
+    },
+    {
+      "term": "ancient",
+      "definition": "древний, старинный"
+    },
+    {
+      "term": "ankle",
+      "definition": "голеностоп, лодыжка, щиколотка"
+    },
+    {
+      "term": "anybody",
+      "definition": "кто-то (в вопросах), никто (в отрицаниях), все (в утверждениях)"
+    },
+    {
+      "term": "anymore",
+      "definition": "больше (не), уже (не)"
+    },
+    {
+      "term": "anyway",
+      "definition": "всё равно, так или иначе, во всяком случае"
+    },
+    {
+      "term": "anywhere",
+      "definition": "везде, где угодно, нигде"
+    },
+    {
+      "term": "app (application)",
+      "definition": "приложение (мобильное)"
+    },
+    {
+      "term": "appearance",
+      "definition": "вид, внешность, появление"
+    },
+    {
+      "term": "architect",
+      "definition": "архитектор"
+    },
+    {
+      "term": "architecture",
+      "definition": "архитектура"
+    },
+    {
+      "term": "argument",
+      "definition": "спор, аргумент"
+    },
+    {
+      "term": "army",
+      "definition": "армия, армейский"
+    },
+    {
+      "term": "arrangement",
+      "definition": "подготовка, приготовления, оформление"
+    },
+    {
+      "term": "asleep",
+      "definition": "спящий"
+    },
+    {
+      "term": "assistant",
+      "definition": "ассистент, помощник"
+    },
+    {
+      "term": "athlete",
+      "definition": "атлет, спортсмен"
+    },
+    {
+      "term": "attack",
+      "definition": "атака, нападение"
+    },
+    {
+      "term": "attention",
+      "definition": "внимание"
+    },
+    {
+      "term": "attorney",
+      "definition": "адвокат, юрист"
+    },
+    {
+      "term": "attractive",
+      "definition": "привлекательный"
+    },
+    {
+      "term": "audience",
+      "definition": "аудитория, публика, аудиенция"
+    },
+    {
+      "term": "author",
+      "definition": "автор, писатель"
+    },
+    {
+      "term": "available",
+      "definition": "доступный, имеющийся в наличии, свободный"
+    },
+    {
+      "term": "average",
+      "definition": "средний, обычный, в среднем"
+    },
+    {
+      "term": "award",
+      "definition": "премия, награда, присуждение, стипендия"
+    },
+    {
+      "term": "awful",
+      "definition": "ужасный"
+    },
+    {
+      "term": "background",
+      "definition": "фон, задний план, происхождение"
+    },
+    {
+      "term": "badly",
+      "definition": "плохо, сильно, очень, дурно, нехорошо"
+    },
+    {
+      "term": "banknote",
+      "definition": "банкнота, купюра"
+    },
+    {
+      "term": "bar",
+      "definition": "бар"
+    },
+    {
+      "term": "bar",
+      "definition": "перекладина, стержень, стойка, полоса, брусок"
+    },
+    {
+      "term": "baseball",
+      "definition": "бейсбол"
+    },
+    {
+      "term": "based",
+      "definition": "на основе, основывающийся, базируемый, находящийся"
+    },
+    {
+      "term": "basketball",
+      "definition": "баскетбол"
+    },
+    {
+      "term": "bean",
+      "definition": "фасоль, боб"
+    },
+    {
+      "term": "bear",
+      "definition": "медведь"
+    },
+    {
+      "term": "beef",
+      "definition": "говядина"
+    },
+    {
+      "term": "behavior",
+      "definition": "поведение"
+    },
+    {
+      "term": "behaviour",
+      "definition": "поведение"
+    },
+    {
+      "term": "belt",
+      "definition": "пояс, ремень, лента, ленточный"
+    },
+    {
+      "term": "benefit",
+      "definition": "польза, выгода"
+    },
+    {
+      "term": "better",
+      "definition": "лучше"
+    },
+    {
+      "term": "bill",
+      "definition": "банкнота, купюра"
+    },
+    {
+      "term": "billion",
+      "definition": "миллиард"
+    },
+    {
+      "term": "bin",
+      "definition": "мусорное ведро, бункер, ящик"
+    },
+    {
+      "term": "biology",
+      "definition": "биология"
+    },
+    {
+      "term": "birth",
+      "definition": "рождение"
+    },
+    {
+      "term": "biscuit",
+      "definition": "печенье"
+    },
+    {
+      "term": "bit",
+      "definition": "кусочек, бит"
+    },
+    {
+      "term": "blank",
+      "definition": "пропуск, пустое место (в документе), бланк"
+    },
+    {
+      "term": "blank",
+      "definition": "пустой, чистый, незаполненный"
+    },
+    {
+      "term": "blood",
+      "definition": "кровь, кровяной"
+    },
+    {
+      "term": "board",
+      "definition": "совет (директоров), коллегия, правление"
+    },
+    {
+      "term": "board",
+      "definition": "доска"
+    },
+    {
+      "term": "bone",
+      "definition": "кость, костный"
+    },
+    {
+      "term": "boss",
+      "definition": "босс"
+    },
+    {
+      "term": "bottom",
+      "definition": "низ, нижний, дно, суть"
+    },
+    {
+      "term": "bowl",
+      "definition": "миска, глубокая тарелка, чаша"
+    },
+    {
+      "term": "brain",
+      "definition": "мозг, мозговой"
+    },
+    {
+      "term": "bridge",
+      "definition": "мост"
+    },
+    {
+      "term": "bright",
+      "definition": "яркий, светлый, блестящий"
+    },
+    {
+      "term": "brilliant",
+      "definition": "блестящий, выдающийся"
+    },
+    {
+      "term": "broken",
+      "definition": "сломанный, разбитый, нарушенный"
+    },
+    {
+      "term": "brush",
+      "definition": "кисть, щетка"
+    },
+    {
+      "term": "businessman, businesswoman",
+      "definition": "бизнесмен, деловая женщина"
+    },
+    {
+      "term": "button",
+      "definition": "кнопка, пуговица"
+    },
+    {
+      "term": "camp",
+      "definition": "лагерь"
+    },
+    {
+      "term": "camping",
+      "definition": "кемпинг, поход"
+    },
+    {
+      "term": "can",
+      "definition": "жестяная банка, баллончик"
+    },
+    {
+      "term": "care",
+      "definition": "забота"
+    },
+    {
+      "term": "careful",
+      "definition": "внимательный, осторожный, тщательный"
+    },
+    {
+      "term": "carefully",
+      "definition": "осторожно, внимательно, аккуратно, бережно"
+    },
+    {
+      "term": "carpet",
+      "definition": "ковёр"
+    },
+    {
+      "term": "cartoon",
+      "definition": "мультфильм, карикатура"
+    },
+    {
+      "term": "case",
+      "definition": "чехол, кейс"
+    },
+    {
+      "term": "case",
+      "definition": "случай, дело"
+    },
+    {
+      "term": "cash",
+      "definition": "наличные деньги"
+    },
+    {
+      "term": "castle",
+      "definition": "замок"
+    },
+    {
+      "term": "cause",
+      "definition": "причина, процесс, дело"
+    },
+    {
+      "term": "celebrity",
+      "definition": "знаменитость"
+    },
+    {
+      "term": "certain",
+      "definition": "определенный, уверенный, несомненно"
+    },
+    {
+      "term": "certainly",
+      "definition": "конечно, безусловно"
+    },
+    {
+      "term": "chance",
+      "definition": "шанс, возможность"
+    },
+    {
+      "term": "character",
+      "definition": "персонаж, символ, характер, образ, герой"
+    },
+    {
+      "term": "charity",
+      "definition": "благотворительность"
+    },
+    {
+      "term": "chat",
+      "definition": "чат, общение в чате"
+    },
+    {
+      "term": "check",
+      "definition": "проверка, обследование, галочка"
+    },
+    {
+      "term": "check",
+      "definition": "чек"
+    },
+    {
+      "term": "chef",
+      "definition": "шеф-повар, повар"
+    },
+    {
+      "term": "chemistry",
+      "definition": "химия"
+    },
+    {
+      "term": "cheque",
+      "definition": "чек"
+    },
+    {
+      "term": "chip",
+      "definition": "чип, микросхема"
+    },
+    {
+      "term": "chip",
+      "definition": "обломок, стружка"
+    },
+    {
+      "term": "choice",
+      "definition": "выбор"
+    },
+    {
+      "term": "church",
+      "definition": "церковь, церковный"
+    },
+    {
+      "term": "cigarette",
+      "definition": "сигарета"
+    },
+    {
+      "term": "circle",
+      "definition": "круг, окружность"
+    },
+    {
+      "term": "classical",
+      "definition": "классический"
+    },
+    {
+      "term": "clear",
+      "definition": "чистый, ясный, понятный, ясно, понятно"
+    },
+    {
+      "term": "clearly",
+      "definition": "очевидно, несомненно, конечно, толком, по-видимому"
+    },
+    {
+      "term": "clever",
+      "definition": "умный"
+    },
+    {
+      "term": "climate",
+      "definition": "климат"
+    },
+    {
+      "term": "closed",
+      "definition": "закрытый, запертый"
+    },
+    {
+      "term": "clothing",
+      "definition": "одежда"
+    },
+    {
+      "term": "cloud",
+      "definition": "туча, облако"
+    },
+    {
+      "term": "coach",
+      "definition": "тренер"
+    },
+    {
+      "term": "coast",
+      "definition": "берег, побережье, береговой"
+    },
+    {
+      "term": "code",
+      "definition": "код, кодекс, кодовый"
+    },
+    {
+      "term": "colleague",
+      "definition": "сотрудник, коллега"
+    },
+    {
+      "term": "column",
+      "definition": "столбец, колонка, графа, колонна"
+    },
+    {
+      "term": "comedy",
+      "definition": "комедия"
+    },
+    {
+      "term": "comfortable",
+      "definition": "удобный, комфортабельный, уютный"
+    },
+    {
+      "term": "comment",
+      "definition": "комментарий"
+    },
+    {
+      "term": "community",
+      "definition": "сообщество, общество, общественный"
+    },
+    {
+      "term": "competition",
+      "definition": "конкуренция, соревнование, конкурс"
+    },
+    {
+      "term": "completely",
+      "definition": "полностью, совершенно, вполне, всецело, вконец, безраздельно"
+    },
+    {
+      "term": "condition",
+      "definition": "состояние, условие, обстоятельство"
+    },
+    {
+      "term": "conference",
+      "definition": "конференция, совещание"
+    },
+    {
+      "term": "connected",
+      "definition": "связанный, соединенный"
+    },
+    {
+      "term": "context",
+      "definition": "контекст, связь, ситуация, обстановка, фон"
+    },
+    {
+      "term": "continent",
+      "definition": "континент"
+    },
+    {
+      "term": "control",
+      "definition": "контроль, управление, управляющий"
+    },
+    {
+      "term": "cook",
+      "definition": "повар, кук"
+    },
+    {
+      "term": "cooker",
+      "definition": "кухонная плита"
+    },
+    {
+      "term": "cookie",
+      "definition": "печенье"
+    },
+    {
+      "term": "copy",
+      "definition": "копия, репродукция"
+    },
+    {
+      "term": "corner",
+      "definition": "угол"
+    },
+    {
+      "term": "correctly",
+      "definition": "правильно"
+    },
+    {
+      "term": "couple",
+      "definition": "пара, чета"
+    },
+    {
+      "term": "crazy",
+      "definition": "сумасшедший, безумный"
+    },
+    {
+      "term": "creative",
+      "definition": "творческий, креативный, созидательный"
+    },
+    {
+      "term": "credit",
+      "definition": "кредит, доверие, честь, репутация"
+    },
+    {
+      "term": "crime",
+      "definition": "преступление"
+    },
+    {
+      "term": "criminal",
+      "definition": "преступник, уголовный"
+    },
+    {
+      "term": "cross",
+      "definition": "пересечение, перекрестный, крест"
+    },
+    {
+      "term": "crowd",
+      "definition": "толпа"
+    },
+    {
+      "term": "crowded",
+      "definition": "переполненный, многолюдный, набитый, перегруженный"
+    },
+    {
+      "term": "cupboard",
+      "definition": "стенной шкаф, кухонный шкаф, буфет, сервант"
+    },
+    {
+      "term": "curly",
+      "definition": "кудрявый, изогнутый"
+    },
+    {
+      "term": "cycle",
+      "definition": "цикл, круг, круговорот"
+    },
+    {
+      "term": "daily",
+      "definition": "ежедневный, повседневный, ежедневно"
+    },
+    {
+      "term": "danger",
+      "definition": "опасность"
+    },
+    {
+      "term": "data",
+      "definition": "данные"
+    },
+    {
+      "term": "date",
+      "definition": "свидание"
+    },
+    {
+      "term": "dead",
+      "definition": "мертвый, погибший, мертвец, покойник"
+    },
+    {
+      "term": "death",
+      "definition": "гибель, смерть, смертельный"
+    },
+    {
+      "term": "decision",
+      "definition": "решение"
+    },
+    {
+      "term": "deep",
+      "definition": "глубокий, глубоко"
+    },
+    {
+      "term": "definitely",
+      "definition": "определенно, точно, несомненно"
+    },
+    {
+      "term": "degree",
+      "definition": "градус, степень"
+    },
+    {
+      "term": "dentist",
+      "definition": "стоматолог, дантист"
+    },
+    {
+      "term": "department",
+      "definition": "отдел, министерство, факультет"
+    },
+    {
+      "term": "desert",
+      "definition": "пустыня, необитаемый"
+    },
+    {
+      "term": "designer",
+      "definition": "дизайнер"
+    },
+    {
+      "term": "detective",
+      "definition": "детектив, следователь"
+    },
+    {
+      "term": "device",
+      "definition": "устройство, прибор, аппарат, приспособление"
+    },
+    {
+      "term": "diary",
+      "definition": "дневник"
+    },
+    {
+      "term": "differently",
+      "definition": "иначе, различно, по-иному, по-разному"
+    },
+    {
+      "term": "digital",
+      "definition": "цифровой"
+    },
+    {
+      "term": "direct",
+      "definition": "прямой, непосредственный"
+    },
+    {
+      "term": "direction",
+      "definition": "направление"
+    },
+    {
+      "term": "director",
+      "definition": "директор, режиссер"
+    },
+    {
+      "term": "disaster",
+      "definition": "катастрофа, бедствие, несчастье"
+    },
+    {
+      "term": "discovery",
+      "definition": "открытие, обнаружение"
+    },
+    {
+      "term": "discussion",
+      "definition": "дискуссия, обсуждение"
+    },
+    {
+      "term": "disease",
+      "definition": "болезнь"
+    },
+    {
+      "term": "distance",
+      "definition": "расстояние, дистанция"
+    },
+    {
+      "term": "divorced",
+      "definition": "разведенный"
+    },
+    {
+      "term": "document",
+      "definition": "документ, текст, свидетельство"
+    },
+    {
+      "term": "double",
+      "definition": "двойной, вдвойне"
+    },
+    {
+      "term": "download",
+      "definition": "загрузка, скачивание"
+    },
+    {
+      "term": "drama",
+      "definition": "драма"
+    },
+    {
+      "term": "drawing",
+      "definition": "рисунок, рисование, черчение"
+    },
+    {
+      "term": "dream",
+      "definition": "мечта, сон"
+    },
+    {
+      "term": "drive",
+      "definition": "драйв, дисковод, привод"
+    },
+    {
+      "term": "driving",
+      "definition": "вождение, управление"
+    },
+    {
+      "term": "drug",
+      "definition": "лекарство, наркотик"
+    },
+    {
+      "term": "dry",
+      "definition": "сухой"
+    },
+    {
+      "term": "easily",
+      "definition": "легко, без труда, свободно, намного, гораздо, вероятно"
+    },
+    {
+      "term": "education",
+      "definition": "образование, обучение, просвещение"
+    },
+    {
+      "term": "effect",
+      "definition": "эффект, воздействие"
+    },
+    {
+      "term": "either",
+      "definition": "или, также, любой, тот или другой"
+    },
+    {
+      "term": "electric",
+      "definition": "электрический"
+    },
+    {
+      "term": "electrical",
+      "definition": "электрический"
+    },
+    {
+      "term": "electricity",
+      "definition": "электричество"
+    },
+    {
+      "term": "electronic",
+      "definition": "электронный"
+    },
+    {
+      "term": "elevator",
+      "definition": "лифт"
+    },
+    {
+      "term": "employee",
+      "definition": "служащий, сотрудник"
+    },
+    {
+      "term": "employer",
+      "definition": "работодатель, наниматель"
+    },
+    {
+      "term": "empty",
+      "definition": "пустой"
+    },
+    {
+      "term": "ending",
+      "definition": "окончание, финал, развязка"
+    },
+    {
+      "term": "energy",
+      "definition": "энергия, энергетический"
+    },
+    {
+      "term": "engine",
+      "definition": "двигатель"
+    },
+    {
+      "term": "engineer",
+      "definition": "инженер"
+    },
+    {
+      "term": "enormous",
+      "definition": "огромный"
+    },
+    {
+      "term": "environment",
+      "definition": "окружающая среда, природа"
+    },
+    {
+      "term": "equipment",
+      "definition": "оборудование"
+    },
+    {
+      "term": "error",
+      "definition": "ошибка, погрешность, заблуждение, отклонение"
+    },
+    {
+      "term": "especially",
+      "definition": "особенно"
+    },
+    {
+      "term": "essay",
+      "definition": "эссе, очерк, этюд, набросок"
+    },
+    {
+      "term": "everyday",
+      "definition": "каждый день, повседневный, бытовой, обычный"
+    },
+    {
+      "term": "everywhere",
+      "definition": "везде"
+    },
+    {
+      "term": "evidence",
+      "definition": "доказательства, улики, подтверждение"
+    },
+    {
+      "term": "exact",
+      "definition": "точный"
+    },
+    {
+      "term": "exactly",
+      "definition": "точно"
+    },
+    {
+      "term": "excellent",
+      "definition": "отличный, превосходный, великолепный, отлично"
+    },
+    {
+      "term": "except",
+      "definition": "кроме, за исключением"
+    },
+    {
+      "term": "experience",
+      "definition": "опыт, переживание"
+    },
+    {
+      "term": "experiment",
+      "definition": "эксперимент"
+    },
+    {
+      "term": "expert",
+      "definition": "эксперт, специалист, экспертный, опытный, квалифицированный"
+    },
+    {
+      "term": "explanation",
+      "definition": "объяснение"
+    },
+    {
+      "term": "expression",
+      "definition": "выразительность, экспрессия, выражение"
+    },
+    {
+      "term": "extreme",
+      "definition": "предел, экстремальный, крайний, чрезвычайный"
+    },
+    {
+      "term": "extremely",
+      "definition": "чрезвычайно, очень, крайне, в высшей степени, бесконечно"
+    },
+    {
+      "term": "factor",
+      "definition": "фактор, причина, коэффициент, множитель"
+    },
+    {
+      "term": "factory",
+      "definition": "предприятие, завод, фабрика"
+    },
+    {
+      "term": "fair",
+      "definition": "ярмарка, выставка"
+    },
+    {
+      "term": "fair",
+      "definition": "светлый"
+    },
+    {
+      "term": "fair",
+      "definition": "справедливый, честный"
+    },
+    {
+      "term": "fall",
+      "definition": "падение"
+    },
+    {
+      "term": "fan",
+      "definition": "фанат"
+    },
+    {
+      "term": "fan",
+      "definition": "вентилятор"
+    },
+    {
+      "term": "farming",
+      "definition": "сельское хозяйство, фермерство"
+    },
+    {
+      "term": "fashion",
+      "definition": "мода, стиль, образ, способ"
+    },
+    {
+      "term": "fear",
+      "definition": "страх, боязнь"
+    },
+    {
+      "term": "feature",
+      "definition": "особенность, черта, характеристика"
+    },
+    {
+      "term": "female",
+      "definition": "женский пол, женщина, женский, самка"
+    },
+    {
+      "term": "fiction",
+      "definition": "беллетристика, художественная литература, вымысел"
+    },
+    {
+      "term": "field",
+      "definition": "поле, область"
+    },
+    {
+      "term": "fight",
+      "definition": "борьба, драка"
+    },
+    {
+      "term": "figure",
+      "definition": "фигура, рисунок, цифра"
+    },
+    {
+      "term": "finally",
+      "definition": "окончательно, в конце концов, в конечном счете, в заключение"
+    },
+    {
+      "term": "finger",
+      "definition": "палец (руки)"
+    },
+    {
+      "term": "finish",
+      "definition": "конец, финиш"
+    },
+    {
+      "term": "firstly",
+      "definition": "во-первых"
+    },
+    {
+      "term": "fishing",
+      "definition": "рыбалка"
+    },
+    {
+      "term": "floor",
+      "definition": "этаж"
+    },
+    {
+      "term": "flu, influenza",
+      "definition": "грипп"
+    },
+    {
+      "term": "fly",
+      "definition": "муха"
+    },
+    {
+      "term": "flying",
+      "definition": "летающий, полет, летание"
+    },
+    {
+      "term": "focus",
+      "definition": "фокус"
+    },
+    {
+      "term": "following",
+      "definition": "следующий, приведенный ниже"
+    },
+    {
+      "term": "foreign",
+      "definition": "иностранный"
+    },
+    {
+      "term": "forest",
+      "definition": "лес, лесной"
+    },
+    {
+      "term": "fork",
+      "definition": "вилка"
+    },
+    {
+      "term": "formal",
+      "definition": "формальный, официальный, церемонный"
+    },
+    {
+      "term": "fortunately",
+      "definition": "к счастью"
+    },
+    {
+      "term": "forward",
+      "definition": "вперед, передний, дальше"
+    },
+    {
+      "term": "fresh",
+      "definition": "свежий"
+    },
+    {
+      "term": "fridge",
+      "definition": "холодильник"
+    },
+    {
+      "term": "frog",
+      "definition": "лягушка"
+    },
+    {
+      "term": "furniture",
+      "definition": "мебель, обстановка"
+    },
+    {
+      "term": "further",
+      "definition": "в дальнейшем, далее, дальше, дальнейший"
+    },
+    {
+      "term": "gallery",
+      "definition": "галерея"
+    },
+    {
+      "term": "gap",
+      "definition": "промежуток, брешь, дыра"
+    },
+    {
+      "term": "gas",
+      "definition": "бензин"
+    },
+    {
+      "term": "gas",
+      "definition": "газ"
+    },
+    {
+      "term": "gasoline",
+      "definition": "бензин"
+    },
+    {
+      "term": "gate",
+      "definition": "ворота, калитка, шлюз, шлагбаум, выход на посадку"
+    },
+    {
+      "term": "general",
+      "definition": "общее, общий, обычный, генерал"
+    },
+    {
+      "term": "gift",
+      "definition": "подарок, дар, талант"
+    },
+    {
+      "term": "goal",
+      "definition": "цель, гол, ворота"
+    },
+    {
+      "term": "god",
+      "definition": "бог"
+    },
+    {
+      "term": "gold",
+      "definition": "золото, золотой"
+    },
+    {
+      "term": "golf",
+      "definition": "гольф"
+    },
+    {
+      "term": "government",
+      "definition": "правительство, руководство, государственный, правительственный"
+    },
+    {
+      "term": "grass",
+      "definition": "трава"
+    },
+    {
+      "term": "ground",
+      "definition": "земля (на чем стоят)"
+    },
+    {
+      "term": "guest",
+      "definition": "гость, гостевой"
+    },
+    {
+      "term": "guide",
+      "definition": "руководство, гид"
+    },
+    {
+      "term": "gun",
+      "definition": "оружие, пистолет, ружьё, пушка"
+    },
+    {
+      "term": "guy",
+      "definition": "парень"
+    },
+    {
+      "term": "habit",
+      "definition": "привычка"
+    },
+    {
+      "term": "hall",
+      "definition": "коридор, прихожая"
+    },
+    {
+      "term": "happily",
+      "definition": "счастливо, радостно, к счастью"
+    },
+    {
+      "term": "headache",
+      "definition": "головная боль"
+    },
+    {
+      "term": "heart",
+      "definition": "сердце, основа, сердечный"
+    },
+    {
+      "term": "heat",
+      "definition": "жара, тепло"
+    },
+    {
+      "term": "heavy",
+      "definition": "тяжелый"
+    },
+    {
+      "term": "height",
+      "definition": "высота, рост"
+    },
+    {
+      "term": "helpful",
+      "definition": "полезный"
+    },
+    {
+      "term": "hero",
+      "definition": "герой"
+    },
+    {
+      "term": "hers",
+      "definition": "её, принадлежащий ей"
+    },
+    {
+      "term": "herself",
+      "definition": "сама, себя, она"
+    },
+    {
+      "term": "hill",
+      "definition": "холм"
+    },
+    {
+      "term": "himself",
+      "definition": "сам, себя"
+    },
+    {
+      "term": "hit",
+      "definition": "удар, попадание"
+    },
+    {
+      "term": "hit",
+      "definition": "хит"
+    },
+    {
+      "term": "hockey",
+      "definition": "хоккей"
+    },
+    {
+      "term": "hole",
+      "definition": "дыра, отверстие, нора, лунка"
+    },
+    {
+      "term": "hope",
+      "definition": "надежда"
+    },
+    {
+      "term": "huge",
+      "definition": "огромный"
+    },
+    {
+      "term": "human",
+      "definition": "человек, человеческий"
+    },
+    {
+      "term": "ideal",
+      "definition": "идеальный, идеал"
+    },
+    {
+      "term": "ill",
+      "definition": "больной, злой, плохой, плохо, дурно"
+    },
+    {
+      "term": "illness",
+      "definition": "болезнь, заболевание, нездоровье"
+    },
+    {
+      "term": "image",
+      "definition": "образ, изображение, имидж, рисунок"
+    },
+    {
+      "term": "immediately",
+      "definition": "немедленно, непосредственно, тотчас"
+    },
+    {
+      "term": "impossible",
+      "definition": "невозможно, невозможный"
+    },
+    {
+      "term": "included",
+      "definition": "включенный, внесенный, прилагаемый"
+    },
+    {
+      "term": "increase",
+      "definition": "увеличение"
+    },
+    {
+      "term": "incredible",
+      "definition": "невероятный, потрясающий, неправдоподобный"
+    },
+    {
+      "term": "independent",
+      "definition": "независимый"
+    },
+    {
+      "term": "individual",
+      "definition": "личность, индивидуальный"
+    },
+    {
+      "term": "industry",
+      "definition": "промышленность"
+    },
+    {
+      "term": "informal",
+      "definition": "неформальный, неофициальный"
+    },
+    {
+      "term": "injury",
+      "definition": "телесное повреждение, травма"
+    },
+    {
+      "term": "insect",
+      "definition": "насекомое"
+    },
+    {
+      "term": "inside",
+      "definition": "в, внутрь, внутренность, внутренний"
+    },
+    {
+      "term": "instead",
+      "definition": "взамен, вместо"
+    },
+    {
+      "term": "instruction",
+      "definition": "инструкция, команда"
+    },
+    {
+      "term": "instructor",
+      "definition": "инструктор"
+    },
+    {
+      "term": "instrument",
+      "definition": "инструмент, орудие, прибор"
+    },
+    {
+      "term": "intelligent",
+      "definition": "умный, разумный"
+    },
+    {
+      "term": "international",
+      "definition": "международный"
+    },
+    {
+      "term": "introduction",
+      "definition": "предисловие, введение, представление, знакомство"
+    },
+    {
+      "term": "invention",
+      "definition": "изобретение"
+    },
+    {
+      "term": "invitation",
+      "definition": "приглашение"
+    },
+    {
+      "term": "item",
+      "definition": "вещь, пункт, статья, вопрос, номер, параграф"
+    },
+    {
+      "term": "itself",
+      "definition": "сам, себя, себе, само"
+    },
+    {
+      "term": "jam",
+      "definition": "варенье"
+    },
+    {
+      "term": "jazz",
+      "definition": "джаз"
+    },
+    {
+      "term": "jewellery",
+      "definition": "ювелирные изделия, украшения, драгоценности"
+    },
+    {
+      "term": "joke",
+      "definition": "шутка"
+    },
+    {
+      "term": "journalist",
+      "definition": "журналист"
+    },
+    {
+      "term": "jump",
+      "definition": "прыжок, переход"
+    },
+    {
+      "term": "kid",
+      "definition": "козленок"
+    },
+    {
+      "term": "kid",
+      "definition": "дитя, малыш, ребёнок"
+    },
+    {
+      "term": "king",
+      "definition": "король"
+    },
+    {
+      "term": "knee",
+      "definition": "колено, коленный"
+    },
+    {
+      "term": "knife",
+      "definition": "нож"
+    },
+    {
+      "term": "knowledge",
+      "definition": "знание"
+    },
+    {
+      "term": "lab",
+      "definition": "лаборатория"
+    },
+    {
+      "term": "lady",
+      "definition": "дама, дамский"
+    },
+    {
+      "term": "lake",
+      "definition": "озеро"
+    },
+    {
+      "term": "lamp",
+      "definition": "лампа, светильник"
+    },
+    {
+      "term": "laptop",
+      "definition": "ноутбук"
+    },
+    {
+      "term": "laughter",
+      "definition": "смех"
+    },
+    {
+      "term": "law",
+      "definition": "закон, юридический"
+    },
+    {
+      "term": "lawyer",
+      "definition": "адвокат, юрист"
+    },
+    {
+      "term": "lazy",
+      "definition": "ленивый"
+    },
+    {
+      "term": "leader",
+      "definition": "лидер, глава, командир"
+    },
+    {
+      "term": "learning",
+      "definition": "обучение, изучение"
+    },
+    {
+      "term": "least",
+      "definition": "наименьший, наименее, меньше всего"
+    },
+    {
+      "term": "lecture",
+      "definition": "лекция, доклад, читать лекцию"
+    },
+    {
+      "term": "lemon",
+      "definition": "лимон, лимонный"
+    },
+    {
+      "term": "less",
+      "definition": "меньше, менее, меньший"
+    },
+    {
+      "term": "level",
+      "definition": "уровень, этаж"
+    },
+    {
+      "term": "lifestyle",
+      "definition": "образ жизни, стиль жизни"
+    },
+    {
+      "term": "lift",
+      "definition": "лифт"
+    },
+    {
+      "term": "light",
+      "definition": "лёгкий"
+    },
+    {
+      "term": "likely",
+      "definition": "вероятный, возможный, подходящий, вероятно"
+    },
+    {
+      "term": "link",
+      "definition": "ссылка, связь"
+    },
+    {
+      "term": "listener",
+      "definition": "слушатель"
+    },
+    {
+      "term": "lock",
+      "definition": "замок, блокировка"
+    },
+    {
+      "term": "look",
+      "definition": "взгляд, вид, наружность, внешность"
+    },
+    {
+      "term": "lorry",
+      "definition": "грузовик"
+    },
+    {
+      "term": "lost",
+      "definition": "потерянный, затерянный, утраченный, заблудившийся, пропавший"
+    },
+    {
+      "term": "loud",
+      "definition": "громкий, шумный"
+    },
+    {
+      "term": "loudly",
+      "definition": "громко"
+    },
+    {
+      "term": "lovely",
+      "definition": "чудесный, восхитительный, очаровательный, красивый, прелестный, прекрасный, милый"
+    },
+    {
+      "term": "low",
+      "definition": "низкий, низко"
+    },
+    {
+      "term": "luck",
+      "definition": "удача"
+    },
+    {
+      "term": "lucky",
+      "definition": "удачливый, счастливый"
+    },
+    {
+      "term": "mail",
+      "definition": "почта, почтовый"
+    },
+    {
+      "term": "major",
+      "definition": "главный, майор, большинство, мажор, основной, крупный, мажорный"
+    },
+    {
+      "term": "male",
+      "definition": "мужской, самец"
+    },
+    {
+      "term": "manager",
+      "definition": "менеджер, руководитель, управляющий"
+    },
+    {
+      "term": "manner",
+      "definition": "манера, способ"
+    },
+    {
+      "term": "mark",
+      "definition": "оценка, отметка, знак"
+    },
+    {
+      "term": "material",
+      "definition": "материал, вещество, данные, факты, материальный"
+    },
+    {
+      "term": "mathematics, maths",
+      "definition": "математика"
+    },
+    {
+      "term": "matter",
+      "definition": "дело, вопрос, вещество, материал"
+    },
+    {
+      "term": "may",
+      "definition": "мочь (иметь разрешение), возможно"
+    },
+    {
+      "term": "media",
+      "definition": "пресса, медиа, СМИ"
+    },
+    {
+      "term": "medical",
+      "definition": "медицинский"
+    },
+    {
+      "term": "medicine",
+      "definition": "медицина, лекарство, медикамент"
+    },
+    {
+      "term": "memory",
+      "definition": "память, воспоминания"
+    },
+    {
+      "term": "metal",
+      "definition": "металл"
+    },
+    {
+      "term": "method",
+      "definition": "метод"
+    },
+    {
+      "term": "metro",
+      "definition": "метро"
+    },
+    {
+      "term": "middle",
+      "definition": "середина, средний"
+    },
+    {
+      "term": "might",
+      "definition": "может быть, может, можно"
+    },
+    {
+      "term": "mind",
+      "definition": "ум, мнение"
+    },
+    {
+      "term": "mine",
+      "definition": "мой"
+    },
+    {
+      "term": "mirror",
+      "definition": "зеркало"
+    },
+    {
+      "term": "missing",
+      "definition": "отсутствующий, недостающий, пропавший"
+    },
+    {
+      "term": "mobile",
+      "definition": "мобильный, подвижный"
+    },
+    {
+      "term": "monkey",
+      "definition": "обезьяна"
+    },
+    {
+      "term": "mostly",
+      "definition": "главным образом, по большей части, обычно"
+    },
+    {
+      "term": "motorbike",
+      "definition": "мотоцикл"
+    },
+    {
+      "term": "motorcycle",
+      "definition": "мотоцикл"
+    },
+    {
+      "term": "movement",
+      "definition": "движение, перемещение"
+    },
+    {
+      "term": "musical",
+      "definition": "музыкальный, мелодичный, мюзикл"
+    },
+    {
+      "term": "musician",
+      "definition": "музыкант"
+    },
+    {
+      "term": "myself",
+      "definition": "себя, себе, сам, собой"
+    },
+    {
+      "term": "narrow",
+      "definition": "узкий"
+    },
+    {
+      "term": "national",
+      "definition": "национальный"
+    },
+    {
+      "term": "nature",
+      "definition": "природа, характер, натура"
+    },
+    {
+      "term": "nearly",
+      "definition": "почти, около, приблизительно, близко"
+    },
+    {
+      "term": "necessary",
+      "definition": "необходимый, необходимо"
+    },
+    {
+      "term": "neck",
+      "definition": "шея"
+    },
+    {
+      "term": "need",
+      "definition": "необходимость, нужда, потребность"
+    },
+    {
+      "term": "neither",
+      "definition": "никакой, ни"
+    },
+    {
+      "term": "nervous",
+      "definition": "нервный"
+    },
+    {
+      "term": "network",
+      "definition": "сеть"
+    },
+    {
+      "term": "noise",
+      "definition": "шум"
+    },
+    {
+      "term": "noisy",
+      "definition": "шумный"
+    },
+    {
+      "term": "none",
+      "definition": "никто, ничто, никакой"
+    },
+    {
+      "term": "normal",
+      "definition": "нормально, нормальный"
+    },
+    {
+      "term": "normally",
+      "definition": "нормально, как обычно"
+    },
+    {
+      "term": "notice",
+      "definition": "предупреждение, уведомление, извещение"
+    },
+    {
+      "term": "novel",
+      "definition": "роман, новелла, маленький рассказ"
+    },
+    {
+      "term": "nowhere",
+      "definition": "нигде, никуда, некуда"
+    },
+    {
+      "term": "nut",
+      "definition": "орех"
+    },
+    {
+      "term": "ocean",
+      "definition": "океан, океанский"
+    },
+    {
+      "term": "offer",
+      "definition": "предложение"
+    },
+    {
+      "term": "officer",
+      "definition": "сотрудник, должностное лицо, офицер"
+    },
+    {
+      "term": "oil",
+      "definition": "нефть"
+    },
+    {
+      "term": "oil",
+      "definition": "масло"
+    },
+    {
+      "term": "onto",
+      "definition": "на"
+    },
+    {
+      "term": "opportunity",
+      "definition": "возможность, случай, шанс"
+    },
+    {
+      "term": "option",
+      "definition": "вариант, опция, опцион"
+    },
+    {
+      "term": "ordinary",
+      "definition": "обычный"
+    },
+    {
+      "term": "organization",
+      "definition": "организация, структура, формирование, организационный"
+    },
+    {
+      "term": "original",
+      "definition": "оригинал, оригинальный, подлинник, исходный"
+    },
+    {
+      "term": "ourselves",
+      "definition": "себя, себе, сами, собой"
+    },
+    {
+      "term": "oven",
+      "definition": "печь, духовка"
+    },
+    {
+      "term": "owner",
+      "definition": "владелец, собственник"
+    },
+    {
+      "term": "pain",
+      "definition": "боль, страдание"
+    },
+    {
+      "term": "painter",
+      "definition": "живописец, художник, маляр"
+    },
+    {
+      "term": "palace",
+      "definition": "дворец"
+    },
+    {
+      "term": "pants",
+      "definition": "трусы"
+    },
+    {
+      "term": "pants",
+      "definition": "штаны, брюки"
+    },
+    {
+      "term": "parking",
+      "definition": "стоянка машин, парковка"
+    },
+    {
+      "term": "particular",
+      "definition": "конкретный, отдельный, особый"
+    },
+    {
+      "term": "passenger",
+      "definition": "пассажир"
+    },
+    {
+      "term": "patient",
+      "definition": "пациент"
+    },
+    {
+      "term": "pattern",
+      "definition": "шаблон, образец, пример, рисунок"
+    },
+    {
+      "term": "pay",
+      "definition": "оплата"
+    },
+    {
+      "term": "peace",
+      "definition": "мир, спокойствие, тишина, мирный"
+    },
+    {
+      "term": "penny",
+      "definition": "пенни, пенс, монета в 1 цент"
+    },
+    {
+      "term": "per",
+      "definition": "(километров) в (час), за, на"
+    },
+    {
+      "term": "percent",
+      "definition": "процент"
+    },
+    {
+      "term": "perhaps",
+      "definition": "возможно, может быть"
+    },
+    {
+      "term": "permission",
+      "definition": "разрешение"
+    },
+    {
+      "term": "personality",
+      "definition": "личность"
+    },
+    {
+      "term": "pet",
+      "definition": "домашнее животное"
+    },
+    {
+      "term": "petrol",
+      "definition": "бензин"
+    },
+    {
+      "term": "physical",
+      "definition": "физический, материальный, медицинский осмотр"
+    },
+    {
+      "term": "physics",
+      "definition": "физика"
+    },
+    {
+      "term": "pilot",
+      "definition": "пилот, лётчик"
+    },
+    {
+      "term": "planet",
+      "definition": "планета, планетарный"
+    },
+    {
+      "term": "plastic",
+      "definition": "пластмасса, пластиковый, пластический"
+    },
+    {
+      "term": "plate",
+      "definition": "тарелка"
+    },
+    {
+      "term": "platform",
+      "definition": "платформа"
+    },
+    {
+      "term": "pleased",
+      "definition": "довольный"
+    },
+    {
+      "term": "pocket",
+      "definition": "карман, карманный"
+    },
+    {
+      "term": "polite",
+      "definition": "вежливый, любезный, учтивый"
+    },
+    {
+      "term": "pollution",
+      "definition": "загрязнение"
+    },
+    {
+      "term": "pop",
+      "definition": "поп, эстрада"
+    },
+    {
+      "term": "population",
+      "definition": "население, жители, заселение"
+    },
+    {
+      "term": "position",
+      "definition": "позиция, должность"
+    },
+    {
+      "term": "possession",
+      "definition": "владение, обладание, имущество, собственность"
+    },
+    {
+      "term": "possibility",
+      "definition": "возможность"
+    },
+    {
+      "term": "poster",
+      "definition": "постер, афиша"
+    },
+    {
+      "term": "power",
+      "definition": "мощность, право, полномочие, силовой"
+    },
+    {
+      "term": "president",
+      "definition": "президент"
+    },
+    {
+      "term": "printer",
+      "definition": "принтер, устройство для печати"
+    },
+    {
+      "term": "prison",
+      "definition": "тюрьма, тюремный"
+    },
+    {
+      "term": "prize",
+      "definition": "премия, приз, выигрыш, призовой"
+    },
+    {
+      "term": "process",
+      "definition": "процесс"
+    },
+    {
+      "term": "professional",
+      "definition": "профессионал, профессиональный"
+    },
+    {
+      "term": "professor",
+      "definition": "профессор, преподаватель"
+    },
+    {
+      "term": "profile",
+      "definition": "профиль, очертание, контур, рисовать в профиль"
+    },
+    {
+      "term": "program",
+      "definition": "программа (компьютерная)"
+    },
+    {
+      "term": "progress",
+      "definition": "прогресс"
+    },
+    {
+      "term": "promise",
+      "definition": "обещание"
+    },
+    {
+      "term": "pub",
+      "definition": "паб, пивная"
+    },
+    {
+      "term": "public",
+      "definition": "публичный, общественный, публика"
+    },
+    {
+      "term": "purpose",
+      "definition": "цель, назначение, намерение"
+    },
+    {
+      "term": "quality",
+      "definition": "качество, качественный"
+    },
+    {
+      "term": "quantity",
+      "definition": "количество, величина"
+    },
+    {
+      "term": "queen",
+      "definition": "королева"
+    },
+    {
+      "term": "quietly",
+      "definition": "тихо, спокойно, безмятежно"
+    },
+    {
+      "term": "race",
+      "definition": "гонка, бег"
+    },
+    {
+      "term": "railroad",
+      "definition": "железная дорога"
+    },
+    {
+      "term": "railway",
+      "definition": "железная дорога"
+    },
+    {
+      "term": "rate",
+      "definition": "показатель, ставка, курс, темп"
+    },
+    {
+      "term": "rather",
+      "definition": "скорее, вернее, довольно, предпочтительнее, весьма"
+    },
+    {
+      "term": "recent",
+      "definition": "недавний, свежий, последний"
+    },
+    {
+      "term": "recently",
+      "definition": "недавно"
+    },
+    {
+      "term": "reception",
+      "definition": "приём, встреча, стойка регистрации"
+    },
+    {
+      "term": "recipe",
+      "definition": "рецепт"
+    },
+    {
+      "term": "record",
+      "definition": "запись, рекорд, рекордный"
+    },
+    {
+      "term": "recording",
+      "definition": "запись (процесс), учет, занесение"
+    },
+    {
+      "term": "refrigerator",
+      "definition": "холодильник"
+    },
+    {
+      "term": "region",
+      "definition": "регион, область"
+    },
+    {
+      "term": "regular",
+      "definition": "регулярный, обычный, постоянный"
+    },
+    {
+      "term": "relationship",
+      "definition": "отношения"
+    },
+    {
+      "term": "reply",
+      "definition": "ответ"
+    },
+    {
+      "term": "reporter",
+      "definition": "репортер"
+    },
+    {
+      "term": "request",
+      "definition": "просьба, запрос"
+    },
+    {
+      "term": "research",
+      "definition": "исследование"
+    },
+    {
+      "term": "researcher",
+      "definition": "исследователь"
+    },
+    {
+      "term": "response",
+      "definition": "ответ, реакция, отклик, ответное чувство"
+    },
+    {
+      "term": "rest",
+      "definition": "остальное"
+    },
+    {
+      "term": "rest",
+      "definition": "отдых"
+    },
+    {
+      "term": "review",
+      "definition": "обзор, обозрение"
+    },
+    {
+      "term": "ride",
+      "definition": "поездка"
+    },
+    {
+      "term": "ring",
+      "definition": "кольцо"
+    },
+    {
+      "term": "rock",
+      "definition": "скала, камень"
+    },
+    {
+      "term": "rock (music)",
+      "definition": "рок (музыка)"
+    },
+    {
+      "term": "role",
+      "definition": "роль"
+    },
+    {
+      "term": "roof",
+      "definition": "крыша, крыть"
+    },
+    {
+      "term": "round",
+      "definition": "круглый, раунд, тур"
+    },
+    {
+      "term": "route",
+      "definition": "маршрут, путь"
+    },
+    {
+      "term": "rubbish",
+      "definition": "мусор"
+    },
+    {
+      "term": "rude",
+      "definition": "грубый (по характеру, отношению)"
+    },
+    {
+      "term": "run",
+      "definition": "бег, прогон, пробег, ход"
+    },
+    {
+      "term": "runner",
+      "definition": "бегун"
+    },
+    {
+      "term": "running",
+      "definition": "бег, работа, эксплуатация"
+    },
+    {
+      "term": "sadly",
+      "definition": "печально, к сожалению, прискорбно"
+    },
+    {
+      "term": "safe",
+      "definition": "безопасный, безопасно, сейф"
+    },
+    {
+      "term": "sailing",
+      "definition": "мореплавание, парусный спорт"
+    },
+    {
+      "term": "salary",
+      "definition": "жалование, зарплата"
+    },
+    {
+      "term": "sale",
+      "definition": "продажа, распродажа, сбыт"
+    },
+    {
+      "term": "sauce",
+      "definition": "соус"
+    },
+    {
+      "term": "scared",
+      "definition": "напуганный, испуганный"
+    },
+    {
+      "term": "scary",
+      "definition": "пугающий, жуткий, страшный"
+    },
+    {
+      "term": "scene",
+      "definition": "сцена, место действия, картина, эпизод"
+    },
+    {
+      "term": "schedule",
+      "definition": "расписание"
+    },
+    {
+      "term": "score",
+      "definition": "оценка, счет"
+    },
+    {
+      "term": "screen",
+      "definition": "экран, ширма, экранный"
+    },
+    {
+      "term": "search",
+      "definition": "поиск"
+    },
+    {
+      "term": "season",
+      "definition": "время года, сезон"
+    },
+    {
+      "term": "seat",
+      "definition": "сиденье, место"
+    },
+    {
+      "term": "secondly",
+      "definition": "во-вторых, кроме того, к тому же"
+    },
+    {
+      "term": "secret",
+      "definition": "секрет, секретный"
+    },
+    {
+      "term": "secretary",
+      "definition": "секретарь"
+    },
+    {
+      "term": "sense",
+      "definition": "смысл, чувство, значение"
+    },
+    {
+      "term": "separate",
+      "definition": "отдельный"
+    },
+    {
+      "term": "series",
+      "definition": "серия, ряд, цикл, цепь, группа, выпуск"
+    },
+    {
+      "term": "serious",
+      "definition": "серьезный"
+    },
+    {
+      "term": "service",
+      "definition": "обслуживание, услуги, служба, служебный"
+    },
+    {
+      "term": "several",
+      "definition": "несколько, некоторые"
+    },
+    {
+      "term": "shall",
+      "definition": "должен"
+    },
+    {
+      "term": "shape",
+      "definition": "форма, вид, облик"
+    },
+    {
+      "term": "sheet",
+      "definition": "лист, простыня, листовой"
+    },
+    {
+      "term": "ship",
+      "definition": "корабль"
+    },
+    {
+      "term": "shoulder",
+      "definition": "плечо"
+    },
+    {
+      "term": "shout",
+      "definition": "крик"
+    },
+    {
+      "term": "shut",
+      "definition": "закрытый, запертый"
+    },
+    {
+      "term": "side",
+      "definition": "сторона, боковой"
+    },
+    {
+      "term": "sign",
+      "definition": "знак, признак"
+    },
+    {
+      "term": "silver",
+      "definition": "серебро, серебряный"
+    },
+    {
+      "term": "simple",
+      "definition": "простой"
+    },
+    {
+      "term": "since",
+      "definition": "с (такого-то времени и поныне), поскольку, с тех пор как"
+    },
+    {
+      "term": "singing",
+      "definition": "пение"
+    },
+    {
+      "term": "single",
+      "definition": "билет в один конец"
+    },
+    {
+      "term": "single",
+      "definition": "единственный, одинокий, одиночный, холостой, неженатый, незамужняя"
+    },
+    {
+      "term": "sir",
+      "definition": "сэр"
+    },
+    {
+      "term": "site",
+      "definition": "сайт, место, участок"
+    },
+    {
+      "term": "size",
+      "definition": "размер"
+    },
+    {
+      "term": "ski",
+      "definition": "лыжа"
+    },
+    {
+      "term": "skiing",
+      "definition": "катание на лыжах"
+    },
+    {
+      "term": "skin",
+      "definition": "кожа, шкура, кожура"
+    },
+    {
+      "term": "sky",
+      "definition": "небо, небесный"
+    },
+    {
+      "term": "sleep",
+      "definition": "сон"
+    },
+    {
+      "term": "slowly",
+      "definition": "медленно"
+    },
+    {
+      "term": "smartphone",
+      "definition": "смартфон"
+    },
+    {
+      "term": "smell",
+      "definition": "запах, нюх, обоняние"
+    },
+    {
+      "term": "smile",
+      "definition": "улыбка"
+    },
+    {
+      "term": "smoke",
+      "definition": "дым"
+    },
+    {
+      "term": "smoking",
+      "definition": "курение"
+    },
+    {
+      "term": "soap",
+      "definition": "мыло"
+    },
+    {
+      "term": "social",
+      "definition": "общественный, социальный"
+    },
+    {
+      "term": "society",
+      "definition": "общество"
+    },
+    {
+      "term": "sock",
+      "definition": "носок"
+    },
+    {
+      "term": "soft",
+      "definition": "мягкий, нежный"
+    },
+    {
+      "term": "soldier",
+      "definition": "солдат, солдатский"
+    },
+    {
+      "term": "solution",
+      "definition": "решение, разгадка"
+    },
+    {
+      "term": "somewhere",
+      "definition": "где-нибудь, куда-нибудь"
+    },
+    {
+      "term": "sort",
+      "definition": "вид, тип, разновидность"
+    },
+    {
+      "term": "source",
+      "definition": "источник, исходный"
+    },
+    {
+      "term": "speaker",
+      "definition": "оратор, диктор, спикер, динамик"
+    },
+    {
+      "term": "specific",
+      "definition": "конкретный, определенный, специфический"
+    },
+    {
+      "term": "speech",
+      "definition": "речь, речевой"
+    },
+    {
+      "term": "speed",
+      "definition": "скорость, быстрота"
+    },
+    {
+      "term": "spider",
+      "definition": "паук"
+    },
+    {
+      "term": "spoon",
+      "definition": "ложка"
+    },
+    {
+      "term": "square",
+      "definition": "квадрат, квадратный"
+    },
+    {
+      "term": "stage",
+      "definition": "этап, сцена, ступень"
+    },
+    {
+      "term": "stair",
+      "definition": "ступенька"
+    },
+    {
+      "term": "stamp",
+      "definition": "печать, марка, штамп, отметка"
+    },
+    {
+      "term": "start",
+      "definition": "начало, стартовый"
+    },
+    {
+      "term": "state",
+      "definition": "государство, штат, состояние, государственный"
+    },
+    {
+      "term": "stay",
+      "definition": "пребывание"
+    },
+    {
+      "term": "step",
+      "definition": "шаг, мера"
+    },
+    {
+      "term": "stomach",
+      "definition": "желудок"
+    },
+    {
+      "term": "stone",
+      "definition": "камень, каменный"
+    },
+    {
+      "term": "store",
+      "definition": "склад, хранилище, магазин, запас"
+    },
+    {
+      "term": "storm",
+      "definition": "буря, шторм, гроза, штурм"
+    },
+    {
+      "term": "straight",
+      "definition": "прямой, прямо, сразу"
+    },
+    {
+      "term": "strange",
+      "definition": "странный, чужой, незнакомый, странно"
+    },
+    {
+      "term": "strategy",
+      "definition": "стратегия"
+    },
+    {
+      "term": "stress",
+      "definition": "стресс, напряжение"
+    },
+    {
+      "term": "structure",
+      "definition": "структура, конструкция, строение"
+    },
+    {
+      "term": "stupid",
+      "definition": "глупый, тупой"
+    },
+    {
+      "term": "subway",
+      "definition": "метро"
+    },
+    {
+      "term": "successful",
+      "definition": "успешный"
+    },
+    {
+      "term": "such",
+      "definition": "такой"
+    },
+    {
+      "term": "suddenly",
+      "definition": "вдруг, внезапно, скоропостижно"
+    },
+    {
+      "term": "suggestion",
+      "definition": "предложение"
+    },
+    {
+      "term": "suit",
+      "definition": "костюм"
+    },
+    {
+      "term": "support",
+      "definition": "поддержка, опора, подставка"
+    },
+    {
+      "term": "surprise",
+      "definition": "удивление, сюрприз"
+    },
+    {
+      "term": "surprised",
+      "definition": "удивленный"
+    },
+    {
+      "term": "surprising",
+      "definition": "удивительный, вызывающий удивление"
+    },
+    {
+      "term": "survey",
+      "definition": "опрос, обзор, исследование"
+    },
+    {
+      "term": "sweet",
+      "definition": "сладкий, конфета, милый"
+    },
+    {
+      "term": "symbol",
+      "definition": "символ, знак"
+    },
+    {
+      "term": "system",
+      "definition": "система, системный"
+    },
+    {
+      "term": "table",
+      "definition": "таблица"
+    },
+    {
+      "term": "tablet",
+      "definition": "планшетный компьютер"
+    },
+    {
+      "term": "talk",
+      "definition": "разговор"
+    },
+    {
+      "term": "target",
+      "definition": "цель"
+    },
+    {
+      "term": "task",
+      "definition": "задача, задание"
+    },
+    {
+      "term": "taste",
+      "definition": "вкус"
+    },
+    {
+      "term": "teaching",
+      "definition": "учение, преподавание, обучение"
+    },
+    {
+      "term": "technology",
+      "definition": "технология, техника"
+    },
+    {
+      "term": "teenage",
+      "definition": "подростковый"
+    },
+    {
+      "term": "temperature",
+      "definition": "температура"
+    },
+    {
+      "term": "term",
+      "definition": "срок, период, термин, выражение, условие"
+    },
+    {
+      "term": "themselves",
+      "definition": "себя, себе, сами"
+    },
+    {
+      "term": "thick",
+      "definition": "толстый, густой, плотный"
+    },
+    {
+      "term": "thief",
+      "definition": "вор, похититель"
+    },
+    {
+      "term": "thin",
+      "definition": "худой, тонкий"
+    },
+    {
+      "term": "thinking",
+      "definition": "мышление, размышление"
+    },
+    {
+      "term": "thought",
+      "definition": "мысль"
+    },
+    {
+      "term": "tidy",
+      "definition": "опрятный, аккуратный"
+    },
+    {
+      "term": "tie",
+      "definition": "галстук"
+    },
+    {
+      "term": "tip",
+      "definition": "кончик, верхушка"
+    },
+    {
+      "term": "tip",
+      "definition": "чаевые"
+    },
+    {
+      "term": "tip",
+      "definition": "совет"
+    },
+    {
+      "term": "to accept",
+      "definition": "принимать, признавать"
+    },
+    {
+      "term": "to achieve",
+      "definition": "достигать"
+    },
+    {
+      "term": "to act",
+      "definition": "действовать, вести себя, поступать"
+    },
+    {
+      "term": "to advertise",
+      "definition": "рекламировать"
+    },
+    {
+      "term": "to affect",
+      "definition": "воздействовать, волновать, влиять"
+    },
+    {
+      "term": "to allow",
+      "definition": "допускать, позволять"
+    },
+    {
+      "term": "to appear",
+      "definition": "появляться, казаться, оказываться, производить впечатление"
+    },
+    {
+      "term": "to apply",
+      "definition": "подавать заявление, применять, наносить, относиться"
+    },
+    {
+      "term": "to argue",
+      "definition": "спорить, доказывать"
+    },
+    {
+      "term": "to arrange",
+      "definition": "организовывать, устраивать, готовить, договариваться, размещать"
+    },
+    {
+      "term": "to attack",
+      "definition": "атаковать"
+    },
+    {
+      "term": "to attend",
+      "definition": "присутствовать, посещать"
+    },
+    {
+      "term": "to avoid",
+      "definition": "избегать"
+    },
+    {
+      "term": "to beat",
+      "definition": "бить, взбивать, побеждать, опережать"
+    },
+    {
+      "term": "to behave",
+      "definition": "вести себя"
+    },
+    {
+      "term": "to belong",
+      "definition": "принадлежать"
+    },
+    {
+      "term": "to blow",
+      "definition": "дуть"
+    },
+    {
+      "term": "to boil",
+      "definition": "варить"
+    },
+    {
+      "term": "to book",
+      "definition": "бронировать, заказывать"
+    },
+    {
+      "term": "to borrow",
+      "definition": "брать в долг, заимствовать"
+    },
+    {
+      "term": "to brush",
+      "definition": "чистить щёткой"
+    },
+    {
+      "term": "to burn",
+      "definition": "жечь, гореть, обжигать"
+    },
+    {
+      "term": "to camp",
+      "definition": "располагаться лагерем"
+    },
+    {
+      "term": "to care",
+      "definition": "заботиться, ухаживать, беспокоиться"
+    },
+    {
+      "term": "to catch",
+      "definition": "ловить, поймать, подхватить (болезнь)"
+    },
+    {
+      "term": "to cause",
+      "definition": "вызывать, причинять, заставлять"
+    },
+    {
+      "term": "to celebrate",
+      "definition": "праздновать"
+    },
+    {
+      "term": "to chat",
+      "definition": "болтать, чатиться"
+    },
+    {
+      "term": "to collect",
+      "definition": "собирать"
+    },
+    {
+      "term": "to communicate",
+      "definition": "общаться, сообщать, сообщаться, передавать"
+    },
+    {
+      "term": "to compete",
+      "definition": "конкурировать, соревноваться, состязаться"
+    },
+    {
+      "term": "to complain",
+      "definition": "жаловаться"
+    },
+    {
+      "term": "to connect",
+      "definition": "соединять, подключать"
+    },
+    {
+      "term": "to consider",
+      "definition": "рассматривать (вопрос), учитывать, считать"
+    },
+    {
+      "term": "to contain",
+      "definition": "содержать, вмещать"
+    },
+    {
+      "term": "to continue",
+      "definition": "продолжать"
+    },
+    {
+      "term": "to control",
+      "definition": "контролировать, управлять"
+    },
+    {
+      "term": "to copy",
+      "definition": "копировать"
+    },
+    {
+      "term": "to count",
+      "definition": "считать"
+    },
+    {
+      "term": "to cover",
+      "definition": "покрывать, охватывать, защищать"
+    },
+    {
+      "term": "to cross",
+      "definition": "пересекать"
+    },
+    {
+      "term": "to cry",
+      "definition": "плакать, кричать"
+    },
+    {
+      "term": "to deal (with)",
+      "definition": "иметь дело, решать"
+    },
+    {
+      "term": "to depend",
+      "definition": "зависеть, полагаться"
+    },
+    {
+      "term": "to destroy",
+      "definition": "уничтожать, разрушать"
+    },
+    {
+      "term": "to develop",
+      "definition": "разрабатывать, развивать, улучшать"
+    },
+    {
+      "term": "to disagree",
+      "definition": "не соглашаться, противоречить"
+    },
+    {
+      "term": "to disappear",
+      "definition": "исчезать"
+    },
+    {
+      "term": "to discover",
+      "definition": "открывать, раскрывать, обнаруживать"
+    },
+    {
+      "term": "to download",
+      "definition": "загружать, скачать"
+    },
+    {
+      "term": "to dream",
+      "definition": "мечтать, видеть сон"
+    },
+    {
+      "term": "to drop",
+      "definition": "ронять, падать, бросать"
+    },
+    {
+      "term": "to dry",
+      "definition": "сушить, сохнуть"
+    },
+    {
+      "term": "to earn",
+      "definition": "зарабатывать"
+    },
+    {
+      "term": "to employ",
+      "definition": "нанимать, использовать, применять"
+    },
+    {
+      "term": "to enter",
+      "definition": "вводить, входить, вступать"
+    },
+    {
+      "term": "to exist",
+      "definition": "существовать"
+    },
+    {
+      "term": "to expect",
+      "definition": "ожидать"
+    },
+    {
+      "term": "to express",
+      "definition": "выражать"
+    },
+    {
+      "term": "to fail",
+      "definition": "терпеть неудачу"
+    },
+    {
+      "term": "to feed",
+      "definition": "кормить"
+    },
+    {
+      "term": "to fight",
+      "definition": "бороться, драться"
+    },
+    {
+      "term": "to film",
+      "definition": "снимать (видео)"
+    },
+    {
+      "term": "to fish",
+      "definition": "ловить рыбу, рыбачить"
+    },
+    {
+      "term": "to fit",
+      "definition": "соответствовать, подходить"
+    },
+    {
+      "term": "to fix",
+      "definition": "чинить, поправлять, ремонтировать"
+    },
+    {
+      "term": "to fix",
+      "definition": "фиксировать, устанавливать"
+    },
+    {
+      "term": "to focus",
+      "definition": "фокусировать, фокусироваться"
+    },
+    {
+      "term": "to greet",
+      "definition": "приветствовать, поздравлять"
+    },
+    {
+      "term": "to guide",
+      "definition": "вести, направлять"
+    },
+    {
+      "term": "to heat",
+      "definition": "нагревать"
+    },
+    {
+      "term": "to hide",
+      "definition": "прятать, скрывать"
+    },
+    {
+      "term": "to hit",
+      "definition": "ударять, поражать, нападать, нажимать"
+    },
+    {
+      "term": "to hold",
+      "definition": "держать, иметь, вести, удерживать"
+    },
+    {
+      "term": "to hurt",
+      "definition": "повреждать, ранить"
+    },
+    {
+      "term": "to identify",
+      "definition": "идентифицировать, определять"
+    },
+    {
+      "term": "to increase",
+      "definition": "увеличивать, возрастать"
+    },
+    {
+      "term": "to invent",
+      "definition": "изобретать"
+    },
+    {
+      "term": "to invite",
+      "definition": "приглашать"
+    },
+    {
+      "term": "to involve",
+      "definition": "включать, впутывать, связывать, затрагивать"
+    },
+    {
+      "term": "to joke",
+      "definition": "шутить"
+    },
+    {
+      "term": "to jump",
+      "definition": "прыгать, перескакивать"
+    },
+    {
+      "term": "to kill",
+      "definition": "убивать, уничтожать"
+    },
+    {
+      "term": "to knock",
+      "definition": "стучать, ударять"
+    },
+    {
+      "term": "to land",
+      "definition": "сажать, приземляться"
+    },
+    {
+      "term": "to last",
+      "definition": "длиться"
+    },
+    {
+      "term": "to lead",
+      "definition": "вести, руководить, лидировать"
+    },
+    {
+      "term": "to lend",
+      "definition": "давать в долг, одолжить, предоставлять"
+    },
+    {
+      "term": "to lift",
+      "definition": "поднимать, подниматься, подвезти"
+    },
+    {
+      "term": "to light",
+      "definition": "зажигать"
+    },
+    {
+      "term": "to link",
+      "definition": "связывать"
+    },
+    {
+      "term": "to lock",
+      "definition": "запирать, закрывать"
+    },
+    {
+      "term": "to mail",
+      "definition": "отправлять почтой, пересылать"
+    },
+    {
+      "term": "to manage",
+      "definition": "управлять, справляться, осуществлять"
+    },
+    {
+      "term": "to mark",
+      "definition": "отмечать, маркировать"
+    },
+    {
+      "term": "to marry",
+      "definition": "жениться, вступать в брак с"
+    },
+    {
+      "term": "to matter",
+      "definition": "иметь значение"
+    },
+    {
+      "term": "to mention",
+      "definition": "упоминать"
+    },
+    {
+      "term": "to mind",
+      "definition": "возражать, слушаться, обращать внимание"
+    },
+    {
+      "term": "to notice",
+      "definition": "замечать"
+    },
+    {
+      "term": "to offer",
+      "definition": "предлагать"
+    },
+    {
+      "term": "to organize",
+      "definition": "организовать, организоваться, устраивать"
+    },
+    {
+      "term": "to own",
+      "definition": "владеть, обладать"
+    },
+    {
+      "term": "to pack",
+      "definition": "упаковывать, заполнять"
+    },
+    {
+      "term": "to pass",
+      "definition": "передавать, миновать, проходить"
+    },
+    {
+      "term": "to perform",
+      "definition": "исполнять, выполнять, выступать, играть"
+    },
+    {
+      "term": "to photograph",
+      "definition": "фотографировать"
+    },
+    {
+      "term": "to pick",
+      "definition": "выбирать, подбирать, ковырять"
+    },
+    {
+      "term": "to plant",
+      "definition": "сажать растения"
+    },
+    {
+      "term": "to please",
+      "definition": "радовать, угождать"
+    },
+    {
+      "term": "to predict",
+      "definition": "предсказывать"
+    },
+    {
+      "term": "to present",
+      "definition": "представлять, презентовать"
+    },
+    {
+      "term": "to prevent",
+      "definition": "предотвращать, препятствовать, мешать"
+    },
+    {
+      "term": "to print",
+      "definition": "печатать, издавать"
+    },
+    {
+      "term": "to produce",
+      "definition": "производить, создавать"
+    },
+    {
+      "term": "to promise",
+      "definition": "обещать"
+    },
+    {
+      "term": "to pronounce",
+      "definition": "произносить, объявлять, заявлять"
+    },
+    {
+      "term": "to protect",
+      "definition": "защищать, охранять, беречь"
+    },
+    {
+      "term": "to provide",
+      "definition": "предоставлять, обеспечивать, снабжать"
+    },
+    {
+      "term": "to publish",
+      "definition": "публиковать, издавать, выпускать"
+    },
+    {
+      "term": "to pull",
+      "definition": "тянуть, вытаскивать, натягивать"
+    },
+    {
+      "term": "to push",
+      "definition": "толкать, нажимать, давить"
+    },
+    {
+      "term": "to question",
+      "definition": "спрашивать, сомневаться"
+    },
+    {
+      "term": "to race",
+      "definition": "мчаться, бежать, гнать"
+    },
+    {
+      "term": "to raise",
+      "definition": "поднимать, повышать, возводить"
+    },
+    {
+      "term": "to reach",
+      "definition": "достигать, добираться, связываться"
+    },
+    {
+      "term": "to react",
+      "definition": "реагировать"
+    },
+    {
+      "term": "to realize",
+      "definition": "понимать, осознавать, реализовывать"
+    },
+    {
+      "term": "to receive",
+      "definition": "получать, принимать"
+    },
+    {
+      "term": "to recognize",
+      "definition": "признавать, распознавать, осознавать"
+    },
+    {
+      "term": "to recommend",
+      "definition": "рекомендовать, советовать"
+    },
+    {
+      "term": "to record",
+      "definition": "записывать"
+    },
+    {
+      "term": "to recycle",
+      "definition": "перерабатывать, повторно использовать"
+    },
+    {
+      "term": "to reduce",
+      "definition": "уменьшать, снижать, сводить"
+    },
+    {
+      "term": "to refer",
+      "definition": "ссылаться, относиться, обращаться, отсылать"
+    },
+    {
+      "term": "to refuse",
+      "definition": "отклонять, отказываться"
+    },
+    {
+      "term": "to remove",
+      "definition": "удалять, устранять"
+    },
+    {
+      "term": "to repair",
+      "definition": "ремонтировать, чинить, восстанавливать, исправлять"
+    },
+    {
+      "term": "to replace",
+      "definition": "заменять, замещать"
+    },
+    {
+      "term": "to reply",
+      "definition": "отвечать"
+    },
+    {
+      "term": "to report",
+      "definition": "докладывать, объявлять, сообщать, отчитываться"
+    },
+    {
+      "term": "to research",
+      "definition": "исследовать"
+    },
+    {
+      "term": "to respond",
+      "definition": "отвечать, реагировать"
+    },
+    {
+      "term": "to rest",
+      "definition": "отдыхать"
+    },
+    {
+      "term": "to review",
+      "definition": "проверять, рецензировать, повторять"
+    },
+    {
+      "term": "to ring",
+      "definition": "звонить"
+    },
+    {
+      "term": "to rise",
+      "definition": "повышать, подниматься"
+    },
+    {
+      "term": "to sail",
+      "definition": "плавать (под парусами)"
+    },
+    {
+      "term": "to save",
+      "definition": "сохранять, экономить, спасать"
+    },
+    {
+      "term": "to search",
+      "definition": "искать"
+    },
+    {
+      "term": "to seem",
+      "definition": "казаться, мерещиться, чудиться"
+    },
+    {
+      "term": "to serve",
+      "definition": "служить, обслуживать, подавать, сервировать"
+    },
+    {
+      "term": "to shake",
+      "definition": "трясти"
+    },
+    {
+      "term": "to shout",
+      "definition": "кричать"
+    },
+    {
+      "term": "to shut",
+      "definition": "закрывать"
+    },
+    {
+      "term": "to sign",
+      "definition": "подписывать, подавать знак"
+    },
+    {
+      "term": "to ski",
+      "definition": "кататься на лыжах"
+    },
+    {
+      "term": "to smell",
+      "definition": "пахнуть, нюхать"
+    },
+    {
+      "term": "to smile",
+      "definition": "улыбаться"
+    },
+    {
+      "term": "to smoke",
+      "definition": "курить, дымить"
+    },
+    {
+      "term": "to solve",
+      "definition": "решать (проблему)"
+    },
+    {
+      "term": "to star",
+      "definition": "быть звездой, играть главную роль"
+    },
+    {
+      "term": "to steal",
+      "definition": "красть, воровать"
+    },
+    {
+      "term": "to stress",
+      "definition": "подчеркивать"
+    },
+    {
+      "term": "to succeed",
+      "definition": "добиваться успеха, наследовать, сменять"
+    },
+    {
+      "term": "to suggest",
+      "definition": "предлагать, советовать"
+    },
+    {
+      "term": "to support",
+      "definition": "поддерживать, способствовать, болеть за"
+    },
+    {
+      "term": "to suppose",
+      "definition": "полагать, допускать"
+    },
+    {
+      "term": "to surprise",
+      "definition": "удивлять"
+    },
+    {
+      "term": "to taste",
+      "definition": "пробовать на вкус, отведать, иметь вкус"
+    },
+    {
+      "term": "to text",
+      "definition": "писать SMS"
+    },
+    {
+      "term": "to throw",
+      "definition": "кидать, бросать"
+    },
+    {
+      "term": "to tidy",
+      "definition": "убирать, прибирать"
+    },
+    {
+      "term": "to tie",
+      "definition": "завязывать, привязывать"
+    },
+    {
+      "term": "to touch",
+      "definition": "касаться"
+    },
+    {
+      "term": "to train",
+      "definition": "тренироваться, тренировать, обучать, готовить, дрессировать"
+    },
+    {
+      "term": "to wish",
+      "definition": "желать, хотеть"
+    },
+    {
+      "term": "to worry",
+      "definition": "беспокоить, беспокоиться, переживать"
+    },
+    {
+      "term": "tool",
+      "definition": "инструмент, орудие, средство"
+    },
+    {
+      "term": "top",
+      "definition": "верх, верхний, высший"
+    },
+    {
+      "term": "tour",
+      "definition": "тур, поездка, экскурсия, путешествие"
+    },
+    {
+      "term": "tourism",
+      "definition": "туризм"
+    },
+    {
+      "term": "towards",
+      "definition": "к, в направлении, в сторону, по отношению к, навстречу"
+    },
+    {
+      "term": "towel",
+      "definition": "полотенце"
+    },
+    {
+      "term": "tower",
+      "definition": "башня"
+    },
+    {
+      "term": "toy",
+      "definition": "игрушка"
+    },
+    {
+      "term": "track",
+      "definition": "след, дорожка, трасса, железнодорожные пути, рельсы"
+    },
+    {
+      "term": "tradition",
+      "definition": "традиция"
+    },
+    {
+      "term": "traditional",
+      "definition": "традиционный, основанный на обычае"
+    },
+    {
+      "term": "trainer",
+      "definition": "тренер"
+    },
+    {
+      "term": "training",
+      "definition": "тренировка, обучение, подготовка, дрессировка"
+    },
+    {
+      "term": "transport",
+      "definition": "транспорт"
+    },
+    {
+      "term": "traveller",
+      "definition": "путешественник"
+    },
+    {
+      "term": "trouble",
+      "definition": "беда, проблема"
+    },
+    {
+      "term": "truck",
+      "definition": "грузовик"
+    },
+    {
+      "term": "tube",
+      "definition": "метро"
+    },
+    {
+      "term": "twin",
+      "definition": "близнец"
+    },
+    {
+      "term": "typical",
+      "definition": "типичный"
+    },
+    {
+      "term": "underground",
+      "definition": "метро"
+    },
+    {
+      "term": "understanding",
+      "definition": "понимание, взаимопонимание"
+    },
+    {
+      "term": "unfortunately",
+      "definition": "к сожалению, к несчастью"
+    },
+    {
+      "term": "unhappy",
+      "definition": "несчастный, несчастливый, неудачный"
+    },
+    {
+      "term": "uniform",
+      "definition": "униформа, однородный, равномерный, единый"
+    },
+    {
+      "term": "unit",
+      "definition": "блок, единица, элемент, подразделение"
+    },
+    {
+      "term": "united",
+      "definition": "единый, объединенный, соединенный"
+    },
+    {
+      "term": "unusual",
+      "definition": "необычный"
+    },
+    {
+      "term": "use",
+      "definition": "использование, польза"
+    },
+    {
+      "term": "used to (do something)",
+      "definition": "раньше (в прошлом делал, сейчас нет)"
+    },
+    {
+      "term": "user",
+      "definition": "пользователь, потребитель"
+    },
+    {
+      "term": "usual",
+      "definition": "обычно, обычный"
+    },
+    {
+      "term": "valley",
+      "definition": "долина"
+    },
+    {
+      "term": "van",
+      "definition": "фургон, вагон"
+    },
+    {
+      "term": "variety",
+      "definition": "разновидность, сорт, ряд"
+    },
+    {
+      "term": "vehicle",
+      "definition": "автомобиль, средство передвижения"
+    },
+    {
+      "term": "view",
+      "definition": "вид, мнение, точка зрения"
+    },
+    {
+      "term": "virus",
+      "definition": "вирус"
+    },
+    {
+      "term": "voice",
+      "definition": "голос, мнение, голосовой"
+    },
+    {
+      "term": "wait",
+      "definition": "ожидание"
+    },
+    {
+      "term": "war",
+      "definition": "война, военный"
+    },
+    {
+      "term": "wash",
+      "definition": "мытьё, стирка"
+    },
+    {
+      "term": "washing",
+      "definition": "мытьё, стирка, бельё"
+    },
+    {
+      "term": "wave",
+      "definition": "волна, колебание"
+    },
+    {
+      "term": "weak",
+      "definition": "слабый"
+    },
+    {
+      "term": "web",
+      "definition": "сеть, паутина"
+    },
+    {
+      "term": "wedding",
+      "definition": "свадьба, свадебный"
+    },
+    {
+      "term": "weight",
+      "definition": "вес"
+    },
+    {
+      "term": "wet",
+      "definition": "мокрый"
+    },
+    {
+      "term": "wheel",
+      "definition": "колесо"
+    },
+    {
+      "term": "while",
+      "definition": "пока"
+    },
+    {
+      "term": "whole",
+      "definition": "целое, целый"
+    },
+    {
+      "term": "whose",
+      "definition": "чей, чья, чье, чьи"
+    },
+    {
+      "term": "wide",
+      "definition": "широкий, просторный"
+    },
+    {
+      "term": "wild",
+      "definition": "дикий"
+    },
+    {
+      "term": "wind",
+      "definition": "вращение, виток, оборот"
+    },
+    {
+      "term": "wind",
+      "definition": "ветер"
+    },
+    {
+      "term": "winner",
+      "definition": "победитель"
+    },
+    {
+      "term": "wish",
+      "definition": "желание"
+    },
+    {
+      "term": "wood",
+      "definition": "древесина"
+    },
+    {
+      "term": "wooden",
+      "definition": "деревянный"
+    },
+    {
+      "term": "working",
+      "definition": "рабочий, действующий"
+    },
+    {
+      "term": "worried",
+      "definition": "обеспокоенный, тревожный"
+    },
+    {
+      "term": "worse",
+      "definition": "хуже, худший"
+    },
+    {
+      "term": "worst",
+      "definition": "наихудший, худший, злейший"
+    },
+    {
+      "term": "wow",
+      "definition": "вау, ой"
+    },
+    {
+      "term": "yet",
+      "definition": "еще (не), пока, все еще"
+    },
+    {
+      "term": "yours",
+      "definition": "твой, твоё, твои, ваш, ваше, ваши"
+    },
+    {
+      "term": "zero",
+      "definition": "ноль"
+    }
+  ]
+}

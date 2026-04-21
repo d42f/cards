@@ -1,0 +1,5681 @@
+{
+  "title": "Oxford 5000 — C1",
+  "words": [
+    {
+      "term": "abortion",
+      "definition": "прерывание, аборт"
+    },
+    {
+      "term": "absence",
+      "definition": "отсутствие"
+    },
+    {
+      "term": "absent",
+      "definition": "отсутствующий"
+    },
+    {
+      "term": "absurd",
+      "definition": "абсурдный, нелепый, глупый, смехотворный"
+    },
+    {
+      "term": "abundance",
+      "definition": "обилие, изобилие"
+    },
+    {
+      "term": "abuse",
+      "definition": "злоупотребление, оскорбление"
+    },
+    {
+      "term": "academy",
+      "definition": "академия"
+    },
+    {
+      "term": "acceptance",
+      "definition": "принятие, признание"
+    },
+    {
+      "term": "accessible",
+      "definition": "доступный, достижимый"
+    },
+    {
+      "term": "accomplishment",
+      "definition": "достижение, выполнение"
+    },
+    {
+      "term": "accordance",
+      "definition": "согласие, соответствие"
+    },
+    {
+      "term": "accordingly",
+      "definition": "соответственно, в соответствии, таким образом, исходя из этого, следовательно"
+    },
+    {
+      "term": "accountability",
+      "definition": "ответственность, подотчетность"
+    },
+    {
+      "term": "accountable",
+      "definition": "подотчетный, ответственный"
+    },
+    {
+      "term": "accumulation",
+      "definition": "накопление, аккумуляция"
+    },
+    {
+      "term": "accusation",
+      "definition": "обвинение"
+    },
+    {
+      "term": "accused",
+      "definition": "обвиняемый, подсудимый"
+    },
+    {
+      "term": "acid",
+      "definition": "кислотный, кислый"
+    },
+    {
+      "term": "acquisition",
+      "definition": "приобретение, сбор, овладение"
+    },
+    {
+      "term": "acre",
+      "definition": "акр"
+    },
+    {
+      "term": "activation",
+      "definition": "активация"
+    },
+    {
+      "term": "activist",
+      "definition": "активист"
+    },
+    {
+      "term": "acute",
+      "definition": "острый, сильный, резкий, пронзительный"
+    },
+    {
+      "term": "adaptation",
+      "definition": "адаптация, привыкание, приспособление"
+    },
+    {
+      "term": "adjacent",
+      "definition": "примыкающий, смежный"
+    },
+    {
+      "term": "adjustment",
+      "definition": "регулировка, настройка, установка, приспособление"
+    },
+    {
+      "term": "administrative",
+      "definition": "административный"
+    },
+    {
+      "term": "administrator",
+      "definition": "администратор"
+    },
+    {
+      "term": "admission",
+      "definition": "прием, принятие, допущение"
+    },
+    {
+      "term": "adolescent",
+      "definition": "подросток"
+    },
+    {
+      "term": "adoption",
+      "definition": "принятие, усыновление, удочерение"
+    },
+    {
+      "term": "adverse",
+      "definition": "неблагоприятный, враждебный, вредный"
+    },
+    {
+      "term": "advocate",
+      "definition": "адвокат, защитник"
+    },
+    {
+      "term": "aesthetic",
+      "definition": "эстетический"
+    },
+    {
+      "term": "affection",
+      "definition": "привязанность, любовь"
+    },
+    {
+      "term": "aftermath",
+      "definition": "последствия"
+    },
+    {
+      "term": "aggression",
+      "definition": "агрессия"
+    },
+    {
+      "term": "agricultural",
+      "definition": "сельскохозяйственный, земледельческий"
+    },
+    {
+      "term": "aide",
+      "definition": "помощник, адъютант"
+    },
+    {
+      "term": "albeit",
+      "definition": "хотя"
+    },
+    {
+      "term": "alert",
+      "definition": "тревога, предупреждение, бдительный, настороженный"
+    },
+    {
+      "term": "alignment",
+      "definition": "выравнивание"
+    },
+    {
+      "term": "alike",
+      "definition": "похожий, подобный, одинаковый, подобно, похоже"
+    },
+    {
+      "term": "allegation",
+      "definition": "утверждение, заявление"
+    },
+    {
+      "term": "allegedly",
+      "definition": "якобы, будто (бы), по утверждению, предположительно"
+    },
+    {
+      "term": "alliance",
+      "definition": "союз, альянс, объединение"
+    },
+    {
+      "term": "allocation",
+      "definition": "распределение, размещение"
+    },
+    {
+      "term": "allowance",
+      "definition": "допуск, допущение, припуск"
+    },
+    {
+      "term": "allowance",
+      "definition": "карманные деньги, пособие, командировочные"
+    },
+    {
+      "term": "ally",
+      "definition": "союзник, помощник"
+    },
+    {
+      "term": "aluminium",
+      "definition": "алюминий"
+    },
+    {
+      "term": "aluminum",
+      "definition": "алюминий"
+    },
+    {
+      "term": "amateur",
+      "definition": "любитель, дилетант, любительский"
+    },
+    {
+      "term": "ambassador",
+      "definition": "посол"
+    },
+    {
+      "term": "amendment",
+      "definition": "поправка, изменение"
+    },
+    {
+      "term": "amid",
+      "definition": "среди, между"
+    },
+    {
+      "term": "analogy",
+      "definition": "аналогия"
+    },
+    {
+      "term": "anchor",
+      "definition": "якорь"
+    },
+    {
+      "term": "angel",
+      "definition": "ангел"
+    },
+    {
+      "term": "anonymous",
+      "definition": "анонимный"
+    },
+    {
+      "term": "apparatus",
+      "definition": "аппарат"
+    },
+    {
+      "term": "appealing",
+      "definition": "обаятельный, привлекательный"
+    },
+    {
+      "term": "appetite",
+      "definition": "аппетит"
+    },
+    {
+      "term": "applicable",
+      "definition": "применимый"
+    },
+    {
+      "term": "appreciation",
+      "definition": "признательность, оценка, понимание"
+    },
+    {
+      "term": "arbitrary",
+      "definition": "произвольный, случайный"
+    },
+    {
+      "term": "architectural",
+      "definition": "архитектурный"
+    },
+    {
+      "term": "archive",
+      "definition": "архив"
+    },
+    {
+      "term": "arena",
+      "definition": "арена"
+    },
+    {
+      "term": "arguably",
+      "definition": "пожалуй, возможно, вероятно"
+    },
+    {
+      "term": "array",
+      "definition": "массив, множество"
+    },
+    {
+      "term": "ash",
+      "definition": "пепел, зола, прах"
+    },
+    {
+      "term": "aspiration",
+      "definition": "стремление"
+    },
+    {
+      "term": "assassination",
+      "definition": "убийство (важного человека или политическое)"
+    },
+    {
+      "term": "assault",
+      "definition": "нападение, штурм"
+    },
+    {
+      "term": "assembly",
+      "definition": "сборка, монтаж"
+    },
+    {
+      "term": "assembly",
+      "definition": "ассамблея"
+    },
+    {
+      "term": "assertion",
+      "definition": "утверждение, заявление"
+    },
+    {
+      "term": "assurance",
+      "definition": "уверенность, заверение, гарантия, обещание"
+    },
+    {
+      "term": "asylum",
+      "definition": "убежище, приют, психиатрическая больница"
+    },
+    {
+      "term": "atrocity",
+      "definition": "злодеяние, зверство, жестокость"
+    },
+    {
+      "term": "attendance",
+      "definition": "посещаемость, посещение, присутствие"
+    },
+    {
+      "term": "attribute",
+      "definition": "атрибут, признак"
+    },
+    {
+      "term": "audit",
+      "definition": "аудит, ревизия, проверка"
+    },
+    {
+      "term": "authentic",
+      "definition": "подлинный, аутентичный"
+    },
+    {
+      "term": "auto",
+      "definition": "авто"
+    },
+    {
+      "term": "autonomy",
+      "definition": "автономия"
+    },
+    {
+      "term": "availability",
+      "definition": "доступность, наличие"
+    },
+    {
+      "term": "backdrop",
+      "definition": "фон, задний план, кулиса"
+    },
+    {
+      "term": "backing",
+      "definition": "поддержка, подкладка"
+    },
+    {
+      "term": "backup",
+      "definition": "резервная копия"
+    },
+    {
+      "term": "bail",
+      "definition": "залог, порука, поручительство"
+    },
+    {
+      "term": "ballot",
+      "definition": "(избирательный) бюллетень, голосование"
+    },
+    {
+      "term": "banner",
+      "definition": "баннер, знамя, стяг"
+    },
+    {
+      "term": "bare",
+      "definition": "голый"
+    },
+    {
+      "term": "barrel",
+      "definition": "бочка, баррель"
+    },
+    {
+      "term": "bass",
+      "definition": "бас, контрабас"
+    },
+    {
+      "term": "battlefield",
+      "definition": "поле боя"
+    },
+    {
+      "term": "bay",
+      "definition": "бухта, залив"
+    },
+    {
+      "term": "beam",
+      "definition": "луч"
+    },
+    {
+      "term": "beam",
+      "definition": "балка, брус"
+    },
+    {
+      "term": "beast",
+      "definition": "зверь, животное, чудовище, скотина, тварь"
+    },
+    {
+      "term": "beloved",
+      "definition": "любимый"
+    },
+    {
+      "term": "bench",
+      "definition": "скамейка"
+    },
+    {
+      "term": "benchmark",
+      "definition": "ориентир, отметка уровня"
+    },
+    {
+      "term": "beneath",
+      "definition": "под"
+    },
+    {
+      "term": "beneficiary",
+      "definition": "бенефициар"
+    },
+    {
+      "term": "biography",
+      "definition": "биография"
+    },
+    {
+      "term": "bishop",
+      "definition": "епископ"
+    },
+    {
+      "term": "bizarre",
+      "definition": "странный, причудливый"
+    },
+    {
+      "term": "blade",
+      "definition": "лезвие"
+    },
+    {
+      "term": "blast",
+      "definition": "взрыв, порыв, поток, ударная волна, громкий звук"
+    },
+    {
+      "term": "blend",
+      "definition": "смесь"
+    },
+    {
+      "term": "blessing",
+      "definition": "благословение"
+    },
+    {
+      "term": "bonus",
+      "definition": "бонус, поощрение"
+    },
+    {
+      "term": "boom",
+      "definition": "бум, грохот, подъем"
+    },
+    {
+      "term": "boundary",
+      "definition": "граница, пограничный"
+    },
+    {
+      "term": "bow",
+      "definition": "поклон"
+    },
+    {
+      "term": "bow",
+      "definition": "лук"
+    },
+    {
+      "term": "breach",
+      "definition": "брешь, пролом, разрыв, нарушение"
+    },
+    {
+      "term": "breakdown",
+      "definition": "поломка, авария"
+    },
+    {
+      "term": "breakthrough",
+      "definition": "прорыв"
+    },
+    {
+      "term": "breed",
+      "definition": "порода, поколение, потомство"
+    },
+    {
+      "term": "broadband",
+      "definition": "широкополосный доступ, широкополосная связь"
+    },
+    {
+      "term": "browser",
+      "definition": "браузер"
+    },
+    {
+      "term": "brutal",
+      "definition": "жестокий, зверский"
+    },
+    {
+      "term": "buck",
+      "definition": "самец (кролика или оленя)"
+    },
+    {
+      "term": "buck",
+      "definition": "бакс, доллар"
+    },
+    {
+      "term": "buddy",
+      "definition": "приятель"
+    },
+    {
+      "term": "buffer",
+      "definition": "буфер"
+    },
+    {
+      "term": "bulk",
+      "definition": "масса, объём, количество"
+    },
+    {
+      "term": "burden",
+      "definition": "бремя, ноша"
+    },
+    {
+      "term": "bureaucracy",
+      "definition": "бюрократия"
+    },
+    {
+      "term": "burial",
+      "definition": "захоронение"
+    },
+    {
+      "term": "cabinet",
+      "definition": "шкаф, шкафчик"
+    },
+    {
+      "term": "calculation",
+      "definition": "расчёт, вычисление, обдумывание"
+    },
+    {
+      "term": "canvas",
+      "definition": "холст, парусина"
+    },
+    {
+      "term": "capability",
+      "definition": "возможность, способность"
+    },
+    {
+      "term": "capitalism",
+      "definition": "капитализм"
+    },
+    {
+      "term": "capitalist",
+      "definition": "капиталистический"
+    },
+    {
+      "term": "cargo",
+      "definition": "груз"
+    },
+    {
+      "term": "carriage",
+      "definition": "карета, повозка, экипаж"
+    },
+    {
+      "term": "carriage",
+      "definition": "перевозка, доставка"
+    },
+    {
+      "term": "casino",
+      "definition": "казино"
+    },
+    {
+      "term": "casualty",
+      "definition": "несчастный случай, жертва, потери (военные)"
+    },
+    {
+      "term": "catalogue",
+      "definition": "каталог"
+    },
+    {
+      "term": "cattle",
+      "definition": "крупный рогатый скот"
+    },
+    {
+      "term": "caution",
+      "definition": "осторожность, предостережение, предосторожность, осмотрительность"
+    },
+    {
+      "term": "cautious",
+      "definition": "осторожный, предусмотрительный"
+    },
+    {
+      "term": "cemetery",
+      "definition": "кладбище"
+    },
+    {
+      "term": "chamber",
+      "definition": "палата, камера"
+    },
+    {
+      "term": "chaos",
+      "definition": "хаос, бардак, беспорядок"
+    },
+    {
+      "term": "charm",
+      "definition": "очарование, шарм, обаяние"
+    },
+    {
+      "term": "charter",
+      "definition": "устав, хартия"
+    },
+    {
+      "term": "charter",
+      "definition": "чартер, договор фрахтования"
+    },
+    {
+      "term": "chronic",
+      "definition": "хронический"
+    },
+    {
+      "term": "chunk",
+      "definition": "кусок"
+    },
+    {
+      "term": "circulation",
+      "definition": "циркуляция"
+    },
+    {
+      "term": "circulation",
+      "definition": "тираж"
+    },
+    {
+      "term": "citizenship",
+      "definition": "гражданство"
+    },
+    {
+      "term": "civic",
+      "definition": "гражданский"
+    },
+    {
+      "term": "civilian",
+      "definition": "гражданский, штатский, гражданское лицо"
+    },
+    {
+      "term": "clarity",
+      "definition": "ясность"
+    },
+    {
+      "term": "clash",
+      "definition": "столкновение, конфликт"
+    },
+    {
+      "term": "classification",
+      "definition": "классификация"
+    },
+    {
+      "term": "clinical",
+      "definition": "клинический"
+    },
+    {
+      "term": "closure",
+      "definition": "закрытие, завершение, прекращение"
+    },
+    {
+      "term": "cluster",
+      "definition": "группа, скопление, кластер"
+    },
+    {
+      "term": "coalition",
+      "definition": "коалиция"
+    },
+    {
+      "term": "coastal",
+      "definition": "прибрежный"
+    },
+    {
+      "term": "cocktail",
+      "definition": "коктейль"
+    },
+    {
+      "term": "cognitive",
+      "definition": "когнитивный, познавательный"
+    },
+    {
+      "term": "collaboration",
+      "definition": "сотрудничество, совместная работа"
+    },
+    {
+      "term": "collaboration",
+      "definition": "(государственная) измена, предательство"
+    },
+    {
+      "term": "collective",
+      "definition": "коллективный, совместный"
+    },
+    {
+      "term": "collision",
+      "definition": "столкновение, коллизия, противоречие"
+    },
+    {
+      "term": "colonial",
+      "definition": "колониальный"
+    },
+    {
+      "term": "columnist",
+      "definition": "обозреватель, журналист, корреспондент, колумнист"
+    },
+    {
+      "term": "combat",
+      "definition": "битва, сражение"
+    },
+    {
+      "term": "commentary",
+      "definition": "комментарий (о событии или ситуации)"
+    },
+    {
+      "term": "commentator",
+      "definition": "комментатор"
+    },
+    {
+      "term": "commerce",
+      "definition": "коммерция, торговля"
+    },
+    {
+      "term": "commissioner",
+      "definition": "комиссар, член комиссии"
+    },
+    {
+      "term": "commodity",
+      "definition": "товар, сырье, продукт"
+    },
+    {
+      "term": "communist",
+      "definition": "коммунистический"
+    },
+    {
+      "term": "companion",
+      "definition": "компаньон, товарищ, спутник"
+    },
+    {
+      "term": "comparable",
+      "definition": "сравнимый, сопоставимый"
+    },
+    {
+      "term": "compassion",
+      "definition": "сострадание, сочувствие"
+    },
+    {
+      "term": "compelling",
+      "definition": "неотразимый"
+    },
+    {
+      "term": "compensation",
+      "definition": "компенсация, возмещение"
+    },
+    {
+      "term": "competence",
+      "definition": "компетенция, компетентность, способность, умение"
+    },
+    {
+      "term": "competent",
+      "definition": "компетентный, знающий, умелый"
+    },
+    {
+      "term": "complexity",
+      "definition": "сложность"
+    },
+    {
+      "term": "compliance",
+      "definition": "согласие, податливость, уступчивость"
+    },
+    {
+      "term": "complication",
+      "definition": "осложнение, сложность, запутанность"
+    },
+    {
+      "term": "composition",
+      "definition": "композиция, сочинение"
+    },
+    {
+      "term": "compromise",
+      "definition": "компромисс"
+    },
+    {
+      "term": "conception",
+      "definition": "концепция, понятие, понимание, зарождение, зачатие"
+    },
+    {
+      "term": "concession",
+      "definition": "уступка, скидка, льгота, концессия"
+    },
+    {
+      "term": "confession",
+      "definition": "признание, исповедь, конфессия"
+    },
+    {
+      "term": "configuration",
+      "definition": "конфигурация"
+    },
+    {
+      "term": "confirmation",
+      "definition": "подтверждение"
+    },
+    {
+      "term": "confrontation",
+      "definition": "конфронтация, конфликт, столкновение, противоречие"
+    },
+    {
+      "term": "congregation",
+      "definition": "община, прихожане"
+    },
+    {
+      "term": "congressional",
+      "definition": "относящийся к конгрессу"
+    },
+    {
+      "term": "conscience",
+      "definition": "совесть"
+    },
+    {
+      "term": "consciousness",
+      "definition": "сознательность, сознание"
+    },
+    {
+      "term": "consecutive",
+      "definition": "последовательный"
+    },
+    {
+      "term": "consensus",
+      "definition": "консенсус, согласие"
+    },
+    {
+      "term": "consent",
+      "definition": "согласие"
+    },
+    {
+      "term": "consistency",
+      "definition": "логичность, последовательность, согласованность, связность"
+    },
+    {
+      "term": "constituency",
+      "definition": "избирательный округ"
+    },
+    {
+      "term": "constitution",
+      "definition": "конституция"
+    },
+    {
+      "term": "constitutional",
+      "definition": "конституционный"
+    },
+    {
+      "term": "constraint",
+      "definition": "ограничение, скованность, принуждение, стеснение"
+    },
+    {
+      "term": "consultation",
+      "definition": "консультация"
+    },
+    {
+      "term": "contempt",
+      "definition": "презрение, неуважение"
+    },
+    {
+      "term": "contender",
+      "definition": "соперник"
+    },
+    {
+      "term": "content",
+      "definition": "довольный"
+    },
+    {
+      "term": "contention",
+      "definition": "раздор, спор, борьба"
+    },
+    {
+      "term": "continually",
+      "definition": "постоянно, беспрестанно"
+    },
+    {
+      "term": "contractor",
+      "definition": "подрядчик, контрактор"
+    },
+    {
+      "term": "contradiction",
+      "definition": "противоречие"
+    },
+    {
+      "term": "contrary",
+      "definition": "противоположность, противоположный, вопреки, вразрез, против, наоборот"
+    },
+    {
+      "term": "contributor",
+      "definition": "жертвователь, спонсор, соучастник, автор (статьи в журнале и т.п.)"
+    },
+    {
+      "term": "conversion",
+      "definition": "превращение, конверсия, преобразование"
+    },
+    {
+      "term": "conviction",
+      "definition": "обвинение, признание виновным"
+    },
+    {
+      "term": "conviction",
+      "definition": "убеждение, убежденность, уверенность"
+    },
+    {
+      "term": "cooperative",
+      "definition": "совместный, кооперативный"
+    },
+    {
+      "term": "coordination",
+      "definition": "координация"
+    },
+    {
+      "term": "coordinator",
+      "definition": "координатор"
+    },
+    {
+      "term": "cop",
+      "definition": "полицейский, коп"
+    },
+    {
+      "term": "copper",
+      "definition": "медь"
+    },
+    {
+      "term": "copyright",
+      "definition": "авторское право, издательское право"
+    },
+    {
+      "term": "correction",
+      "definition": "исправление, правка, коррекция"
+    },
+    {
+      "term": "correlation",
+      "definition": "корреляция"
+    },
+    {
+      "term": "correspondence",
+      "definition": "соответствие, связь, отношение"
+    },
+    {
+      "term": "correspondence",
+      "definition": "переписка"
+    },
+    {
+      "term": "correspondent",
+      "definition": "корреспондент"
+    },
+    {
+      "term": "corresponding",
+      "definition": "соответствующий"
+    },
+    {
+      "term": "corrupt",
+      "definition": "испорченный, коррумпированный"
+    },
+    {
+      "term": "corruption",
+      "definition": "коррупция, развращение, искажение, порча, разложение"
+    },
+    {
+      "term": "costly",
+      "definition": "дорогой, дорогостоящий"
+    },
+    {
+      "term": "councillor",
+      "definition": "советник (член городского или местного совета)"
+    },
+    {
+      "term": "counselling",
+      "definition": "консультирование"
+    },
+    {
+      "term": "counsellor",
+      "definition": "советник, консультант"
+    },
+    {
+      "term": "counterpart",
+      "definition": "двойник, копия, дубликат"
+    },
+    {
+      "term": "countless",
+      "definition": "бесчисленный"
+    },
+    {
+      "term": "coup",
+      "definition": "переворот, удачный ход"
+    },
+    {
+      "term": "courtesy",
+      "definition": "вежливость, этикет, учтивость"
+    },
+    {
+      "term": "creator",
+      "definition": "создатель"
+    },
+    {
+      "term": "credibility",
+      "definition": "авторитет, доверие, правдоподобие, вероятность"
+    },
+    {
+      "term": "credible",
+      "definition": "правдоподобный, заслуживающий доверия, вероятный"
+    },
+    {
+      "term": "critique",
+      "definition": "критика"
+    },
+    {
+      "term": "crown",
+      "definition": "корона"
+    },
+    {
+      "term": "crude",
+      "definition": "сырой, черновой, предварительный, грубый"
+    },
+    {
+      "term": "crystal",
+      "definition": "кристалл"
+    },
+    {
+      "term": "cult",
+      "definition": "культ, культовый"
+    },
+    {
+      "term": "curiosity",
+      "definition": "любопытство"
+    },
+    {
+      "term": "custody",
+      "definition": "арест, опека, хранение, содержание под стражей"
+    },
+    {
+      "term": "cutting",
+      "definition": "резка"
+    },
+    {
+      "term": "cynical",
+      "definition": "циничный"
+    },
+    {
+      "term": "dam",
+      "definition": "плотина, дамба"
+    },
+    {
+      "term": "damaging",
+      "definition": "разрушительный"
+    },
+    {
+      "term": "dawn",
+      "definition": "рассвет"
+    },
+    {
+      "term": "debris",
+      "definition": "мусор, обломки, осколки"
+    },
+    {
+      "term": "debut",
+      "definition": "дебют"
+    },
+    {
+      "term": "decision-making",
+      "definition": "принятие решений"
+    },
+    {
+      "term": "decisive",
+      "definition": "решительный"
+    },
+    {
+      "term": "declaration",
+      "definition": "декларация, объявление, заявление"
+    },
+    {
+      "term": "dedicated",
+      "definition": "преданный, убеждённый"
+    },
+    {
+      "term": "dedication",
+      "definition": "преданность, посвящение, самоотверженность"
+    },
+    {
+      "term": "deed",
+      "definition": "дело, поступок"
+    },
+    {
+      "term": "default",
+      "definition": "невыполнение обязательств, несоблюдение, неисполнение, неявка"
+    },
+    {
+      "term": "defect",
+      "definition": "дефект"
+    },
+    {
+      "term": "defensive",
+      "definition": "оборонительный"
+    },
+    {
+      "term": "deficiency",
+      "definition": "дефицит, недостаток, нехватка, неполноценность"
+    },
+    {
+      "term": "delegate",
+      "definition": "делегат, представитель"
+    },
+    {
+      "term": "delegation",
+      "definition": "делегация"
+    },
+    {
+      "term": "delicate",
+      "definition": "деликатный, тонкий, нежный, хрупкий"
+    },
+    {
+      "term": "demon",
+      "definition": "демон"
+    },
+    {
+      "term": "denial",
+      "definition": "отрицание, отказ, отклонение, отречение"
+    },
+    {
+      "term": "dense",
+      "definition": "плотный, густой"
+    },
+    {
+      "term": "density",
+      "definition": "плотность, густота"
+    },
+    {
+      "term": "dependence",
+      "definition": "зависимость"
+    },
+    {
+      "term": "deployment",
+      "definition": "развертывание, размещение, дислокация"
+    },
+    {
+      "term": "deputy",
+      "definition": "депутат, представитель"
+    },
+    {
+      "term": "descent",
+      "definition": "спуск"
+    },
+    {
+      "term": "desirable",
+      "definition": "желательный, привлекательный, желаемый"
+    },
+    {
+      "term": "desktop",
+      "definition": "рабочий стол"
+    },
+    {
+      "term": "destructive",
+      "definition": "разрушительный, деструктивный"
+    },
+    {
+      "term": "detection",
+      "definition": "обнаружение, выделение, определение"
+    },
+    {
+      "term": "detention",
+      "definition": "задержание"
+    },
+    {
+      "term": "devil",
+      "definition": "дьявол, чёрт"
+    },
+    {
+      "term": "diagnosis",
+      "definition": "диагноз"
+    },
+    {
+      "term": "dictator",
+      "definition": "диктатор"
+    },
+    {
+      "term": "dignity",
+      "definition": "достоинство, благородство, титул, сан"
+    },
+    {
+      "term": "dilemma",
+      "definition": "дилемма"
+    },
+    {
+      "term": "dimension",
+      "definition": "измерение, размерность, размер"
+    },
+    {
+      "term": "diplomat",
+      "definition": "дипломат"
+    },
+    {
+      "term": "diplomatic",
+      "definition": "дипломатический"
+    },
+    {
+      "term": "directory",
+      "definition": "каталог, директория"
+    },
+    {
+      "term": "disastrous",
+      "definition": "катастрофический, бедственный, гибельный"
+    },
+    {
+      "term": "disclosure",
+      "definition": "раскрытие, обнаружение, разоблачение"
+    },
+    {
+      "term": "discourse",
+      "definition": "(серьёзный) разговор, речь, беседа"
+    },
+    {
+      "term": "discretion",
+      "definition": "благоразумие, усмотрение, осмотрительность"
+    },
+    {
+      "term": "discrimination",
+      "definition": "дискриминация"
+    },
+    {
+      "term": "dismissal",
+      "definition": "увольнение"
+    },
+    {
+      "term": "disposal",
+      "definition": "утилизация, распоряжение, избавление"
+    },
+    {
+      "term": "dispute",
+      "definition": "спор, конфликт, диспут, полемика"
+    },
+    {
+      "term": "disruption",
+      "definition": "нарушение, разрушение, перерыв, помеха, сбой"
+    },
+    {
+      "term": "distinction",
+      "definition": "различие, отличие, разграничение, распознавание"
+    },
+    {
+      "term": "distinctive",
+      "definition": "отличительный"
+    },
+    {
+      "term": "distress",
+      "definition": "бедствие, горе, страдание"
+    },
+    {
+      "term": "disturbing",
+      "definition": "беспокоящий, волнующий, тревожный"
+    },
+    {
+      "term": "divine",
+      "definition": "божественный"
+    },
+    {
+      "term": "doctrine",
+      "definition": "доктрина"
+    },
+    {
+      "term": "documentation",
+      "definition": "документация"
+    },
+    {
+      "term": "domain",
+      "definition": "область, сфера"
+    },
+    {
+      "term": "dominance",
+      "definition": "господство, преобладание"
+    },
+    {
+      "term": "donor",
+      "definition": "донор"
+    },
+    {
+      "term": "dose",
+      "definition": "доза"
+    },
+    {
+      "term": "driving",
+      "definition": "мощный, сильный, бурный, движущий, ведущий"
+    },
+    {
+      "term": "dual",
+      "definition": "двойной, двойственный"
+    },
+    {
+      "term": "dumb",
+      "definition": "тупой, глупый"
+    },
+    {
+      "term": "duo",
+      "definition": "дуэт"
+    },
+    {
+      "term": "eager",
+      "definition": "сильно желающий, нетерпеливый"
+    },
+    {
+      "term": "earnings",
+      "definition": "доход, заработок"
+    },
+    {
+      "term": "ease",
+      "definition": "лёгкость, простота"
+    },
+    {
+      "term": "echo",
+      "definition": "эхо"
+    },
+    {
+      "term": "ecological",
+      "definition": "экологический"
+    },
+    {
+      "term": "educator",
+      "definition": "педагог"
+    },
+    {
+      "term": "effectiveness",
+      "definition": "эффективность, действенность"
+    },
+    {
+      "term": "efficiency",
+      "definition": "эффективность"
+    },
+    {
+      "term": "ego",
+      "definition": "эго"
+    },
+    {
+      "term": "elaborate",
+      "definition": "продуманный, разработанный, сложный"
+    },
+    {
+      "term": "electoral",
+      "definition": "избирательный"
+    },
+    {
+      "term": "eligible",
+      "definition": "подходящий, желательный, имеющий право"
+    },
+    {
+      "term": "elite",
+      "definition": "элита"
+    },
+    {
+      "term": "embarrassment",
+      "definition": "смущение, затруднение, замешательство"
+    },
+    {
+      "term": "embassy",
+      "definition": "посольство"
+    },
+    {
+      "term": "emergence",
+      "definition": "появление, возникновение"
+    },
+    {
+      "term": "empirical",
+      "definition": "эмпирический"
+    },
+    {
+      "term": "encouragement",
+      "definition": "поощрение, ободрение, одобрение"
+    },
+    {
+      "term": "encouraging",
+      "definition": "обнадеживающий, ободрительный, ободряющий"
+    },
+    {
+      "term": "endeavour",
+      "definition": "стремление, усилие, старание"
+    },
+    {
+      "term": "endless",
+      "definition": "бесконечный"
+    },
+    {
+      "term": "endorsement",
+      "definition": "одобрение"
+    },
+    {
+      "term": "enforcement",
+      "definition": "осуществление, принуждение, принудительное осуществление"
+    },
+    {
+      "term": "engagement",
+      "definition": "помолвка"
+    },
+    {
+      "term": "engaging",
+      "definition": "привлекательный, обаятельный, очаровательный"
+    },
+    {
+      "term": "enterprise",
+      "definition": "предприятие"
+    },
+    {
+      "term": "enthusiast",
+      "definition": "энтузиаст"
+    },
+    {
+      "term": "entity",
+      "definition": "сущность, объект, организация"
+    },
+    {
+      "term": "epidemic",
+      "definition": "эпидемия"
+    },
+    {
+      "term": "equality",
+      "definition": "равенство"
+    },
+    {
+      "term": "equation",
+      "definition": "формула, уравнение, равенство"
+    },
+    {
+      "term": "essence",
+      "definition": "сущность, эссенция"
+    },
+    {
+      "term": "establishment",
+      "definition": "создание, установление, учреждение"
+    },
+    {
+      "term": "eternal",
+      "definition": "вечный, неизменный"
+    },
+    {
+      "term": "evolutionary",
+      "definition": "эволюционный"
+    },
+    {
+      "term": "excellence",
+      "definition": "превосходство, совершенство"
+    },
+    {
+      "term": "exceptional",
+      "definition": "исключительный"
+    },
+    {
+      "term": "excess",
+      "definition": "избыток, излишек, превышение"
+    },
+    {
+      "term": "excess",
+      "definition": "избыточный, лишний"
+    },
+    {
+      "term": "exclusion",
+      "definition": "исключение"
+    },
+    {
+      "term": "exclusive",
+      "definition": "эксклюзивный, исключительный"
+    },
+    {
+      "term": "exclusively",
+      "definition": "исключительно, только"
+    },
+    {
+      "term": "execution",
+      "definition": "казнь"
+    },
+    {
+      "term": "execution",
+      "definition": "выполнение, исполнение"
+    },
+    {
+      "term": "exile",
+      "definition": "изгнание, ссылка, изгнанник"
+    },
+    {
+      "term": "expenditure",
+      "definition": "расход, трата, потребление"
+    },
+    {
+      "term": "experimental",
+      "definition": "экспериментальный, опытный"
+    },
+    {
+      "term": "explicit",
+      "definition": "ясный, явный"
+    },
+    {
+      "term": "explicitly",
+      "definition": "явно"
+    },
+    {
+      "term": "exploitation",
+      "definition": "эксплуатация"
+    },
+    {
+      "term": "explosive",
+      "definition": "взрывчатый, взрывной, взрывчатка"
+    },
+    {
+      "term": "extremist",
+      "definition": "экстремист"
+    },
+    {
+      "term": "faction",
+      "definition": "фракция, группировка"
+    },
+    {
+      "term": "faculty",
+      "definition": "факультет"
+    },
+    {
+      "term": "faculty",
+      "definition": "способность, дар"
+    },
+    {
+      "term": "fairness",
+      "definition": "справедливость"
+    },
+    {
+      "term": "fatal",
+      "definition": "смертельный"
+    },
+    {
+      "term": "fate",
+      "definition": "судьба, участь, удел"
+    },
+    {
+      "term": "favourable",
+      "definition": "благоприятный"
+    },
+    {
+      "term": "feat",
+      "definition": "подвиг, проявление большого умения"
+    },
+    {
+      "term": "feminist",
+      "definition": "феминистка, феминистский"
+    },
+    {
+      "term": "fibre",
+      "definition": "волокно, фибра"
+    },
+    {
+      "term": "fierce",
+      "definition": "свирепый, неистовый, жестокий, жесткий"
+    },
+    {
+      "term": "film-maker",
+      "definition": "режиссер"
+    },
+    {
+      "term": "filter",
+      "definition": "фильтр"
+    },
+    {
+      "term": "fine",
+      "definition": "штраф"
+    },
+    {
+      "term": "firearm",
+      "definition": "огнестрельное оружие"
+    },
+    {
+      "term": "fixture",
+      "definition": "приспособление, принадлежность"
+    },
+    {
+      "term": "flaw",
+      "definition": "недостаток, изъян, порок, (производственный) брак"
+    },
+    {
+      "term": "flawed",
+      "definition": "испорченный"
+    },
+    {
+      "term": "fleet",
+      "definition": "флот, флотилия"
+    },
+    {
+      "term": "flesh",
+      "definition": "плоть, тело, мясо"
+    },
+    {
+      "term": "flexibility",
+      "definition": "гибкость"
+    },
+    {
+      "term": "fluid",
+      "definition": "жидкость, жидкий, текучий, меняющийся"
+    },
+    {
+      "term": "footage",
+      "definition": "размер в футах"
+    },
+    {
+      "term": "footage",
+      "definition": "кадры, отснятый материал"
+    },
+    {
+      "term": "foreigner",
+      "definition": "иностранец"
+    },
+    {
+      "term": "formula",
+      "definition": "формула"
+    },
+    {
+      "term": "forth",
+      "definition": "далее, вперёд"
+    },
+    {
+      "term": "forthcoming",
+      "definition": "открытый, охотно дающий сведения"
+    },
+    {
+      "term": "forthcoming",
+      "definition": "предстоящий"
+    },
+    {
+      "term": "fragile",
+      "definition": "хрупкий, ломкий"
+    },
+    {
+      "term": "franchise",
+      "definition": "франшиза"
+    },
+    {
+      "term": "frankly",
+      "definition": "откровенно, честно, открыто"
+    },
+    {
+      "term": "frustrated",
+      "definition": "разочарованный"
+    },
+    {
+      "term": "frustrating",
+      "definition": "разочаровывающий, расстраивающий"
+    },
+    {
+      "term": "frustration",
+      "definition": "расстройство, разочарование"
+    },
+    {
+      "term": "functional",
+      "definition": "функциональный"
+    },
+    {
+      "term": "fundraising",
+      "definition": "сбор средств"
+    },
+    {
+      "term": "funeral",
+      "definition": "похороны, похоронный"
+    },
+    {
+      "term": "gallon",
+      "definition": "галлон"
+    },
+    {
+      "term": "gambling",
+      "definition": "азартные игры"
+    },
+    {
+      "term": "gathering",
+      "definition": "сбор"
+    },
+    {
+      "term": "gaze",
+      "definition": "взор, пристальный взгляд"
+    },
+    {
+      "term": "gear",
+      "definition": "механизм, шестерня, передача, устройство, снаряжение"
+    },
+    {
+      "term": "generic",
+      "definition": "общий"
+    },
+    {
+      "term": "genocide",
+      "definition": "геноцид"
+    },
+    {
+      "term": "glance",
+      "definition": "взгляд"
+    },
+    {
+      "term": "glimpse",
+      "definition": "проблеск, мелькание, быстрый взгляд"
+    },
+    {
+      "term": "glorious",
+      "definition": "славный, великолепный, прекрасный"
+    },
+    {
+      "term": "glory",
+      "definition": "слава"
+    },
+    {
+      "term": "governance",
+      "definition": "управление"
+    },
+    {
+      "term": "grace",
+      "definition": "благодать, милость, светлость, изящество"
+    },
+    {
+      "term": "grasp",
+      "definition": "понимание, схватывание, хватка"
+    },
+    {
+      "term": "grave",
+      "definition": "могила"
+    },
+    {
+      "term": "grave",
+      "definition": "серьезный, тяжелый, мрачный"
+    },
+    {
+      "term": "gravity",
+      "definition": "гравитация, сила тяжести"
+    },
+    {
+      "term": "grid",
+      "definition": "сетка"
+    },
+    {
+      "term": "grief",
+      "definition": "горе"
+    },
+    {
+      "term": "grin",
+      "definition": "усмешка, оскал"
+    },
+    {
+      "term": "grip",
+      "definition": "рукоятка, ручка, зажим"
+    },
+    {
+      "term": "gross",
+      "definition": "брутто, валовой"
+    },
+    {
+      "term": "gross",
+      "definition": "грубый, отвратительный, грязный, вульгарный"
+    },
+    {
+      "term": "guerrilla",
+      "definition": "партизан"
+    },
+    {
+      "term": "guidance",
+      "definition": "руководство, управление, ориентир"
+    },
+    {
+      "term": "guilt",
+      "definition": "вина, виновность"
+    },
+    {
+      "term": "gut",
+      "definition": "кишка, живот, пузо, брюхо"
+    },
+    {
+      "term": "halfway",
+      "definition": "на полпути, наполовину"
+    },
+    {
+      "term": "halt",
+      "definition": "остановка, привал"
+    },
+    {
+      "term": "handful",
+      "definition": "горсть, пригоршня, небольшое количество"
+    },
+    {
+      "term": "handling",
+      "definition": "обработка, управление, обслуживание"
+    },
+    {
+      "term": "handy",
+      "definition": "удобный, доступный, близкий, (имеющийся) под рукой, сподручный"
+    },
+    {
+      "term": "harassment",
+      "definition": "домогательство, оскорбление, притеснение"
+    },
+    {
+      "term": "hardware",
+      "definition": "оборудование, аппаратура"
+    },
+    {
+      "term": "harmony",
+      "definition": "гармония"
+    },
+    {
+      "term": "harsh",
+      "definition": "суровый, резкий, жесткий"
+    },
+    {
+      "term": "harvest",
+      "definition": "урожай, жатва, сбор"
+    },
+    {
+      "term": "hatred",
+      "definition": "ненависть"
+    },
+    {
+      "term": "hazard",
+      "definition": "опасность, риск"
+    },
+    {
+      "term": "heritage",
+      "definition": "наследие"
+    },
+    {
+      "term": "hierarchy",
+      "definition": "иерархия"
+    },
+    {
+      "term": "high-profile",
+      "definition": "привлекающий внимание, выдающийся, заметный"
+    },
+    {
+      "term": "hint",
+      "definition": "намёк, подсказка"
+    },
+    {
+      "term": "homeland",
+      "definition": "родина, отечество"
+    },
+    {
+      "term": "hopeful",
+      "definition": "надеющийся, подающий надежды, многообещающий"
+    },
+    {
+      "term": "horizon",
+      "definition": "горизонт"
+    },
+    {
+      "term": "horn",
+      "definition": "рог, рожок, сигнал, гудок"
+    },
+    {
+      "term": "hostage",
+      "definition": "заложник"
+    },
+    {
+      "term": "hostile",
+      "definition": "враждебный, вражеский"
+    },
+    {
+      "term": "hostility",
+      "definition": "враждебность"
+    },
+    {
+      "term": "humanitarian",
+      "definition": "гуманитарный"
+    },
+    {
+      "term": "humanity",
+      "definition": "человечество, человечность, гуманность"
+    },
+    {
+      "term": "humble",
+      "definition": "скромный"
+    },
+    {
+      "term": "hydrogen",
+      "definition": "водород"
+    },
+    {
+      "term": "identification",
+      "definition": "идентификация, определение, опознание"
+    },
+    {
+      "term": "ideological",
+      "definition": "идеологический"
+    },
+    {
+      "term": "ideology",
+      "definition": "идеология"
+    },
+    {
+      "term": "idiot",
+      "definition": "идиот"
+    },
+    {
+      "term": "ignorance",
+      "definition": "невежество, незнание, неведение"
+    },
+    {
+      "term": "imagery",
+      "definition": "образы, образность"
+    },
+    {
+      "term": "immense",
+      "definition": "огромный, необъятный, громадный"
+    },
+    {
+      "term": "imminent",
+      "definition": "неизбежный, надвигающийся, близкий, грозящий"
+    },
+    {
+      "term": "implementation",
+      "definition": "осуществление, реализация, выполнение"
+    },
+    {
+      "term": "imprisonment",
+      "definition": "лишение свободы, заключение"
+    },
+    {
+      "term": "inability",
+      "definition": "неспособность"
+    },
+    {
+      "term": "inadequate",
+      "definition": "неадекватный, недостаточный, несоответствующий"
+    },
+    {
+      "term": "inappropriate",
+      "definition": "неуместный, неподходящий"
+    },
+    {
+      "term": "incidence",
+      "definition": "заболеваемость, встречаемость"
+    },
+    {
+      "term": "inclined",
+      "definition": "наклонный, склонный"
+    },
+    {
+      "term": "inclusion",
+      "definition": "включение"
+    },
+    {
+      "term": "indicator",
+      "definition": "индикатор, указатель, признак"
+    },
+    {
+      "term": "indictment",
+      "definition": "обвинительное заключение"
+    },
+    {
+      "term": "indigenous",
+      "definition": "коренной"
+    },
+    {
+      "term": "inequality",
+      "definition": "неравенство"
+    },
+    {
+      "term": "infamous",
+      "definition": "печально известный"
+    },
+    {
+      "term": "infant",
+      "definition": "младенец, ребенок, детский"
+    },
+    {
+      "term": "influential",
+      "definition": "влиятельный"
+    },
+    {
+      "term": "inherent",
+      "definition": "присущий, неотъемлемый, врожденный"
+    },
+    {
+      "term": "injection",
+      "definition": "инъекция"
+    },
+    {
+      "term": "injustice",
+      "definition": "несправедливость"
+    },
+    {
+      "term": "inmate",
+      "definition": "заключённый, обитатель"
+    },
+    {
+      "term": "insertion",
+      "definition": "вставка"
+    },
+    {
+      "term": "insider",
+      "definition": "инсайдер, свой человек"
+    },
+    {
+      "term": "inspection",
+      "definition": "осмотр, инспекция, контроль, обследование"
+    },
+    {
+      "term": "inspiration",
+      "definition": "вдохновение"
+    },
+    {
+      "term": "instinct",
+      "definition": "инстинкт"
+    },
+    {
+      "term": "institutional",
+      "definition": "институциональный"
+    },
+    {
+      "term": "instrumental",
+      "definition": "инструментальный"
+    },
+    {
+      "term": "instrumental",
+      "definition": "важный, полезный, способствующий, решающий"
+    },
+    {
+      "term": "insufficient",
+      "definition": "недостаточный"
+    },
+    {
+      "term": "insult",
+      "definition": "оскорбление, обида"
+    },
+    {
+      "term": "intact",
+      "definition": "нетронутый, неповреждённый"
+    },
+    {
+      "term": "intake",
+      "definition": "потребление, поглощение, забор (вещества)"
+    },
+    {
+      "term": "integral",
+      "definition": "существенный, неотъемлемый, целостный"
+    },
+    {
+      "term": "integrated",
+      "definition": "интегрированный, встроенный"
+    },
+    {
+      "term": "integration",
+      "definition": "интеграция, интегрирование"
+    },
+    {
+      "term": "integrity",
+      "definition": "честность, целостность, чистота"
+    },
+    {
+      "term": "intensity",
+      "definition": "интенсивность, напряженность"
+    },
+    {
+      "term": "intensive",
+      "definition": "интенсивный"
+    },
+    {
+      "term": "intent",
+      "definition": "намерение"
+    },
+    {
+      "term": "interactive",
+      "definition": "интерактивный"
+    },
+    {
+      "term": "interface",
+      "definition": "интерфейс"
+    },
+    {
+      "term": "interference",
+      "definition": "вмешательство, помехи, интерференция"
+    },
+    {
+      "term": "interim",
+      "definition": "промежуточный, временный"
+    },
+    {
+      "term": "interior",
+      "definition": "интерьер, внутренний"
+    },
+    {
+      "term": "intermediate",
+      "definition": "средний, промежуточный"
+    },
+    {
+      "term": "intervention",
+      "definition": "вмешательство, интервенция"
+    },
+    {
+      "term": "intimate",
+      "definition": "интимный, близкий, тесный, личный"
+    },
+    {
+      "term": "intriguing",
+      "definition": "интригующий"
+    },
+    {
+      "term": "investigator",
+      "definition": "следователь, исследователь, испытатель"
+    },
+    {
+      "term": "invisible",
+      "definition": "невидимый"
+    },
+    {
+      "term": "involvement",
+      "definition": "вовлечение, участие"
+    },
+    {
+      "term": "ironic",
+      "definition": "ироничный"
+    },
+    {
+      "term": "ironically",
+      "definition": "иронично, по иронии судьбы"
+    },
+    {
+      "term": "irony",
+      "definition": "ирония"
+    },
+    {
+      "term": "irrelevant",
+      "definition": "неуместный, нерелевантный"
+    },
+    {
+      "term": "isolation",
+      "definition": "изоляция"
+    },
+    {
+      "term": "judicial",
+      "definition": "судебный"
+    },
+    {
+      "term": "junction",
+      "definition": "соединение, перекрёсток"
+    },
+    {
+      "term": "jurisdiction",
+      "definition": "юрисдикция"
+    },
+    {
+      "term": "just",
+      "definition": "справедливый"
+    },
+    {
+      "term": "justification",
+      "definition": "оправдание"
+    },
+    {
+      "term": "kidney",
+      "definition": "почка"
+    },
+    {
+      "term": "kingdom",
+      "definition": "королевство"
+    },
+    {
+      "term": "lad",
+      "definition": "парень"
+    },
+    {
+      "term": "landlord",
+      "definition": "владелец земли, помещик, хозяин квартиры"
+    },
+    {
+      "term": "landmark",
+      "definition": "ориентир, веха"
+    },
+    {
+      "term": "lap",
+      "definition": "колени (посадить на колени), круг, партия игры"
+    },
+    {
+      "term": "large-scale",
+      "definition": "крупномасштабный"
+    },
+    {
+      "term": "laser",
+      "definition": "лазер"
+    },
+    {
+      "term": "latter",
+      "definition": "последний, новый"
+    },
+    {
+      "term": "lawn",
+      "definition": "газон"
+    },
+    {
+      "term": "lawsuit",
+      "definition": "судебный иск"
+    },
+    {
+      "term": "layout",
+      "definition": "компоновка, планировка, расстановка, расположение"
+    },
+    {
+      "term": "leak",
+      "definition": "течь, утечка"
+    },
+    {
+      "term": "leap",
+      "definition": "прыжок, скачок"
+    },
+    {
+      "term": "legacy",
+      "definition": "наследство, наследие"
+    },
+    {
+      "term": "legal action",
+      "definition": "судебный процесс"
+    },
+    {
+      "term": "legendary",
+      "definition": "легендарный"
+    },
+    {
+      "term": "legislation",
+      "definition": "законодательство, законы, законодательный"
+    },
+    {
+      "term": "legislative",
+      "definition": "законодательный"
+    },
+    {
+      "term": "legislature",
+      "definition": "законодательная власть"
+    },
+    {
+      "term": "legitimate",
+      "definition": "законный"
+    },
+    {
+      "term": "lengthy",
+      "definition": "длительный, растянутый"
+    },
+    {
+      "term": "lesbian",
+      "definition": "лесбийский"
+    },
+    {
+      "term": "lesser",
+      "definition": "меньший"
+    },
+    {
+      "term": "lethal",
+      "definition": "смертельный, летальный"
+    },
+    {
+      "term": "liable",
+      "definition": "подлежащий, обязанный, подверженный"
+    },
+    {
+      "term": "liberal",
+      "definition": "либеральный, либерал"
+    },
+    {
+      "term": "liberation",
+      "definition": "освобождение"
+    },
+    {
+      "term": "liberty",
+      "definition": "свобода"
+    },
+    {
+      "term": "lifelong",
+      "definition": "пожизненный"
+    },
+    {
+      "term": "likelihood",
+      "definition": "вероятность"
+    },
+    {
+      "term": "limb",
+      "definition": "конечность"
+    },
+    {
+      "term": "line-up",
+      "definition": "расстановка"
+    },
+    {
+      "term": "linear",
+      "definition": "линейный"
+    },
+    {
+      "term": "listing",
+      "definition": "листинг, распечатка, перечисление, котировка"
+    },
+    {
+      "term": "literacy",
+      "definition": "грамотность"
+    },
+    {
+      "term": "liver",
+      "definition": "печень"
+    },
+    {
+      "term": "lobby",
+      "definition": "вестибюль, лобби, прихожая"
+    },
+    {
+      "term": "log",
+      "definition": "журнал (записей), регистрация"
+    },
+    {
+      "term": "logic",
+      "definition": "логика"
+    },
+    {
+      "term": "long-standing",
+      "definition": "давний"
+    },
+    {
+      "term": "long-time",
+      "definition": "длительный, долгосрочный"
+    },
+    {
+      "term": "loop",
+      "definition": "петля, виток"
+    },
+    {
+      "term": "loyalty",
+      "definition": "верность, лояльность, преданность"
+    },
+    {
+      "term": "machinery",
+      "definition": "машины, оборудование"
+    },
+    {
+      "term": "magical",
+      "definition": "волшебный, магический"
+    },
+    {
+      "term": "magistrate",
+      "definition": "магистрат, мировой судья"
+    },
+    {
+      "term": "magnetic",
+      "definition": "магнитный"
+    },
+    {
+      "term": "magnitude",
+      "definition": "величина, размеры, значимость"
+    },
+    {
+      "term": "mainland",
+      "definition": "материк"
+    },
+    {
+      "term": "mainstream",
+      "definition": "основной поток, основное направление, мэйнстримовый"
+    },
+    {
+      "term": "maintenance",
+      "definition": "поддержание, обслуживание, содержание, ремонтный"
+    },
+    {
+      "term": "mandate",
+      "definition": "мандат"
+    },
+    {
+      "term": "mandatory",
+      "definition": "обязательный"
+    },
+    {
+      "term": "manipulation",
+      "definition": "манипуляция, обращение"
+    },
+    {
+      "term": "manuscript",
+      "definition": "рукопись"
+    },
+    {
+      "term": "march",
+      "definition": "марш"
+    },
+    {
+      "term": "marginal",
+      "definition": "несущественный, крайний, граничный, предельный, написанный на полях"
+    },
+    {
+      "term": "marine",
+      "definition": "флот, морской"
+    },
+    {
+      "term": "marketplace",
+      "definition": "рынок"
+    },
+    {
+      "term": "mask",
+      "definition": "маска"
+    },
+    {
+      "term": "massacre",
+      "definition": "резня, бойня"
+    },
+    {
+      "term": "mathematical",
+      "definition": "математический"
+    },
+    {
+      "term": "mature",
+      "definition": "зрелый, выдержанный, созревший"
+    },
+    {
+      "term": "meaningful",
+      "definition": "значимый, многозначительный"
+    },
+    {
+      "term": "meantime",
+      "definition": "тем временем, между тем"
+    },
+    {
+      "term": "medieval",
+      "definition": "средневековый"
+    },
+    {
+      "term": "meditation",
+      "definition": "медитация"
+    },
+    {
+      "term": "melody",
+      "definition": "мелодия"
+    },
+    {
+      "term": "memo",
+      "definition": "памятка, заметка, меморандум"
+    },
+    {
+      "term": "memoir",
+      "definition": "мемуары"
+    },
+    {
+      "term": "memorial",
+      "definition": "памятник"
+    },
+    {
+      "term": "mentor",
+      "definition": "наставник, ментор"
+    },
+    {
+      "term": "merchant",
+      "definition": "купец, торговец"
+    },
+    {
+      "term": "mercy",
+      "definition": "милосердие, милость, жалость, сострадание"
+    },
+    {
+      "term": "mere",
+      "definition": "просто, всего лишь, простой"
+    },
+    {
+      "term": "merely",
+      "definition": "просто, только, единственно"
+    },
+    {
+      "term": "merger",
+      "definition": "слияние, объединение, поглощение"
+    },
+    {
+      "term": "merit",
+      "definition": "заслуга, достоинство"
+    },
+    {
+      "term": "methodology",
+      "definition": "методология"
+    },
+    {
+      "term": "midst",
+      "definition": "середина"
+    },
+    {
+      "term": "migration",
+      "definition": "миграция"
+    },
+    {
+      "term": "militant",
+      "definition": "активист, боец, воинствующий"
+    },
+    {
+      "term": "militia",
+      "definition": "милиция"
+    },
+    {
+      "term": "mill",
+      "definition": "мельница"
+    },
+    {
+      "term": "minimal",
+      "definition": "минимальный"
+    },
+    {
+      "term": "mining",
+      "definition": "добыча (полезных ископаемых), горное дело"
+    },
+    {
+      "term": "ministry",
+      "definition": "министерство"
+    },
+    {
+      "term": "miracle",
+      "definition": "чудо"
+    },
+    {
+      "term": "misery",
+      "definition": "страдание, несчастье, беда, невзгоды"
+    },
+    {
+      "term": "misleading",
+      "definition": "вводящий в заблуждение, обманчивый"
+    },
+    {
+      "term": "missile",
+      "definition": "ракета, (реактивный, метательный) снаряд"
+    },
+    {
+      "term": "mix",
+      "definition": "смесь"
+    },
+    {
+      "term": "mixture",
+      "definition": "смесь, микстура"
+    },
+    {
+      "term": "mob",
+      "definition": "толпа, сборище, мафия"
+    },
+    {
+      "term": "mobility",
+      "definition": "мобильность"
+    },
+    {
+      "term": "moderate",
+      "definition": "умеренный"
+    },
+    {
+      "term": "modification",
+      "definition": "модификация"
+    },
+    {
+      "term": "momentum",
+      "definition": "импульс, момент, инерция"
+    },
+    {
+      "term": "monk",
+      "definition": "монах"
+    },
+    {
+      "term": "monopoly",
+      "definition": "монополия"
+    },
+    {
+      "term": "morality",
+      "definition": "мораль"
+    },
+    {
+      "term": "motive",
+      "definition": "мотив, стимул, повод, побуждение"
+    },
+    {
+      "term": "motorist",
+      "definition": "автомобилист, автолюбитель"
+    },
+    {
+      "term": "municipal",
+      "definition": "муниципальный"
+    },
+    {
+      "term": "mutual",
+      "definition": "взаимный, общий, обоюдный"
+    },
+    {
+      "term": "namely",
+      "definition": "а именно, именно, то есть"
+    },
+    {
+      "term": "nationwide",
+      "definition": "общенациональный"
+    },
+    {
+      "term": "naval",
+      "definition": "военно-морской"
+    },
+    {
+      "term": "neglect",
+      "definition": "пренебрежение, запущенность"
+    },
+    {
+      "term": "neighboring",
+      "definition": "соседний, соседский"
+    },
+    {
+      "term": "neighbouring",
+      "definition": "соседний, соседский"
+    },
+    {
+      "term": "nest",
+      "definition": "гнездо"
+    },
+    {
+      "term": "net",
+      "definition": "нетто, чистый"
+    },
+    {
+      "term": "newsletter",
+      "definition": "новостная рассылка"
+    },
+    {
+      "term": "niche",
+      "definition": "ниша"
+    },
+    {
+      "term": "noble",
+      "definition": "благородный, знатный, величественный"
+    },
+    {
+      "term": "nomination",
+      "definition": "номинация"
+    },
+    {
+      "term": "nominee",
+      "definition": "кандидат, номинант"
+    },
+    {
+      "term": "non-profit",
+      "definition": "некоммерческий"
+    },
+    {
+      "term": "nonetheless",
+      "definition": "тем не менее, все же"
+    },
+    {
+      "term": "nonsense",
+      "definition": "ерунда, вздор, глупости, бред, чушь, чепуха"
+    },
+    {
+      "term": "noon",
+      "definition": "полдень"
+    },
+    {
+      "term": "notable",
+      "definition": "примечательный"
+    },
+    {
+      "term": "notably",
+      "definition": "особенно, в особенности"
+    },
+    {
+      "term": "notorious",
+      "definition": "пресловутый, печально известный"
+    },
+    {
+      "term": "novel",
+      "definition": "новый, оригинальный, новаторский"
+    },
+    {
+      "term": "nursery",
+      "definition": "питомник, рассадник, ясли, детская"
+    },
+    {
+      "term": "objection",
+      "definition": "возражение, неодобрение, недостаток"
+    },
+    {
+      "term": "obsession",
+      "definition": "одержимость, навязчивая идея"
+    },
+    {
+      "term": "occasional",
+      "definition": "случайный, редкий"
+    },
+    {
+      "term": "occurrence",
+      "definition": "инцидент, случай, происшествие, вхождение"
+    },
+    {
+      "term": "odds",
+      "definition": "шансы"
+    },
+    {
+      "term": "offering",
+      "definition": "предложение (предлагаемая вещь)"
+    },
+    {
+      "term": "offspring",
+      "definition": "потомство, отпрыск"
+    },
+    {
+      "term": "on behalf of",
+      "definition": "от лица, от имени"
+    },
+    {
+      "term": "operational",
+      "definition": "оперативный, операционный, действующий"
+    },
+    {
+      "term": "optical",
+      "definition": "оптический"
+    },
+    {
+      "term": "optimism",
+      "definition": "оптимизм"
+    },
+    {
+      "term": "oral",
+      "definition": "устный, ротовой, оральный"
+    },
+    {
+      "term": "organizational",
+      "definition": "организационный"
+    },
+    {
+      "term": "orientation",
+      "definition": "ориентация, направление"
+    },
+    {
+      "term": "outbreak",
+      "definition": "вспышка, взрыв, внезапное начало"
+    },
+    {
+      "term": "outing",
+      "definition": "прогулка, пикник"
+    },
+    {
+      "term": "outlet",
+      "definition": "фирменный магазин, специализированный магазин"
+    },
+    {
+      "term": "outlet",
+      "definition": "разъем, розетка"
+    },
+    {
+      "term": "outlet",
+      "definition": "выход, выпускное отверстие"
+    },
+    {
+      "term": "outlook",
+      "definition": "кругозор, точка зрения"
+    },
+    {
+      "term": "outrage",
+      "definition": "произвол, безобразие, надругательство"
+    },
+    {
+      "term": "outsider",
+      "definition": "аутсайдер, посторонний (человек)"
+    },
+    {
+      "term": "overly",
+      "definition": "чрезмерно"
+    },
+    {
+      "term": "overwhelming",
+      "definition": "подавляющий, ошеломляющий"
+    },
+    {
+      "term": "parameter",
+      "definition": "параметр"
+    },
+    {
+      "term": "parental",
+      "definition": "родительский"
+    },
+    {
+      "term": "parish",
+      "definition": "приход (церковный)"
+    },
+    {
+      "term": "parliamentary",
+      "definition": "парламентский"
+    },
+    {
+      "term": "partial",
+      "definition": "частичный"
+    },
+    {
+      "term": "partially",
+      "definition": "частично"
+    },
+    {
+      "term": "passing",
+      "definition": "прохождение, течение (времени), уход"
+    },
+    {
+      "term": "passive",
+      "definition": "пассивный"
+    },
+    {
+      "term": "pastor",
+      "definition": "пастор"
+    },
+    {
+      "term": "patch",
+      "definition": "заплатка, пластырь, накладка, пятно"
+    },
+    {
+      "term": "patent",
+      "definition": "патент"
+    },
+    {
+      "term": "pathway",
+      "definition": "путь"
+    },
+    {
+      "term": "patrol",
+      "definition": "патруль"
+    },
+    {
+      "term": "patron",
+      "definition": "покровитель, заступник, руководитель"
+    },
+    {
+      "term": "patron",
+      "definition": "(постоянный) клиент, покупатель"
+    },
+    {
+      "term": "peak",
+      "definition": "пик, вершина, максимальный"
+    },
+    {
+      "term": "peasant",
+      "definition": "крестьянин"
+    },
+    {
+      "term": "peculiar",
+      "definition": "своеобразный, специфический, особенный"
+    },
+    {
+      "term": "persistent",
+      "definition": "настойчивый, стойкий, постоянный"
+    },
+    {
+      "term": "personnel",
+      "definition": "персонал, кадры, личный состав"
+    },
+    {
+      "term": "petition",
+      "definition": "петиция"
+    },
+    {
+      "term": "philosopher",
+      "definition": "философ"
+    },
+    {
+      "term": "philosophical",
+      "definition": "философский"
+    },
+    {
+      "term": "physician",
+      "definition": "врач, терапевт"
+    },
+    {
+      "term": "pioneer",
+      "definition": "пионер"
+    },
+    {
+      "term": "pipeline",
+      "definition": "трубопровод"
+    },
+    {
+      "term": "pirate",
+      "definition": "пират"
+    },
+    {
+      "term": "pit",
+      "definition": "яма, шахта, впадина"
+    },
+    {
+      "term": "plea",
+      "definition": "мольба, просьба, призыв"
+    },
+    {
+      "term": "pledge",
+      "definition": "залог, обещание, поручительство"
+    },
+    {
+      "term": "plug",
+      "definition": "электрическая вилка, пробка"
+    },
+    {
+      "term": "pole",
+      "definition": "полюс"
+    },
+    {
+      "term": "pole",
+      "definition": "столб, шест"
+    },
+    {
+      "term": "poll",
+      "definition": "голосование, опрос"
+    },
+    {
+      "term": "pond",
+      "definition": "пруд, водоем"
+    },
+    {
+      "term": "portfolio",
+      "definition": "портфель, портфолио, папка"
+    },
+    {
+      "term": "post-war",
+      "definition": "послевоенный"
+    },
+    {
+      "term": "practitioner",
+      "definition": "практикующий (врач, юрист и т.п.)"
+    },
+    {
+      "term": "precedent",
+      "definition": "прецедент"
+    },
+    {
+      "term": "precision",
+      "definition": "точность"
+    },
+    {
+      "term": "predator",
+      "definition": "хищник"
+    },
+    {
+      "term": "predecessor",
+      "definition": "предшественник, предок"
+    },
+    {
+      "term": "predominantly",
+      "definition": "преимущественно"
+    },
+    {
+      "term": "pregnancy",
+      "definition": "беременность"
+    },
+    {
+      "term": "prejudice",
+      "definition": "предубеждение, предрассудок, предвзятое мнение"
+    },
+    {
+      "term": "preliminary",
+      "definition": "предварительный"
+    },
+    {
+      "term": "premier",
+      "definition": "премьер"
+    },
+    {
+      "term": "premise",
+      "definition": "предпосылка, посылка, предпосылать"
+    },
+    {
+      "term": "premium",
+      "definition": "премия, надбавка"
+    },
+    {
+      "term": "prescription",
+      "definition": "медицинский рецепт, предписание"
+    },
+    {
+      "term": "presently",
+      "definition": "сейчас, в настоящее время, скоро"
+    },
+    {
+      "term": "preservation",
+      "definition": "сохранение, сохранность, консервирование"
+    },
+    {
+      "term": "presidency",
+      "definition": "президентство"
+    },
+    {
+      "term": "presidential",
+      "definition": "президентский"
+    },
+    {
+      "term": "prestigious",
+      "definition": "престижный"
+    },
+    {
+      "term": "presumably",
+      "definition": "предположительно, по-видимому"
+    },
+    {
+      "term": "prevalence",
+      "definition": "распространенность, преобладание"
+    },
+    {
+      "term": "prevention",
+      "definition": "предотвращение"
+    },
+    {
+      "term": "prey",
+      "definition": "добыча"
+    },
+    {
+      "term": "privatization",
+      "definition": "приватизация"
+    },
+    {
+      "term": "privilege",
+      "definition": "привилегия, честь, давать привилегию"
+    },
+    {
+      "term": "probe",
+      "definition": "щуп, зонд, проба"
+    },
+    {
+      "term": "problematic",
+      "definition": "проблемный"
+    },
+    {
+      "term": "proceeding",
+      "definition": "судебное разбирательство"
+    },
+    {
+      "term": "proceeds",
+      "definition": "выручка"
+    },
+    {
+      "term": "processing",
+      "definition": "обработка, оформление"
+    },
+    {
+      "term": "processor",
+      "definition": "процессор"
+    },
+    {
+      "term": "productive",
+      "definition": "продуктивный"
+    },
+    {
+      "term": "productivity",
+      "definition": "продуктивность"
+    },
+    {
+      "term": "profitable",
+      "definition": "прибыльный"
+    },
+    {
+      "term": "profound",
+      "definition": "сильный, глубокий, полный, основательный"
+    },
+    {
+      "term": "projection",
+      "definition": "проекция, отображение"
+    },
+    {
+      "term": "prominent",
+      "definition": "видный, выдающийся, известный"
+    },
+    {
+      "term": "pronounced",
+      "definition": "выраженный, явный"
+    },
+    {
+      "term": "propaganda",
+      "definition": "пропаганда"
+    },
+    {
+      "term": "proposition",
+      "definition": "предложение, утверждение, заявление"
+    },
+    {
+      "term": "prosecution",
+      "definition": "обвинение, судебное преследование"
+    },
+    {
+      "term": "prosecutor",
+      "definition": "прокурор, истец"
+    },
+    {
+      "term": "prospective",
+      "definition": "будущий, предполагаемый"
+    },
+    {
+      "term": "prosperity",
+      "definition": "процветание"
+    },
+    {
+      "term": "protective",
+      "definition": "защитный"
+    },
+    {
+      "term": "protocol",
+      "definition": "протокол"
+    },
+    {
+      "term": "province",
+      "definition": "провинция, область, губерния"
+    },
+    {
+      "term": "provincial",
+      "definition": "провинциальный"
+    },
+    {
+      "term": "provision",
+      "definition": "обеспечение, постановление, положение, условие, снабжать продовольствием"
+    },
+    {
+      "term": "psychiatric",
+      "definition": "психиатрический"
+    },
+    {
+      "term": "pulse",
+      "definition": "пульс, пульсация"
+    },
+    {
+      "term": "pump",
+      "definition": "насос, помпа"
+    },
+    {
+      "term": "punch",
+      "definition": "удар (кулаком)"
+    },
+    {
+      "term": "punch",
+      "definition": "пунш"
+    },
+    {
+      "term": "query",
+      "definition": "запрос, вопрос"
+    },
+    {
+      "term": "quest",
+      "definition": "поиски, квест"
+    },
+    {
+      "term": "quota",
+      "definition": "квота"
+    },
+    {
+      "term": "radar",
+      "definition": "радар"
+    },
+    {
+      "term": "radical",
+      "definition": "радикальный, радикал"
+    },
+    {
+      "term": "rage",
+      "definition": "ярость, гнев"
+    },
+    {
+      "term": "raid",
+      "definition": "рейд, набег, налет, нападение, облава"
+    },
+    {
+      "term": "rally",
+      "definition": "ралли, собрание, слет"
+    },
+    {
+      "term": "ranking",
+      "definition": "рейтинг, ранжирование"
+    },
+    {
+      "term": "rape",
+      "definition": "изнасилование"
+    },
+    {
+      "term": "ratio",
+      "definition": "соотношение, отношение, коэффициент"
+    },
+    {
+      "term": "rational",
+      "definition": "рациональный, разумный"
+    },
+    {
+      "term": "ray",
+      "definition": "луч"
+    },
+    {
+      "term": "readily",
+      "definition": "охотно, легко, с готовностью"
+    },
+    {
+      "term": "realization",
+      "definition": "реализация, осуществление, осознание"
+    },
+    {
+      "term": "realm",
+      "definition": "королевство"
+    },
+    {
+      "term": "rear",
+      "definition": "задний, тыл, задняя сторона"
+    },
+    {
+      "term": "reasoning",
+      "definition": "рассуждение, объяснение"
+    },
+    {
+      "term": "rebel",
+      "definition": "бунтарь, мятежник, повстанец"
+    },
+    {
+      "term": "rebellion",
+      "definition": "восстание, бунт, мятеж"
+    },
+    {
+      "term": "recipient",
+      "definition": "получатель"
+    },
+    {
+      "term": "reconstruction",
+      "definition": "реконструкция"
+    },
+    {
+      "term": "referendum",
+      "definition": "референдум"
+    },
+    {
+      "term": "reflection",
+      "definition": "отражение"
+    },
+    {
+      "term": "reform",
+      "definition": "реформа, преобразование"
+    },
+    {
+      "term": "refuge",
+      "definition": "убежище, приют"
+    },
+    {
+      "term": "refusal",
+      "definition": "отказ, отклонение"
+    },
+    {
+      "term": "regardless",
+      "definition": "несмотря на, вне зависимости"
+    },
+    {
+      "term": "regime",
+      "definition": "режим (дня, политический и т.д.)"
+    },
+    {
+      "term": "regulator",
+      "definition": "регулятор"
+    },
+    {
+      "term": "regulatory",
+      "definition": "регулирующий"
+    },
+    {
+      "term": "rehabilitation",
+      "definition": "реабилитация"
+    },
+    {
+      "term": "reign",
+      "definition": "царствование, период правления"
+    },
+    {
+      "term": "rejection",
+      "definition": "отказ, отклонение"
+    },
+    {
+      "term": "relevance",
+      "definition": "актуальность, релевантность, уместность"
+    },
+    {
+      "term": "reliability",
+      "definition": "надёжность, достоверность"
+    },
+    {
+      "term": "reluctant",
+      "definition": "неохотный"
+    },
+    {
+      "term": "remainder",
+      "definition": "остаток"
+    },
+    {
+      "term": "remains",
+      "definition": "остатки, останки, прах, руины"
+    },
+    {
+      "term": "remedy",
+      "definition": "лекарство, средство"
+    },
+    {
+      "term": "reminder",
+      "definition": "напоминание"
+    },
+    {
+      "term": "removal",
+      "definition": "удаление"
+    },
+    {
+      "term": "renowned",
+      "definition": "известный, знаменитый"
+    },
+    {
+      "term": "rental",
+      "definition": "аренда"
+    },
+    {
+      "term": "replacement",
+      "definition": "замена, заменитель"
+    },
+    {
+      "term": "reportedly",
+      "definition": "по сообщениям, как сообщают, по слухам, якобы"
+    },
+    {
+      "term": "representation",
+      "definition": "представление, изображение"
+    },
+    {
+      "term": "reproduction",
+      "definition": "репродукция, копия"
+    },
+    {
+      "term": "republic",
+      "definition": "республика"
+    },
+    {
+      "term": "residence",
+      "definition": "резиденция"
+    },
+    {
+      "term": "residential",
+      "definition": "жилой"
+    },
+    {
+      "term": "residue",
+      "definition": "остаток"
+    },
+    {
+      "term": "resignation",
+      "definition": "отставка, отказ от должности"
+    },
+    {
+      "term": "resistance",
+      "definition": "сопротивление, противодействие"
+    },
+    {
+      "term": "respective",
+      "definition": "соответствующий, соответственный"
+    },
+    {
+      "term": "respectively",
+      "definition": "соответственно, в указанном порядке"
+    },
+    {
+      "term": "restoration",
+      "definition": "восстановление, реставрация"
+    },
+    {
+      "term": "restraint",
+      "definition": "сдержанность, самообладание, ограничение"
+    },
+    {
+      "term": "retreat",
+      "definition": "отступление, уединение, ретрит"
+    },
+    {
+      "term": "revelation",
+      "definition": "открытие, откровение"
+    },
+    {
+      "term": "revenge",
+      "definition": "месть, реванш"
+    },
+    {
+      "term": "reverse",
+      "definition": "обратный"
+    },
+    {
+      "term": "revival",
+      "definition": "возрождение, оживление, восстановление"
+    },
+    {
+      "term": "revolutionary",
+      "definition": "революционный"
+    },
+    {
+      "term": "rhetoric",
+      "definition": "риторика"
+    },
+    {
+      "term": "rifle",
+      "definition": "винтовка, ружьё"
+    },
+    {
+      "term": "riot",
+      "definition": "бунт, мятеж, беспорядки"
+    },
+    {
+      "term": "ritual",
+      "definition": "обряд, ритуал"
+    },
+    {
+      "term": "robust",
+      "definition": "крепкий, здоровый"
+    },
+    {
+      "term": "rod",
+      "definition": "жезл, прут, стержень, палочка, удочка"
+    },
+    {
+      "term": "rotation",
+      "definition": "вращение"
+    },
+    {
+      "term": "ruling",
+      "definition": "постановление, решение (суда)"
+    },
+    {
+      "term": "rumour",
+      "definition": "слух"
+    },
+    {
+      "term": "sacred",
+      "definition": "священный"
+    },
+    {
+      "term": "sacrifice",
+      "definition": "жертва, жертвоприношение"
+    },
+    {
+      "term": "saint",
+      "definition": "святой, праведник"
+    },
+    {
+      "term": "sake",
+      "definition": "ради"
+    },
+    {
+      "term": "sanction",
+      "definition": "санкция"
+    },
+    {
+      "term": "say",
+      "definition": "(возможность высказать) мнение"
+    },
+    {
+      "term": "scattered",
+      "definition": "разбросанный, раскиданный"
+    },
+    {
+      "term": "sceptical",
+      "definition": "скептический"
+    },
+    {
+      "term": "scope",
+      "definition": "объем, рамки, сфера, масштаб"
+    },
+    {
+      "term": "screw",
+      "definition": "винт, болт, шуруп"
+    },
+    {
+      "term": "scrutiny",
+      "definition": "внимательный осмотр, исследование, изучение"
+    },
+    {
+      "term": "seal",
+      "definition": "печать, пломба"
+    },
+    {
+      "term": "secular",
+      "definition": "мирской, светский"
+    },
+    {
+      "term": "seemingly",
+      "definition": "видимо, на вид, по-видимому"
+    },
+    {
+      "term": "segment",
+      "definition": "сегмент, отрезок, часть, сектор, делить на сегменты"
+    },
+    {
+      "term": "seldom",
+      "definition": "редко"
+    },
+    {
+      "term": "selective",
+      "definition": "избирательный, выборочный, селективный"
+    },
+    {
+      "term": "senator",
+      "definition": "сенатор"
+    },
+    {
+      "term": "sensation",
+      "definition": "ощущение, чувство, сенсация"
+    },
+    {
+      "term": "sensitivity",
+      "definition": "чувствительность"
+    },
+    {
+      "term": "sentiment",
+      "definition": "чувство, настроение, мнение"
+    },
+    {
+      "term": "separation",
+      "definition": "разделение, отделение"
+    },
+    {
+      "term": "serial",
+      "definition": "серийный, последовательный"
+    },
+    {
+      "term": "set-up",
+      "definition": "настройка, наладка"
+    },
+    {
+      "term": "settlement",
+      "definition": "поселение, поселок, заселение"
+    },
+    {
+      "term": "settlement",
+      "definition": "урегулирование"
+    },
+    {
+      "term": "sexuality",
+      "definition": "сексуальность"
+    },
+    {
+      "term": "shareholder",
+      "definition": "акционер, пайщик"
+    },
+    {
+      "term": "sheer",
+      "definition": "абсолютный, полнейший, чистый, отвесный"
+    },
+    {
+      "term": "shipping",
+      "definition": "перевозка (груза), судоходство"
+    },
+    {
+      "term": "sigh",
+      "definition": "вздох"
+    },
+    {
+      "term": "simulation",
+      "definition": "симуляция"
+    },
+    {
+      "term": "simultaneously",
+      "definition": "одновременно"
+    },
+    {
+      "term": "sin",
+      "definition": "грех"
+    },
+    {
+      "term": "situated",
+      "definition": "расположенный"
+    },
+    {
+      "term": "skeptical",
+      "definition": "скептический"
+    },
+    {
+      "term": "sketch",
+      "definition": "эскиз, набросок"
+    },
+    {
+      "term": "slavery",
+      "definition": "рабство"
+    },
+    {
+      "term": "slot",
+      "definition": "паз, отверстие, слот"
+    },
+    {
+      "term": "socialist",
+      "definition": "социалистический"
+    },
+    {
+      "term": "sole",
+      "definition": "единственный, исключительный"
+    },
+    {
+      "term": "solely",
+      "definition": "исключительно"
+    },
+    {
+      "term": "solicitor",
+      "definition": "адвокат, солиситор, юрисконсульт"
+    },
+    {
+      "term": "solidarity",
+      "definition": "солидарность"
+    },
+    {
+      "term": "solo",
+      "definition": "соло, сольный"
+    },
+    {
+      "term": "sovereignty",
+      "definition": "суверенитет"
+    },
+    {
+      "term": "spam",
+      "definition": "спам"
+    },
+    {
+      "term": "span",
+      "definition": "диапазон, интервал, промежуток"
+    },
+    {
+      "term": "specialized",
+      "definition": "специализированный"
+    },
+    {
+      "term": "specification",
+      "definition": "спецификация, описание"
+    },
+    {
+      "term": "specimen",
+      "definition": "образец, экземпляр"
+    },
+    {
+      "term": "spectacle",
+      "definition": "зрелище"
+    },
+    {
+      "term": "spectacles",
+      "definition": "очки"
+    },
+    {
+      "term": "spectrum",
+      "definition": "спектр, диапазон"
+    },
+    {
+      "term": "spell",
+      "definition": "заклинание"
+    },
+    {
+      "term": "sphere",
+      "definition": "сфера"
+    },
+    {
+      "term": "spin",
+      "definition": "вращение"
+    },
+    {
+      "term": "spine",
+      "definition": "позвоночник"
+    },
+    {
+      "term": "spotlight",
+      "definition": "прожектор"
+    },
+    {
+      "term": "spouse",
+      "definition": "супруг(а)"
+    },
+    {
+      "term": "spy",
+      "definition": "шпион"
+    },
+    {
+      "term": "squad",
+      "definition": "отряд, группа, команда, отделение"
+    },
+    {
+      "term": "stability",
+      "definition": "стабильность, устойчивость, постоянство"
+    },
+    {
+      "term": "stake",
+      "definition": "доля, ставка, кол"
+    },
+    {
+      "term": "standing",
+      "definition": "стоящий (на ногах), постоянный"
+    },
+    {
+      "term": "stark",
+      "definition": "полный, абсолютный, сильный, совершенно"
+    },
+    {
+      "term": "stark",
+      "definition": "пустынный, бесплодный, голый"
+    },
+    {
+      "term": "statistical",
+      "definition": "статистический"
+    },
+    {
+      "term": "stem",
+      "definition": "стебель"
+    },
+    {
+      "term": "stereotype",
+      "definition": "стереотип"
+    },
+    {
+      "term": "stimulus",
+      "definition": "стимул, раздражитель"
+    },
+    {
+      "term": "storage",
+      "definition": "хранение, хранилище"
+    },
+    {
+      "term": "straightforward",
+      "definition": "прямой, простой, честный"
+    },
+    {
+      "term": "strain",
+      "definition": "напряжение, натяжение, нагрузка"
+    },
+    {
+      "term": "strand",
+      "definition": "прибрежная полоса, берег"
+    },
+    {
+      "term": "strand",
+      "definition": "прядь, нитка"
+    },
+    {
+      "term": "strategic",
+      "definition": "стратегический"
+    },
+    {
+      "term": "striking",
+      "definition": "поразительный, разительный"
+    },
+    {
+      "term": "strip",
+      "definition": "полоса, лента"
+    },
+    {
+      "term": "structural",
+      "definition": "структурный"
+    },
+    {
+      "term": "submission",
+      "definition": "подчинение, покорность"
+    },
+    {
+      "term": "submission",
+      "definition": "подача (заявки), отправка, представление"
+    },
+    {
+      "term": "subscriber",
+      "definition": "подписчик"
+    },
+    {
+      "term": "subscription",
+      "definition": "подписка"
+    },
+    {
+      "term": "subsidy",
+      "definition": "субсидия, дотация"
+    },
+    {
+      "term": "substantial",
+      "definition": "существенный, значительный, важный, реальный, вещественный, крепкий"
+    },
+    {
+      "term": "substantially",
+      "definition": "существенно, по существу, в основном"
+    },
+    {
+      "term": "substitute",
+      "definition": "замена, заменитель"
+    },
+    {
+      "term": "substitution",
+      "definition": "замена, подстановка"
+    },
+    {
+      "term": "subtle",
+      "definition": "тонкий, неуловимый, искусный"
+    },
+    {
+      "term": "suburban",
+      "definition": "пригородный"
+    },
+    {
+      "term": "succession",
+      "definition": "последовательность, преемственность"
+    },
+    {
+      "term": "successive",
+      "definition": "последовательный, преемственный"
+    },
+    {
+      "term": "successor",
+      "definition": "преемник, последователь, наследник"
+    },
+    {
+      "term": "suicide",
+      "definition": "самоубийство"
+    },
+    {
+      "term": "summit",
+      "definition": "вершина, высший уровень"
+    },
+    {
+      "term": "superb",
+      "definition": "великолепный, грандиозный, роскошный, превосходный"
+    },
+    {
+      "term": "superior",
+      "definition": "высший, превосходный, превосходящий, лучший"
+    },
+    {
+      "term": "supervision",
+      "definition": "надзор, наблюдение, контроль"
+    },
+    {
+      "term": "supervisor",
+      "definition": "руководитель, начальник, надзиратель, супервизор"
+    },
+    {
+      "term": "supplement",
+      "definition": "дополнение, приложение"
+    },
+    {
+      "term": "supportive",
+      "definition": "поддерживающий"
+    },
+    {
+      "term": "supposedly",
+      "definition": "якобы, предположительно, по общему мнению"
+    },
+    {
+      "term": "supreme",
+      "definition": "верховный, высший"
+    },
+    {
+      "term": "surge",
+      "definition": "быстрый рост, всплеск"
+    },
+    {
+      "term": "surgical",
+      "definition": "хирургический"
+    },
+    {
+      "term": "surplus",
+      "definition": "избыток, излишек"
+    },
+    {
+      "term": "surveillance",
+      "definition": "наблюдение"
+    },
+    {
+      "term": "suspension",
+      "definition": "подвеска, приостановка"
+    },
+    {
+      "term": "suspicion",
+      "definition": "подозрение, предположение"
+    },
+    {
+      "term": "suspicious",
+      "definition": "подозрительный"
+    },
+    {
+      "term": "swing",
+      "definition": "качели, качание, перепад"
+    },
+    {
+      "term": "sword",
+      "definition": "меч, сабля, шпага"
+    },
+    {
+      "term": "symbolic",
+      "definition": "символический"
+    },
+    {
+      "term": "syndrome",
+      "definition": "синдром"
+    },
+    {
+      "term": "synthesis",
+      "definition": "синтез"
+    },
+    {
+      "term": "systematic",
+      "definition": "систематический"
+    },
+    {
+      "term": "tackle",
+      "definition": "снасти, принадлежности, инструмент"
+    },
+    {
+      "term": "tactic",
+      "definition": "тактика"
+    },
+    {
+      "term": "tactical",
+      "definition": "тактический"
+    },
+    {
+      "term": "taxpayer",
+      "definition": "налогоплательщик"
+    },
+    {
+      "term": "tenant",
+      "definition": "арендатор, жилец, наниматель, квартиросъемщик"
+    },
+    {
+      "term": "tender",
+      "definition": "тендер, предложение"
+    },
+    {
+      "term": "tender",
+      "definition": "нежный, ласковый, заботливый"
+    },
+    {
+      "term": "tenure",
+      "definition": "владение (недвижимостью), срок пребывания в должности"
+    },
+    {
+      "term": "terminal",
+      "definition": "конечный, терминальный"
+    },
+    {
+      "term": "terrain",
+      "definition": "местность, территория, рельеф"
+    },
+    {
+      "term": "terrific",
+      "definition": "потрясающий, ужасающий, огромный"
+    },
+    {
+      "term": "testimony",
+      "definition": "показание, свидетельство"
+    },
+    {
+      "term": "texture",
+      "definition": "текстура"
+    },
+    {
+      "term": "thankfully",
+      "definition": "к счастью, благодарно"
+    },
+    {
+      "term": "theatrical",
+      "definition": "театральный"
+    },
+    {
+      "term": "theology",
+      "definition": "богословие, теология"
+    },
+    {
+      "term": "theoretical",
+      "definition": "теоретический"
+    },
+    {
+      "term": "thereafter",
+      "definition": "потом, после этого, впоследствии"
+    },
+    {
+      "term": "thereby",
+      "definition": "таким образом, тем самым, в связи с этим"
+    },
+    {
+      "term": "thought-provoking",
+      "definition": "наводящий на размышления"
+    },
+    {
+      "term": "thoughtful",
+      "definition": "задумчивый, вдумчивый, продуманный"
+    },
+    {
+      "term": "thread",
+      "definition": "нить, резьба"
+    },
+    {
+      "term": "threshold",
+      "definition": "порог"
+    },
+    {
+      "term": "thrilled",
+      "definition": "взволнованный"
+    },
+    {
+      "term": "tide",
+      "definition": "прилив, волна, поток"
+    },
+    {
+      "term": "timber",
+      "definition": "лесоматериалы"
+    },
+    {
+      "term": "timely",
+      "definition": "своевременный"
+    },
+    {
+      "term": "to abolish",
+      "definition": "отменять, упразднять"
+    },
+    {
+      "term": "to abuse",
+      "definition": "злоупотреблять, оскорблять"
+    },
+    {
+      "term": "to accelerate",
+      "definition": "ускорять, ускоряться"
+    },
+    {
+      "term": "to accumulate",
+      "definition": "накапливать, аккумулировать"
+    },
+    {
+      "term": "to adhere",
+      "definition": "придерживаться"
+    },
+    {
+      "term": "to administer",
+      "definition": "управлять, администрировать, вести дела, руководить"
+    },
+    {
+      "term": "to advocate",
+      "definition": "отстаивать, пропагандировать"
+    },
+    {
+      "term": "to alert",
+      "definition": "предупреждать, оповещать, объявлять тревогу"
+    },
+    {
+      "term": "to align",
+      "definition": "выровнять, выравнивать"
+    },
+    {
+      "term": "to allege",
+      "definition": "утверждать, заявлять"
+    },
+    {
+      "term": "to allocate",
+      "definition": "выделять, распределять, ассигновать"
+    },
+    {
+      "term": "to amend",
+      "definition": "исправить, поправить, вносить правки"
+    },
+    {
+      "term": "to applaud",
+      "definition": "аплодировать, приветствовать, одобрять"
+    },
+    {
+      "term": "to appoint",
+      "definition": "назначать"
+    },
+    {
+      "term": "to arm",
+      "definition": "вооружить"
+    },
+    {
+      "term": "to articulate",
+      "definition": "ясно выражать, отчётливо произносить, артикулировать"
+    },
+    {
+      "term": "to aspire",
+      "definition": "стремиться"
+    },
+    {
+      "term": "to assault",
+      "definition": "атаковать, нападать, оскорблять"
+    },
+    {
+      "term": "to assemble",
+      "definition": "собирать, монтировать"
+    },
+    {
+      "term": "to assert",
+      "definition": "утверждать"
+    },
+    {
+      "term": "to attain",
+      "definition": "достигать, добиваться"
+    },
+    {
+      "term": "to attribute",
+      "definition": "приписывать"
+    },
+    {
+      "term": "to authorize",
+      "definition": "разрешать, санкционировать, авторизовать"
+    },
+    {
+      "term": "to await",
+      "definition": "ожидать"
+    },
+    {
+      "term": "to bat",
+      "definition": "бить ладонью, бить битой"
+    },
+    {
+      "term": "to betray",
+      "definition": "предавать"
+    },
+    {
+      "term": "to bind",
+      "definition": "связывать, связать, привязывать"
+    },
+    {
+      "term": "to blast",
+      "definition": "взрывать"
+    },
+    {
+      "term": "to bleed",
+      "definition": "кровоточить"
+    },
+    {
+      "term": "to blend",
+      "definition": "смешивать, гармонировать"
+    },
+    {
+      "term": "to bless",
+      "definition": "благословлять"
+    },
+    {
+      "term": "to boast",
+      "definition": "хвастаться"
+    },
+    {
+      "term": "to bounce",
+      "definition": "подпрыгивать, отскакивать"
+    },
+    {
+      "term": "to bow",
+      "definition": "кланяться"
+    },
+    {
+      "term": "to breach",
+      "definition": "нарушать, проламывать"
+    },
+    {
+      "term": "to breed",
+      "definition": "размножаться, разводить"
+    },
+    {
+      "term": "to burst",
+      "definition": "лопаться, взрываться"
+    },
+    {
+      "term": "to carve",
+      "definition": "вырезать, высекать, гравировать"
+    },
+    {
+      "term": "to cater",
+      "definition": "обслуживать"
+    },
+    {
+      "term": "to cease",
+      "definition": "прекратить, перестать"
+    },
+    {
+      "term": "to characterize",
+      "definition": "охарактеризовать"
+    },
+    {
+      "term": "to circulate",
+      "definition": "циркулировать, распространять, передавать"
+    },
+    {
+      "term": "to cling",
+      "definition": "цепляться, липнуть"
+    },
+    {
+      "term": "to coincide",
+      "definition": "совпадать"
+    },
+    {
+      "term": "to collaborate",
+      "definition": "сотрудничать"
+    },
+    {
+      "term": "to combat",
+      "definition": "бороться, сражаться"
+    },
+    {
+      "term": "to commence",
+      "definition": "начинать"
+    },
+    {
+      "term": "to compel",
+      "definition": "заставлять, принуждать"
+    },
+    {
+      "term": "to compensate",
+      "definition": "компенсировать"
+    },
+    {
+      "term": "to compile",
+      "definition": "компилировать, составлять, собирать"
+    },
+    {
+      "term": "to complement",
+      "definition": "дополнять"
+    },
+    {
+      "term": "to comply",
+      "definition": "исполнять, подчиняться, выполнять, соблюдать, соответствовать"
+    },
+    {
+      "term": "to compromise",
+      "definition": "идти на компромисс, компрометировать"
+    },
+    {
+      "term": "to compute",
+      "definition": "подсчитывать, вычислять"
+    },
+    {
+      "term": "to conceal",
+      "definition": "скрывать, умалчивать, прятать"
+    },
+    {
+      "term": "to concede",
+      "definition": "уступить, признавать (поражение)"
+    },
+    {
+      "term": "to conceive",
+      "definition": "зачать, понять, осмыслить, выработать идею"
+    },
+    {
+      "term": "to condemn",
+      "definition": "приговаривать, осуждать, обрекать"
+    },
+    {
+      "term": "to confer",
+      "definition": "присуждать, даровать, присваивать, совещаться, обсуждать"
+    },
+    {
+      "term": "to confine",
+      "definition": "ограничить, держать взаперти"
+    },
+    {
+      "term": "to confront",
+      "definition": "противостоять, конфликтовать"
+    },
+    {
+      "term": "to congratulate",
+      "definition": "поздравлять"
+    },
+    {
+      "term": "to conquer",
+      "definition": "завоевывать, покорять"
+    },
+    {
+      "term": "to consent",
+      "definition": "соглашаться, давать согласие"
+    },
+    {
+      "term": "to conserve",
+      "definition": "сохранять, консервировать"
+    },
+    {
+      "term": "to consolidate",
+      "definition": "укреплять, объединять, консолидировать"
+    },
+    {
+      "term": "to constitute",
+      "definition": "составлять, образовывать, учреждать"
+    },
+    {
+      "term": "to contemplate",
+      "definition": "созерцать, лицезреть"
+    },
+    {
+      "term": "to contend",
+      "definition": "утверждать, оспаривать"
+    },
+    {
+      "term": "to contend",
+      "definition": "бороться, соперничать"
+    },
+    {
+      "term": "to convict",
+      "definition": "осуждать, признавать виновным"
+    },
+    {
+      "term": "to cooperate",
+      "definition": "сотрудничать, кооперироваться"
+    },
+    {
+      "term": "to coordinate",
+      "definition": "координировать, согласовать"
+    },
+    {
+      "term": "to correlate",
+      "definition": "коррелировать, соотносить"
+    },
+    {
+      "term": "to correspond",
+      "definition": "соответствовать, переписываться"
+    },
+    {
+      "term": "to counter",
+      "definition": "противостоять, возражать"
+    },
+    {
+      "term": "to craft",
+      "definition": "создавать"
+    },
+    {
+      "term": "to crawl",
+      "definition": "ползти, тащиться"
+    },
+    {
+      "term": "to creep",
+      "definition": "ползать, пресмыкаться, красться"
+    },
+    {
+      "term": "to crush",
+      "definition": "толочь, дробить"
+    },
+    {
+      "term": "to cultivate",
+      "definition": "культивировать"
+    },
+    {
+      "term": "to deem",
+      "definition": "считать, полагать"
+    },
+    {
+      "term": "to defy",
+      "definition": "бросить вызов"
+    },
+    {
+      "term": "to denounce",
+      "definition": "осуждать, обвинять, разоблачать"
+    },
+    {
+      "term": "to depict",
+      "definition": "изображать, показывать, запечатлеть"
+    },
+    {
+      "term": "to deploy",
+      "definition": "развертывать, дислоцировать, применять"
+    },
+    {
+      "term": "to deposit",
+      "definition": "вносить, класть (в банк)"
+    },
+    {
+      "term": "to deprive",
+      "definition": "лишать"
+    },
+    {
+      "term": "to descend",
+      "definition": "спускаться"
+    },
+    {
+      "term": "to designate",
+      "definition": "объявлять, называть, назначать, указывать, давать характеристику"
+    },
+    {
+      "term": "to detain",
+      "definition": "задерживать"
+    },
+    {
+      "term": "to deteriorate",
+      "definition": "портиться"
+    },
+    {
+      "term": "to devastate",
+      "definition": "опустошать, разорять"
+    },
+    {
+      "term": "to devise",
+      "definition": "изобретать, выдумывать"
+    },
+    {
+      "term": "to diagnose",
+      "definition": "диагностировать, ставить диагноз"
+    },
+    {
+      "term": "to dictate",
+      "definition": "диктовать, предписывать, определять"
+    },
+    {
+      "term": "to differentiate",
+      "definition": "различать, отличать, дифференцировать"
+    },
+    {
+      "term": "to diminish",
+      "definition": "уменьшать, ослабить"
+    },
+    {
+      "term": "to dip",
+      "definition": "окунуться, окунуть"
+    },
+    {
+      "term": "to discard",
+      "definition": "отказываться, отбрасывать, сбрасывать, выбрасывать"
+    },
+    {
+      "term": "to discharge",
+      "definition": "разрядить"
+    },
+    {
+      "term": "to disclose",
+      "definition": "раскрывать"
+    },
+    {
+      "term": "to displace",
+      "definition": "вытеснять, смещать, заменять"
+    },
+    {
+      "term": "to dispose",
+      "definition": "избавляться, располагать, размещать"
+    },
+    {
+      "term": "to dispute",
+      "definition": "спорить, оспаривать"
+    },
+    {
+      "term": "to disrupt",
+      "definition": "нарушать, прерывать, срывать"
+    },
+    {
+      "term": "to dissolve",
+      "definition": "растворять (в жидкости)"
+    },
+    {
+      "term": "to distort",
+      "definition": "искажать, коверкать"
+    },
+    {
+      "term": "to distress",
+      "definition": "огорчать, причинять горе"
+    },
+    {
+      "term": "to divert",
+      "definition": "развлекать"
+    },
+    {
+      "term": "to divert",
+      "definition": "отвлекать, отклонять, направлять в другую сторону"
+    },
+    {
+      "term": "to drain",
+      "definition": "осушать"
+    },
+    {
+      "term": "to drift",
+      "definition": "дрейфовать, плыть по течению, смещаться"
+    },
+    {
+      "term": "to drown",
+      "definition": "тонуть, топить"
+    },
+    {
+      "term": "to dub",
+      "definition": "дублировать"
+    },
+    {
+      "term": "to ease",
+      "definition": "облегчать, ослаблять, смягчать"
+    },
+    {
+      "term": "to echo",
+      "definition": "вторить, отдаваться (эхом), повторять"
+    },
+    {
+      "term": "to elevate",
+      "definition": "поднимать"
+    },
+    {
+      "term": "to embark",
+      "definition": "садиться (на корабль), грузить"
+    },
+    {
+      "term": "to embed",
+      "definition": "вставлять, встраивать, врезать"
+    },
+    {
+      "term": "to embody",
+      "definition": "воплощать, олицетворять, изображать"
+    },
+    {
+      "term": "to empower",
+      "definition": "наделить полномочиями"
+    },
+    {
+      "term": "to enact",
+      "definition": "предписывать, вводить в действие"
+    },
+    {
+      "term": "to encompass",
+      "definition": "охватывать, окружать, включать"
+    },
+    {
+      "term": "to endorse",
+      "definition": "одобрять, поддерживать, утверждать"
+    },
+    {
+      "term": "to endure",
+      "definition": "терпеть, вынести, выдюжить, продолжаться"
+    },
+    {
+      "term": "to enforce",
+      "definition": "принуждать, заставлять, приводить в исполнение"
+    },
+    {
+      "term": "to enquire",
+      "definition": "наводить справки, спрашивать"
+    },
+    {
+      "term": "to enrich",
+      "definition": "обогащать"
+    },
+    {
+      "term": "to enrol",
+      "definition": "записаться"
+    },
+    {
+      "term": "to enroll",
+      "definition": "записаться"
+    },
+    {
+      "term": "to ensue",
+      "definition": "следовать, вытекать, происходить, получать в результате"
+    },
+    {
+      "term": "to entitle",
+      "definition": "давать право, называть"
+    },
+    {
+      "term": "to erect",
+      "definition": "возводить, возвышать"
+    },
+    {
+      "term": "to escalate",
+      "definition": "обострять, перерастать, расти, увеличиваться"
+    },
+    {
+      "term": "to evacuate",
+      "definition": "эвакуировать"
+    },
+    {
+      "term": "to evoke",
+      "definition": "вызывать (воспоминания, чувства), пробуждать"
+    },
+    {
+      "term": "to exaggerate",
+      "definition": "преувеличивать, утрировать"
+    },
+    {
+      "term": "to execute",
+      "definition": "казнить"
+    },
+    {
+      "term": "to execute",
+      "definition": "выполнять, исполнять"
+    },
+    {
+      "term": "to exert",
+      "definition": "оказывать, прикладывать"
+    },
+    {
+      "term": "to exit",
+      "definition": "выходить"
+    },
+    {
+      "term": "to expire",
+      "definition": "истекать (о сроке), заканчиваться, терять силу"
+    },
+    {
+      "term": "to extract",
+      "definition": "извлекать, добывать"
+    },
+    {
+      "term": "to facilitate",
+      "definition": "облегчать, содействовать, способствовать"
+    },
+    {
+      "term": "to fade",
+      "definition": "блекнуть, увядать, выцветать"
+    },
+    {
+      "term": "to filter",
+      "definition": "фильтровать"
+    },
+    {
+      "term": "to fine",
+      "definition": "штрафовать"
+    },
+    {
+      "term": "to flee",
+      "definition": "бежать, спасаться бегством"
+    },
+    {
+      "term": "to flourish",
+      "definition": "процветать"
+    },
+    {
+      "term": "to forge",
+      "definition": "подделывать, фальсифицировать, сфабриковать"
+    },
+    {
+      "term": "to forge",
+      "definition": "ковать"
+    },
+    {
+      "term": "to formulate",
+      "definition": "формулировать, определять"
+    },
+    {
+      "term": "to foster",
+      "definition": "способствовать (развитию), воспитывать (чужого ребенка)"
+    },
+    {
+      "term": "to gaze",
+      "definition": "вглядываться"
+    },
+    {
+      "term": "to glance",
+      "definition": "взглянуть"
+    },
+    {
+      "term": "to grasp",
+      "definition": "схватить, понять"
+    },
+    {
+      "term": "to grin",
+      "definition": "ухмыляться, усмехаться"
+    },
+    {
+      "term": "to grind",
+      "definition": "молоть, перетирать"
+    },
+    {
+      "term": "to grip",
+      "definition": "захватывать, крепко держать, сжимать"
+    },
+    {
+      "term": "to hail",
+      "definition": "приветствовать"
+    },
+    {
+      "term": "to halt",
+      "definition": "останавливать"
+    },
+    {
+      "term": "to haunt",
+      "definition": "являться, обитать (о привидении)"
+    },
+    {
+      "term": "to heighten",
+      "definition": "повышать, усиливать"
+    },
+    {
+      "term": "to hint",
+      "definition": "намекать"
+    },
+    {
+      "term": "to hook",
+      "definition": "подцепить, поймать, завербовать"
+    },
+    {
+      "term": "to imprison",
+      "definition": "заключать в тюрьму, лишать свободы"
+    },
+    {
+      "term": "to incur",
+      "definition": "понести, навлечь"
+    },
+    {
+      "term": "to induce",
+      "definition": "вызывать, побуждать, стимулировать, индуцировать"
+    },
+    {
+      "term": "to indulge",
+      "definition": "предаваться, баловать, потакать"
+    },
+    {
+      "term": "to infect",
+      "definition": "заражать"
+    },
+    {
+      "term": "to inflict",
+      "definition": "нанести, наложить, причинять"
+    },
+    {
+      "term": "to inhibit",
+      "definition": "подавлять, препятствовать"
+    },
+    {
+      "term": "to initiate",
+      "definition": "инициировать, начинать"
+    },
+    {
+      "term": "to inject",
+      "definition": "вводить, впрыскивать"
+    },
+    {
+      "term": "to inspect",
+      "definition": "осматривать, инспектировать, производить осмотр"
+    },
+    {
+      "term": "to instruct",
+      "definition": "инструктировать, учить, обучать, наставлять, приказывать"
+    },
+    {
+      "term": "to insult",
+      "definition": "оскорблять, обижать"
+    },
+    {
+      "term": "to intensify",
+      "definition": "усилить"
+    },
+    {
+      "term": "to interfere",
+      "definition": "вмешиваться, мешать, интерферировать"
+    },
+    {
+      "term": "to intervene",
+      "definition": "вмешаться, вступаться"
+    },
+    {
+      "term": "to invoke",
+      "definition": "вызывать, призывать, взывать, ссылаться"
+    },
+    {
+      "term": "to kidnap",
+      "definition": "похищать (человека), красть"
+    },
+    {
+      "term": "to leak",
+      "definition": "течь, подтекать, просачиваться"
+    },
+    {
+      "term": "to leap",
+      "definition": "прыгать, скакать"
+    },
+    {
+      "term": "to license",
+      "definition": "лицензировать"
+    },
+    {
+      "term": "to linger",
+      "definition": "задерживаться, засиживаться, медлить, замешкаться"
+    },
+    {
+      "term": "to lobby",
+      "definition": "лоббировать, агитировать"
+    },
+    {
+      "term": "to log",
+      "definition": "регистрировать, записывать"
+    },
+    {
+      "term": "to loom",
+      "definition": "вырисовываться, маячить"
+    },
+    {
+      "term": "to manifest",
+      "definition": "проявлять, показывать"
+    },
+    {
+      "term": "to manipulate",
+      "definition": "манипулировать"
+    },
+    {
+      "term": "to march",
+      "definition": "маршировать"
+    },
+    {
+      "term": "to mature",
+      "definition": "созревать, взрослеть"
+    },
+    {
+      "term": "to maximize",
+      "definition": "максимизировать"
+    },
+    {
+      "term": "to merge",
+      "definition": "соединять, сливать"
+    },
+    {
+      "term": "to minimize",
+      "definition": "минимизировать"
+    },
+    {
+      "term": "to mobilize",
+      "definition": "мобилизовать, привлечь"
+    },
+    {
+      "term": "to neglect",
+      "definition": "пренебрегать"
+    },
+    {
+      "term": "to nod",
+      "definition": "кивать, клевать (носом)"
+    },
+    {
+      "term": "to nominate",
+      "definition": "назначать, выдвигать, номинировать"
+    },
+    {
+      "term": "to notify",
+      "definition": "уведомлять, сообщать, уведомить"
+    },
+    {
+      "term": "to oblige",
+      "definition": "обязать"
+    },
+    {
+      "term": "to obsess",
+      "definition": "зацикливаться, преследовать, быть одержимым"
+    },
+    {
+      "term": "to opt",
+      "definition": "выбирать"
+    },
+    {
+      "term": "to originate",
+      "definition": "возникнуть, зародиться"
+    },
+    {
+      "term": "to outrage",
+      "definition": "надругаться, оскорбить, вызывать негодование"
+    },
+    {
+      "term": "to overlook",
+      "definition": "игнорировать, проглядеть, упустить из виду"
+    },
+    {
+      "term": "to oversee",
+      "definition": "наблюдать, присматривать, надзирать"
+    },
+    {
+      "term": "to overturn",
+      "definition": "переворачивать, опрокидывать, отменять (приговор, решение)"
+    },
+    {
+      "term": "to overwhelm",
+      "definition": "подавлять, ошеломлять, сокрушать"
+    },
+    {
+      "term": "to patrol",
+      "definition": "патрулировать"
+    },
+    {
+      "term": "to persist",
+      "definition": "настаивать, упорствовать, сохраняться, удерживаться, упорно продолжать"
+    },
+    {
+      "term": "to pioneer",
+      "definition": "быть первооткрывателем, прокладывать путь"
+    },
+    {
+      "term": "to plead",
+      "definition": "умолять, призывать, оправдываться, отвечать на обвинение, ходатайствовать"
+    },
+    {
+      "term": "to pledge",
+      "definition": "закладывать (имущество), обещать"
+    },
+    {
+      "term": "to plug",
+      "definition": "вставлять, подключать"
+    },
+    {
+      "term": "to plunge",
+      "definition": "вляпаться, погрузиться, окунуться, нырнуть"
+    },
+    {
+      "term": "to pop",
+      "definition": "выталкивать, хлопать"
+    },
+    {
+      "term": "to portray",
+      "definition": "изображать, преподносить, описывать"
+    },
+    {
+      "term": "to postpone",
+      "definition": "откладывать, отсрочить"
+    },
+    {
+      "term": "to preach",
+      "definition": "проповедовать, поучать"
+    },
+    {
+      "term": "to prescribe",
+      "definition": "назначать, предписывать, прописывать"
+    },
+    {
+      "term": "to preside",
+      "definition": "председательствовать"
+    },
+    {
+      "term": "to presume",
+      "definition": "предполагать"
+    },
+    {
+      "term": "to prevail",
+      "definition": "преобладать, превалировать"
+    },
+    {
+      "term": "to probe",
+      "definition": "исследовать, зондировать, брать пробу"
+    },
+    {
+      "term": "to proclaim",
+      "definition": "провозглашать, объявлять"
+    },
+    {
+      "term": "to prosecute",
+      "definition": "преследовать (в судебном порядке)"
+    },
+    {
+      "term": "to provoke",
+      "definition": "провоцировать, вызывать"
+    },
+    {
+      "term": "to pump",
+      "definition": "качать, нагнетать"
+    },
+    {
+      "term": "to punch",
+      "definition": "пробивать, бить, ударять"
+    },
+    {
+      "term": "to raid",
+      "definition": "совершать набег (рейд, налет, облаву)"
+    },
+    {
+      "term": "to rally",
+      "definition": "сплачивать, собирать"
+    },
+    {
+      "term": "to rape",
+      "definition": "насиловать"
+    },
+    {
+      "term": "to reassure",
+      "definition": "успокаивать, убеждать, заверять"
+    },
+    {
+      "term": "to recount",
+      "definition": "пересчитывать"
+    },
+    {
+      "term": "to recount",
+      "definition": "рассказывать, вспоминать, пересказывать"
+    },
+    {
+      "term": "to reform",
+      "definition": "реформировать, исправлять"
+    },
+    {
+      "term": "to regain",
+      "definition": "вернуть, отыграть, восстановить"
+    },
+    {
+      "term": "to reign",
+      "definition": "царствовать"
+    },
+    {
+      "term": "to render",
+      "definition": "воспроизводить, изображать, передавать, символизировать"
+    },
+    {
+      "term": "to render",
+      "definition": "предоставлять, оказывать, давать, сообщать"
+    },
+    {
+      "term": "to render",
+      "definition": "делать (приводить в какое-л. состояние), превращать"
+    },
+    {
+      "term": "to renew",
+      "definition": "возобновлять, обновлять"
+    },
+    {
+      "term": "to reproduce",
+      "definition": "воспроизводить"
+    },
+    {
+      "term": "to resemble",
+      "definition": "походить, быть похожим, иметь сходство"
+    },
+    {
+      "term": "to reside",
+      "definition": "проживать"
+    },
+    {
+      "term": "to resume",
+      "definition": "возобновить, продолжить"
+    },
+    {
+      "term": "to retreat",
+      "definition": "отступать"
+    },
+    {
+      "term": "to retrieve",
+      "definition": "получать, извлекать"
+    },
+    {
+      "term": "to reverse",
+      "definition": "обратить, повернуть вспять"
+    },
+    {
+      "term": "to revive",
+      "definition": "возродить, оживлять, приходить в себя"
+    },
+    {
+      "term": "to rip",
+      "definition": "срывать, рвать"
+    },
+    {
+      "term": "to rock",
+      "definition": "качать, качаться, укачивать"
+    },
+    {
+      "term": "to rotate",
+      "definition": "вращать"
+    },
+    {
+      "term": "to sack",
+      "definition": "уволить"
+    },
+    {
+      "term": "to sack",
+      "definition": "грабить"
+    },
+    {
+      "term": "to sacrifice",
+      "definition": "жертвовать, приносить в жертву"
+    },
+    {
+      "term": "to screw",
+      "definition": "закрутить (отверткой)"
+    },
+    {
+      "term": "to seal",
+      "definition": "запечатывать, опечатывать"
+    },
+    {
+      "term": "to seize",
+      "definition": "захватывать, конфисковать"
+    },
+    {
+      "term": "to shatter",
+      "definition": "разбить, раздробить"
+    },
+    {
+      "term": "to shed",
+      "definition": "терять, сбрасывать"
+    },
+    {
+      "term": "to shed",
+      "definition": "проливать, лить"
+    },
+    {
+      "term": "to shrink",
+      "definition": "сокращаться, сжиматься, давать усадку"
+    },
+    {
+      "term": "to shrug",
+      "definition": "пожимать плечами"
+    },
+    {
+      "term": "to sigh",
+      "definition": "вздыхать"
+    },
+    {
+      "term": "to simulate",
+      "definition": "симулировать, имитировать, моделировать"
+    },
+    {
+      "term": "to skip",
+      "definition": "пропустить, прогулять"
+    },
+    {
+      "term": "to slam",
+      "definition": "хлопать, захлопывать, закрывать"
+    },
+    {
+      "term": "to slap",
+      "definition": "шлепать, хлопать, давать пощечину"
+    },
+    {
+      "term": "to slash",
+      "definition": "рубить, хлестать, разрезать, полосовать"
+    },
+    {
+      "term": "to smash",
+      "definition": "громить, крушить, сильно бить"
+    },
+    {
+      "term": "to snap",
+      "definition": "щелкать"
+    },
+    {
+      "term": "to soak",
+      "definition": "замачивать, пропитывать, вымачивать"
+    },
+    {
+      "term": "to soar",
+      "definition": "парить, витать, высоко летать"
+    },
+    {
+      "term": "to span",
+      "definition": "охватывать, перекрывать"
+    },
+    {
+      "term": "to spare",
+      "definition": "жалеть, щадить"
+    },
+    {
+      "term": "to spare",
+      "definition": "уделять (время), давать (деньги), иметь в излишке"
+    },
+    {
+      "term": "to spark",
+      "definition": "искриться"
+    },
+    {
+      "term": "to speculate",
+      "definition": "спекулировать"
+    },
+    {
+      "term": "to spin",
+      "definition": "вращать, вращаться"
+    },
+    {
+      "term": "to spy",
+      "definition": "шпионить"
+    },
+    {
+      "term": "to squeeze",
+      "definition": "сжимать, выжимать, давить, втискивать"
+    },
+    {
+      "term": "to stab",
+      "definition": "заколоть (ножом)"
+    },
+    {
+      "term": "to stabilize",
+      "definition": "стабилизировать"
+    },
+    {
+      "term": "to steer",
+      "definition": "направлять, управлять (рулем)"
+    },
+    {
+      "term": "to stir",
+      "definition": "перемешивать, шевелить"
+    },
+    {
+      "term": "to strip",
+      "definition": "раздеваться, обнажать, сдирать"
+    },
+    {
+      "term": "to strive",
+      "definition": "стремиться, стараться, пытаться"
+    },
+    {
+      "term": "to stumble",
+      "definition": "спотыкаться, оступаться"
+    },
+    {
+      "term": "to stun",
+      "definition": "оглушать, ошеломлять"
+    },
+    {
+      "term": "to substitute",
+      "definition": "заменять, подставлять, замещать"
+    },
+    {
+      "term": "to suck",
+      "definition": "сосать"
+    },
+    {
+      "term": "to sue",
+      "definition": "предъявлять иск, подавать в суд"
+    },
+    {
+      "term": "to supervise",
+      "definition": "наблюдать, присматривать, руководить"
+    },
+    {
+      "term": "to supplement",
+      "definition": "дополнять"
+    },
+    {
+      "term": "to suppress",
+      "definition": "подавлять, пресекать, сдерживать"
+    },
+    {
+      "term": "to surge",
+      "definition": "вздыматься, подниматься, нахлынуть"
+    },
+    {
+      "term": "to surrender",
+      "definition": "сдаваться, капитулировать"
+    },
+    {
+      "term": "to sustain",
+      "definition": "поддерживать, выдерживать"
+    },
+    {
+      "term": "to swing",
+      "definition": "качать, качаться, махать"
+    },
+    {
+      "term": "to tempt",
+      "definition": "соблазнять"
+    },
+    {
+      "term": "to terminate",
+      "definition": "завершать, прекращать"
+    },
+    {
+      "term": "to testify",
+      "definition": "свидетельствовать, давать показания"
+    },
+    {
+      "term": "to thrive",
+      "definition": "процветать, преуспевать, развиваться"
+    },
+    {
+      "term": "to tighten",
+      "definition": "затянуть, стянуть, сжать"
+    },
+    {
+      "term": "to tolerate",
+      "definition": "терпеть, выносить"
+    },
+    {
+      "term": "to torture",
+      "definition": "пытать, мучить"
+    },
+    {
+      "term": "to toss",
+      "definition": "бросать, швырять"
+    },
+    {
+      "term": "to total",
+      "definition": "составлять, насчитывать"
+    },
+    {
+      "term": "to trail",
+      "definition": "тащиться, плестись"
+    },
+    {
+      "term": "to twist",
+      "definition": "крутить, скручивать"
+    },
+    {
+      "term": "to undermine",
+      "definition": "подорвать"
+    },
+    {
+      "term": "to unify",
+      "definition": "унифицировать, объединять"
+    },
+    {
+      "term": "to unveil",
+      "definition": "раскрывать, открывать"
+    },
+    {
+      "term": "to upgrade",
+      "definition": "модернизировать, обновлять, повышать в должности"
+    },
+    {
+      "term": "to uphold",
+      "definition": "поддерживать, отстаивать"
+    },
+    {
+      "term": "to utilize",
+      "definition": "использовать"
+    },
+    {
+      "term": "to vanish",
+      "definition": "исчезать, пропадать"
+    },
+    {
+      "term": "to venture",
+      "definition": "рисковать, осмеливаться"
+    },
+    {
+      "term": "to verify",
+      "definition": "проверять"
+    },
+    {
+      "term": "to violate",
+      "definition": "нарушать"
+    },
+    {
+      "term": "to vow",
+      "definition": "давать обет, клясться"
+    },
+    {
+      "term": "to warrant",
+      "definition": "оправдывать, служить основанием"
+    },
+    {
+      "term": "to warrant",
+      "definition": "гарантировать, ручаться"
+    },
+    {
+      "term": "to weaken",
+      "definition": "ослаблять, слабеть"
+    },
+    {
+      "term": "to weave",
+      "definition": "ткать, плести"
+    },
+    {
+      "term": "to whip",
+      "definition": "взбивать, пенить, хлестать, сечь"
+    },
+    {
+      "term": "to widen",
+      "definition": "расширять"
+    },
+    {
+      "term": "to wipe",
+      "definition": "вытирать, стирать"
+    },
+    {
+      "term": "to worship",
+      "definition": "поклоняться, боготворить"
+    },
+    {
+      "term": "to yell",
+      "definition": "кричать, вопить"
+    },
+    {
+      "term": "to yield",
+      "definition": "давать, уступать, сдаваться"
+    },
+    {
+      "term": "tobacco",
+      "definition": "табак"
+    },
+    {
+      "term": "tolerance",
+      "definition": "терпимость, толерантность"
+    },
+    {
+      "term": "toll",
+      "definition": "дань, плата, пошлина, удержания, сборы, потери"
+    },
+    {
+      "term": "torture",
+      "definition": "пытка, истязание, муки"
+    },
+    {
+      "term": "toxic",
+      "definition": "токсичный"
+    },
+    {
+      "term": "trace",
+      "definition": "след, отпечаток, трассировка"
+    },
+    {
+      "term": "trademark",
+      "definition": "торговая марка, товарный знак"
+    },
+    {
+      "term": "trail",
+      "definition": "след, тропа"
+    },
+    {
+      "term": "trailer",
+      "definition": "анонс, киноафиша"
+    },
+    {
+      "term": "trailer",
+      "definition": "трейлер, прицеп"
+    },
+    {
+      "term": "transaction",
+      "definition": "транзакция"
+    },
+    {
+      "term": "transcript",
+      "definition": "стенограмма, расшифровка"
+    },
+    {
+      "term": "transformation",
+      "definition": "трансформация"
+    },
+    {
+      "term": "transit",
+      "definition": "транзит"
+    },
+    {
+      "term": "transmission",
+      "definition": "передача"
+    },
+    {
+      "term": "transparency",
+      "definition": "прозрачность"
+    },
+    {
+      "term": "transparent",
+      "definition": "прозрачный"
+    },
+    {
+      "term": "trauma",
+      "definition": "травма (в т.ч. психологическая)"
+    },
+    {
+      "term": "treaty",
+      "definition": "договор, соглашение, конвенция"
+    },
+    {
+      "term": "tremendous",
+      "definition": "огромный, потрясающий, страшный"
+    },
+    {
+      "term": "tribal",
+      "definition": "племенной"
+    },
+    {
+      "term": "tribunal",
+      "definition": "трибунал"
+    },
+    {
+      "term": "tribute",
+      "definition": "дань уважения, должное"
+    },
+    {
+      "term": "trigger",
+      "definition": "спусковой крючок"
+    },
+    {
+      "term": "trio",
+      "definition": "трио"
+    },
+    {
+      "term": "triumph",
+      "definition": "триумф, торжество, победа"
+    },
+    {
+      "term": "trophy",
+      "definition": "трофей"
+    },
+    {
+      "term": "troubled",
+      "definition": "обеспокоенный, встревоженный, беспокойный"
+    },
+    {
+      "term": "trustee",
+      "definition": "попечитель, опекун, доверительный собственник"
+    },
+    {
+      "term": "tuition",
+      "definition": "обучение, плата за обучение"
+    },
+    {
+      "term": "turnout",
+      "definition": "собрание, публика, явка избирателей"
+    },
+    {
+      "term": "turnover",
+      "definition": "оборот, объем продаж, товарооборот"
+    },
+    {
+      "term": "twist",
+      "definition": "поворот, скручивание, вращение"
+    },
+    {
+      "term": "undergraduate",
+      "definition": "студент"
+    },
+    {
+      "term": "underlying",
+      "definition": "лежащий в основе, основной"
+    },
+    {
+      "term": "undoubtedly",
+      "definition": "несомненно, безусловно"
+    },
+    {
+      "term": "unprecedented",
+      "definition": "беспрецедентный"
+    },
+    {
+      "term": "upcoming",
+      "definition": "предстоящий"
+    },
+    {
+      "term": "upgrade",
+      "definition": "модернизация, обновление"
+    },
+    {
+      "term": "utility",
+      "definition": "полезность, утилита"
+    },
+    {
+      "term": "utterly",
+      "definition": "совершенно, крайне"
+    },
+    {
+      "term": "vacuum",
+      "definition": "вакуум"
+    },
+    {
+      "term": "vague",
+      "definition": "расплывчатый, смутный, неясный"
+    },
+    {
+      "term": "validity",
+      "definition": "срок действия, весомость, обоснованность"
+    },
+    {
+      "term": "variable",
+      "definition": "переменный, непостоянный, изменчивый, переменная"
+    },
+    {
+      "term": "varied",
+      "definition": "разнообразный, различный"
+    },
+    {
+      "term": "vein",
+      "definition": "вена, жила"
+    },
+    {
+      "term": "venture",
+      "definition": "авантюра, рискованное предприятие"
+    },
+    {
+      "term": "verbal",
+      "definition": "словесный, устный, вербальный"
+    },
+    {
+      "term": "verdict",
+      "definition": "приговор, вердикт, решение суда"
+    },
+    {
+      "term": "verse",
+      "definition": "строфа, стих"
+    },
+    {
+      "term": "vessel",
+      "definition": "сосуд, судно"
+    },
+    {
+      "term": "veteran",
+      "definition": "ветеран, фронтовик, опытный"
+    },
+    {
+      "term": "viable",
+      "definition": "жизнеспособный"
+    },
+    {
+      "term": "vibrant",
+      "definition": "яркий, полный жизни, живой"
+    },
+    {
+      "term": "vice",
+      "definition": "вице, заместитель"
+    },
+    {
+      "term": "vicious",
+      "definition": "порочный, злобный"
+    },
+    {
+      "term": "villager",
+      "definition": "крестьянин, сельский житель"
+    },
+    {
+      "term": "violation",
+      "definition": "нарушение"
+    },
+    {
+      "term": "virtue",
+      "definition": "добродетель, достоинство, хорошее качество"
+    },
+    {
+      "term": "vocal",
+      "definition": "вокальный, голосовой"
+    },
+    {
+      "term": "vs (versus)",
+      "definition": "против, в сравнении с"
+    },
+    {
+      "term": "vulnerability",
+      "definition": "уязвимость"
+    },
+    {
+      "term": "vulnerable",
+      "definition": "ранимый, уязвимый"
+    },
+    {
+      "term": "ward",
+      "definition": "палата (в больнице)"
+    },
+    {
+      "term": "warehouse",
+      "definition": "склад, амбар, хранилище"
+    },
+    {
+      "term": "warfare",
+      "definition": "военное дело, война, искусство войны"
+    },
+    {
+      "term": "warrant",
+      "definition": "ордер, правомочие"
+    },
+    {
+      "term": "warrior",
+      "definition": "воин"
+    },
+    {
+      "term": "weed",
+      "definition": "сорняк"
+    },
+    {
+      "term": "well",
+      "definition": "колодец, скважина"
+    },
+    {
+      "term": "well-being",
+      "definition": "благополучие, благосостояние"
+    },
+    {
+      "term": "whatsoever",
+      "definition": "что бы ни, любой, какой бы ни, что бы то ни было"
+    },
+    {
+      "term": "whereby",
+      "definition": "посредством чего, чем, при помощи чего, в соответствии с чем"
+    },
+    {
+      "term": "whilst",
+      "definition": "пока"
+    },
+    {
+      "term": "wholly",
+      "definition": "полностью, целиком, всецело"
+    },
+    {
+      "term": "widow",
+      "definition": "вдова"
+    },
+    {
+      "term": "width",
+      "definition": "ширина"
+    },
+    {
+      "term": "willingness",
+      "definition": "готовность"
+    },
+    {
+      "term": "wit",
+      "definition": "остроумие, ум, разум"
+    },
+    {
+      "term": "withdrawal",
+      "definition": "изъятие, отозвание, выход"
+    },
+    {
+      "term": "workout",
+      "definition": "тренировка"
+    },
+    {
+      "term": "worship",
+      "definition": "поклонение, почитание, богослужение"
+    },
+    {
+      "term": "worthwhile",
+      "definition": "стоящий, путный"
+    },
+    {
+      "term": "worthy",
+      "definition": "достойный"
+    },
+    {
+      "term": "yield",
+      "definition": "выход, результат, прибыль, плоды, урожай"
+    },
+    {
+      "term": "youngster",
+      "definition": "юноша, юнец, мальчик"
+    }
+  ]
+}
