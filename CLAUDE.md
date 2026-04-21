@@ -77,6 +77,54 @@ const { show, render } = useMyDialog();
 {render()}
 ```
 
+### Colors
+
+Tailwind v4 — tokens defined in `apps/web/src/app/globals.css` via `@theme inline`.
+
+**Neutral scale** (backgrounds → text, light to dark):
+
+| Token            | Hex       | Usage                 |
+| ---------------- | --------- | --------------------- |
+| `neutral-bright` | `#FAF9F5` | page background       |
+| `neutral-light`  | `#F4F4F0` | cards, panels         |
+| `neutral-mid`    | `#EEEEE8` | nested sections       |
+| `neutral-dark`   | `#E5E4DE` | inputs, inset areas   |
+| `neutral-deep`   | `#C2C8BE` | borders, dividers     |
+| `neutral-black`  | `#737970` | subtle text, metadata |
+| `neutral-coal`   | `#424841` | secondary text        |
+| `neutral`        | `#1A1C1A` | primary text          |
+
+**Accent colors** (all named by color, not role):
+
+| Token          | Hex       | Notes                                          |
+| -------------- | --------- | ---------------------------------------------- |
+| `sage`         | `#5F7C55` | primary action — buttons, progress, active nav |
+| `sage-light`   | `#E3E6DD` | sage at 15% opacity on bright                  |
+| `sage-bright`  | `#EEEFE8` | sage at 8% opacity on bright                   |
+| `terra`        | `#79542E` | labels only — never on buttons                 |
+| `terra-light`  | `#E7E0D7` | terra at 15% opacity on bright                 |
+| `terra-bright` | `#F1EDE7` | terra at 7% opacity on bright                  |
+| `steel`        | `#48626E` | secondary links, Hard difficulty               |
+| `steel-light`  | `#DFE2E1` | steel at 15% opacity on bright                 |
+| `red`          | `#BA1A1A` | errors, destructive actions                    |
+| `red-light`    | `#F4E3DF` | red at 10% opacity on bright                   |
+
+**Usage:**
+
+```html
+<div class="bg-neutral-light border border-neutral-deep">
+  <h2 class="text-neutral">Title</h2>
+  <p class="text-neutral-coal">Body text</p>
+  <span class="text-neutral-black">Metadata</span>
+  <button class="bg-sage text-white">Action</button>
+  <span class="bg-red-light text-red">Error</span>
+</div>
+```
+
+- All tokens work with any Tailwind utility prefix: `bg-`, `text-`, `border-`, `ring-`
+- Never use raw hex values — always use tokens
+- Only one `sage` action element per screen
+
 ### Code Quality
 
 - **Prettier** — formatter, config in `.prettierrc` (singleQuote, printWidth: 120, trailingComma: all); `prettier-plugin-tailwindcss` sorts Tailwind classes automatically

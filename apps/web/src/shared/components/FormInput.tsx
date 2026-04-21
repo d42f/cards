@@ -14,8 +14,8 @@ export function FormInput({ className, inputClassName, id: idProp, label, error,
   const id = idProp ?? autoId;
 
   return (
-    <div className={cn('flex flex-col gap-2', className)}>
-      <label className="text-sm font-medium" htmlFor={id}>
+    <div className={cn('flex flex-col gap-1', className)}>
+      <label className="text-neutral-black text-xs font-medium uppercase" htmlFor={id}>
         {label}
       </label>
       <Input id={id} className={cn('w-full', inputClassName)} {...props} />

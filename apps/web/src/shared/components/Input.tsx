@@ -5,17 +5,17 @@ import { cn } from '@/lib/cn';
 
 const input = cva(
   [
-    'border border-gray-300 font-normal',
-    'focus-visible:inset-ring-2 focus-visible:inset-ring-sky-500 focus-visible:outline-none',
-    'invalid:border-red-400',
-    'disabled:cursor-not-allowed disabled:bg-gray-50 disabled:text-gray-400',
+    'border-neutral-deep bg-neutral-bright text-neutral border',
+    'placeholder:text-neutral-black',
+    'focus-visible:inset-ring-sage focus-visible:inset-ring-2 focus-visible:outline-none',
+    'invalid:border-red',
+    'disabled:cursor-not-allowed disabled:opacity-35',
   ],
   {
     variants: {
       size: {
-        sm: 'rounded-md px-3 py-2 text-sm',
-        md: 'rounded-md px-3 py-2 text-base',
-        lg: 'rounded-lg px-4 py-3 text-base',
+        sm: 'rounded-md p-2 text-sm/4.5 font-medium',
+        md: 'rounded-lg p-3 text-base/4.5 font-medium',
       },
     },
     defaultVariants: {
