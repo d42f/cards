@@ -5,13 +5,11 @@ import { useRouter } from 'next/navigation';
 import { gql } from '@apollo/client';
 import { useMutation } from '@apollo/client/react';
 
-import LogoIcon from '@/shared/icons/logo.svg';
-
 import { Button } from '@/shared/components/Button';
 import { Card } from '@/shared/components/Card';
 import { FormInput } from '@/shared/components/FormInput';
-import { FormSelect } from '@/shared/components/FormSelect';
 import { Link } from '@/shared/components/Link';
+import { Logo } from '@/shared/components/Logo';
 import { Role } from '@/types/prisma';
 
 const REGISTER = gql`
@@ -53,27 +51,22 @@ export default function RegisterPage() {
 
   return (
     <Card className="flex w-full max-w-md flex-col gap-4">
-      <div className="mx-auto rounded-full border border-gray-200 bg-white p-4 shadow-sm">
-        <LogoIcon className="h-10" />
-      </div>
-      <h1 className="text-center text-xl font-bold">Register</h1>
+      <Logo className="mx-auto h-12 p-3 shadow-sm" />
+      <h1 className="text-center font-serif text-4xl italic">Create your archive</h1>
       <form className="space-y-4" onSubmit={handleSubmit(onSubmit)} noValidate>
         <FormInput
-          size="lg"
           type="text"
           label="Name"
           error={errors.name?.message}
           {...field('name', { required: 'Name is required' })}
         />
         <FormInput
-          size="lg"
           type="email"
           label="Email"
           error={errors.email?.message}
           {...field('email', { required: 'Email is required' })}
         />
         <FormInput
-          size="lg"
           type="password"
           label="Password"
           error={errors.password?.message ?? errors.root?.message}
@@ -82,16 +75,7 @@ export default function RegisterPage() {
             minLength: { value: 6, message: 'Minimum 6 characters' },
           })}
         />
-        <FormSelect
-          size="lg"
-          label="Role"
-          options={[
-            { value: Role.STUDENT, label: 'Student' },
-            { value: Role.TEACHER, label: 'Teacher' },
-          ]}
-          {...field('role')}
-        />
-        <Button className="w-full" size="lg" type="submit" disabled={isSubmitting}>
+        <Button className="w-full" type="submit" disabled={isSubmitting}>
           Create account
         </Button>
       </form>

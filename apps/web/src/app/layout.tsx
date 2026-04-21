@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Geist_Mono, Manrope } from 'next/font/google';
+import { Manrope, Newsreader } from 'next/font/google';
 
 import { Providers } from './providers';
 
@@ -10,9 +10,10 @@ const sans = Manrope({
   subsets: ['latin'],
 });
 
-const mono = Geist_Mono({
-  variable: '--font-mono',
+const serif = Newsreader({
+  variable: '--font-serif',
   subsets: ['latin'],
+  style: ['normal', 'italic'],
 });
 
 export const metadata: Metadata = {
@@ -27,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${sans.variable} ${mono.variable} font-sans antialiased`}>
+      <body className={`${sans.variable} ${serif.variable} font-sans antialiased`}>
         <Providers>{children}</Providers>
       </body>
     </html>

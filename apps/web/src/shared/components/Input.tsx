@@ -5,9 +5,10 @@ import { cn } from '@/lib/cn';
 
 const input = cva(
   [
-    'border-neutral-deep bg-neutral-bright text-neutral border',
+    'border-neutral-deep bg-neutral-light text-neutral border',
     'placeholder:text-neutral-black',
-    'focus-visible:inset-ring-sage focus-visible:inset-ring-2 focus-visible:outline-none',
+    'focus-visible:inset-ring-sage focus-visible:bg-neutral-bright focus-visible:inset-ring-2 focus-visible:outline-none',
+    '[&:not(:placeholder-shown)]:bg-neutral-bright',
     'invalid:border-red',
     'disabled:cursor-not-allowed disabled:opacity-35',
   ],
