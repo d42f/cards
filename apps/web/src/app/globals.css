@@ -1,10 +1,6 @@
 @import 'tailwindcss';
 
 @theme inline {
-  --font-sans: var(--font-sans);
-  --font-serif: var(--font-serif);
-  --font-mono: var(--font-mono);
-
   /* neutral */
   --color-neutral: #1a1c1a;
   --color-neutral-coal: #424841;
@@ -42,4 +38,5 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0 1000px white inset;
   box-shadow: 0 0 0 1000px white inset;
+  background-color: var(--color-neutral-light);
 }

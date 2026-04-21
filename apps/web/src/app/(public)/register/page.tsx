@@ -57,18 +57,21 @@ export default function RegisterPage() {
         <FormInput
           type="text"
           label="Name"
+          placeholder="Enter your email"
           error={errors.name?.message}
           {...field('name', { required: 'Name is required' })}
         />
         <FormInput
           type="email"
           label="Email"
+          placeholder="Enter your name"
           error={errors.email?.message}
           {...field('email', { required: 'Email is required' })}
         />
         <FormInput
           type="password"
           label="Password"
+          placeholder="Enter your password"
           error={errors.password?.message ?? errors.root?.message}
           {...field('password', {
             required: 'Password is required',
