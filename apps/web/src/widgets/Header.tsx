@@ -1,10 +1,9 @@
 import { Metadata } from 'next';
 
-import LogoIcon from '@/shared/icons/logo.svg';
-
 import { auth } from '@/auth';
 import { SignOutButton } from '@/features/SignOutButton';
 import { Link } from '@/shared/components/Link';
+import { Logo } from '@/shared/components/Logo';
 
 interface Props {
   title?: Metadata['title'];
@@ -15,11 +14,11 @@ export async function Header({ title }: Props) {
   const name = session?.user?.name ?? session?.user?.email ?? 'User';
 
   return (
-    <header className="border-b border-gray-200 bg-white">
+    <header className="border-neutral-deep border-b">
       <div className="px-6">
-        <div className="mx-auto flex h-14 max-w-5xl items-center gap-4">
+        <div className="mx-auto flex h-16 max-w-5xl items-center gap-4">
           <Link href="/" variant="subtle" className="mr-auto flex items-center gap-2 font-semibold">
-            <LogoIcon className="h-6 w-6" />
+            <Logo className="h-8 rounded-lg p-2" />
             {title as string}
           </Link>
 
@@ -30,7 +29,7 @@ export async function Header({ title }: Props) {
           )}
 
           <Link href="/profile" variant="subtle" className="flex items-center gap-2">
-            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-blue-500 text-xs font-medium text-white uppercase">
+            <span className="bg-sage flex h-8 w-8 items-center justify-center rounded-full text-xs font-medium text-white uppercase">
               {name.slice(0, 2)}
             </span>
             <span className="hidden sm:inline">{name}</span>
