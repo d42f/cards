@@ -8,7 +8,7 @@ interface Props {
 
 export function Logo({ className }: Props) {
   return (
-    <div className={cn('bg-sage aspect-square shrink-0 rounded-xl p-2.5', className)}>
+    <div className={cn('bg-sage aspect-square shrink-0 rounded-xl p-1', className)}>
       <LogoIcon className="size-full" />
     </div>
   );

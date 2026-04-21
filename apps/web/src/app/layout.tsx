@@ -17,8 +17,8 @@ const serif = Newsreader({
 });
 
 export const metadata: Metadata = {
-  title: 'Flashcard cards',
-  description: 'Flashcard learning app',
+  title: 'Cards',
+  description: 'Card learning app',
 };
 
 export default function RootLayout({
