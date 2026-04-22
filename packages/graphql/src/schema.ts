@@ -10,6 +10,7 @@ export const typeDefs = `#graphql
     name: String!
     role: Role!
     streak: Int!
+    dailyGoal: Int!
     students: [User!]!
     teachers: [User!]!
   }
@@ -18,6 +19,8 @@ export const typeDefs = `#graphql
     id: ID!
     title: String!
     words: [Word!]!
+    studiedCount: Int!
+    dueCount: Int!
   }
 
   type Word {
@@ -33,19 +36,28 @@ export const typeDefs = `#graphql
     score: Int!
   }
 
+  type TrainingSession {
+    id: ID!
+    wordSetId: ID!
+    totalWords: Int!
+    knownWords: Int!
+    completedAt: String!
+  }
+
   type MyStats {
     totalWords: Int!
     studiedWords: Int!
     wordSetCount: Int!
     streak: Int!
+    todayCount: Int!
+    weekActivity: [Boolean!]!
   }
 
   type Query {
+    me: User
     myStats: MyStats!
-    latestWordSet: WordSet
     wordSets: [WordSet!]!
     wordSet(id: ID!): WordSet
-    myProgress(wordSetId: ID!): [Progress!]!
     myStudents: [User!]!
     myTeachers: [User!]!
   }
@@ -57,5 +69,6 @@ export const typeDefs = `#graphql
     updateProgress(wordId: ID!, wordSetId: ID!, score: Int!): Progress!
     addStudent(studentId: ID!): User!
     removeStudent(studentId: ID!): User!
+    finishSession(wordSetId: ID!, totalWords: Int!, knownWords: Int!): TrainingSession!
   }
 `;

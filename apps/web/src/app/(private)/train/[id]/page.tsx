@@ -30,6 +30,14 @@ const UPDATE_PROGRESS = gql`
   }
 `;
 
+const FINISH_SESSION = gql`
+  mutation FinishSession($wordSetId: ID!, $totalWords: Int!, $knownWords: Int!) {
+    finishSession(wordSetId: $wordSetId, totalWords: $totalWords, knownWords: $knownWords) {
+      id
+    }
+  }
+`;
+
 interface Word {
   id: string;
   term: string;
@@ -52,6 +60,7 @@ export default function TrainPage({ params }: { params: Promise<{ id: string }> 
   });
 
   const [updateProgress] = useMutation(UPDATE_PROGRESS);
+  const [finishSession] = useMutation(FINISH_SESSION);
 
   const words = data?.wordSet?.words ?? [];
   const word = words[currentIndex];
@@ -68,6 +77,9 @@ export default function TrainPage({ params }: { params: Promise<{ id: string }> 
     setResults(newResults);
 
     if (currentIndex + 1 >= total) {
+      await finishSession({
+        variables: { wordSetId: id, totalWords: total, knownWords: newResults.known },
+      });
       setDone(true);
     } else {
       setCurrentIndex(i => i + 1);
@@ -83,7 +95,7 @@ export default function TrainPage({ params }: { params: Promise<{ id: string }> 
     return (
       <div className="m-auto flex flex-col items-center justify-center gap-6">
         <div className="text-lg font-medium text-gray-700">No words in this set yet</div>
-        <Button variant="secondary" onClick={() => router.push('/')}>
+        <Button variant="ghost" onClick={() => router.push('/')}>
           Back to dashboard
         </Button>
       </div>
@@ -134,7 +146,7 @@ export default function TrainPage({ params }: { params: Promise<{ id: string }> 
         ) : (
           <>
             <Button onClick={() => advance(5)}>Got it</Button>
-            <Button variant="secondary" onClick={() => advance(1)}>
+            <Button variant="ghost" onClick={() => advance(1)}>
               Need practice
             </Button>
           </>

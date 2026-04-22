@@ -1,58 +1,27 @@
-'use client';
+import { auth } from '@/auth';
+import { formatDate, greeting } from '@/lib/date';
+import { MyDecks } from '@/widgets/MyDecks';
+import { MyStats } from '@/widgets/MyStats';
 
-import { gql } from '@apollo/client';
-import { useQuery } from '@apollo/client/react';
-
-import { LatestWordSet } from '@/widgets/LatestWordSet';
-import { StudentProgress } from '@/widgets/StudentProgress';
-import { WordSetList } from '@/widgets/WordSetList';
-
-const DASHBOARD = gql`
-  query Dashboard {
-    myStats {
-      totalWords
-      studiedWords
-      wordSetCount
-      streak
-    }
-    latestWordSet {
-      id
-      title
-      words {
-        id
-      }
-    }
-  }
-`;
-
-interface DashboardData {
-  myStats: {
-    totalWords: number;
-    studiedWords: number;
-    wordSetCount: number;
-    streak: number;
-  };
-  latestWordSet: { id: string; title: string; words: { id: string }[] } | null;
-}
-
-export default function DashboardPage() {
-  const { data, loading } = useQuery<DashboardData>(DASHBOARD);
+export default async function DashboardPage() {
+  const session = await auth();
+  const name = session?.user?.name ?? '';
 
   return (
-    <div className="grid grid-cols-2 gap-8">
-      {!loading && (
-        <>
-          <StudentProgress
-            className="col-span-2"
-            totalWords={data?.myStats.totalWords ?? 0}
-            studiedWords={data?.myStats.studiedWords ?? 0}
-            wordSetCount={data?.myStats.wordSetCount ?? 0}
-            streak={data?.myStats.streak ?? 0}
-          />
-          <LatestWordSet wordSet={data?.latestWordSet ?? null} />
-          <WordSetList className="col-span-2" />
-        </>
-      )}
+    <div className="grid grid-cols-3 gap-6">
+      <div className="col-span-2 flex flex-col gap-8">
+        <div>
+          <p className="text-neutral-black text-xs font-semibold tracking-widest uppercase">Today&apos;s focus</p>
+          <h1 className="text-neutral mt-1 font-serif text-4xl font-bold italic">
+            {name ? `${greeting(name)}.` : ' '}
+          </h1>
+          <p className="text-neutral-coal mt-1 text-sm">{formatDate(new Date())}</p>
+        </div>
+
+        <MyDecks />
+      </div>
+
+      <MyStats />
     </div>
   );
 }

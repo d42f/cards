@@ -3,6 +3,7 @@ import bcrypt from 'bcryptjs';
 import { readFileSync } from 'fs';
 import path from 'path';
 
+import { startOfDay } from '@/lib/date';
 import { prisma } from '@/lib/prisma';
 
 interface SeedWord {
@@ -62,43 +63,74 @@ export const resolvers = {
     },
   },
 
+  WordSet: {
+    studiedCount: async (parent: { id: string }, _: unknown, ctx: Context) => {
+      const user = requireAuth(ctx);
+      return prisma.progress.count({
+        where: { userId: user.id, wordSetId: parent.id, score: { gte: 3 } },
+      });
+    },
+    dueCount: async (parent: { id: string }, _: unknown, ctx: Context) => {
+      const user = requireAuth(ctx);
+      const [totalWords, studiedCount] = await Promise.all([
+        prisma.word.count({ where: { wordSetId: parent.id } }),
+        prisma.progress.count({ where: { userId: user.id, wordSetId: parent.id, score: { gte: 3 } } }),
+      ]);
+      return totalWords - studiedCount;
+    },
+  },
+
   Query: {
+    me: async (_: unknown, __: unknown, ctx: Context) => {
+      const user = requireAuth(ctx);
+      return prisma.user.findUnique({ where: { id: user.id } });
+    },
+
     myStats: async (_: unknown, __: unknown, ctx: Context) => {
       const user = requireAuth(ctx);
-      const [totalWords, studiedWords, wordSetCount, dbUser] = await Promise.all([
+
+      const now = new Date();
+      const todayStart = startOfDay(now);
+      const weekStart = startOfDay(now);
+      const dow = weekStart.getDay();
+      weekStart.setDate(weekStart.getDate() - (dow === 0 ? 6 : dow - 1));
+
+      const [totalWords, studiedWords, wordSetCount, sessions] = await Promise.all([
         prisma.word.count({ where: { wordSet: { userId: user.id } } }),
         prisma.progress.count({ where: { userId: user.id } }),
         prisma.wordSet.count({ where: { userId: user.id } }),
-        prisma.user.findUnique({
-          where: { id: user.id },
-          select: { streak: true },
+        prisma.trainingSession.findMany({
+          where: { userId: user.id },
+          select: { completedAt: true, totalWords: true },
         }),
       ]);
-      return {
-        totalWords,
-        studiedWords,
-        wordSetCount,
-        streak: dbUser?.streak ?? 0,
-      };
-    },
-    latestWordSet: async (_: unknown, __: unknown, ctx: Context) => {
-      const user = requireAuth(ctx);
-      const lastTrainedProgress = await prisma.progress.findFirst({
-        where: { userId: user.id },
-        orderBy: { updatedAt: 'desc' },
-        include: { wordSet: { include: { words: { select: { id: true } } } } },
+
+      const todayCount = sessions.filter(s => s.completedAt >= todayStart).reduce((sum, s) => sum + s.totalWords, 0);
+
+      const weekActivity = Array.from({ length: 7 }, (_, i) => {
+        const day = new Date(weekStart);
+        day.setDate(day.getDate() + i);
+        const next = new Date(day);
+        next.setDate(next.getDate() + 1);
+        return sessions.some(s => s.completedAt >= day && s.completedAt < next);
       });
-      if (lastTrainedProgress?.wordSet) return lastTrainedProgress.wordSet;
-      return prisma.wordSet.findFirst({
-        where: { userId: user.id },
-        orderBy: { createdAt: 'desc' },
-        include: { words: { select: { id: true } } },
-      });
+
+      const activeDays = new Set(sessions.map(s => startOfDay(s.completedAt).getTime()));
+      let streak = 0;
+      const cursor = startOfDay(now);
+      while (activeDays.has(cursor.getTime())) {
+        streak++;
+        cursor.setDate(cursor.getDate() - 1);
+      }
+
+      return { totalWords, studiedWords, wordSetCount, streak, todayCount, weekActivity };
     },
+
     wordSets: async (_: unknown, __: unknown, ctx: Context) => {
       const user = requireAuth(ctx);
       return prisma.wordSet.findMany({ where: { userId: user.id }, include: { words: true } });
     },
+
     wordSet: async (_: unknown, { id }: { id: string }, ctx: Context) => {
       const user = requireAuth(ctx);
       return prisma.wordSet.findUnique({
@@ -106,12 +138,7 @@ export const resolvers = {
         include: { words: true },
       });
     },
-    myProgress: async (_: unknown, { wordSetId }: { wordSetId: string }, ctx: Context) => {
-      const user = requireAuth(ctx);
-      return prisma.progress.findMany({
-        where: { userId: user.id, wordSetId },
-      });
-    },
+
     myStudents: async (_: unknown, __: unknown, ctx: Context) => {
       const user = requireTeacher(ctx);
       const teacher = await prisma.user.findUnique({
@@ -120,6 +147,7 @@ export const resolvers = {
       });
       return teacher?.students ?? [];
     },
+
     myTeachers: async (_: unknown, __: unknown, ctx: Context) => {
       const user = requireAuth(ctx);
       const student = await prisma.user.findUnique({
@@ -181,30 +209,11 @@ export const resolvers = {
       ctx: Context,
     ) => {
       const user = requireAuth(ctx);
-
-      const dbUser = await prisma.user.findUniqueOrThrow({
-        where: { id: user.id },
+      return prisma.progress.upsert({
+        where: { userId_wordId: { userId: user.id, wordId } },
+        update: { score },
+        create: { userId: user.id, wordId, wordSetId, score },
       });
-      const today = new Date();
-      today.setHours(0, 0, 0, 0);
-      const last = dbUser.lastActivityAt ? new Date(dbUser.lastActivityAt.setHours(0, 0, 0, 0)) : null;
-      const diffDays = last ? Math.round((today.getTime() - last.getTime()) / 86400000) : null;
-
-      const newStreak = diffDays === 0 ? dbUser.streak : diffDays === 1 ? dbUser.streak + 1 : 1;
-
-      const [progress] = await prisma.$transaction([
-        prisma.progress.upsert({
-          where: { userId_wordId: { userId: user.id, wordId } },
-          update: { score },
-          create: { userId: user.id, wordId, wordSetId, score },
-        }),
-        prisma.user.update({
-          where: { id: user.id },
-          data: { streak: newStreak, lastActivityAt: new Date() },
-        }),
-      ]);
-
-      return progress;
     },
 
     addStudent: async (_: unknown, { studentId }: { studentId: string }, ctx: Context) => {
@@ -223,6 +232,18 @@ export const resolvers = {
         data: { students: { disconnect: { id: studentId } } },
         include: { students: true },
       });
+    },
+
+    finishSession: async (
+      _: unknown,
+      { wordSetId, totalWords, knownWords }: { wordSetId: string; totalWords: number; knownWords: number },
+      ctx: Context,
+    ) => {
+      const user = requireAuth(ctx);
+      const session = await prisma.trainingSession.create({
+        data: { userId: user.id, wordSetId, totalWords, knownWords },
+      });
+      return { ...session, completedAt: session.completedAt.toISOString() };
     },
   },
 };

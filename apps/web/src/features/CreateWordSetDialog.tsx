@@ -93,7 +93,7 @@ function CreateWordSetDialogContent({ onClose }: Pick<DialogProps, 'onClose'>) {
         <Button type="submit" disabled={isSubmitting}>
           {isSubmitting ? 'Creating…' : 'Create'}
         </Button>
-        <Button variant="secondary" type="button" onClick={onClose}>
+        <Button variant="ghost" type="button" onClick={onClose}>
           Cancel
         </Button>
       </div>

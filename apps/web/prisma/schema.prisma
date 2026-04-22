@@ -13,30 +13,31 @@ enum Role {
 }
 
 model User {
-  id             String     @id @default(cuid())
-  email          String     @unique
-  name           String
-  password       String
-  role           Role       @default(STUDENT)
-  streak         Int        @default(0)
-  lastActivityAt DateTime?
-  students       User[]     @relation("TeacherStudents")
-  teachers       User[]     @relation("TeacherStudents")
-  progress       Progress[]
-  wordSets       WordSet[]
-  createdAt      DateTime   @default(now())
-  updatedAt      DateTime   @updatedAt
+  id               String            @id @default(cuid())
+  email            String            @unique
+  name             String
+  password         String
+  role             Role              @default(STUDENT)
+  dailyGoal        Int               @default(20)
+  students         User[]            @relation("TeacherStudents")
+  teachers         User[]            @relation("TeacherStudents")
+  progress         Progress[]
+  wordSets         WordSet[]
+  trainingSessions TrainingSession[]
+  createdAt        DateTime          @default(now())
+  updatedAt        DateTime          @updatedAt
 }
 
 model WordSet {
-  id        String     @id @default(cuid())
-  title     String
-  user      User?      @relation(fields: [userId], references: [id])
-  userId    String?
-  words     Word[]
-  progress  Progress[]
-  createdAt DateTime   @default(now())
-  updatedAt DateTime   @updatedAt
+  id               String            @id @default(cuid())
+  title            String
+  user             User?             @relation(fields: [userId], references: [id])
+  userId           String?
+  words            Word[]
+  progress         Progress[]
+  trainingSessions TrainingSession[]
+  createdAt        DateTime          @default(now())
+  updatedAt        DateTime          @updatedAt
 }
 
 model Word {
@@ -62,4 +63,15 @@ model Progress {
   updatedAt DateTime @updatedAt
 
   @@unique([userId, wordId])
+}
+
+model TrainingSession {
+  id          String   @id @default(cuid())
+  user        User     @relation(fields: [userId], references: [id])
+  userId      String
+  wordSet     WordSet  @relation(fields: [wordSetId], references: [id])
+  wordSetId   String
+  totalWords  Int
+  knownWords  Int
+  completedAt DateTime @default(now())
 }
