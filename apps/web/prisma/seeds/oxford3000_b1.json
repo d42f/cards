@@ -3,3479 +3,4348 @@
   "words": [
     {
       "term": "IT",
-      "definition": "информационные технологии"
+      "definition": "информационные технологии",
+      "transcription": "[ˌaɪ ˈtiː]"
     },
     {
       "term": "absolutely",
-      "definition": "абсолютно, совершенно, безусловно, конечно, вконец"
+      "definition": "абсолютно, совершенно, безусловно, конечно, вконец",
+      "transcription": "[ˈæbsəluːtlɪ]"
     },
     {
       "term": "academic",
-      "definition": "академический, учебный, ученый"
+      "definition": "академический, учебный, ученый",
+      "transcription": "[ækəˈdemɪk]"
     },
     {
       "term": "access",
-      "definition": "доступ"
+      "definition": "доступ",
+      "transcription": "[ˈækses]"
     },
     {
       "term": "accommodation",
-      "definition": "жилье, помещение, приспособление, аккомодация"
+      "definition": "жилье, помещение, приспособление, аккомодация",
+      "transcription": "[əkɔməˈdeɪʃn]"
     },
     {
       "term": "account",
-      "definition": "учетная запись, аккаунт, счёт (в банке)"
+      "definition": "учетная запись, аккаунт, счёт (в банке)",
+      "transcription": "[əˈkaʊnt]"
     },
     {
       "term": "account",
-      "definition": "отчёт, доклад, мнение"
+      "definition": "отчёт, доклад, мнение",
+      "transcription": "[əˈkaʊnt]"
     },
     {
       "term": "achievement",
-      "definition": "достижение"
+      "definition": "достижение",
+      "transcription": "[əˈʧiːvmənt]"
     },
     {
       "term": "act",
-      "definition": "акт, закон, действие, поступок"
+      "definition": "акт, закон, действие, поступок",
+      "transcription": "[ækt]"
     },
     {
       "term": "ad",
-      "definition": "реклама, объявление"
+      "definition": "реклама, объявление",
+      "transcription": "[æd]"
     },
     {
       "term": "addition",
-      "definition": "сложение, прибавление, дополнение"
+      "definition": "сложение, прибавление, дополнение",
+      "transcription": "[əˈdɪʃn]"
     },
     {
       "term": "advanced",
-      "definition": "продвинутый, передовой"
+      "definition": "продвинутый, передовой",
+      "transcription": "[ədˈvɑːnst]"
     },
     {
       "term": "aged",
-      "definition": "пожилой, старый"
+      "definition": "пожилой, старый",
+      "transcription": "[ˈeɪdʒɪd]"
     },
     {
       "term": "agent",
-      "definition": "агент"
+      "definition": "агент",
+      "transcription": "[ˈeɪʤənt]"
     },
     {
       "term": "agreement",
-      "definition": "соглашение, согласие, договор"
+      "definition": "соглашение, согласие, договор",
+      "transcription": "[əˈgriːmənt]"
     },
     {
       "term": "ahead",
-      "definition": "вперед, впереди"
+      "definition": "вперед, впереди",
+      "transcription": "[əˈhed]"
     },
     {
       "term": "aim",
-      "definition": "цель"
+      "definition": "цель",
+      "transcription": "[eɪm]"
     },
     {
       "term": "alarm",
-      "definition": "тревога, аварийный"
+      "definition": "тревога, аварийный",
+      "transcription": "[əˈlɑːm]"
     },
     {
       "term": "album",
-      "definition": "альбом"
+      "definition": "альбом",
+      "transcription": "[ˈælbəm]"
     },
     {
       "term": "alcohol",
-      "definition": "алкоголь, спирт"
+      "definition": "алкоголь, спирт",
+      "transcription": "[ˈælkəhɔl]"
     },
     {
       "term": "alcoholic",
-      "definition": "алкогольный"
+      "definition": "алкогольный",
+      "transcription": "[ælkəˈhɔlɪk]"
     },
     {
       "term": "amazed",
-      "definition": "изумлённый, поражённый"
+      "definition": "изумлённый, поражённый",
+      "transcription": "[əˈmeɪzd]"
     },
     {
       "term": "ambition",
-      "definition": "амбиция, честолюбие"
+      "definition": "амбиция, честолюбие",
+      "transcription": "[æmˈbɪʃn]"
     },
     {
       "term": "ambitious",
-      "definition": "амбициозный, целеустремленный, честолюбивый"
+      "definition": "амбициозный, целеустремленный, честолюбивый",
+      "transcription": "[æmˈbɪʃəs]"
     },
     {
       "term": "analysis",
-      "definition": "анализ, исследование, разбор, проба"
+      "definition": "анализ, исследование, разбор, проба",
+      "transcription": "[əˈnæləsɪs]"
     },
     {
       "term": "announcement",
-      "definition": "объявление, сообщение, извещение, уведомление"
+      "definition": "объявление, сообщение, извещение, уведомление",
+      "transcription": "[əˈnaʊnsmənt]"
     },
     {
       "term": "annoyed",
-      "definition": "раздражённый, недовольный"
+      "definition": "раздражённый, недовольный",
+      "transcription": "[əˈnɔɪd]"
     },
     {
       "term": "annoying",
-      "definition": "раздражающий, досадный, надоедливый"
+      "definition": "раздражающий, досадный, надоедливый",
+      "transcription": "[əˈnɔɪɪŋ]"
     },
     {
       "term": "apart",
-      "definition": "кроме, отдельно"
+      "definition": "кроме, отдельно",
+      "transcription": "[əˈpɑːt]"
     },
     {
       "term": "application",
-      "definition": "заявление, заявка"
+      "definition": "заявление, заявка",
+      "transcription": "[æplɪˈkeɪʃn]"
     },
     {
       "term": "appointment",
-      "definition": "деловая встреча, назначение"
+      "definition": "деловая встреча, назначение",
+      "transcription": "[əˈpɔɪntmənt]"
     },
     {
       "term": "approximately",
-      "definition": "приблизительно, примерно"
+      "definition": "приблизительно, примерно",
+      "transcription": "[əˈprɔksɪmɪtlɪ]"
     },
     {
       "term": "arrangement",
-      "definition": "расположение, размещение, композиция"
+      "definition": "расположение, размещение, композиция",
+      "transcription": "[əˈreɪnʤmənt]"
     },
     {
       "term": "arrest",
-      "definition": "арест, задержание"
+      "definition": "арест, задержание",
+      "transcription": "[əˈrest]"
     },
     {
       "term": "arrival",
-      "definition": "прибытие, поступление"
+      "definition": "прибытие, поступление",
+      "transcription": "[əˈraɪvəl]"
     },
     {
       "term": "assignment",
-      "definition": "назначение, задание, поручение, уступка, переуступка"
+      "definition": "назначение, задание, поручение, уступка, переуступка",
+      "transcription": "[əˈsaɪnmənt]"
     },
     {
       "term": "atmosphere",
-      "definition": "атмосфера"
+      "definition": "атмосфера",
+      "transcription": "[ˈætməsfɪə]"
     },
     {
       "term": "attitude",
-      "definition": "отношение"
+      "definition": "отношение",
+      "transcription": "[ˈætɪtjuːd]"
     },
     {
       "term": "attraction",
-      "definition": "привлечение, притяжение, аттракцион, привлекательность"
+      "definition": "привлечение, притяжение, аттракцион, привлекательность",
+      "transcription": "[əˈtrækʃn]"
     },
     {
       "term": "authority",
-      "definition": "власть, руководство, полномочие, источник"
+      "definition": "власть, руководство, полномочие, источник",
+      "transcription": "[ɔːˈθɔrɪtɪ]"
     },
     {
       "term": "aware",
-      "definition": "знающий"
+      "definition": "знающий",
+      "transcription": "[əˈwɛə]"
     },
     {
       "term": "backwards",
-      "definition": "назад, обратно, задом наперёд"
+      "definition": "назад, обратно, задом наперёд",
+      "transcription": "[ˈbækwədz]"
     },
     {
       "term": "balance",
-      "definition": "баланс, сальдо"
+      "definition": "баланс, сальдо",
+      "transcription": "[ˈbæləns]"
     },
     {
       "term": "ban",
-      "definition": "запрет"
+      "definition": "запрет",
+      "transcription": "[bæn]"
     },
     {
       "term": "bank",
-      "definition": "берег"
+      "definition": "берег",
+      "transcription": "[bæŋk]"
     },
     {
       "term": "base",
-      "definition": "база, основание, фундамент, базовый"
+      "definition": "база, основание, фундамент, базовый",
+      "transcription": "[beɪs]"
     },
     {
       "term": "basic",
-      "definition": "основной, базовый"
+      "definition": "основной, базовый",
+      "transcription": "[ˈbeɪsɪk]"
     },
     {
       "term": "basis",
-      "definition": "основа, основание, база, базис"
+      "definition": "основа, основание, база, базис",
+      "transcription": "[ˈbeɪsɪs]"
     },
     {
       "term": "battery",
-      "definition": "батарея, аккумулятор"
+      "definition": "батарея, аккумулятор",
+      "transcription": "[ˈbætərɪ]"
     },
     {
       "term": "battle",
-      "definition": "борьба, битва"
+      "definition": "борьба, битва",
+      "transcription": "[bætl]"
     },
     {
       "term": "beauty",
-      "definition": "красотка, красота, красавица"
+      "definition": "красотка, красота, красавица",
+      "transcription": "[ˈbjuːtɪ]"
     },
     {
       "term": "bee",
-      "definition": "пчела"
+      "definition": "пчела",
+      "transcription": "[biː]"
     },
     {
       "term": "belief",
-      "definition": "вера, убеждение"
+      "definition": "вера, убеждение",
+      "transcription": "[bɪˈliːf]"
     },
     {
       "term": "bell",
-      "definition": "сигнал, колокол"
+      "definition": "сигнал, колокол",
+      "transcription": "[bel]"
     },
     {
       "term": "bend",
-      "definition": "изгиб, поворот"
+      "definition": "изгиб, поворот",
+      "transcription": "[bend]"
     },
     {
       "term": "bite",
-      "definition": "укус"
+      "definition": "укус",
+      "transcription": "[baɪt]"
     },
     {
       "term": "block",
-      "definition": "блок, блочный"
+      "definition": "блок, блочный",
+      "transcription": "[blɔk]"
     },
     {
       "term": "bomb",
-      "definition": "бомба, взрывное устройство, снаряд"
+      "definition": "бомба, взрывное устройство, снаряд",
+      "transcription": "[bɔm]"
     },
     {
       "term": "border",
-      "definition": "граница, край, граничный"
+      "definition": "граница, край, граничный",
+      "transcription": "[ˈbɔːdə]"
     },
     {
       "term": "branch",
-      "definition": "ветвь, ветка"
+      "definition": "ветвь, ветка",
+      "transcription": "[brɑːnʧ]"
     },
     {
       "term": "branch",
-      "definition": "отрасль, отделение, филиал, отраслевой"
+      "definition": "отрасль, отделение, филиал, отраслевой",
+      "transcription": "[brɑːnʧ]"
     },
     {
       "term": "brand",
-      "definition": "торговая марка, бренд"
+      "definition": "торговая марка, бренд",
+      "transcription": "[brænd]"
     },
     {
       "term": "brave",
-      "definition": "храбрый, смелый"
+      "definition": "храбрый, смелый",
+      "transcription": "[breɪv]"
     },
     {
       "term": "breath",
-      "definition": "дыхание, вздох"
+      "definition": "дыхание, вздох",
+      "transcription": "[breθ]"
     },
     {
       "term": "breathing",
-      "definition": "дыхание"
+      "definition": "дыхание",
+      "transcription": "[ˈbriːðɪŋ]"
     },
     {
       "term": "bride",
-      "definition": "невеста"
+      "definition": "невеста",
+      "transcription": "[braɪd]"
     },
     {
       "term": "bubble",
-      "definition": "пузырь, пузырьковый"
+      "definition": "пузырь, пузырьковый",
+      "transcription": "[bʌbl]"
     },
     {
       "term": "burst",
-      "definition": "взрыв, разрыв"
+      "definition": "взрыв, разрыв",
+      "transcription": "[bɜːst]"
     },
     {
       "term": "calm",
-      "definition": "тихий, спокойный, спокойствие"
+      "definition": "тихий, спокойный, спокойствие",
+      "transcription": "[kɑːm]"
     },
     {
       "term": "campaign",
-      "definition": "кампания"
+      "definition": "кампания",
+      "transcription": "[kæmˈpeɪn]"
     },
     {
       "term": "campus",
-      "definition": "кампус"
+      "definition": "кампус",
+      "transcription": "[ˈkæmpəs]"
     },
     {
       "term": "can",
-      "definition": "жестяная банка, баллончик"
+      "definition": "жестяная банка, баллончик",
+      "transcription": "[kæn]"
     },
     {
       "term": "candidate",
-      "definition": "кандидат, кандидатура"
+      "definition": "кандидат, кандидатура",
+      "transcription": "[ˈkændɪdɪt]"
     },
     {
       "term": "cap",
-      "definition": "кепка, колпачок, шапка"
+      "definition": "кепка, колпачок, шапка",
+      "transcription": "[kæp]"
     },
     {
       "term": "captain",
-      "definition": "капитан"
+      "definition": "капитан",
+      "transcription": "[ˈkæptɪn]"
     },
     {
       "term": "careless",
-      "definition": "неосторожный, небрежный"
+      "definition": "неосторожный, небрежный",
+      "transcription": "[ˈkɛəlɪs]"
     },
     {
       "term": "category",
-      "definition": "категория, разряд, класс"
+      "definition": "категория, разряд, класс",
+      "transcription": "[ˈkætɪgərɪ]"
     },
     {
       "term": "ceiling",
-      "definition": "потолок"
+      "definition": "потолок",
+      "transcription": "[ˈsiːlɪŋ]"
     },
     {
       "term": "celebration",
-      "definition": "праздник, торжества, чествование"
+      "definition": "праздник, торжества, чествование",
+      "transcription": "[selɪˈbreɪʃn]"
     },
     {
       "term": "central",
-      "definition": "центральный"
+      "definition": "центральный",
+      "transcription": "[ˈsentrəl]"
     },
     {
       "term": "ceremony",
-      "definition": "церемония"
+      "definition": "церемония",
+      "transcription": "[ˈserɪmənɪ]"
     },
     {
       "term": "chain",
-      "definition": "цепь, цепной"
+      "definition": "цепь, цепной",
+      "transcription": "[ʧeɪn]"
     },
     {
       "term": "challenge",
-      "definition": "вызов, проблема"
+      "definition": "вызов, проблема",
+      "transcription": "[ˈʧælɪnʤ]"
     },
     {
       "term": "champion",
-      "definition": "чемпион"
+      "definition": "чемпион",
+      "transcription": "[ˈʧæmpjən]"
     },
     {
       "term": "channel",
-      "definition": "канал, канальный"
+      "definition": "канал, канальный",
+      "transcription": "[ʧænl]"
     },
     {
       "term": "chapter",
-      "definition": "глава (книги и т.п.)"
+      "definition": "глава (книги и т.п.)",
+      "transcription": "[ˈʧæptə]"
     },
     {
       "term": "charge",
-      "definition": "ответственность, обвинение"
+      "definition": "ответственность, обвинение",
+      "transcription": "[ʧɑːʤ]"
     },
     {
       "term": "charge",
-      "definition": "плата, взнос, комиссия"
+      "definition": "плата, взнос, комиссия",
+      "transcription": "[ʧɑːʤ]"
     },
     {
       "term": "charge",
-      "definition": "заряд"
+      "definition": "заряд",
+      "transcription": "[ʧɑːʤ]"
     },
     {
       "term": "cheat",
-      "definition": "обман, мошенничество, мошенник"
+      "definition": "обман, мошенничество, мошенник",
+      "transcription": "[ʧiːt]"
     },
     {
       "term": "cheerful",
-      "definition": "весёлый, бодрый"
+      "definition": "весёлый, бодрый",
+      "transcription": "[ˈʧɪəfʊl]"
     },
     {
       "term": "chemical",
-      "definition": "химический, химикат"
+      "definition": "химический, химикат",
+      "transcription": "[ˈkemɪkəl]"
     },
     {
       "term": "chest",
-      "definition": "грудная клетка, грудь"
+      "definition": "грудная клетка, грудь",
+      "transcription": "[ʧest]"
     },
     {
       "term": "chest",
-      "definition": "сундук, ящик"
+      "definition": "сундук, ящик",
+      "transcription": "[ʧest]"
     },
     {
       "term": "childhood",
-      "definition": "детство, детский возраст, младенчество"
+      "definition": "детство, детский возраст, младенчество",
+      "transcription": "[ˈʧaɪldhʊd]"
     },
     {
       "term": "claim",
-      "definition": "запрос, претензия, иск, жалоба"
+      "definition": "запрос, претензия, иск, жалоба",
+      "transcription": "[kleɪm]"
     },
     {
       "term": "clause",
-      "definition": "пункт, условие"
+      "definition": "пункт, условие",
+      "transcription": "[klɔːz]"
     },
     {
       "term": "click",
-      "definition": "щелчок"
+      "definition": "щелчок",
+      "transcription": "[klɪk]"
     },
     {
       "term": "client",
-      "definition": "клиент"
+      "definition": "клиент",
+      "transcription": "[ˈklaɪənt]"
     },
     {
       "term": "climb",
-      "definition": "восхождение"
+      "definition": "восхождение",
+      "transcription": "[klaɪm]"
     },
     {
       "term": "close",
-      "definition": "близкий"
+      "definition": "близкий",
+      "transcription": "[kləʊs]"
     },
     {
       "term": "cloth",
-      "definition": "ткань, материя, тряпка"
+      "definition": "ткань, материя, тряпка",
+      "transcription": "[klɔθ]"
     },
     {
       "term": "clue",
-      "definition": "ключ (к разгадке), понятие, представление"
+      "definition": "ключ (к разгадке), понятие, представление",
+      "transcription": "[kluː]"
     },
     {
       "term": "coal",
-      "definition": "уголь"
+      "definition": "уголь",
+      "transcription": "[kəʊl]"
     },
     {
       "term": "coin",
-      "definition": "монета"
+      "definition": "монета",
+      "transcription": "[kɔɪn]"
     },
     {
       "term": "collection",
-      "definition": "коллекция, сбор, собрание, коллекционный"
+      "definition": "коллекция, сбор, собрание, коллекционный",
+      "transcription": "[kəˈlekʃn]"
     },
     {
       "term": "colored",
-      "definition": "цветной, окрашенный"
+      "definition": "цветной, окрашенный",
+      "transcription": "[ˈkʌləd]"
     },
     {
       "term": "coloured",
-      "definition": "цветной, окрашенный"
+      "definition": "цветной, окрашенный",
+      "transcription": "[ˈkʌləd]"
     },
     {
       "term": "commercial",
-      "definition": "коммерческий, торговый, реклама"
+      "definition": "коммерческий, торговый, реклама",
+      "transcription": "[kəˈmɜːʃəl]"
     },
     {
       "term": "communication",
-      "definition": "связь, общение, послание, соединение"
+      "definition": "связь, общение, послание, соединение",
+      "transcription": "[kəmjuːnɪˈkeɪʃn]"
     },
     {
       "term": "comparison",
-      "definition": "сравнение"
+      "definition": "сравнение",
+      "transcription": "[kəmˈpærɪsn]"
     },
     {
       "term": "competitive",
-      "definition": "конкурентоспособный, конкурентный, соперничающий"
+      "definition": "конкурентоспособный, конкурентный, соперничающий",
+      "transcription": "[kəmˈpetɪtɪv]"
     },
     {
       "term": "competitor",
-      "definition": "конкурент, соперник"
+      "definition": "конкурент, соперник",
+      "transcription": "[kəmˈpetɪtə]"
     },
     {
       "term": "complaint",
-      "definition": "жалоба, претензия, иск"
+      "definition": "жалоба, претензия, иск",
+      "transcription": "[kəmˈpleɪnt]"
     },
     {
       "term": "complex",
-      "definition": "сложный"
+      "definition": "сложный",
+      "transcription": "[ˈkɔmpleks]"
     },
     {
       "term": "conclusion",
-      "definition": "заключение, вывод"
+      "definition": "заключение, вывод",
+      "transcription": "[kənˈkluːʒən]"
     },
     {
       "term": "confident",
-      "definition": "уверенный"
+      "definition": "уверенный",
+      "transcription": "[ˈkɔnfɪdənt]"
     },
     {
       "term": "confused",
-      "definition": "смущенный, сбитый (с толку)"
+      "definition": "смущенный, сбитый (с толку)",
+      "transcription": "[kənˈfjuːzd]"
     },
     {
       "term": "connection",
-      "definition": "связь, соединение"
+      "definition": "связь, соединение",
+      "transcription": "[kəˈnekʃn]"
     },
     {
       "term": "consequence",
-      "definition": "последствие, следствие"
+      "definition": "последствие, следствие",
+      "transcription": "[ˈkɔnsɪkwəns]"
     },
     {
       "term": "consumer",
-      "definition": "потребитель"
+      "definition": "потребитель",
+      "transcription": "[kənˈsjuːmə]"
     },
     {
       "term": "contact",
-      "definition": "контакт, контактный"
+      "definition": "контакт, контактный",
+      "transcription": "[ˈkɔntækt]"
     },
     {
       "term": "container",
-      "definition": "контейнер, тара, ёмкость"
+      "definition": "контейнер, тара, ёмкость",
+      "transcription": "[kənˈteɪnə]"
     },
     {
       "term": "content",
-      "definition": "содержание"
+      "definition": "содержание",
+      "transcription": "[ˈkɔntent]"
     },
     {
       "term": "continuous",
-      "definition": "непрерывный, постоянный, сплошной"
+      "definition": "непрерывный, постоянный, сплошной",
+      "transcription": "[kənˈtɪnjʊəs]"
     },
     {
       "term": "contrast",
-      "definition": "контраст, контрастность"
+      "definition": "контраст, контрастность",
+      "transcription": "[ˈkɔntrɑːst]"
     },
     {
       "term": "convenient",
-      "definition": "удобный, выгодный, удачный, подходящий"
+      "definition": "удобный, выгодный, удачный, подходящий",
+      "transcription": "[kənˈviːnjənt]"
     },
     {
       "term": "costume",
-      "definition": "костюм"
+      "definition": "костюм",
+      "transcription": "[ˈkɔstjuːm]"
     },
     {
       "term": "cottage",
-      "definition": "коттедж, домик"
+      "definition": "коттедж, домик",
+      "transcription": "[ˈkɔtɪʤ]"
     },
     {
       "term": "cotton",
-      "definition": "хлопок"
+      "definition": "хлопок",
+      "transcription": "[kɔtn]"
     },
     {
       "term": "count",
-      "definition": "счет, подсчет, число, количество"
+      "definition": "счет, подсчет, число, количество",
+      "transcription": "[kaʊnt]"
     },
     {
       "term": "countryside",
-      "definition": "сельская местность, деревня"
+      "definition": "сельская местность, деревня",
+      "transcription": "[ˈkʌntrɪsaɪd]"
     },
     {
       "term": "court",
-      "definition": "суд, судебный"
+      "definition": "суд, судебный",
+      "transcription": "[kɔːt]"
     },
     {
       "term": "court",
-      "definition": "корт"
+      "definition": "корт",
+      "transcription": "[kɔːt]"
     },
     {
       "term": "cover",
-      "definition": "покрытие, кожух, обложка, переплёт"
+      "definition": "покрытие, кожух, обложка, переплёт",
+      "transcription": "[ˈkʌvə]"
     },
     {
       "term": "covered",
-      "definition": "покрытый, закрытый, защищенный, охваченный, освещенный, рассмотренный"
+      "definition": "покрытый, закрытый, защищенный, охваченный, освещенный, рассмотренный",
+      "transcription": "[ˈkʌvəd]"
     },
     {
       "term": "cream",
-      "definition": "кремового цвета"
+      "definition": "кремового цвета",
+      "transcription": "[kriːm]"
     },
     {
       "term": "cruel",
-      "definition": "жестокий, жестоко"
+      "definition": "жестокий, жестоко",
+      "transcription": "[krʊəl]"
     },
     {
       "term": "cultural",
-      "definition": "культурный"
+      "definition": "культурный",
+      "transcription": "[ˈkʌlʧərəl]"
     },
     {
       "term": "currency",
-      "definition": "валюта"
+      "definition": "валюта",
+      "transcription": "[ˈkʌrənsɪ]"
     },
     {
       "term": "current",
-      "definition": "текущий, современный"
+      "definition": "текущий, современный",
+      "transcription": "[ˈkʌrənt]"
     },
     {
       "term": "currently",
-      "definition": "в настоящее время, теперь"
+      "definition": "в настоящее время, теперь",
+      "transcription": "[ˈkʌrəntlɪ]"
     },
     {
       "term": "curtain",
-      "definition": "занавеска, штора"
+      "definition": "занавеска, штора",
+      "transcription": "[kɜːtn]"
     },
     {
       "term": "custom",
-      "definition": "обычай"
+      "definition": "обычай",
+      "transcription": "[ˈkʌstəm]"
     },
     {
       "term": "cut",
-      "definition": "порез, разрез, снижение, покрой"
+      "definition": "порез, разрез, снижение, покрой",
+      "transcription": "[kʌt]"
     },
     {
       "term": "damage",
-      "definition": "порча, урон, ущерб"
+      "definition": "порча, урон, ущерб",
+      "transcription": "[ˈdæmɪʤ]"
     },
     {
       "term": "deal",
-      "definition": "дело, сделка, соглашение, по рукам"
+      "definition": "дело, сделка, соглашение, по рукам",
+      "transcription": "[diːl]"
     },
     {
       "term": "decade",
-      "definition": "десятилетие, десяток"
+      "definition": "десятилетие, десяток",
+      "transcription": "[ˈdekeɪd]"
     },
     {
       "term": "definite",
-      "definition": "определенный, точный"
+      "definition": "определенный, точный",
+      "transcription": "[ˈdefɪnɪt]"
     },
     {
       "term": "definition",
-      "definition": "определение, описание"
+      "definition": "определение, описание",
+      "transcription": "[defɪˈnɪʃn]"
     },
     {
       "term": "departure",
-      "definition": "отправление, отъезд"
+      "definition": "отправление, отъезд",
+      "transcription": "[dɪˈpɑːʧə]"
     },
     {
       "term": "despite",
-      "definition": "несмотря на, вопреки"
+      "definition": "несмотря на, вопреки",
+      "transcription": "[dɪsˈpaɪt]"
     },
     {
       "term": "destination",
-      "definition": "пункт назначения, место назначения"
+      "definition": "пункт назначения, место назначения",
+      "transcription": "[destɪˈneɪʃn]"
     },
     {
       "term": "determined",
-      "definition": "определенный, установленный, непреклонный, решительный"
+      "definition": "определенный, установленный, непреклонный, решительный",
+      "transcription": "[dɪˈtɜːmɪnd]"
     },
     {
       "term": "development",
-      "definition": "разработка, развитие, создание"
+      "definition": "разработка, развитие, создание",
+      "transcription": "[dɪˈveləpmənt]"
     },
     {
       "term": "diagram",
-      "definition": "диаграмма"
+      "definition": "диаграмма",
+      "transcription": "[ˈdaɪəgræm]"
     },
     {
       "term": "diamond",
-      "definition": "алмаз"
+      "definition": "алмаз",
+      "transcription": "[ˈdaɪəmənd]"
     },
     {
       "term": "difficulty",
-      "definition": "трудность"
+      "definition": "трудность",
+      "transcription": "[ˈdɪfɪkəltɪ]"
     },
     {
       "term": "directly",
-      "definition": "непосредственно, прямо, точно"
+      "definition": "непосредственно, прямо, точно",
+      "transcription": "[dɪˈrektlɪ]"
     },
     {
       "term": "dirt",
-      "definition": "грязь"
+      "definition": "грязь",
+      "transcription": "[dɜːt]"
     },
     {
       "term": "disadvantage",
-      "definition": "недостаток, минус, невыгода"
+      "definition": "недостаток, минус, невыгода",
+      "transcription": "[dɪsədˈvɑːntɪʤ]"
     },
     {
       "term": "disappointed",
-      "definition": "разочарованный, огорченный"
+      "definition": "разочарованный, огорченный",
+      "transcription": "[dɪsəˈpɔɪntɪd]"
     },
     {
       "term": "disappointing",
-      "definition": "разочаровывающий, неутешительный, печальный"
+      "definition": "разочаровывающий, неутешительный, печальный",
+      "transcription": "[dɪsəˈpɔɪntɪŋ]"
     },
     {
       "term": "discount",
-      "definition": "скидка"
+      "definition": "скидка",
+      "transcription": "[ˈdɪskaʊnt]"
     },
     {
       "term": "dislike",
-      "definition": "неприязнь, нелюбовь"
+      "definition": "неприязнь, нелюбовь",
+      "transcription": "[dɪsˈlaɪk]"
     },
     {
       "term": "documentary",
-      "definition": "документальный фильм"
+      "definition": "документальный фильм",
+      "transcription": "[dɔkjʊˈmentərɪ]"
     },
     {
       "term": "doubt",
-      "definition": "сомнение"
+      "definition": "сомнение",
+      "transcription": "[daʊt]"
     },
     {
       "term": "dressed",
-      "definition": "одетый"
+      "definition": "одетый",
+      "transcription": "[drest]"
     },
     {
       "term": "drop",
-      "definition": "капля, падение, снижение"
+      "definition": "капля, падение, снижение",
+      "transcription": "[drɔp]"
     },
     {
       "term": "drum",
-      "definition": "барабан"
+      "definition": "барабан",
+      "transcription": "[drʌm]"
     },
     {
       "term": "drunk",
-      "definition": "пьяный"
+      "definition": "пьяный",
+      "transcription": "[drʌŋk]"
     },
     {
       "term": "due",
-      "definition": "в связи, должный, надлежащий, точно, прямо"
+      "definition": "в связи, должный, надлежащий, точно, прямо",
+      "transcription": "[djuː]"
     },
     {
       "term": "dust",
-      "definition": "пыль, прах"
+      "definition": "пыль, прах",
+      "transcription": "[dʌst]"
     },
     {
       "term": "duty",
-      "definition": "сбор, пошлина, обязанность, долг, дежурный"
+      "definition": "сбор, пошлина, обязанность, долг, дежурный",
+      "transcription": "[ˈdjuːtɪ]"
     },
     {
       "term": "earthquake",
-      "definition": "землетрясение"
+      "definition": "землетрясение",
+      "transcription": "[ˈɜːθkweɪk]"
     },
     {
       "term": "eastern",
-      "definition": "восточный"
+      "definition": "восточный",
+      "transcription": "[ˈiːstən]"
     },
     {
       "term": "economic",
-      "definition": "экономический, экономичный, экономный"
+      "definition": "экономический, экономичный, экономный",
+      "transcription": "[iːkəˈnɔmɪk]"
     },
     {
       "term": "economy",
-      "definition": "экономика (страны, региона), экономичность"
+      "definition": "экономика (страны, региона), экономичность",
+      "transcription": "[iːˈkɔnəmɪ]"
     },
     {
       "term": "edge",
-      "definition": "край, ребро, кромка, бордюр"
+      "definition": "край, ребро, кромка, бордюр",
+      "transcription": "[eʤ]"
     },
     {
       "term": "editor",
-      "definition": "редактор"
+      "definition": "редактор",
+      "transcription": "[ˈedɪtə]"
     },
     {
       "term": "educated",
-      "definition": "образованный"
+      "definition": "образованный",
+      "transcription": "[ˈedjʊkeɪtɪd]"
     },
     {
       "term": "educational",
-      "definition": "образовательный, учебный, воспитательный, педагогический"
+      "definition": "образовательный, учебный, воспитательный, педагогический",
+      "transcription": "[edjuːˈkeɪʃənl]"
     },
     {
       "term": "effective",
-      "definition": "эффективный, действующий, эффектный, боец"
+      "definition": "эффективный, действующий, эффектный, боец",
+      "transcription": "[ɪˈfektɪv]"
     },
     {
       "term": "effectively",
-      "definition": "продуктивно, действенно, фактически"
+      "definition": "продуктивно, действенно, фактически",
+      "transcription": "[ɪˈfektɪvlɪ]"
     },
     {
       "term": "effort",
-      "definition": "усилие"
+      "definition": "усилие",
+      "transcription": "[ˈefət]"
     },
     {
       "term": "election",
-      "definition": "выборы"
+      "definition": "выборы",
+      "transcription": "[ɪˈlekʃn]"
     },
     {
       "term": "element",
-      "definition": "элемент, элементный"
+      "definition": "элемент, элементный",
+      "transcription": "[ˈelɪmənt]"
     },
     {
       "term": "embarrassed",
-      "definition": "смущенный, растерянный, оконфуженный"
+      "definition": "смущенный, растерянный, оконфуженный",
+      "transcription": "[ɪmˈbærəst]"
     },
     {
       "term": "embarrassing",
-      "definition": "смущающий, стеснительный, неловкий"
+      "definition": "смущающий, стеснительный, неловкий",
+      "transcription": "[ɪmˈbærəsɪŋ]"
     },
     {
       "term": "emergency",
-      "definition": "аварийный, экстренный, непредвиденный, авария, критическое положение"
+      "definition": "аварийный, экстренный, непредвиденный, авария, критическое положение",
+      "transcription": "[ɪˈmɜːʤənsɪ]"
     },
     {
       "term": "emotion",
-      "definition": "эмоция, чувство, волнение"
+      "definition": "эмоция, чувство, волнение",
+      "transcription": "[ɪˈməʊʃn]"
     },
     {
       "term": "employment",
-      "definition": "занятие, работа, применение, использование"
+      "definition": "занятие, работа, применение, использование",
+      "transcription": "[ɪmˈplɔɪmənt]"
     },
     {
       "term": "enemy",
-      "definition": "враг, неприятель, враждебный"
+      "definition": "враг, неприятель, враждебный",
+      "transcription": "[ˈenɪmɪ]"
     },
     {
       "term": "engaged",
-      "definition": "помолвленный, обрученный"
+      "definition": "помолвленный, обрученный",
+      "transcription": "[ɪnˈgeɪʤd]"
     },
     {
       "term": "engineering",
-      "definition": "инженерия, проектирование"
+      "definition": "инженерия, проектирование",
+      "transcription": "[enʤɪˈnɪərɪŋ]"
     },
     {
       "term": "entertainment",
-      "definition": "развлечение, развлекательная программа"
+      "definition": "развлечение, развлекательная программа",
+      "transcription": "[entəˈteɪnmənt]"
     },
     {
       "term": "entrance",
-      "definition": "вход, вступительный"
+      "definition": "вход, вступительный",
+      "transcription": "[ˈentrəns]"
     },
     {
       "term": "entry",
-      "definition": "вход, вступление, запись, въезд, вхождение, входной, въездной"
+      "definition": "вход, вступление, запись, въезд, вхождение, входной, въездной",
+      "transcription": "[ˈentrɪ]"
     },
     {
       "term": "environmental",
-      "definition": "относящийся к окружающей среде, экзогенный"
+      "definition": "относящийся к окружающей среде, экзогенный",
+      "transcription": "[ɪnvaɪərənˈmentl]"
     },
     {
       "term": "episode",
-      "definition": "эпизод, серия"
+      "definition": "эпизод, серия",
+      "transcription": "[ˈepɪsəʊd]"
     },
     {
       "term": "equal",
-      "definition": "равный"
+      "definition": "равный",
+      "transcription": "[ˈiːkwəl]"
     },
     {
       "term": "equally",
-      "definition": "одинаково, равно, в равной степени, поровну"
+      "definition": "одинаково, равно, в равной степени, поровну",
+      "transcription": "[ˈiːkwəlɪ]"
     },
     {
       "term": "escape",
-      "definition": "побег, выход, спасение"
+      "definition": "побег, выход, спасение",
+      "transcription": "[ɪsˈkeɪp]"
     },
     {
       "term": "essential",
-      "definition": "существенный, главный, необходимый, важный"
+      "definition": "существенный, главный, необходимый, важный",
+      "transcription": "[ɪˈsenʃəl]"
     },
     {
       "term": "eventually",
-      "definition": "в конце концов, со временем"
+      "definition": "в конце концов, со временем",
+      "transcription": "[ɪˈvenʧəlɪ]"
     },
     {
       "term": "exchange",
-      "definition": "обмен, замена, биржа, биржевой"
+      "definition": "обмен, замена, биржа, биржевой",
+      "transcription": "[ɪksˈʧeɪnʤ]"
     },
     {
       "term": "excitement",
-      "definition": "возбуждение, волнение"
+      "definition": "возбуждение, волнение",
+      "transcription": "[ɪkˈsaɪtmənt]"
     },
     {
       "term": "exhibition",
-      "definition": "выставка, показ"
+      "definition": "выставка, показ",
+      "transcription": "[eksɪˈbɪʃn]"
     },
     {
       "term": "expected",
-      "definition": "ожидаемый, предполагаемый"
+      "definition": "ожидаемый, предполагаемый",
+      "transcription": "[ɪkˈspektɪd]"
     },
     {
       "term": "expedition",
-      "definition": "экспедиция"
+      "definition": "экспедиция",
+      "transcription": "[ekspɪˈdɪʃn]"
     },
     {
       "term": "experienced",
-      "definition": "опытный"
+      "definition": "опытный",
+      "transcription": "[ɪksˈpɪərɪənst]"
     },
     {
       "term": "explosion",
-      "definition": "взрыв"
+      "definition": "взрыв",
+      "transcription": "[ɪksˈpləʊʒən]"
     },
     {
       "term": "export",
-      "definition": "экспорт, вывоз, экспортный"
+      "definition": "экспорт, вывоз, экспортный",
+      "transcription": "[ˈɛkspɔːt]"
     },
     {
       "term": "fairly",
-      "definition": "довольно, достаточно, справедливо, честно, совершенно, явно"
+      "definition": "довольно, достаточно, справедливо, честно, совершенно, явно",
+      "transcription": "[ˈfɛəlɪ]"
     },
     {
       "term": "familiar",
-      "definition": "знакомый, привычный"
+      "definition": "знакомый, привычный",
+      "transcription": "[fəˈmɪljə]"
     },
     {
       "term": "fancy",
-      "definition": "воображение, фантазия, причудливый, модный"
+      "definition": "воображение, фантазия, причудливый, модный",
+      "transcription": "[ˈfænsɪ]"
     },
     {
       "term": "fascinating",
-      "definition": "очаровательный, увлекательный"
+      "definition": "очаровательный, увлекательный",
+      "transcription": "[ˈfæsɪneɪtɪŋ]"
     },
     {
       "term": "fashionable",
-      "definition": "модный, стильный"
+      "definition": "модный, стильный",
+      "transcription": "[ˈfæʃnəbl]"
     },
     {
       "term": "favor",
-      "definition": "одолжение, благосклонность, польза"
+      "definition": "одолжение, благосклонность, польза",
+      "transcription": "[ˈfeɪvə]"
     },
     {
       "term": "favour",
-      "definition": "одолжение, благосклонность, польза"
+      "definition": "одолжение, благосклонность, польза",
+      "transcription": "[ˈfeɪvə]"
     },
     {
       "term": "fence",
-      "definition": "забор, ограждение"
+      "definition": "забор, ограждение",
+      "transcription": "[fens]"
     },
     {
       "term": "fighting",
-      "definition": "бой, борьба, сражение, драка"
+      "definition": "бой, борьба, сражение, драка",
+      "transcription": "[ˈfaɪtɪŋ]"
     },
     {
       "term": "file",
-      "definition": "файл, файловый, досье"
+      "definition": "файл, файловый, досье",
+      "transcription": "[faɪl]"
     },
     {
       "term": "filth",
-      "definition": "грязь, гадость, нечистота"
+      "definition": "грязь, гадость, нечистота",
+      "transcription": "[fɪlθ]"
     },
     {
       "term": "financial",
-      "definition": "финансовый"
+      "definition": "финансовый",
+      "transcription": "[faɪˈnænʃəl]"
     },
     {
       "term": "fitness",
-      "definition": "фитнес"
+      "definition": "фитнес",
+      "transcription": "[ˈfɪtnɪs]"
     },
     {
       "term": "fixed",
-      "definition": "фиксированный, неподвижный, постоянный, закреплённый, стационарный"
+      "definition": "фиксированный, неподвижный, постоянный, закреплённый, стационарный",
+      "transcription": "[fɪkst]"
     },
     {
       "term": "flag",
-      "definition": "флаг"
+      "definition": "флаг",
+      "transcription": "[flæg]"
     },
     {
       "term": "flood",
-      "definition": "наводнение, потоп"
+      "definition": "наводнение, потоп",
+      "transcription": "[flʌd]"
     },
     {
       "term": "flour",
-      "definition": "мука"
+      "definition": "мука",
+      "transcription": "[ˈflaʊə]"
     },
     {
       "term": "flow",
-      "definition": "поток, течение"
+      "definition": "поток, течение",
+      "transcription": "[fləʊ]"
     },
     {
       "term": "folk",
-      "definition": "народ, народный"
+      "definition": "народ, народный",
+      "transcription": "[fəʊk]"
     },
     {
       "term": "following",
-      "definition": "следующее, нижеследующее"
+      "definition": "следующее, нижеследующее",
+      "transcription": "[ˈfɔləʊɪŋ]"
     },
     {
       "term": "force",
-      "definition": "усилие, сила, принудительный"
+      "definition": "усилие, сила, принудительный",
+      "transcription": "[fɔːs]"
     },
     {
       "term": "forever",
-      "definition": "навсегда"
+      "definition": "навсегда",
+      "transcription": "[fəˈrevə]"
     },
     {
       "term": "frame",
-      "definition": "рама, рамка, кадр, каркас, оправа"
+      "definition": "рама, рамка, кадр, каркас, оправа",
+      "transcription": "[freɪm]"
     },
     {
       "term": "frequently",
-      "definition": "часто, зачастую"
+      "definition": "часто, зачастую",
+      "transcription": "[ˈfriːkwəntlɪ]"
     },
     {
       "term": "friendship",
-      "definition": "дружба"
+      "definition": "дружба",
+      "transcription": "[ˈfrendʃɪp]"
     },
     {
       "term": "frightened",
-      "definition": "испуганный, напуганный"
+      "definition": "испуганный, напуганный",
+      "transcription": "[fraɪtnd]"
     },
     {
       "term": "frightening",
-      "definition": "пугающий, страшный"
+      "definition": "пугающий, страшный",
+      "transcription": "[ˈfraɪtnɪŋ]"
     },
     {
       "term": "frozen",
-      "definition": "замороженный"
+      "definition": "замороженный",
+      "transcription": "[frəʊzn]"
     },
     {
       "term": "fuel",
-      "definition": "топливо, горючее"
+      "definition": "топливо, горючее",
+      "transcription": "[fjʊəl]"
     },
     {
       "term": "function",
-      "definition": "функция"
+      "definition": "функция",
+      "transcription": "[fʌŋkʃn]"
     },
     {
       "term": "fur",
-      "definition": "мех, меховой"
+      "definition": "мех, меховой",
+      "transcription": "[fɜː]"
     },
     {
       "term": "garage",
-      "definition": "гараж"
+      "definition": "гараж",
+      "transcription": "[ˈgærɑːʒ]"
     },
     {
       "term": "generally",
-      "definition": "вообще, обычно, как правило, в целом, в общем, в большинстве случаев"
+      "definition": "вообще, обычно, как правило, в целом, в общем, в большинстве случаев",
+      "transcription": "[ˈʤenərəlɪ]"
     },
     {
       "term": "generation",
-      "definition": "поколение, генерация"
+      "definition": "поколение, генерация",
+      "transcription": "[ʤenəˈreɪʃn]"
     },
     {
       "term": "generous",
-      "definition": "великодушный, щедрый, обильный"
+      "definition": "великодушный, щедрый, обильный",
+      "transcription": "[ˈʤenərəs]"
     },
     {
       "term": "gentle",
-      "definition": "нежный, кроткий"
+      "definition": "нежный, кроткий",
+      "transcription": "[ʤentl]"
     },
     {
       "term": "gentleman",
-      "definition": "джентльмен"
+      "definition": "джентльмен",
+      "transcription": "[ˈʤentlmən]"
     },
     {
       "term": "ghost",
-      "definition": "призрак, привидение, дух"
+      "definition": "призрак, привидение, дух",
+      "transcription": "[gəʊst]"
     },
     {
       "term": "giant",
-      "definition": "гигант, гигантский"
+      "definition": "гигант, гигантский",
+      "transcription": "[ˈʤaɪənt]"
     },
     {
       "term": "glad",
-      "definition": "радостный"
+      "definition": "радостный",
+      "transcription": "[glæd]"
     },
     {
       "term": "global",
-      "definition": "глобальный, мировой, всемирный"
+      "definition": "глобальный, мировой, всемирный",
+      "transcription": "[ˈgləʊbəl]"
     },
     {
       "term": "glove",
-      "definition": "перчатка"
+      "definition": "перчатка",
+      "transcription": "[glʌv]"
     },
     {
       "term": "go",
-      "definition": "движение, ход, езда"
+      "definition": "движение, ход, езда",
+      "transcription": "[gəʊ]"
     },
     {
       "term": "goods",
-      "definition": "товары"
+      "definition": "товары",
+      "transcription": "[gʊdz]"
     },
     {
       "term": "grade",
-      "definition": "оценка, сорт, класс, ранг, степень, уровень"
+      "definition": "оценка, сорт, класс, ранг, степень, уровень",
+      "transcription": "[greɪd]"
     },
     {
       "term": "graduate",
-      "definition": "выпускник, аспирант"
+      "definition": "выпускник, аспирант",
+      "transcription": "[ˈgrædjʊət]"
     },
     {
       "term": "grain",
-      "definition": "зерно, зернистость"
+      "definition": "зерно, зернистость",
+      "transcription": "[greɪn]"
     },
     {
       "term": "grateful",
-      "definition": "благодарный"
+      "definition": "благодарный",
+      "transcription": "[ˈgreɪtfʊl]"
     },
     {
       "term": "growth",
-      "definition": "рост"
+      "definition": "рост",
+      "transcription": "[grəʊθ]"
     },
     {
       "term": "guard",
-      "definition": "охрана, сторож"
+      "definition": "охрана, сторож",
+      "transcription": "[gɑːd]"
     },
     {
       "term": "guilty",
-      "definition": "виновный"
+      "definition": "виновный",
+      "transcription": "[ˈgɪltɪ]"
     },
     {
       "term": "happiness",
-      "definition": "счастье"
+      "definition": "счастье",
+      "transcription": "[ˈhæpɪnɪs]"
     },
     {
       "term": "hardly",
-      "definition": "вряд ли, едва, с трудом, еле"
+      "definition": "вряд ли, едва, с трудом, еле",
+      "transcription": "[ˈhɑːdlɪ]"
     },
     {
       "term": "hate",
-      "definition": "ненависть"
+      "definition": "ненависть",
+      "transcription": "[heɪt]"
     },
     {
       "term": "headline",
-      "definition": "заголовок, рубрика"
+      "definition": "заголовок, рубрика",
+      "transcription": "[ˈhedlaɪn]"
     },
     {
       "term": "heating",
-      "definition": "обогрев, отопление"
+      "definition": "обогрев, отопление",
+      "transcription": "[ˈhiːtɪŋ]"
     },
     {
       "term": "heavily",
-      "definition": "сильно, тяжело, с трудом, тягостно"
+      "definition": "сильно, тяжело, с трудом, тягостно",
+      "transcription": "[ˈhevɪlɪ]"
     },
     {
       "term": "helicopter",
-      "definition": "вертолет"
+      "definition": "вертолет",
+      "transcription": "[ˈhelɪkɔptə]"
     },
     {
       "term": "high-flying",
-      "definition": "амбициозный, целеустремленный, честолюбивый"
+      "definition": "амбициозный, целеустремленный, честолюбивый",
+      "transcription": "[haɪ] [ˈflaɪɪŋ]"
     },
     {
       "term": "highlight",
-      "definition": "основной момент, световой эффект"
+      "definition": "основной момент, световой эффект",
+      "transcription": "[ˈhaɪlaɪt]"
     },
     {
       "term": "highly",
-      "definition": "высоко, очень, весьма, сильно, чрезвычайно, в высшей степени"
+      "definition": "высоко, очень, весьма, сильно, чрезвычайно, в высшей степени",
+      "transcription": "[ˈhaɪlɪ]"
     },
     {
       "term": "historic",
-      "definition": "исторический"
+      "definition": "исторический",
+      "transcription": "[hɪsˈtɔrɪk]"
     },
     {
       "term": "historical",
-      "definition": "исторический"
+      "definition": "исторический",
+      "transcription": "[hɪsˈtɔrɪkəl]"
     },
     {
       "term": "honest",
-      "definition": "честный"
+      "definition": "честный",
+      "transcription": "[ˈɔnɪst]"
     },
     {
       "term": "horrible",
-      "definition": "ужасный"
+      "definition": "ужасный",
+      "transcription": "[ˈhɔrəbl]"
     },
     {
       "term": "horror",
-      "definition": "ужас, страх, боязнь"
+      "definition": "ужас, страх, боязнь",
+      "transcription": "[ˈhɔrə]"
     },
     {
       "term": "host",
-      "definition": "хозяин, главный"
+      "definition": "хозяин, главный",
+      "transcription": "[həʊst]"
     },
     {
       "term": "hurricane",
-      "definition": "ураган, тропический циклон"
+      "definition": "ураган, тропический циклон",
+      "transcription": "[ˈhʌrɪkən]"
     },
     {
       "term": "hurry",
-      "definition": "спешка"
+      "definition": "спешка",
+      "transcription": "[ˈhʌrɪ]"
     },
     {
       "term": "identity",
-      "definition": "идентичность, личность"
+      "definition": "идентичность, личность",
+      "transcription": "[aɪˈdentɪtɪ]"
     },
     {
       "term": "illegal",
-      "definition": "незаконный, нелегальный"
+      "definition": "незаконный, нелегальный",
+      "transcription": "[ɪˈliːgəl]"
     },
     {
       "term": "imaginary",
-      "definition": "воображаемый, мнимый"
+      "definition": "воображаемый, мнимый",
+      "transcription": "[ɪˈmæʤ(ə)n(ə)rɪ]"
     },
     {
       "term": "immediate",
-      "definition": "немедленный, срочный, непосредственный"
+      "definition": "немедленный, срочный, непосредственный",
+      "transcription": "[ɪˈmiːdjət]"
     },
     {
       "term": "immigrant",
-      "definition": "иммигрант, переселенец, иммигрантский"
+      "definition": "иммигрант, переселенец, иммигрантский",
+      "transcription": "[ˈɪmɪgrənt]"
     },
     {
       "term": "impact",
-      "definition": "влияние, воздействие"
+      "definition": "влияние, воздействие",
+      "transcription": "[ˈɪmpækt]"
     },
     {
       "term": "import",
-      "definition": "импорт, ввоз, импортный"
+      "definition": "импорт, ввоз, импортный",
+      "transcription": "[ˈɪmpɔːt]"
     },
     {
       "term": "importance",
-      "definition": "важность, значение"
+      "definition": "важность, значение",
+      "transcription": "[ɪmˈpɔːtəns]"
     },
     {
       "term": "impression",
-      "definition": "впечатление"
+      "definition": "впечатление",
+      "transcription": "[ɪmˈpreʃn]"
     },
     {
       "term": "impressive",
-      "definition": "впечатляющий"
+      "definition": "впечатляющий",
+      "transcription": "[ɪmˈpresɪv]"
     },
     {
       "term": "improvement",
-      "definition": "улучшение"
+      "definition": "улучшение",
+      "transcription": "[ɪmˈpruːvmənt]"
     },
     {
       "term": "incredibly",
-      "definition": "невероятно, неправдоподобно, очень, удивительно"
+      "definition": "невероятно, неправдоподобно, очень, удивительно",
+      "transcription": "[ɪnˈkredəblɪ]"
     },
     {
       "term": "indeed",
-      "definition": "на самом деле, действительно"
+      "definition": "на самом деле, действительно",
+      "transcription": "[ɪnˈdiːd]"
     },
     {
       "term": "indirect",
-      "definition": "косвенный, непрямой"
+      "definition": "косвенный, непрямой",
+      "transcription": "[ɪndɪˈrekt]"
     },
     {
       "term": "indoor",
-      "definition": "комнатный, домашний, закрытый"
+      "definition": "комнатный, домашний, закрытый",
+      "transcription": "[ˈɪndɔː]"
     },
     {
       "term": "indoors",
-      "definition": "в помещении, внутри"
+      "definition": "в помещении, внутри",
+      "transcription": "[ɪnˈdɔːz]"
     },
     {
       "term": "influence",
-      "definition": "влияние, воздействие"
+      "definition": "влияние, воздействие",
+      "transcription": "[ˈɪnflʊəns]"
     },
     {
       "term": "ingredient",
-      "definition": "ингредиент"
+      "definition": "ингредиент",
+      "transcription": "[ɪnˈgriːdjənt]"
     },
     {
       "term": "injured",
-      "definition": "раненый, травмированный, поврежденный"
+      "definition": "раненый, травмированный, поврежденный",
+      "transcription": "[ˈɪnʤəd]"
     },
     {
       "term": "innocent",
-      "definition": "невиновный, невинный"
+      "definition": "невиновный, невинный",
+      "transcription": "[ˈɪnəsənt]"
     },
     {
       "term": "intelligence",
-      "definition": "интеллект"
+      "definition": "интеллект",
+      "transcription": "[ɪnˈtelɪʤəns]"
     },
     {
       "term": "intelligence",
-      "definition": "разведка"
+      "definition": "разведка",
+      "transcription": "[ɪnˈtelɪʤəns]"
     },
     {
       "term": "intention",
-      "definition": "намерение, стремление"
+      "definition": "намерение, стремление",
+      "transcription": "[ɪnˈtenʃn]"
     },
     {
       "term": "involved",
-      "definition": "сложный, запутанный"
+      "definition": "сложный, запутанный",
+      "transcription": "[ɪnˈvɔlvd]"
     },
     {
       "term": "involved",
-      "definition": "вовлеченный, привлеченный, замешанный"
+      "definition": "вовлеченный, привлеченный, замешанный",
+      "transcription": "[ɪnˈvɔlvd]"
     },
     {
       "term": "iron",
-      "definition": "железо"
+      "definition": "железо",
+      "transcription": "[ˈaɪən]"
     },
     {
       "term": "iron",
-      "definition": "утюг"
+      "definition": "утюг",
+      "transcription": "[ˈaɪən]"
     },
     {
       "term": "issue",
-      "definition": "выпуск, издание"
+      "definition": "выпуск, издание",
+      "transcription": "[ˈɪʃuː]"
     },
     {
       "term": "issue",
-      "definition": "проблема, вопрос"
+      "definition": "проблема, вопрос",
+      "transcription": "[ˈɪʃuː]"
     },
     {
       "term": "jar",
-      "definition": "банка"
+      "definition": "банка",
+      "transcription": "[ʤɑː]"
     },
     {
       "term": "journal",
-      "definition": "журнал (научный), дневник"
+      "definition": "журнал (научный), дневник",
+      "transcription": "[ʤɜːnl]"
     },
     {
       "term": "judge",
-      "definition": "судья, эксперт"
+      "definition": "судья, эксперт",
+      "transcription": "[ʤʌʤ]"
     },
     {
       "term": "keen",
-      "definition": "острый, проницательный, сильный, сильно желающий, стремящийся"
+      "definition": "острый, проницательный, сильный, сильно желающий, стремящийся",
+      "transcription": "[kiːn]"
     },
     {
       "term": "keyboard",
-      "definition": "клавиатура"
+      "definition": "клавиатура",
+      "transcription": "[ˈkiːbɔːd]"
     },
     {
       "term": "kick",
-      "definition": "удар (ногой)"
+      "definition": "удар (ногой)",
+      "transcription": "[kɪk]"
     },
     {
       "term": "killing",
-      "definition": "убийство"
+      "definition": "убийство",
+      "transcription": "[ˈkɪlɪŋ]"
     },
     {
       "term": "kind",
-      "definition": "добрый, любезный"
+      "definition": "добрый, любезный",
+      "transcription": "[kaɪnd]"
     },
     {
       "term": "kiss",
-      "definition": "поцелуй"
+      "definition": "поцелуй",
+      "transcription": "[kɪs]"
     },
     {
       "term": "knock",
-      "definition": "стук, удар"
+      "definition": "стук, удар",
+      "transcription": "[nɔk]"
     },
     {
       "term": "label",
-      "definition": "ярлык, бирка, этикетка"
+      "definition": "ярлык, бирка, этикетка",
+      "transcription": "[leɪbl]"
     },
     {
       "term": "laboratory",
-      "definition": "лаборатория, лабораторный"
+      "definition": "лаборатория, лабораторный",
+      "transcription": "[ləˈbɔrətərɪ]"
     },
     {
       "term": "lack",
-      "definition": "недостаток, отсутствие"
+      "definition": "недостаток, отсутствие",
+      "transcription": "[læk]"
     },
     {
       "term": "latest",
-      "definition": "последний, самый поздний"
+      "definition": "последний, самый поздний",
+      "transcription": "[ˈleɪtɪst]"
     },
     {
       "term": "layer",
-      "definition": "слой, уровень, пласт"
+      "definition": "слой, уровень, пласт",
+      "transcription": "[ˈleɪə]"
     },
     {
       "term": "lead",
-      "definition": "первое место, преимущество, опережение, инициатива"
+      "definition": "первое место, преимущество, опережение, инициатива",
+      "transcription": "[liːd]"
     },
     {
       "term": "leading",
-      "definition": "ведущий, передовой"
+      "definition": "ведущий, передовой",
+      "transcription": "[ˈliːdɪŋ]"
     },
     {
       "term": "leaf",
-      "definition": "лист"
+      "definition": "лист",
+      "transcription": "[liːf]"
     },
     {
       "term": "leather",
-      "definition": "кожа, кожаный"
+      "definition": "кожа, кожаный",
+      "transcription": "[ˈleðə]"
     },
     {
       "term": "legal",
-      "definition": "правовой, юридический, законный, легальный, узаконенный"
+      "definition": "правовой, юридический, законный, легальный, узаконенный",
+      "transcription": "[ˈliːgəl]"
     },
     {
       "term": "leisure",
-      "definition": "досуг, свободное время"
+      "definition": "досуг, свободное время",
+      "transcription": "[ˈleʒə]"
     },
     {
       "term": "length",
-      "definition": "длина, продолжительность, отрезок"
+      "definition": "длина, продолжительность, отрезок",
+      "transcription": "[leŋθ]"
     },
     {
       "term": "level",
-      "definition": "ровный"
+      "definition": "ровный",
+      "transcription": "[levl]"
     },
     {
       "term": "limit",
-      "definition": "лимит, ограничение, предел"
+      "definition": "лимит, ограничение, предел",
+      "transcription": "[ˈlɪmɪt]"
     },
     {
       "term": "lip",
-      "definition": "губа"
+      "definition": "губа",
+      "transcription": "[lɪp]"
     },
     {
       "term": "liquid",
-      "definition": "жидкость, жидкий"
+      "definition": "жидкость, жидкий",
+      "transcription": "[ˈlɪkwɪd]"
     },
     {
       "term": "literature",
-      "definition": "литература"
+      "definition": "литература",
+      "transcription": "[ˈlɪtərɪʧə]"
     },
     {
       "term": "live",
-      "definition": "живой, вживую"
+      "definition": "живой, вживую",
+      "transcription": "[laɪv]"
     },
     {
       "term": "living",
-      "definition": "жизнь, живущий, живой"
+      "definition": "жизнь, живущий, живой",
+      "transcription": "[ˈlɪvɪŋ]"
     },
     {
       "term": "local",
-      "definition": "местный (житель)"
+      "definition": "местный (житель)",
+      "transcription": "[ˈləʊkəl]"
     },
     {
       "term": "located",
-      "definition": "расположенный"
+      "definition": "расположенный",
+      "transcription": "[ləʊˈkeɪtɪd]"
     },
     {
       "term": "location",
-      "definition": "местонахождение, положение, расположение"
+      "definition": "местонахождение, положение, расположение",
+      "transcription": "[ləʊˈkeɪʃn]"
     },
     {
       "term": "lonely",
-      "definition": "одинокий"
+      "definition": "одинокий",
+      "transcription": "[ˈləʊnlɪ]"
     },
     {
       "term": "loss",
-      "definition": "убыток, потеря, утрата"
+      "definition": "убыток, потеря, утрата",
+      "transcription": "[lɔs]"
     },
     {
       "term": "luxury",
-      "definition": "роскошь, люкс, предмет роскоши"
+      "definition": "роскошь, люкс, предмет роскоши",
+      "transcription": "[ˈlʌkʃərɪ]"
     },
     {
       "term": "mad",
-      "definition": "сумасшедший, безумный, злой"
+      "definition": "сумасшедший, безумный, злой",
+      "transcription": "[mæd]"
     },
     {
       "term": "magic",
-      "definition": "магия, волшебный"
+      "definition": "магия, волшебный",
+      "transcription": "[ˈmæʤɪk]"
     },
     {
       "term": "mainly",
-      "definition": "главным образом, большей частью"
+      "definition": "главным образом, большей частью",
+      "transcription": "[ˈmeɪnlɪ]"
     },
     {
       "term": "mall",
-      "definition": "торговый центр"
+      "definition": "торговый центр",
+      "transcription": "[mɔːl]"
     },
     {
       "term": "management",
-      "definition": "управление, менеджмент, администрация, правление, умение справляться"
+      "definition": "управление, менеджмент, администрация, правление, умение справляться",
+      "transcription": "[ˈmænɪʤmənt]"
     },
     {
       "term": "marketing",
-      "definition": "маркетинг, сбыт"
+      "definition": "маркетинг, сбыт",
+      "transcription": "[ˈmɑːkɪtɪŋ]"
     },
     {
       "term": "marriage",
-      "definition": "брак, женитьба"
+      "definition": "брак, женитьба",
+      "transcription": "[ˈmærɪʤ]"
     },
     {
       "term": "meanwhile",
-      "definition": "тем временем, между тем, пока"
+      "definition": "тем временем, между тем, пока",
+      "transcription": "[ˈmiːnˈwaɪl]"
     },
     {
       "term": "measure",
-      "definition": "измерение, мера"
+      "definition": "измерение, мера",
+      "transcription": "[ˈmeʒə]"
     },
     {
       "term": "medium",
-      "definition": "средний, промежуточный, умеренный, среда, носитель, средство"
+      "definition": "средний, промежуточный, умеренный, среда, носитель, средство",
+      "transcription": "[ˈmiːdjəm]"
     },
     {
       "term": "mental",
-      "definition": "умственный, психический, душевный"
+      "definition": "умственный, психический, душевный",
+      "transcription": "[mentl]"
     },
     {
       "term": "mention",
-      "definition": "упоминание"
+      "definition": "упоминание",
+      "transcription": "[menʃn]"
     },
     {
       "term": "mess",
-      "definition": "беспорядок, бардак, путаница, месиво"
+      "definition": "беспорядок, бардак, путаница, месиво",
+      "transcription": "[mes]"
     },
     {
       "term": "mild",
-      "definition": "мягкий, умеренный, спокойный, незначительный"
+      "definition": "мягкий, умеренный, спокойный, незначительный",
+      "transcription": "[maɪld]"
     },
     {
       "term": "mine",
-      "definition": "мина"
+      "definition": "мина",
+      "transcription": "[maɪn]"
     },
     {
       "term": "mine",
-      "definition": "шахта"
+      "definition": "шахта",
+      "transcription": "[maɪn]"
     },
     {
       "term": "mix",
-      "definition": "смесь"
+      "definition": "смесь",
+      "transcription": "[mɪks]"
     },
     {
       "term": "mixture",
-      "definition": "смесь, микстура"
+      "definition": "смесь, микстура",
+      "transcription": "[ˈmɪksʧə]"
     },
     {
       "term": "mood",
-      "definition": "настроение"
+      "definition": "настроение",
+      "transcription": "[muːd]"
     },
     {
       "term": "move",
-      "definition": "движение"
+      "definition": "движение",
+      "transcription": "[muːv]"
     },
     {
       "term": "mud",
-      "definition": "грязь"
+      "definition": "грязь",
+      "transcription": "[mʌd]"
     },
     {
       "term": "murder",
-      "definition": "убийство"
+      "definition": "убийство",
+      "transcription": "[ˈmɜːdə]"
     },
     {
       "term": "muscle",
-      "definition": "мышца, мускул"
+      "definition": "мышца, мускул",
+      "transcription": "[mʌsl]"
     },
     {
       "term": "mystery",
-      "definition": "тайна"
+      "definition": "тайна",
+      "transcription": "[ˈmɪstərɪ]"
     },
     {
       "term": "nail",
-      "definition": "ноготь"
+      "definition": "ноготь",
+      "transcription": "[neɪl]"
     },
     {
       "term": "narrative",
-      "definition": "повествование, рассказ, повествовательный"
+      "definition": "повествование, рассказ, повествовательный",
+      "transcription": "[ˈnærətɪv]"
     },
     {
       "term": "nation",
-      "definition": "нация, народ, страна, государство, народность"
+      "definition": "нация, народ, страна, государство, народность",
+      "transcription": "[neɪʃn]"
     },
     {
       "term": "native",
-      "definition": "родной, природный, исконный"
+      "definition": "родной, природный, исконный",
+      "transcription": "[ˈneɪtɪv]"
     },
     {
       "term": "naturally",
-      "definition": "естественно, натурально, по природе"
+      "definition": "естественно, натурально, по природе",
+      "transcription": "[ˈnæʧrəlɪ]"
     },
     {
       "term": "necessarily",
-      "definition": "обязательно, неизбежно, непременно"
+      "definition": "обязательно, неизбежно, непременно",
+      "transcription": "[ˌnesəˈserəli]"
     },
     {
       "term": "needle",
-      "definition": "иголка, игла"
+      "definition": "иголка, игла",
+      "transcription": "[niːdl]"
     },
     {
       "term": "neighborhood",
-      "definition": "окрестности, район, соседство, окружение, округа"
+      "definition": "окрестности, район, соседство, окружение, округа",
+      "transcription": "[ˈneɪbəhʊd]"
     },
     {
       "term": "neighbourhood",
-      "definition": "окрестности, район, соседство, окружение, округа"
+      "definition": "окрестности, район, соседство, окружение, округа",
+      "transcription": "[ˈneɪbəhʊd]"
     },
     {
       "term": "net",
-      "definition": "сеть, сетка"
+      "definition": "сеть, сетка",
+      "transcription": "[net]"
     },
     {
       "term": "nor",
-      "definition": "ни"
+      "definition": "ни",
+      "transcription": "[nɔː]"
     },
     {
       "term": "normal",
-      "definition": "нормаль, нормальное состояние"
+      "definition": "нормаль, нормальное состояние",
+      "transcription": "[ˈnɔːməl]"
     },
     {
       "term": "northern",
-      "definition": "северный"
+      "definition": "северный",
+      "transcription": "[ˈnɔːðən]"
     },
     {
       "term": "nuclear",
-      "definition": "ядерный, атомный"
+      "definition": "ядерный, атомный",
+      "transcription": "[ˈnjuːklɪə]"
     },
     {
       "term": "obvious",
-      "definition": "очевидный, ясный, явный, банальный"
+      "definition": "очевидный, ясный, явный, банальный",
+      "transcription": "[ˈɔbvɪəs]"
     },
     {
       "term": "obviously",
-      "definition": "очевидно"
+      "definition": "очевидно",
+      "transcription": "[ˈɒbvɪəslɪ]"
     },
     {
       "term": "occasion",
-      "definition": "случай, повод, раз, возможность"
+      "definition": "случай, повод, раз, возможность",
+      "transcription": "[əˈkeɪʒən]"
     },
     {
       "term": "odd",
-      "definition": "нечётный, странный"
+      "definition": "нечётный, странный",
+      "transcription": "[ɔd]"
     },
     {
       "term": "official",
-      "definition": "официальный, чиновник"
+      "definition": "официальный, чиновник",
+      "transcription": "[əˈfɪʃəl]"
     },
     {
       "term": "old-fashioned",
-      "definition": "старомодный"
+      "definition": "старомодный",
+      "transcription": "[əʊld] [fæʃnd]"
     },
     {
       "term": "operation",
-      "definition": "операция, действие, управление"
+      "definition": "операция, действие, управление",
+      "transcription": "[ɔpəˈreɪʃn]"
     },
     {
       "term": "organized",
-      "definition": "организованный"
+      "definition": "организованный",
+      "transcription": "[ˈɔːgənaɪzd]"
     },
     {
       "term": "organizer",
-      "definition": "организатор"
+      "definition": "организатор",
+      "transcription": "[ˈɔːgənaɪzə]"
     },
     {
       "term": "originally",
-      "definition": "первоначально, оригинально, по происхождению"
+      "definition": "первоначально, оригинально, по происхождению",
+      "transcription": "[əˈrɪʤɪnəlɪ]"
     },
     {
       "term": "ought to",
-      "definition": "должен"
+      "definition": "должен",
+      "transcription": "[ˈɔːt] [tu]"
     },
     {
       "term": "ours",
-      "definition": "наш, принадлежащий нам, наши"
+      "definition": "наш, принадлежащий нам, наши",
+      "transcription": "[ˈaʊəz]"
     },
     {
       "term": "outdoor",
-      "definition": "внешний, наружный"
+      "definition": "внешний, наружный",
+      "transcription": "[ˈaʊtdɔː]"
     },
     {
       "term": "outdoors",
-      "definition": "на улице, снаружи"
+      "definition": "на улице, снаружи",
+      "transcription": "[ˈaʊtˈdɔːz]"
     },
     {
       "term": "pack",
-      "definition": "упаковка, пачка"
+      "definition": "упаковка, пачка",
+      "transcription": "[pæk]"
     },
     {
       "term": "package",
-      "definition": "посылка, упаковка"
+      "definition": "посылка, упаковка",
+      "transcription": "[ˈpækɪʤ]"
     },
     {
       "term": "painful",
-      "definition": "болезненный, болевой, неприятный"
+      "definition": "болезненный, болевой, неприятный",
+      "transcription": "[ˈpeɪnfʊl]"
     },
     {
       "term": "pale",
-      "definition": "бледный"
+      "definition": "бледный",
+      "transcription": "[peɪl]"
     },
     {
       "term": "pan",
-      "definition": "сковорода, кастрюля, поддон, чаша"
+      "definition": "сковорода, кастрюля, поддон, чаша",
+      "transcription": "[pæn]"
     },
     {
       "term": "particularly",
-      "definition": "особенно, в частности, очень, чрезвычайно, особым образом"
+      "definition": "особенно, в частности, очень, чрезвычайно, особым образом",
+      "transcription": "[pəˈtɪkjʊləlɪ]"
     },
     {
       "term": "pass",
-      "definition": "проход, ущелье"
+      "definition": "проход, ущелье",
+      "transcription": "[pɑːs]"
     },
     {
       "term": "passion",
-      "definition": "страсть, страстность"
+      "definition": "страсть, страстность",
+      "transcription": "[pæʃn]"
     },
     {
       "term": "path",
-      "definition": "тропа, тропинка, путь, маршрут"
+      "definition": "тропа, тропинка, путь, маршрут",
+      "transcription": "[pɑːθ]"
     },
     {
       "term": "payment",
-      "definition": "платёж, оплата"
+      "definition": "платёж, оплата",
+      "transcription": "[ˈpeɪmənt]"
     },
     {
       "term": "peaceful",
-      "definition": "мирный, спокойный"
+      "definition": "мирный, спокойный",
+      "transcription": "[ˈpiːsfʊl]"
     },
     {
       "term": "percentage",
-      "definition": "процент, процентная доля"
+      "definition": "процент, процентная доля",
+      "transcription": "[pəˈsentɪʤ]"
     },
     {
       "term": "perfectly",
-      "definition": "отлично, совершенно, вполне"
+      "definition": "отлично, совершенно, вполне",
+      "transcription": "[ˈpɜːfɪktlɪ]"
     },
     {
       "term": "performance",
-      "definition": "исполнение, производительность, выступление"
+      "definition": "исполнение, производительность, выступление",
+      "transcription": "[pəˈfɔːməns]"
     },
     {
       "term": "personally",
-      "definition": "лично, персонально, сам, собственной персоной"
+      "definition": "лично, персонально, сам, собственной персоной",
+      "transcription": "[ˈpɜːsnəlɪ]"
     },
     {
       "term": "photographer",
-      "definition": "фотограф"
+      "definition": "фотограф",
+      "transcription": "[fəˈtɔgrəfə]"
     },
     {
       "term": "photography",
-      "definition": "фотография (как процесс или искусство)"
+      "definition": "фотография (как процесс или искусство)",
+      "transcription": "[fəˈtɔgrəfɪ]"
     },
     {
       "term": "pin",
-      "definition": "булавка, брошь, штырёк"
+      "definition": "булавка, брошь, штырёк",
+      "transcription": "[pɪn]"
     },
     {
       "term": "pipe",
-      "definition": "труба, трубка"
+      "definition": "труба, трубка",
+      "transcription": "[paɪp]"
     },
     {
       "term": "planning",
-      "definition": "планирование"
+      "definition": "планирование",
+      "transcription": "[ˈplænɪŋ]"
     },
     {
       "term": "pleasant",
-      "definition": "приятный"
+      "definition": "приятный",
+      "transcription": "[pleznt]"
     },
     {
       "term": "pleasure",
-      "definition": "удовольствие"
+      "definition": "удовольствие",
+      "transcription": "[ˈpleʒə]"
     },
     {
       "term": "plenty",
-      "definition": "множество, обилие, много, достаточно"
+      "definition": "множество, обилие, много, достаточно",
+      "transcription": "[ˈplentɪ]"
     },
     {
       "term": "plot",
-      "definition": "сюжет, фабула"
+      "definition": "сюжет, фабула",
+      "transcription": "[plɔt]"
     },
     {
       "term": "plus",
-      "definition": "плюс"
+      "definition": "плюс",
+      "transcription": "[plʌs]"
     },
     {
       "term": "poem",
-      "definition": "поэма, стихотворение"
+      "definition": "поэма, стихотворение",
+      "transcription": "[ˈpəʊɪm]"
     },
     {
       "term": "poet",
-      "definition": "поэт"
+      "definition": "поэт",
+      "transcription": "[ˈpəʊɪt]"
     },
     {
       "term": "poetry",
-      "definition": "поэзия, стихи"
+      "definition": "поэзия, стихи",
+      "transcription": "[ˈpəʊɪtrɪ]"
     },
     {
       "term": "poison",
-      "definition": "отрава, яд"
+      "definition": "отрава, яд",
+      "transcription": "[ˈpɔɪzn]"
     },
     {
       "term": "poisonous",
-      "definition": "ядовитый"
+      "definition": "ядовитый",
+      "transcription": "[ˈpɔɪznəs]"
     },
     {
       "term": "policy",
-      "definition": "политика, страховой полис"
+      "definition": "политика, страховой полис",
+      "transcription": "[ˈpɔlɪsɪ]"
     },
     {
       "term": "political",
-      "definition": "политический"
+      "definition": "политический",
+      "transcription": "[pəˈlɪtɪkəl]"
     },
     {
       "term": "politician",
-      "definition": "политик"
+      "definition": "политик",
+      "transcription": "[pɔlɪˈtɪʃn]"
     },
     {
       "term": "politics",
-      "definition": "политика"
+      "definition": "политика",
+      "transcription": "[ˈpɔlɪtɪks]"
     },
     {
       "term": "port",
-      "definition": "порт, портовый"
+      "definition": "порт, портовый",
+      "transcription": "[pɔːt]"
     },
     {
       "term": "portrait",
-      "definition": "портрет, портретный"
+      "definition": "портрет, портретный",
+      "transcription": "[ˈpɔːtrɪt]"
     },
     {
       "term": "possibly",
-      "definition": "возможно, может быть"
+      "definition": "возможно, может быть",
+      "transcription": "[ˈpɔsəblɪ]"
     },
     {
       "term": "pot",
-      "definition": "горшок, банка, кастрюля, котел, чайник"
+      "definition": "горшок, банка, кастрюля, котел, чайник",
+      "transcription": "[pɔt]"
     },
     {
       "term": "poverty",
-      "definition": "бедность, нищета"
+      "definition": "бедность, нищета",
+      "transcription": "[ˈpɔvətɪ]"
     },
     {
       "term": "powder",
-      "definition": "порошок, пудра, порох, порошковый"
+      "definition": "порошок, пудра, порох, порошковый",
+      "transcription": "[ˈpaʊdə]"
     },
     {
       "term": "powerful",
-      "definition": "мощный"
+      "definition": "мощный",
+      "transcription": "[ˈpaʊəfʊl]"
     },
     {
       "term": "practical",
-      "definition": "практичный, практический"
+      "definition": "практичный, практический",
+      "transcription": "[ˈpræktɪkəl]"
     },
     {
       "term": "prayer",
-      "definition": "молитва, молебен"
+      "definition": "молитва, молебен",
+      "transcription": "[prɛə]"
     },
     {
       "term": "prediction",
-      "definition": "прогноз, предсказание"
+      "definition": "прогноз, предсказание",
+      "transcription": "[prɪˈdɪkʃn]"
     },
     {
       "term": "prepared",
-      "definition": "готовый, подготовленный, приготовленный"
+      "definition": "готовый, подготовленный, приготовленный",
+      "transcription": "[prɪˈpɛəd]"
     },
     {
       "term": "presentation",
-      "definition": "презентация"
+      "definition": "презентация",
+      "transcription": "[prezenˈteɪʃn]"
     },
     {
       "term": "press",
-      "definition": "пресса, печать, корреспондентский"
+      "definition": "пресса, печать, корреспондентский",
+      "transcription": "[pres]"
     },
     {
       "term": "press",
-      "definition": "нажатие"
+      "definition": "нажатие",
+      "transcription": "[pres]"
     },
     {
       "term": "pressure",
-      "definition": "давление"
+      "definition": "давление",
+      "transcription": "[ˈpreʃə]"
     },
     {
       "term": "previous",
-      "definition": "предшествующий, предыдущий"
+      "definition": "предшествующий, предыдущий",
+      "transcription": "[ˈpriːvjəs]"
     },
     {
       "term": "previously",
-      "definition": "ранее, предварительно, заранее"
+      "definition": "ранее, предварительно, заранее",
+      "transcription": "[ˈpriːvjəslɪ]"
     },
     {
       "term": "priest",
-      "definition": "священник, служитель, жрец"
+      "definition": "священник, служитель, жрец",
+      "transcription": "[priːst]"
     },
     {
       "term": "primary",
-      "definition": "первичный, основной, начальный, главный"
+      "definition": "первичный, основной, начальный, главный",
+      "transcription": "[ˈpraɪmərɪ]"
     },
     {
       "term": "prince",
-      "definition": "принц, князь, государь"
+      "definition": "принц, князь, государь",
+      "transcription": "[prɪns]"
     },
     {
       "term": "princess",
-      "definition": "принцесса, княгиня"
+      "definition": "принцесса, княгиня",
+      "transcription": "[prɪnˈses]"
     },
     {
       "term": "printing",
-      "definition": "печать, печатание, тираж"
+      "definition": "печать, печатание, тираж",
+      "transcription": "[ˈprɪntɪŋ]"
     },
     {
       "term": "prisoner",
-      "definition": "заключенный"
+      "definition": "заключенный",
+      "transcription": "[ˈprɪznə]"
     },
     {
       "term": "private",
-      "definition": "частный, личный, конфиденциальный"
+      "definition": "частный, личный, конфиденциальный",
+      "transcription": "[ˈpraɪvɪt]"
     },
     {
       "term": "producer",
-      "definition": "производитель, продюсер"
+      "definition": "производитель, продюсер",
+      "transcription": "[prəˈdjuːsə]"
     },
     {
       "term": "production",
-      "definition": "производство"
+      "definition": "производство",
+      "transcription": "[prəˈdʌkʃn]"
     },
     {
       "term": "profession",
-      "definition": "профессия"
+      "definition": "профессия",
+      "transcription": "[prəˈfeʃn]"
     },
     {
       "term": "profit",
-      "definition": "прибыль, выгода"
+      "definition": "прибыль, выгода",
+      "transcription": "[ˈprɔfɪt]"
     },
     {
       "term": "program",
-      "definition": "программа (мероприятий), план"
+      "definition": "программа (мероприятий), план",
+      "transcription": "[ˈprəʊgræm]"
     },
     {
       "term": "programme",
-      "definition": "программа (мероприятий), план"
+      "definition": "программа (мероприятий), план",
+      "transcription": "[ˈprəʊgræm]"
     },
     {
       "term": "proper",
-      "definition": "правильный, надлежащий, соответствующий"
+      "definition": "правильный, надлежащий, соответствующий",
+      "transcription": "[ˈprɔpə]"
     },
     {
       "term": "properly",
-      "definition": "правильно, должным образом, как следует, прилично"
+      "definition": "правильно, должным образом, как следует, прилично",
+      "transcription": "[ˈprɔpəlɪ]"
     },
     {
       "term": "property",
-      "definition": "собственность, свойство"
+      "definition": "собственность, свойство",
+      "transcription": "[ˈprɔpətɪ]"
     },
     {
       "term": "protest",
-      "definition": "протест, возражение"
+      "definition": "протест, возражение",
+      "transcription": "[ˈprəʊtɛst]"
     },
     {
       "term": "proud",
-      "definition": "гордый"
+      "definition": "гордый",
+      "transcription": "[praʊd]"
     },
     {
       "term": "punishment",
-      "definition": "наказание, кара"
+      "definition": "наказание, кара",
+      "transcription": "[ˈpʌnɪʃmənt]"
     },
     {
       "term": "push",
-      "definition": "толчок, давление, нажим"
+      "definition": "толчок, давление, нажим",
+      "transcription": "[pʊʃ]"
     },
     {
       "term": "qualification",
-      "definition": "квалификация"
+      "definition": "квалификация",
+      "transcription": "[kwɔlɪfɪˈkeɪʃn]"
     },
     {
       "term": "qualified",
-      "definition": "квалифицированный"
+      "definition": "квалифицированный",
+      "transcription": "[ˈkwɒlɪfaɪd]"
     },
     {
       "term": "queue",
-      "definition": "очередь"
+      "definition": "очередь",
+      "transcription": "[kjuː]"
     },
     {
       "term": "quotation",
-      "definition": "цитата, цитирование"
+      "definition": "цитата, цитирование",
+      "transcription": "[kwəʊˈteɪʃn]"
     },
     {
       "term": "quotation",
-      "definition": "котировка"
+      "definition": "котировка",
+      "transcription": "[kwəʊˈteɪʃn]"
     },
     {
       "term": "quote",
-      "definition": "цитата, кавычка"
+      "definition": "цитата, кавычка",
+      "transcription": "[kwəʊt]"
     },
     {
       "term": "race",
-      "definition": "раса, род, расовый"
+      "definition": "раса, род, расовый",
+      "transcription": "[reɪs]"
     },
     {
       "term": "racing",
-      "definition": "гонки, бега"
+      "definition": "гонки, бега",
+      "transcription": "[ˈreɪsɪŋ]"
     },
     {
       "term": "range",
-      "definition": "диапазон, область, ассортимент"
+      "definition": "диапазон, область, ассортимент",
+      "transcription": "[reɪnʤ]"
     },
     {
       "term": "rare",
-      "definition": "редкий"
+      "definition": "редкий",
+      "transcription": "[rɛə]"
     },
     {
       "term": "rarely",
-      "definition": "редко, изредка, необычайно, исключительно, на редкость"
+      "definition": "редко, изредка, необычайно, исключительно, на редкость",
+      "transcription": "[ˈrɛəlɪ]"
     },
     {
       "term": "reaction",
-      "definition": "реакция, реагирование"
+      "definition": "реакция, реагирование",
+      "transcription": "[riːˈækʃn]"
     },
     {
       "term": "reality",
-      "definition": "реальность, действительность"
+      "definition": "реальность, действительность",
+      "transcription": "[riːˈælɪtɪ]"
     },
     {
       "term": "receipt",
-      "definition": "квитанция, чек об оплате"
+      "definition": "квитанция, чек об оплате",
+      "transcription": "[rɪˈsiːt]"
     },
     {
       "term": "recommendation",
-      "definition": "рекомендация, совет, похвала, представление к награде"
+      "definition": "рекомендация, совет, похвала, представление к награде",
+      "transcription": "[rekəmenˈdeɪʃn]"
     },
     {
       "term": "reference",
-      "definition": "справка, ссылка, упоминание, отсылка"
+      "definition": "справка, ссылка, упоминание, отсылка",
+      "transcription": "[ˈrefrəns]"
     },
     {
       "term": "regularly",
-      "definition": "регулярно, размеренно"
+      "definition": "регулярно, размеренно",
+      "transcription": "[ˈregjʊləlɪ]"
     },
     {
       "term": "related",
-      "definition": "связанный, родственный"
+      "definition": "связанный, родственный",
+      "transcription": "[rɪˈleɪtɪd]"
     },
     {
       "term": "relation",
-      "definition": "отношение, связь, соотношение, зависимость, родственник"
+      "definition": "отношение, связь, соотношение, зависимость, родственник",
+      "transcription": "[rɪˈleɪʃn]"
     },
     {
       "term": "relative",
-      "definition": "родственник"
+      "definition": "родственник",
+      "transcription": "[ˈrelətɪv]"
     },
     {
       "term": "relative",
-      "definition": "относительный, сравнительный"
+      "definition": "относительный, сравнительный",
+      "transcription": "[ˈrelətɪv]"
     },
     {
       "term": "relaxed",
-      "definition": "расслабленный, раскованный"
+      "definition": "расслабленный, раскованный",
+      "transcription": "[rɪˈlækst]"
     },
     {
       "term": "relaxing",
-      "definition": "расслабляющий"
+      "definition": "расслабляющий",
+      "transcription": "[rɪˈlæksɪŋ]"
     },
     {
       "term": "release",
-      "definition": "выпуск, версия программы"
+      "definition": "выпуск, версия программы",
+      "transcription": "[rɪˈliːs]"
     },
     {
       "term": "reliable",
-      "definition": "надежный, верный"
+      "definition": "надежный, верный",
+      "transcription": "[rɪˈlaɪəbl]"
     },
     {
       "term": "religion",
-      "definition": "религия"
+      "definition": "религия",
+      "transcription": "[rɪˈlɪʤən]"
     },
     {
       "term": "religious",
-      "definition": "религиозный, верующий, культовый"
+      "definition": "религиозный, верующий, культовый",
+      "transcription": "[rɪˈlɪʤəs]"
     },
     {
       "term": "remote",
-      "definition": "дистанционный, удалённый, пульт дистанционного управления"
+      "definition": "дистанционный, удалённый, пульт дистанционного управления",
+      "transcription": "[rɪˈməʊt]"
     },
     {
       "term": "rent",
-      "definition": "аренда"
+      "definition": "аренда",
+      "transcription": "[rent]"
     },
     {
       "term": "repair",
-      "definition": "ремонт"
+      "definition": "ремонт",
+      "transcription": "[rɪˈpɛə]"
     },
     {
       "term": "repeat",
-      "definition": "повторение"
+      "definition": "повторение",
+      "transcription": "[rɪˈpiːt]"
     },
     {
       "term": "repeated",
-      "definition": "повторный, повторяющийся"
+      "definition": "повторный, повторяющийся",
+      "transcription": "[rɪˈpiːtɪd]"
     },
     {
       "term": "reservation",
-      "definition": "бронирование, предварительный заказ"
+      "definition": "бронирование, предварительный заказ",
+      "transcription": "[rezəˈveɪʃn]"
     },
     {
       "term": "resource",
-      "definition": "ресурс, средство, запас, возможность"
+      "definition": "ресурс, средство, запас, возможность",
+      "transcription": "[rɪˈsɔːs]"
     },
     {
       "term": "respect",
-      "definition": "уважение, почтение, отношение"
+      "definition": "уважение, почтение, отношение",
+      "transcription": "[rɪsˈpekt]"
     },
     {
       "term": "responsibility",
-      "definition": "ответственность, обязательство"
+      "definition": "ответственность, обязательство",
+      "transcription": "[rɪspɔnsəˈbɪlɪtɪ]"
     },
     {
       "term": "responsible",
-      "definition": "ответственный"
+      "definition": "ответственный",
+      "transcription": "[rɪsˈpɔnsəbl]"
     },
     {
       "term": "retired",
-      "definition": "отставной, в отставке, вышедший на пенсию"
+      "definition": "отставной, в отставке, вышедший на пенсию",
+      "transcription": "[rɪˈtaɪəd]"
     },
     {
       "term": "rise",
-      "definition": "повышение, рост"
+      "definition": "повышение, рост",
+      "transcription": "[raɪz]"
     },
     {
       "term": "risk",
-      "definition": "риск"
+      "definition": "риск",
+      "transcription": "[rɪsk]"
     },
     {
       "term": "robot",
-      "definition": "робот"
+      "definition": "робот",
+      "transcription": "[ˈrəʊbɔt]"
     },
     {
       "term": "roll",
-      "definition": "рулон, рулет, ролик"
+      "definition": "рулон, рулет, ролик",
+      "transcription": "[rəʊl]"
     },
     {
       "term": "romantic",
-      "definition": "романтичный"
+      "definition": "романтичный",
+      "transcription": "[reʊˈmæntɪk]"
     },
     {
       "term": "rope",
-      "definition": "веревка, канат, трос"
+      "definition": "веревка, канат, трос",
+      "transcription": "[rəʊp]"
     },
     {
       "term": "rough",
-      "definition": "грубый"
+      "definition": "грубый",
+      "transcription": "[rʌf]"
     },
     {
       "term": "row",
-      "definition": "ряд, строка (в тексте)"
+      "definition": "ряд, строка (в тексте)",
+      "transcription": "[rəʊ]"
     },
     {
       "term": "royal",
-      "definition": "королевский"
+      "definition": "королевский",
+      "transcription": "[ˈrɔɪəl]"
     },
     {
       "term": "rugby",
-      "definition": "регби"
+      "definition": "регби",
+      "transcription": "[ˈrʌgbɪ]"
     },
     {
       "term": "safety",
-      "definition": "безопасность, предохранительный"
+      "definition": "безопасность, предохранительный",
+      "transcription": "[ˈseɪftɪ]"
     },
     {
       "term": "sail",
-      "definition": "парус, парусное судно, плавание"
+      "definition": "парус, парусное судно, плавание",
+      "transcription": "[seɪl]"
     },
     {
       "term": "sailor",
-      "definition": "моряк"
+      "definition": "моряк",
+      "transcription": "[ˈseɪlə]"
     },
     {
       "term": "sample",
-      "definition": "образец"
+      "definition": "образец",
+      "transcription": "[sɑːmpl]"
     },
     {
       "term": "sand",
-      "definition": "песок"
+      "definition": "песок",
+      "transcription": "[sænd]"
     },
     {
       "term": "scientific",
-      "definition": "научный"
+      "definition": "научный",
+      "transcription": "[saɪənˈtɪfɪk]"
     },
     {
       "term": "script",
-      "definition": "сценарий"
+      "definition": "сценарий",
+      "transcription": "[skrɪpt]"
     },
     {
       "term": "sculpture",
-      "definition": "скульптура, статуя"
+      "definition": "скульптура, статуя",
+      "transcription": "[ˈskʌlpʧə]"
     },
     {
       "term": "secondary",
-      "definition": "второстепенный, вторичный, вспомогательный, подчиненный"
+      "definition": "второстепенный, вторичный, вспомогательный, подчиненный",
+      "transcription": "[ˈsekəndərɪ]"
     },
     {
       "term": "security",
-      "definition": "безопасность, охрана"
+      "definition": "безопасность, охрана",
+      "transcription": "[sɪˈkjʊərɪtɪ]"
     },
     {
       "term": "seed",
-      "definition": "семя"
+      "definition": "семя",
+      "transcription": "[siːd]"
     },
     {
       "term": "sensible",
-      "definition": "разумный, осмысленный, целесообразный, чувственный"
+      "definition": "разумный, осмысленный, целесообразный, чувственный",
+      "transcription": "[ˈsensəbl]"
     },
     {
       "term": "seriously",
-      "definition": "серьезно, всерьез"
+      "definition": "серьезно, всерьез",
+      "transcription": "[ˈsɪərɪəslɪ]"
     },
     {
       "term": "servant",
-      "definition": "слуга"
+      "definition": "слуга",
+      "transcription": "[ˈsɜːvənt]"
     },
     {
       "term": "set",
-      "definition": "набор, комплект, конфигурация"
+      "definition": "набор, комплект, конфигурация",
+      "transcription": "[set]"
     },
     {
       "term": "setting",
-      "definition": "установка, параметр, наладка"
+      "definition": "установка, параметр, наладка",
+      "transcription": "[ˈsetɪŋ]"
     },
     {
       "term": "sex",
-      "definition": "пол, секс, половой"
+      "definition": "пол, секс, половой",
+      "transcription": "[seks]"
     },
     {
       "term": "sexual",
-      "definition": "сексуальный, половой"
+      "definition": "сексуальный, половой",
+      "transcription": "[ˈseksjʊəl]"
     },
     {
       "term": "shake",
-      "definition": "встряска, сотрясение, шейк"
+      "definition": "встряска, сотрясение, шейк",
+      "transcription": "[ʃeɪk]"
     },
     {
       "term": "share",
-      "definition": "доля, часть, акция"
+      "definition": "доля, часть, акция",
+      "transcription": "[ʃɛə]"
     },
     {
       "term": "sharp",
-      "definition": "острый, точно"
+      "definition": "острый, точно",
+      "transcription": "[ʃɑːp]"
     },
     {
       "term": "shelf",
-      "definition": "полка"
+      "definition": "полка",
+      "transcription": "[ʃelf]"
     },
     {
       "term": "shell",
-      "definition": "оболочка, панцирь, скорлупа"
+      "definition": "оболочка, панцирь, скорлупа",
+      "transcription": "[ʃel]"
     },
     {
       "term": "shift",
-      "definition": "сдвиг, смена, переключение"
+      "definition": "сдвиг, смена, переключение",
+      "transcription": "[ʃɪft]"
     },
     {
       "term": "shiny",
-      "definition": "блестящий, солнечный"
+      "definition": "блестящий, солнечный",
+      "transcription": "[ˈʃaɪnɪ]"
     },
     {
       "term": "shy",
-      "definition": "застенчивый, стеснительный"
+      "definition": "застенчивый, стеснительный",
+      "transcription": "[ʃaɪ]"
     },
     {
       "term": "sight",
-      "definition": "взгляд, вид, зрение, поле зрения"
+      "definition": "взгляд, вид, зрение, поле зрения",
+      "transcription": "[saɪt]"
     },
     {
       "term": "signal",
-      "definition": "сигнал, указатель поворота"
+      "definition": "сигнал, указатель поворота",
+      "transcription": "[sɪgnl]"
     },
     {
       "term": "silent",
-      "definition": "тихий, бесшумный, отключенный"
+      "definition": "тихий, бесшумный, отключенный",
+      "transcription": "[ˈsaɪlənt]"
     },
     {
       "term": "silly",
-      "definition": "глупый, простой, глупыш, дурак"
+      "definition": "глупый, простой, глупыш, дурак",
+      "transcription": "[ˈsɪlɪ]"
     },
     {
       "term": "similarity",
-      "definition": "сходство, подобие"
+      "definition": "сходство, подобие",
+      "transcription": "[sɪmɪˈlærɪtɪ]"
     },
     {
       "term": "similarly",
-      "definition": "по аналогии, так же, подобным образом"
+      "definition": "по аналогии, так же, подобным образом",
+      "transcription": "[ˈsɪmɪləlɪ]"
     },
     {
       "term": "simply",
-      "definition": "просто, только, попросту, легко, совершенно"
+      "definition": "просто, только, попросту, легко, совершенно",
+      "transcription": "[ˈsɪmplɪ]"
     },
     {
       "term": "slice",
-      "definition": "кусочек, ломтик, доля"
+      "definition": "кусочек, ломтик, доля",
+      "transcription": "[slaɪs]"
     },
     {
       "term": "slightly",
-      "definition": "немного, слегка, чуть"
+      "definition": "немного, слегка, чуть",
+      "transcription": "[ˈslaɪtlɪ]"
     },
     {
       "term": "smart",
-      "definition": "умный, разумный, сообразительный"
+      "definition": "умный, разумный, сообразительный",
+      "transcription": "[smɑːt]"
     },
     {
       "term": "smooth",
-      "definition": "плавный, гладкий"
+      "definition": "плавный, гладкий",
+      "transcription": "[smuːð]"
     },
     {
       "term": "software",
-      "definition": "программное обеспечение, программы для компьютера"
+      "definition": "программное обеспечение, программы для компьютера",
+      "transcription": "[ˈsɒftweər]"
     },
     {
       "term": "soil",
-      "definition": "почва"
+      "definition": "почва",
+      "transcription": "[sɔɪl]"
     },
     {
       "term": "solid",
-      "definition": "твердый, прочный, сплошной, твердое тело"
+      "definition": "твердый, прочный, сплошной, твердое тело",
+      "transcription": "[ˈsɔlɪd]"
     },
     {
       "term": "southern",
-      "definition": "южный"
+      "definition": "южный",
+      "transcription": "[ˈsʌðən]"
     },
     {
       "term": "specifically",
-      "definition": "конкретно, особенно, а именно"
+      "definition": "конкретно, особенно, а именно",
+      "transcription": "[spəˈsɪfɪklɪ]"
     },
     {
       "term": "spending",
-      "definition": "расход, трата"
+      "definition": "расход, трата",
+      "transcription": "[ˈspendɪŋ]"
     },
     {
       "term": "spicy",
-      "definition": "острый"
+      "definition": "острый",
+      "transcription": "[ˈspaɪsɪ]"
     },
     {
       "term": "spirit",
-      "definition": "дух"
+      "definition": "дух",
+      "transcription": "[ˈspɪrɪt]"
     },
     {
       "term": "spoken",
-      "definition": "разговорный, устный, сказанный"
+      "definition": "разговорный, устный, сказанный",
+      "transcription": "[ˈspəʊkən]"
     },
     {
       "term": "spot",
-      "definition": "место, точка"
+      "definition": "место, точка",
+      "transcription": "[spɔt]"
     },
     {
       "term": "stadium",
-      "definition": "стадион"
+      "definition": "стадион",
+      "transcription": "[ˈsteɪdjəm]"
     },
     {
       "term": "staff",
-      "definition": "персонал"
+      "definition": "персонал",
+      "transcription": "[stɑːf]"
     },
     {
       "term": "standard",
-      "definition": "стандарт, стандартный"
+      "definition": "стандарт, стандартный",
+      "transcription": "[ˈstændəd]"
     },
     {
       "term": "statistic",
-      "definition": "статистика, статистический, статистик"
+      "definition": "статистика, статистический, статистик",
+      "transcription": "[stəˈtɪstɪk]"
     },
     {
       "term": "statue",
-      "definition": "статуя"
+      "definition": "статуя",
+      "transcription": "[ˈstætjuː]"
     },
     {
       "term": "stick",
-      "definition": "палка, трость, клюшка"
+      "definition": "палка, трость, клюшка",
+      "transcription": "[stɪk]"
     },
     {
       "term": "stranger",
-      "definition": "незнакомец, чужой, иноземец"
+      "definition": "незнакомец, чужой, иноземец",
+      "transcription": "[ˈstreɪnʤə]"
     },
     {
       "term": "strength",
-      "definition": "сила, прочность"
+      "definition": "сила, прочность",
+      "transcription": "[streŋθ]"
     },
     {
       "term": "string",
-      "definition": "струна, струнный, строка"
+      "definition": "струна, струнный, строка",
+      "transcription": "[strɪŋ]"
     },
     {
       "term": "strongly",
-      "definition": "сильно, крепко"
+      "definition": "сильно, крепко",
+      "transcription": "[ˈstrɒŋlɪ]"
     },
     {
       "term": "studio",
-      "definition": "студия, мастерская, ателье"
+      "definition": "студия, мастерская, ателье",
+      "transcription": "[ˈstjuːdɪəʊ]"
     },
     {
       "term": "stuff",
-      "definition": "вещи, материал, хлам"
+      "definition": "вещи, материал, хлам",
+      "transcription": "[stʌf]"
     },
     {
       "term": "stylish",
-      "definition": "модный, стильный"
+      "definition": "модный, стильный",
+      "transcription": "[ˈstaɪlɪʃ]"
     },
     {
       "term": "substance",
-      "definition": "вещество, содержание, субстанция, сущность"
+      "definition": "вещество, содержание, субстанция, сущность",
+      "transcription": "[ˈsʌbstəns]"
     },
     {
       "term": "successfully",
-      "definition": "успешно"
+      "definition": "успешно",
+      "transcription": "[səkˈsesfəlɪ]"
     },
     {
       "term": "sudden",
-      "definition": "внезапный"
+      "definition": "внезапный",
+      "transcription": "[sʌdn]"
     },
     {
       "term": "suitable",
-      "definition": "подходящий, соответствующий, годный"
+      "definition": "подходящий, соответствующий, годный",
+      "transcription": "[ˈsjuːtəbl]"
     },
     {
       "term": "summary",
-      "definition": "краткое изложение, сводка"
+      "definition": "краткое изложение, сводка",
+      "transcription": "[ˈsʌmərɪ]"
     },
     {
       "term": "supply",
-      "definition": "поставка, снабжение, предложение"
+      "definition": "поставка, снабжение, предложение",
+      "transcription": "[səˈplaɪ]"
     },
     {
       "term": "supporter",
-      "definition": "сторонник, приверженец, опора, подтяжка"
+      "definition": "сторонник, приверженец, опора, подтяжка",
+      "transcription": "[səˈpɔːtə]"
     },
     {
       "term": "surely",
-      "definition": "конечно, несомненно, уверенно"
+      "definition": "конечно, несомненно, уверенно",
+      "transcription": "[ˈʃʊəlɪ]"
     },
     {
       "term": "surface",
-      "definition": "поверхность, поверхностный"
+      "definition": "поверхность, поверхностный",
+      "transcription": "[ˈsɜːfɪs]"
     },
     {
       "term": "swim",
-      "definition": "заплыв, плавание"
+      "definition": "заплыв, плавание",
+      "transcription": "[swɪm]"
     },
     {
       "term": "symptom",
-      "definition": "симптом, признак"
+      "definition": "симптом, признак",
+      "transcription": "[ˈsɪmptəm]"
     },
     {
       "term": "tablet",
-      "definition": "таблетка"
+      "definition": "таблетка",
+      "transcription": "[ˈtæblɪt]"
     },
     {
       "term": "tail",
-      "definition": "хвост, выслеживать, плестись"
+      "definition": "хвост, выслеживать, плестись",
+      "transcription": "[teɪl]"
     },
     {
       "term": "talent",
-      "definition": "талант"
+      "definition": "талант",
+      "transcription": "[ˈtælənt]"
     },
     {
       "term": "talented",
-      "definition": "талантливый"
+      "definition": "талантливый",
+      "transcription": "[ˈtæləntɪd]"
     },
     {
       "term": "tape",
-      "definition": "лента"
+      "definition": "лента",
+      "transcription": "[teɪp]"
     },
     {
       "term": "tax",
-      "definition": "налог"
+      "definition": "налог",
+      "transcription": "[tæks]"
     },
     {
       "term": "technical",
-      "definition": "технический"
+      "definition": "технический",
+      "transcription": "[ˈteknɪkəl]"
     },
     {
       "term": "technique",
-      "definition": "техника, метод, способ"
+      "definition": "техника, метод, способ",
+      "transcription": "[tekˈniːk]"
     },
     {
       "term": "tent",
-      "definition": "палатка"
+      "definition": "палатка",
+      "transcription": "[tent]"
     },
     {
       "term": "that",
-      "definition": "настолько, так, до такой степени"
+      "definition": "настолько, так, до такой степени",
+      "transcription": "[ðæt]"
     },
     {
       "term": "theirs",
-      "definition": "их"
+      "definition": "их",
+      "transcription": "[ðɛəz]"
     },
     {
       "term": "theme",
-      "definition": "тема"
+      "definition": "тема",
+      "transcription": "[θiːm]"
     },
     {
       "term": "theory",
-      "definition": "теория"
+      "definition": "теория",
+      "transcription": "[ˈθɪərɪ]"
     },
     {
       "term": "therefore",
-      "definition": "следовательно, поэтому, вследствие этого"
+      "definition": "следовательно, поэтому, вследствие этого",
+      "transcription": "[ˈðɛəfɔː]"
     },
     {
       "term": "this",
-      "definition": "настолько, так, до такой степени, такого (размера и т. д.)"
+      "definition": "настолько, так, до такой степени, такого (размера и т. д.)",
+      "transcription": "[ðɪs]"
     },
     {
       "term": "though",
-      "definition": "хотя, однако, несмотря на"
+      "definition": "хотя, однако, несмотря на",
+      "transcription": "[ðəʊ]"
     },
     {
       "term": "throat",
-      "definition": "горло"
+      "definition": "горло",
+      "transcription": "[θrəʊt]"
     },
     {
       "term": "throughout",
-      "definition": "по всему, через, в продолжение, повсюду, на всем протяжении"
+      "definition": "по всему, через, в продолжение, повсюду, на всем протяжении",
+      "transcription": "[θruːˈaʊt]"
     },
     {
       "term": "tight",
-      "definition": "тесный, плотный, в обтяжку, крепко"
+      "definition": "тесный, плотный, в обтяжку, крепко",
+      "transcription": "[taɪt]"
     },
     {
       "term": "till",
-      "definition": "до"
+      "definition": "до",
+      "transcription": "[tɪl]"
     },
     {
       "term": "tin",
-      "definition": "банка, контейнер (из жести или алюминия)"
+      "definition": "банка, контейнер (из жести или алюминия)",
+      "transcription": "[tɪn]"
     },
     {
       "term": "tiny",
-      "definition": "маленький, крохотный, небольшой"
+      "definition": "маленький, крохотный, небольшой",
+      "transcription": "[ˈtaɪnɪ]"
     },
     {
       "term": "tire",
-      "definition": "шина"
+      "definition": "шина",
+      "transcription": "[ˈtaɪə]"
     },
     {
       "term": "to access",
-      "definition": "получать доступ"
+      "definition": "получать доступ",
+      "transcription": "[tuː] [ˈækses]"
     },
     {
       "term": "to admire",
-      "definition": "восхищаться"
+      "definition": "восхищаться",
+      "transcription": "[tuː] [ədˈmaɪə]"
     },
     {
       "term": "to admit",
-      "definition": "признавать, допускать, принимать"
+      "definition": "признавать, допускать, принимать",
+      "transcription": "[tuː] [ədˈmɪt]"
     },
     {
       "term": "to advise",
-      "definition": "консультировать, советовать"
+      "definition": "консультировать, советовать",
+      "transcription": "[tuː] [ədˈvaɪz]"
     },
     {
       "term": "to afford",
-      "definition": "позволять себе (финансово)"
+      "definition": "позволять себе (финансово)",
+      "transcription": "[tuː] [əˈfɔːd]"
     },
     {
       "term": "to age",
-      "definition": "стареть"
+      "definition": "стареть",
+      "transcription": "[tuː] [eɪʤ]"
     },
     {
       "term": "to aim",
-      "definition": "целиться, стремиться"
+      "definition": "целиться, стремиться",
+      "transcription": "[tuː] [eɪm]"
     },
     {
       "term": "to analyse",
-      "definition": "анализировать"
+      "definition": "анализировать",
+      "transcription": "[tuː] [ˈænəlaɪz]"
     },
     {
       "term": "to announce",
-      "definition": "объявлять, сообщать, анонсировать, извещать, заявлять"
+      "definition": "объявлять, сообщать, анонсировать, извещать, заявлять",
+      "transcription": "[tuː] [əˈnaʊns]"
     },
     {
       "term": "to annoy",
-      "definition": "раздражать, надоедать, донимать, допекать"
+      "definition": "раздражать, надоедать, донимать, допекать",
+      "transcription": "[tuː] [əˈnɔɪ]"
     },
     {
       "term": "to apologize",
-      "definition": "извиняться"
+      "definition": "извиняться",
+      "transcription": "[tuː] [əˈpɔləʤaɪz]"
     },
     {
       "term": "to appreciate",
-      "definition": "ценить, быть признательным"
+      "definition": "ценить, быть признательным",
+      "transcription": "[tuː] [əˈpriːʃɪeɪt]"
     },
     {
       "term": "to arrest",
-      "definition": "арестовывать, останавливать"
+      "definition": "арестовывать, останавливать",
+      "transcription": "[tuː] [əˈrest]"
     },
     {
       "term": "to assist",
-      "definition": "помогать, содействовать"
+      "definition": "помогать, содействовать",
+      "transcription": "[tuː] [əˈsɪst]"
     },
     {
       "term": "to attach",
-      "definition": "прикреплять, присоединять, подключать, прилагать"
+      "definition": "прикреплять, присоединять, подключать, прилагать",
+      "transcription": "[tuː] [əˈtæʧ]"
     },
     {
       "term": "to attract",
-      "definition": "привлекать"
+      "definition": "привлекать",
+      "transcription": "[tuː] [əˈtrækt]"
     },
     {
       "term": "to average",
-      "definition": "равняться в среднем, усреднять"
+      "definition": "равняться в среднем, усреднять",
+      "transcription": "[tuː] [ˈævərɪʤ]"
     },
     {
       "term": "to award",
-      "definition": "присуждать, награждать"
+      "definition": "присуждать, награждать",
+      "transcription": "[tuː] [əˈwɔːd]"
     },
     {
       "term": "to bake",
-      "definition": "печь, выпекать"
+      "definition": "печь, выпекать",
+      "transcription": "[tuː] [beɪk]"
     },
     {
       "term": "to ban",
-      "definition": "запрещать"
+      "definition": "запрещать",
+      "transcription": "[tuː] [bæn]"
     },
     {
       "term": "to bend",
-      "definition": "изгибать, гнуть"
+      "definition": "изгибать, гнуть",
+      "transcription": "[tuː] [bend]"
     },
     {
       "term": "to benefit",
-      "definition": "получать пользу"
+      "definition": "получать пользу",
+      "transcription": "[tuː] [ˈbenɪfɪt]"
     },
     {
       "term": "to bite",
-      "definition": "кусать"
+      "definition": "кусать",
+      "transcription": "[tuː] [baɪt]"
     },
     {
       "term": "to block",
-      "definition": "блокировать"
+      "definition": "блокировать",
+      "transcription": "[tuː] [blɔk]"
     },
     {
       "term": "to board",
-      "definition": "садиться (на борт)"
+      "definition": "садиться (на борт)",
+      "transcription": "[tuː] [bɔːd]"
     },
     {
       "term": "to bother",
-      "definition": "беспокоить, мешать"
+      "definition": "беспокоить, мешать",
+      "transcription": "[tuː] [ˈbɔðə]"
     },
     {
       "term": "to breathe",
-      "definition": "дышать"
+      "definition": "дышать",
+      "transcription": "[tuː] [briːð]"
     },
     {
       "term": "to bury",
-      "definition": "хоронить, прятать"
+      "definition": "хоронить, прятать",
+      "transcription": "[tuː] [ˈberɪ]"
     },
     {
       "term": "to charge",
-      "definition": "заряжать"
+      "definition": "заряжать",
+      "transcription": "[tuː] [ʧɑːʤ]"
     },
     {
       "term": "to charge",
-      "definition": "выставлять счет"
+      "definition": "выставлять счет",
+      "transcription": "[tuː] [ʧɑːʤ]"
     },
     {
       "term": "to charge",
-      "definition": "обвинять"
+      "definition": "обвинять",
+      "transcription": "[tuː] [ʧɑːʤ]"
     },
     {
       "term": "to cheat",
-      "definition": "обманывать, мошенничать, изменять (супругу)"
+      "definition": "обманывать, мошенничать, изменять (супругу)",
+      "transcription": "[tuː] [ʧiːt]"
     },
     {
       "term": "to claim",
-      "definition": "требовать, претендовать, утверждать, заявлять"
+      "definition": "требовать, претендовать, утверждать, заявлять",
+      "transcription": "[tuː] [kleɪm]"
     },
     {
       "term": "to clear",
-      "definition": "очищать"
+      "definition": "очищать",
+      "transcription": "[tuː] [klɪə]"
     },
     {
       "term": "to click",
-      "definition": "щелкать, кликать"
+      "definition": "щелкать, кликать",
+      "transcription": "[tuː] [klɪk]"
     },
     {
       "term": "to coach",
-      "definition": "тренировать"
+      "definition": "тренировать",
+      "transcription": "[tuː] [kəʊʧ]"
     },
     {
       "term": "to combine",
-      "definition": "сочетать, комбинировать"
+      "definition": "сочетать, комбинировать",
+      "transcription": "[tuː] [kəmˈbaɪn]"
     },
     {
       "term": "to comment",
-      "definition": "комментировать"
+      "definition": "комментировать",
+      "transcription": "[tuː] [ˈkɔment]"
     },
     {
       "term": "to commit",
-      "definition": "совершать"
+      "definition": "совершать",
+      "transcription": "[tuː] [kəˈmɪt]"
     },
     {
       "term": "to concentrate",
-      "definition": "концентрироваться, концентрировать"
+      "definition": "концентрироваться, концентрировать",
+      "transcription": "[tuː] [ˈkɔnsəntreɪt]"
     },
     {
       "term": "to conclude",
-      "definition": "решать, заключать, делать вывод, завершать"
+      "definition": "решать, заключать, делать вывод, завершать",
+      "transcription": "[tuː] [kənˈkluːd]"
     },
     {
       "term": "to confirm",
-      "definition": "подтверждать"
+      "definition": "подтверждать",
+      "transcription": "[tuː] [kənˈfɜːm]"
     },
     {
       "term": "to confuse",
-      "definition": "путать, спутывать, сбивать с толку, смущать"
+      "definition": "путать, спутывать, сбивать с толку, смущать",
+      "transcription": "[tuː] [kənˈfjuːz]"
     },
     {
       "term": "to consist",
-      "definition": "состоять, заключаться в"
+      "definition": "состоять, заключаться в",
+      "transcription": "[tuː] [kənˈsɪst]"
     },
     {
       "term": "to consume",
-      "definition": "потреблять, поглощать, расходовать"
+      "definition": "потреблять, поглощать, расходовать",
+      "transcription": "[tuː] [kənˈsjuːm]"
     },
     {
       "term": "to contact",
-      "definition": "контактировать, соприкасаться"
+      "definition": "контактировать, соприкасаться",
+      "transcription": "[tuː] [ˈkɔntækt]"
     },
     {
       "term": "to contrast",
-      "definition": "контрастировать, противопоставлять"
+      "definition": "контрастировать, противопоставлять",
+      "transcription": "[tuː] [kənˈtrɑːst]"
     },
     {
       "term": "to convince",
-      "definition": "убеждать"
+      "definition": "убеждать",
+      "transcription": "[tuː] [kənˈvɪns]"
     },
     {
       "term": "to cool",
-      "definition": "охлаждать, охлаждаться"
+      "definition": "охлаждать, охлаждаться",
+      "transcription": "[tuː] [kuːl]"
     },
     {
       "term": "to damage",
-      "definition": "повреждать"
+      "definition": "повреждать",
+      "transcription": "[tuː] [ˈdæmɪʤ]"
     },
     {
       "term": "to decorate",
-      "definition": "оформлять, украшать"
+      "definition": "оформлять, украшать",
+      "transcription": "[tuː] [ˈdekəreɪt]"
     },
     {
       "term": "to define",
-      "definition": "определять, устанавливать, обозначать, очерчивать"
+      "definition": "определять, устанавливать, обозначать, очерчивать",
+      "transcription": "[tuː] [dɪˈfaɪn]"
     },
     {
       "term": "to deliver",
-      "definition": "доставлять, снабжать"
+      "definition": "доставлять, снабжать",
+      "transcription": "[tuː] [dɪˈlɪvə]"
     },
     {
       "term": "to determine",
-      "definition": "определять, решать, устанавливать"
+      "definition": "определять, решать, устанавливать",
+      "transcription": "[tuː] [dɪˈtɜːmɪn]"
     },
     {
       "term": "to direct",
-      "definition": "направлять, руководить"
+      "definition": "направлять, руководить",
+      "transcription": "[tuː] [dɪˈrekt]"
     },
     {
       "term": "to dislike",
-      "definition": "испытывать неприязнь, не любить"
+      "definition": "испытывать неприязнь, не любить",
+      "transcription": "[tuː] [dɪsˈlaɪk]"
     },
     {
       "term": "to divide",
-      "definition": "делить"
+      "definition": "делить",
+      "transcription": "[tuː] [dɪˈvaɪd]"
     },
     {
       "term": "to donate",
-      "definition": "жертвовать, дарить"
+      "definition": "жертвовать, дарить",
+      "transcription": "[tuː] [dəʊˈneɪt]"
     },
     {
       "term": "to doubt",
-      "definition": "сомневаться"
+      "definition": "сомневаться",
+      "transcription": "[tuː] [daʊt]"
     },
     {
       "term": "to educate",
-      "definition": "воспитывать, давать образование"
+      "definition": "воспитывать, давать образование",
+      "transcription": "[tuː] [ˈedjuːkeɪt]"
     },
     {
       "term": "to empty",
-      "definition": "опустошать, освобождать, очищать"
+      "definition": "опустошать, освобождать, очищать",
+      "transcription": "[tuː] [ˈemptɪ]"
     },
     {
       "term": "to encourage",
-      "definition": "поощрять, поддерживать, воодушевлять"
+      "definition": "поощрять, поддерживать, воодушевлять",
+      "transcription": "[tuː] [ɪnˈkʌrɪʤ]"
     },
     {
       "term": "to entertain",
-      "definition": "развлекать"
+      "definition": "развлекать",
+      "transcription": "[tuː] [entəˈteɪn]"
     },
     {
       "term": "to equal",
-      "definition": "равняться"
+      "definition": "равняться",
+      "transcription": "[tuː] [ˈiːkwəl]"
     },
     {
       "term": "to escape",
-      "definition": "избегать, вырываться"
+      "definition": "избегать, вырываться",
+      "transcription": "[tuː] [ɪsˈkeɪp]"
     },
     {
       "term": "to examine",
-      "definition": "изучать, обследовать, проверять"
+      "definition": "изучать, обследовать, проверять",
+      "transcription": "[tuː] [ɪgˈzæmɪn]"
     },
     {
       "term": "to exchange",
-      "definition": "обменивать, заменять, менять"
+      "definition": "обменивать, заменять, менять",
+      "transcription": "[tuː] [ɪksˈʧeɪnʤ]"
     },
     {
       "term": "to expand",
-      "definition": "расширять"
+      "definition": "расширять",
+      "transcription": "[tuː] [ɪksˈpænd]"
     },
     {
       "term": "to experience",
-      "definition": "испытывать, переживать что-либо, получать опыт"
+      "definition": "испытывать, переживать что-либо, получать опыт",
+      "transcription": "[tuː] [ɪksˈpɪərɪəns]"
     },
     {
       "term": "to experiment",
-      "definition": "экспериментировать"
+      "definition": "экспериментировать",
+      "transcription": "[tuː] [ɪksˈperɪmənt]"
     },
     {
       "term": "to explode",
-      "definition": "взрывать, взрываться"
+      "definition": "взрывать, взрываться",
+      "transcription": "[tuː] [ɪksˈpləʊd]"
     },
     {
       "term": "to explore",
-      "definition": "исследовать, изучать"
+      "definition": "исследовать, изучать",
+      "transcription": "[tuː] [ɪksˈplɔː]"
     },
     {
       "term": "to export",
-      "definition": "экспортировать, вывозить"
+      "definition": "экспортировать, вывозить",
+      "transcription": "[tuː] [ɪksˈpɔːt]"
     },
     {
       "term": "to face",
-      "definition": "сталкиваться с, смотреть"
+      "definition": "сталкиваться с, смотреть",
+      "transcription": "[tuː] [feɪs]"
     },
     {
       "term": "to fasten",
-      "definition": "застёгивать, прикреплять, завязать, закреплять"
+      "definition": "застёгивать, прикреплять, завязать, закреплять",
+      "transcription": "[tuː] [fɑːsn]"
     },
     {
       "term": "to fear",
-      "definition": "бояться"
+      "definition": "бояться",
+      "transcription": "[tuː] [fɪə]"
     },
     {
       "term": "to feature",
-      "definition": "описывать, показывать, представлять"
+      "definition": "описывать, показывать, представлять",
+      "transcription": "[tuː] [ˈfiːʧə]"
     },
     {
       "term": "to fire",
-      "definition": "увольнять"
+      "definition": "увольнять",
+      "transcription": "[tuː] [ˈfaɪə]"
     },
     {
       "term": "to fire",
-      "definition": "стрелять"
+      "definition": "стрелять",
+      "transcription": "[tuː] [ˈfaɪə]"
     },
     {
       "term": "to flood",
-      "definition": "затоплять"
+      "definition": "затоплять",
+      "transcription": "[tuː] [flʌd]"
     },
     {
       "term": "to flow",
-      "definition": "течь, протекать"
+      "definition": "течь, протекать",
+      "transcription": "[tuː] [fləʊ]"
     },
     {
       "term": "to fold",
-      "definition": "складывать, свертывать, сгибать"
+      "definition": "складывать, свертывать, сгибать",
+      "transcription": "[tuː] [fəʊld]"
     },
     {
       "term": "to force",
-      "definition": "заставлять, принуждать"
+      "definition": "заставлять, принуждать",
+      "transcription": "[tuː] [fɔːs]"
     },
     {
       "term": "to frame",
-      "definition": "обрамлять, вставлять в раму"
+      "definition": "обрамлять, вставлять в раму",
+      "transcription": "[tuː] [freɪm]"
     },
     {
       "term": "to freeze",
-      "definition": "замораживать, замерзать"
+      "definition": "замораживать, замерзать",
+      "transcription": "[tuː] [friːz]"
     },
     {
       "term": "to frighten",
-      "definition": "пугать"
+      "definition": "пугать",
+      "transcription": "[tuː] [fraɪtn]"
     },
     {
       "term": "to fry",
-      "definition": "жарить"
+      "definition": "жарить",
+      "transcription": "[tuː] [fraɪ]"
     },
     {
       "term": "to gather",
-      "definition": "собирать"
+      "definition": "собирать",
+      "transcription": "[tuː] [ˈgæðə]"
     },
     {
       "term": "to graduate",
-      "definition": "окончить учебное заведение"
+      "definition": "окончить учебное заведение",
+      "transcription": "[tuː] [ˈgrædjʊət]"
     },
     {
       "term": "to guard",
-      "definition": "охранять"
+      "definition": "охранять",
+      "transcription": "[tuː] [gɑːd]"
     },
     {
       "term": "to hand",
-      "definition": "передавать, давать, вручать"
+      "definition": "передавать, давать, вручать",
+      "transcription": "[tuː] [hænd]"
     },
     {
       "term": "to hang",
-      "definition": "вешать, висеть"
+      "definition": "вешать, висеть",
+      "transcription": "[tuː] [hæŋ]"
     },
     {
       "term": "to head",
-      "definition": "возглавлять, направляться, идти"
+      "definition": "возглавлять, направляться, идти",
+      "transcription": "[tuː] [hed]"
     },
     {
       "term": "to highlight",
-      "definition": "освещать, выделять, подчеркивать, подсвечивать, выдвигать на первый план"
+      "definition": "освещать, выделять, подчеркивать, подсвечивать, выдвигать на первый план",
+      "transcription": "[tuː] [ˈhaɪlaɪt]"
     },
     {
       "term": "to hire",
-      "definition": "нанимать, брать в аренду, давать в аренду"
+      "definition": "нанимать, брать в аренду, давать в аренду",
+      "transcription": "[tuː] [ˈhaɪə]"
     },
     {
       "term": "to hunt",
-      "definition": "охотиться, искать"
+      "definition": "охотиться, искать",
+      "transcription": "[tuː] [hʌnt]"
     },
     {
       "term": "to hurry",
-      "definition": "спешить"
+      "definition": "спешить",
+      "transcription": "[tuː] [ˈhʌrɪ]"
     },
     {
       "term": "to ignore",
-      "definition": "игнорировать"
+      "definition": "игнорировать",
+      "transcription": "[tuː] [ɪgˈnɔː]"
     },
     {
       "term": "to impact",
-      "definition": "влиять, воздействовать"
+      "definition": "влиять, воздействовать",
+      "transcription": "[tuː] [ɪmˈpækt]"
     },
     {
       "term": "to import",
-      "definition": "импортировать, ввозить"
+      "definition": "импортировать, ввозить",
+      "transcription": "[tuː] [ɪmˈpɔːt]"
     },
     {
       "term": "to indicate",
-      "definition": "указывать, означать, служить признаком"
+      "definition": "указывать, означать, служить признаком",
+      "transcription": "[tuː] [ˈɪndɪkeɪt]"
     },
     {
       "term": "to influence",
-      "definition": "влиять"
+      "definition": "влиять",
+      "transcription": "[tuː] [ˈɪnflʊəns]"
     },
     {
       "term": "to injure",
-      "definition": "ранить, повредить, обидеть, оскорбить, ушибить"
+      "definition": "ранить, повредить, обидеть, оскорбить, ушибить",
+      "transcription": "[tuː] [ˈɪnʤə]"
     },
     {
       "term": "to intend",
-      "definition": "намереваться, предполагать, собираться, предназначаться"
+      "definition": "намереваться, предполагать, собираться, предназначаться",
+      "transcription": "[tuː] [ɪnˈtend]"
     },
     {
       "term": "to invest",
-      "definition": "инвестировать, вкладывать"
+      "definition": "инвестировать, вкладывать",
+      "transcription": "[tuː] [ɪnˈvest]"
     },
     {
       "term": "to investigate",
-      "definition": "исследовать, расследовать"
+      "definition": "исследовать, расследовать",
+      "transcription": "[tuː] [ɪnˈvestɪgeɪt]"
     },
     {
       "term": "to iron",
-      "definition": "гладить утюгом"
+      "definition": "гладить утюгом",
+      "transcription": "[tuː] [ˈaɪən]"
     },
     {
       "term": "to judge",
-      "definition": "судить"
+      "definition": "судить",
+      "transcription": "[tuː] [ʤʌʤ]"
     },
     {
       "term": "to kick",
-      "definition": "бить, пинать"
+      "definition": "бить, пинать",
+      "transcription": "[tuː] [kɪk]"
     },
     {
       "term": "to kiss",
-      "definition": "целовать"
+      "definition": "целовать",
+      "transcription": "[tuː] [kɪs]"
     },
     {
       "term": "to label",
-      "definition": "метить, помечать"
+      "definition": "метить, помечать",
+      "transcription": "[tuː] [leɪbl]"
     },
     {
       "term": "to lack",
-      "definition": "не хватать, испытывать недостаток"
+      "definition": "не хватать, испытывать недостаток",
+      "transcription": "[tuː] [læk]"
     },
     {
       "term": "to lay",
-      "definition": "класть"
+      "definition": "класть",
+      "transcription": "[tuː] [leɪ]"
     },
     {
       "term": "to limit",
-      "definition": "ограничивать"
+      "definition": "ограничивать",
+      "transcription": "[tuː] [ˈlɪmɪt]"
     },
     {
       "term": "to locate",
-      "definition": "определять место, находить, разместить"
+      "definition": "определять место, находить, разместить",
+      "transcription": "[tuː] [ləʊˈkeɪt]"
     },
     {
       "term": "to market",
-      "definition": "продавать, сбывать"
+      "definition": "продавать, сбывать",
+      "transcription": "[tuː] [ˈmɑːkɪt]"
     },
     {
       "term": "to measure",
-      "definition": "измерять"
+      "definition": "измерять",
+      "transcription": "[tuː] [ˈmeʒə]"
     },
     {
       "term": "to mix",
-      "definition": "смешивать"
+      "definition": "смешивать",
+      "transcription": "[tuː] [mɪks]"
     },
     {
       "term": "to murder",
-      "definition": "убивать"
+      "definition": "убивать",
+      "transcription": "[tuː] [ˈmɜːdə]"
     },
     {
       "term": "to note",
-      "definition": "замечать, отмечать, упоминать, иметь в виду"
+      "definition": "замечать, отмечать, упоминать, иметь в виду",
+      "transcription": "[tuː] [nəʊt]"
     },
     {
       "term": "to occur",
-      "definition": "происходить"
+      "definition": "происходить",
+      "transcription": "[tuː] [əˈkɜː]"
     },
     {
       "term": "to participate",
-      "definition": "участвовать"
+      "definition": "участвовать",
+      "transcription": "[tuː] [pɑːˈtɪsɪpeɪt]"
     },
     {
       "term": "to persuade",
-      "definition": "убеждать"
+      "definition": "убеждать",
+      "transcription": "[tuː] [pəˈsweɪd]"
     },
     {
       "term": "to place",
-      "definition": "размещать, помещать"
+      "definition": "размещать, помещать",
+      "transcription": "[tuː] [pleɪs]"
     },
     {
       "term": "to point",
-      "definition": "указывать, отмечать"
+      "definition": "указывать, отмечать",
+      "transcription": "[tuː] [pɔɪnt]"
     },
     {
       "term": "to poison",
-      "definition": "отравлять"
+      "definition": "отравлять",
+      "transcription": "[tuː] [ˈpɔɪzn]"
     },
     {
       "term": "to pour",
-      "definition": "лить, наливать"
+      "definition": "лить, наливать",
+      "transcription": "[tuː] [pɔː]"
     },
     {
       "term": "to pray",
-      "definition": "молиться, умолять"
+      "definition": "молиться, умолять",
+      "transcription": "[tuː] [preɪ]"
     },
     {
       "term": "to press",
-      "definition": "нажимать"
+      "definition": "нажимать",
+      "transcription": "[tuː] [pres]"
     },
     {
       "term": "to pretend",
-      "definition": "делать вид, притворяться, претендовать"
+      "definition": "делать вид, притворяться, претендовать",
+      "transcription": "[tuː] [prɪˈtend]"
     },
     {
       "term": "to program",
-      "definition": "программировать"
+      "definition": "программировать",
+      "transcription": "[tuː] [ˈprəʊgræm]"
     },
     {
       "term": "to promote",
-      "definition": "продвигать, содействовать"
+      "definition": "продвигать, содействовать",
+      "transcription": "[tuː] [prəˈməʊt]"
     },
     {
       "term": "to protest",
-      "definition": "протестовать, возражать"
+      "definition": "протестовать, возражать",
+      "transcription": "[tuː] [prəˈtɛst]"
     },
     {
       "term": "to prove",
-      "definition": "доказывать"
+      "definition": "доказывать",
+      "transcription": "[tuː] [pruːv]"
     },
     {
       "term": "to punish",
-      "definition": "наказать, проучить, карать"
+      "definition": "наказать, проучить, карать",
+      "transcription": "[tuː] [ˈpʌnɪʃ]"
     },
     {
       "term": "to qualify",
-      "definition": "квалифицировать, уточнять"
+      "definition": "квалифицировать, уточнять",
+      "transcription": "[tuː] [ˈkwɔlɪfaɪ]"
     },
     {
       "term": "to queue",
-      "definition": "стоять в очереди, поставить в очередь"
+      "definition": "стоять в очереди, поставить в очередь",
+      "transcription": "[tuː] [kjuː]"
     },
     {
       "term": "to quit",
-      "definition": "бросать, прекращать, оставлять, увольняться"
+      "definition": "бросать, прекращать, оставлять, увольняться",
+      "transcription": "[tuː] [kwɪt]"
     },
     {
       "term": "to quote",
-      "definition": "цитировать"
+      "definition": "цитировать",
+      "transcription": "[tuː] [kwəʊt]"
     },
     {
       "term": "to reflect",
-      "definition": "отражать"
+      "definition": "отражать",
+      "transcription": "[tuː] [rɪˈflekt]"
     },
     {
       "term": "to reject",
-      "definition": "отвергать, отклонять"
+      "definition": "отвергать, отклонять",
+      "transcription": "[tuː] [rɪˈdʒɛkt]"
     },
     {
       "term": "to relate",
-      "definition": "относиться, связывать, связываться"
+      "definition": "относиться, связывать, связываться",
+      "transcription": "[tuː] [rɪˈleɪt]"
     },
     {
       "term": "to release",
-      "definition": "выпускать"
+      "definition": "выпускать",
+      "transcription": "[tuː] [rɪˈliːs]"
     },
     {
       "term": "to remain",
-      "definition": "оставаться"
+      "definition": "оставаться",
+      "transcription": "[tuː] [rɪˈmeɪn]"
     },
     {
       "term": "to remind",
-      "definition": "напоминать"
+      "definition": "напоминать",
+      "transcription": "[tuː] [ˈrɪmaɪnd]"
     },
     {
       "term": "to rent",
-      "definition": "арендовать, нанимать"
+      "definition": "арендовать, нанимать",
+      "transcription": "[tuː] [rent]"
     },
     {
       "term": "to represent",
-      "definition": "представлять (собой), изображать, отражать, означать"
+      "definition": "представлять (собой), изображать, отражать, означать",
+      "transcription": "[tuː] [reprɪˈzent]"
     },
     {
       "term": "to request",
-      "definition": "запрашивать, требовать, просить, заказывать"
+      "definition": "запрашивать, требовать, просить, заказывать",
+      "transcription": "[tuː] [rɪˈkwest]"
     },
     {
       "term": "to require",
-      "definition": "требовать"
+      "definition": "требовать",
+      "transcription": "[tuː] [rɪˈkwaɪə]"
     },
     {
       "term": "to respect",
-      "definition": "уважать, соблюдать"
+      "definition": "уважать, соблюдать",
+      "transcription": "[tuː] [rɪsˈpekt]"
     },
     {
       "term": "to result (in)",
-      "definition": "иметь результатом, следовать, проистекать, кончаться (чем-то)"
+      "definition": "иметь результатом, следовать, проистекать, кончаться (чем-то)",
+      "transcription": "[tuː] [rɪˈzʌlt] [ɪn]"
     },
     {
       "term": "to retire",
-      "definition": "уходить в отставку (на пенсию), увольняться, уединяться"
+      "definition": "уходить в отставку (на пенсию), увольняться, уединяться",
+      "transcription": "[tuː] [rɪˈtaɪə]"
     },
     {
       "term": "to revise",
-      "definition": "пересматривать, перерабатывать, исправлять"
+      "definition": "пересматривать, перерабатывать, исправлять",
+      "transcription": "[tuː] [rɪˈvaɪz]"
     },
     {
       "term": "to risk",
-      "definition": "рисковать"
+      "definition": "рисковать",
+      "transcription": "[tuː] [rɪsk]"
     },
     {
       "term": "to roll",
-      "definition": "катить, катиться, прокручивать"
+      "definition": "катить, катиться, прокручивать",
+      "transcription": "[tuː] [rəʊl]"
     },
     {
       "term": "to rule",
-      "definition": "управлять, править"
+      "definition": "управлять, править",
+      "transcription": "[tuː] [ruːl]"
     },
     {
       "term": "to scan",
-      "definition": "сканировать, просматривать"
+      "definition": "сканировать, просматривать",
+      "transcription": "[tuː] [skæn]"
     },
     {
       "term": "to separate",
-      "definition": "разделять"
+      "definition": "разделять",
+      "transcription": "[tuː] [ˈsepəreɪt]"
     },
     {
       "term": "to set",
-      "definition": "задавать, устанавливать"
+      "definition": "задавать, устанавливать",
+      "transcription": "[tuː] [set]"
     },
     {
       "term": "to shine",
-      "definition": "сиять, светить"
+      "definition": "сиять, светить",
+      "transcription": "[tuː] [ʃaɪn]"
     },
     {
       "term": "to shoot",
-      "definition": "стрелять, снимать, фотографировать"
+      "definition": "стрелять, снимать, фотографировать",
+      "transcription": "[tuː] [ʃuːt]"
     },
     {
       "term": "to signal",
-      "definition": "сигнализировать"
+      "definition": "сигнализировать",
+      "transcription": "[tuː] [sɪgnl]"
     },
     {
       "term": "to sink",
-      "definition": "тонуть, опускаться, погружаться, погружать, топить"
+      "definition": "тонуть, опускаться, погружаться, погружать, топить",
+      "transcription": "[tuː] [sɪŋk]"
     },
     {
       "term": "to slice",
-      "definition": "нарезать, делить на части"
+      "definition": "нарезать, делить на части",
+      "transcription": "[tuː] [slaɪs]"
     },
     {
       "term": "to sort",
-      "definition": "сортировать"
+      "definition": "сортировать",
+      "transcription": "[tuː] [sɔːt]"
     },
     {
       "term": "to spread",
-      "definition": "распространять, простираться"
+      "definition": "распространять, простираться",
+      "transcription": "[tuː] [spred]"
     },
     {
       "term": "to state",
-      "definition": "утверждать, констатировать, заявлять"
+      "definition": "утверждать, констатировать, заявлять",
+      "transcription": "[tuː] [steɪt]"
     },
     {
       "term": "to stick",
-      "definition": "придерживаться, втыкать"
+      "definition": "придерживаться, втыкать",
+      "transcription": "[tuː] [stɪk]"
     },
     {
       "term": "to store",
-      "definition": "хранить, сохранять"
+      "definition": "хранить, сохранять",
+      "transcription": "[tuː] [stɔː]"
     },
     {
       "term": "to suffer",
-      "definition": "страдать"
+      "definition": "страдать",
+      "transcription": "[tuː] [ˈsʌfə]"
     },
     {
       "term": "to suit",
-      "definition": "подходить"
+      "definition": "подходить",
+      "transcription": "[tuː] [sjuːt]"
     },
     {
       "term": "to summarize",
-      "definition": "резюмировать, суммировать, подводить итог"
+      "definition": "резюмировать, суммировать, подводить итог",
+      "transcription": "[tuː] [ˈsʌməraɪz]"
     },
     {
       "term": "to supply",
-      "definition": "обеспечивать, поставлять"
+      "definition": "обеспечивать, поставлять",
+      "transcription": "[tuː] [səˈplaɪ]"
     },
     {
       "term": "to survive",
-      "definition": "выживать, уцелеть, перенести, выдержать"
+      "definition": "выживать, уцелеть, перенести, выдержать",
+      "transcription": "[tuː] [səˈvaɪv]"
     },
     {
       "term": "to switch",
-      "definition": "переключать, переключаться"
+      "definition": "переключать, переключаться",
+      "transcription": "[tuː] [swɪʧ]"
     },
     {
       "term": "to tend",
-      "definition": "иметь тенденцию, склоняться (быть склонным)"
+      "definition": "иметь тенденцию, склоняться (быть склонным)",
+      "transcription": "[tuː] [tend]"
     },
     {
       "term": "to tip",
-      "definition": "давать чаевые"
+      "definition": "давать чаевые",
+      "transcription": "[tuː] [tɪp]"
     },
     {
       "term": "to tour",
-      "definition": "путешествовать, гастролировать"
+      "definition": "путешествовать, гастролировать",
+      "transcription": "[tuː] [tʊə]"
     },
     {
       "term": "to trade",
-      "definition": "торговать"
+      "definition": "торговать",
+      "transcription": "[tuː] [treɪd]"
     },
     {
       "term": "to translate",
-      "definition": "переводить, транслировать, преобразовывать"
+      "definition": "переводить, транслировать, преобразовывать",
+      "transcription": "[tuː] [trænsˈleɪt]"
     },
     {
       "term": "to transport",
-      "definition": "перевозить, транспортировать"
+      "definition": "перевозить, транспортировать",
+      "transcription": "[tuː] [trænˈspɔːt]"
     },
     {
       "term": "to treat",
-      "definition": "угощать, обращаться, лечить, обрабатывать, относиться"
+      "definition": "угощать, обращаться, лечить, обрабатывать, относиться",
+      "transcription": "[tuː] [triːt]"
     },
     {
       "term": "to trick",
-      "definition": "обманывать"
+      "definition": "обманывать",
+      "transcription": "[tuː] [trɪk]"
     },
     {
       "term": "to type",
-      "definition": "печатать (текст)"
+      "definition": "печатать (текст)",
+      "transcription": "[tuː] [taɪp]"
     },
     {
       "term": "to update",
-      "definition": "обновлять"
+      "definition": "обновлять",
+      "transcription": "[tuː] [ˌʌpˈdeɪt]"
     },
     {
       "term": "to upset",
-      "definition": "расстраивать, огорчать"
+      "definition": "расстраивать, огорчать",
+      "transcription": "[tuː] [ʌpˈsɛt]"
     },
     {
       "term": "to view",
-      "definition": "смотреть, рассматривать"
+      "definition": "смотреть, рассматривать",
+      "transcription": "[tuː] [vjuː]"
     },
     {
       "term": "to volunteer",
-      "definition": "предлагать, вызываться (добровольно участвовать)"
+      "definition": "предлагать, вызываться (добровольно участвовать)",
+      "transcription": "[tuː] [vɔlənˈtɪə]"
     },
     {
       "term": "to vote",
-      "definition": "голосовать"
+      "definition": "голосовать",
+      "transcription": "[tuː] [vəʊt]"
     },
     {
       "term": "to warm",
-      "definition": "нагревать, нагреваться"
+      "definition": "нагревать, нагреваться",
+      "transcription": "[tuː] [wɔːm]"
     },
     {
       "term": "to warn",
-      "definition": "предупреждать"
+      "definition": "предупреждать",
+      "transcription": "[tuː] [wɔːn]"
     },
     {
       "term": "to waste",
-      "definition": "тратить впустую, терять"
+      "definition": "тратить впустую, терять",
+      "transcription": "[tuː] [weɪst]"
     },
     {
       "term": "to water",
-      "definition": "поливать, смачивать, разбавлять"
+      "definition": "поливать, смачивать, разбавлять",
+      "transcription": "[tuː] [ˈwɔːtə]"
     },
     {
       "term": "to wave",
-      "definition": "махать, размахивать"
+      "definition": "махать, размахивать",
+      "transcription": "[tuː] [weɪv]"
     },
     {
       "term": "to weigh",
-      "definition": "взвешивать, весить"
+      "definition": "взвешивать, весить",
+      "transcription": "[tuː] [weɪ]"
     },
     {
       "term": "to wonder",
-      "definition": "задаваться вопросом, удивляться"
+      "definition": "задаваться вопросом, удивляться",
+      "transcription": "[tuː] [ˈwʌndə]"
     },
     {
       "term": "toe",
-      "definition": "палец ноги"
+      "definition": "палец ноги",
+      "transcription": "[təʊ]"
     },
     {
       "term": "tongue",
-      "definition": "язык"
+      "definition": "язык",
+      "transcription": "[tʌŋ]"
     },
     {
       "term": "total",
-      "definition": "всего, итог, общий"
+      "definition": "всего, итог, общий",
+      "transcription": "[təʊtl]"
     },
     {
       "term": "totally",
-      "definition": "полностью, абсолютно"
+      "definition": "полностью, абсолютно",
+      "transcription": "[ˈtəʊtəlɪ]"
     },
     {
       "term": "touch",
-      "definition": "касание, контакт, сенсорный"
+      "definition": "касание, контакт, сенсорный",
+      "transcription": "[tʌʧ]"
     },
     {
       "term": "trade",
-      "definition": "торговля, торговый"
+      "definition": "торговля, торговый",
+      "transcription": "[treɪd]"
     },
     {
       "term": "translation",
-      "definition": "перевод"
+      "definition": "перевод",
+      "transcription": "[trænsˈleɪʃn]"
     },
     {
       "term": "treatment",
-      "definition": "лечение, обработка, обращение, подход, трактовка"
+      "definition": "лечение, обработка, обращение, подход, трактовка",
+      "transcription": "[ˈtriːtmənt]"
     },
     {
       "term": "trend",
-      "definition": "тенденция, тренд, мода"
+      "definition": "тенденция, тренд, мода",
+      "transcription": "[trend]"
     },
     {
       "term": "trick",
-      "definition": "трюк, уловка, хитрость, фокус"
+      "definition": "трюк, уловка, хитрость, фокус",
+      "transcription": "[trɪk]"
     },
     {
       "term": "truth",
-      "definition": "истина, правда"
+      "definition": "истина, правда",
+      "transcription": "[truːθ]"
     },
     {
       "term": "tube",
-      "definition": "трубка, труба, тюбик, лампа, туба"
+      "definition": "трубка, труба, тюбик, лампа, туба",
+      "transcription": "[tjuːb]"
     },
     {
       "term": "typically",
-      "definition": "типично, обычно"
+      "definition": "типично, обычно",
+      "transcription": "[ˈtɪpɪklɪ]"
     },
     {
       "term": "tyre",
-      "definition": "шина"
+      "definition": "шина",
+      "transcription": "[ˈtaɪə]"
     },
     {
       "term": "ugly",
-      "definition": "уродливый, безобразный"
+      "definition": "уродливый, безобразный",
+      "transcription": "[ˈʌglɪ]"
     },
     {
       "term": "unable",
-      "definition": "не в состоянии"
+      "definition": "не в состоянии",
+      "transcription": "[ˈʌnˈeɪbl]"
     },
     {
       "term": "uncomfortable",
-      "definition": "неудобный"
+      "definition": "неудобный",
+      "transcription": "[ʌnˈkʌmfətəbl]"
     },
     {
       "term": "underwear",
-      "definition": "нижнее бельё"
+      "definition": "нижнее бельё",
+      "transcription": "[ˈʌndəwɛə]"
     },
     {
       "term": "unemployed",
-      "definition": "безработный"
+      "definition": "безработный",
+      "transcription": "[ˈʌnɪmˈplɔɪd]"
     },
     {
       "term": "unemployment",
-      "definition": "безработица"
+      "definition": "безработица",
+      "transcription": "[ˈʌnɪmˈplɔɪmənt]"
     },
     {
       "term": "unfair",
-      "definition": "несправедливый, нечестный"
+      "definition": "несправедливый, нечестный",
+      "transcription": "[ˈʌnˈfɛə]"
     },
     {
       "term": "union",
-      "definition": "союз, объединение, согласие"
+      "definition": "союз, объединение, согласие",
+      "transcription": "[ˈjuːnjən]"
     },
     {
       "term": "unless",
-      "definition": "пока не, если не, за исключением, кроме"
+      "definition": "пока не, если не, за исключением, кроме",
+      "transcription": "[ənˈles]"
     },
     {
       "term": "unlike",
-      "definition": "в отличие от, непохожий на"
+      "definition": "в отличие от, непохожий на",
+      "transcription": "[ˈʌnˈlaɪk]"
     },
     {
       "term": "unlikely",
-      "definition": "маловероятный, невероятный, вряд ли, едва ли"
+      "definition": "маловероятный, невероятный, вряд ли, едва ли",
+      "transcription": "[ʌnˈlaɪklɪ]"
     },
     {
       "term": "unnecessary",
-      "definition": "ненужный"
+      "definition": "ненужный",
+      "transcription": "[ʌnˈnesəs(ə)rɪ]"
     },
     {
       "term": "unpleasant",
-      "definition": "неприятный"
+      "definition": "неприятный",
+      "transcription": "[ʌnˈpleznt]"
     },
     {
       "term": "update",
-      "definition": "обновление, актуализация"
+      "definition": "обновление, актуализация",
+      "transcription": "[ˈʌpdeɪt]"
     },
     {
       "term": "upon",
-      "definition": "на, по, после, во время"
+      "definition": "на, по, после, во время",
+      "transcription": "[əˈpɔn]"
     },
     {
       "term": "upset",
-      "definition": "огорчение, расстройство"
+      "definition": "огорчение, расстройство",
+      "transcription": "[ˈʌpsɛt]"
     },
     {
       "term": "upset",
-      "definition": "расстроенный"
+      "definition": "расстроенный",
+      "transcription": "[ˌʌpˈset]"
     },
     {
       "term": "used",
-      "definition": "используемый, использованный, подержанный, отработанный"
+      "definition": "используемый, использованный, подержанный, отработанный",
+      "transcription": "[juːzd]"
     },
     {
       "term": "valuable",
-      "definition": "ценный, полезный, дорогой"
+      "definition": "ценный, полезный, дорогой",
+      "transcription": "[ˈvæljʊəbl]"
     },
     {
       "term": "value",
-      "definition": "стоимость, значение, величина, цена, ценность"
+      "definition": "стоимость, значение, величина, цена, ценность",
+      "transcription": "[ˈvæljuː]"
     },
     {
       "term": "various",
-      "definition": "различный"
+      "definition": "различный",
+      "transcription": "[ˈvɛərɪəs]"
     },
     {
       "term": "version",
-      "definition": "версия, вариант"
+      "definition": "версия, вариант",
+      "transcription": "[vɜːʃn]"
     },
     {
       "term": "victim",
-      "definition": "жертва"
+      "definition": "жертва",
+      "transcription": "[ˈvɪktɪm]"
     },
     {
       "term": "viewer",
-      "definition": "зритель, средство просмотра"
+      "definition": "зритель, средство просмотра",
+      "transcription": "[ˈvjuːə]"
     },
     {
       "term": "violent",
-      "definition": "насильственный, яростный, неистовый"
+      "definition": "насильственный, яростный, неистовый",
+      "transcription": "[ˈvaɪələnt]"
     },
     {
       "term": "volunteer",
-      "definition": "волонтер, доброволец, добровольный"
+      "definition": "волонтер, доброволец, добровольный",
+      "transcription": "[vɔlənˈtɪə]"
     },
     {
       "term": "vote",
-      "definition": "голос"
+      "definition": "голос",
+      "transcription": "[vəʊt]"
     },
     {
       "term": "warning",
-      "definition": "предупреждение"
+      "definition": "предупреждение",
+      "transcription": "[ˈwɔːnɪŋ]"
     },
     {
       "term": "waste",
-      "definition": "отходы, пустая трата"
+      "definition": "отходы, пустая трата",
+      "transcription": "[weɪst]"
     },
     {
       "term": "weapon",
-      "definition": "оружие"
+      "definition": "оружие",
+      "transcription": "[ˈwepən]"
     },
     {
       "term": "western",
-      "definition": "вестерн, западный"
+      "definition": "вестерн, западный",
+      "transcription": "[ˈwestən]"
     },
     {
       "term": "whatever",
-      "definition": "любой, какой бы ни, что бы ни, какой-либо, все равно"
+      "definition": "любой, какой бы ни, что бы ни, какой-либо, все равно",
+      "transcription": "[wɔtˈevə]"
     },
     {
       "term": "whenever",
-      "definition": "всякий раз, когда"
+      "definition": "всякий раз, когда",
+      "transcription": "[wenˈevə]"
     },
     {
       "term": "whether",
-      "definition": "будь то, ли, независимо от того"
+      "definition": "будь то, ли, независимо от того",
+      "transcription": "[ˈweðə]"
     },
     {
       "term": "will",
-      "definition": "воля, желание"
+      "definition": "воля, желание",
+      "transcription": "[wɪl]"
     },
     {
       "term": "win",
-      "definition": "выигрыш, победа"
+      "definition": "выигрыш, победа",
+      "transcription": "[wɪn]"
     },
     {
       "term": "wing",
-      "definition": "крыло"
+      "definition": "крыло",
+      "transcription": "[wɪŋ]"
     },
     {
       "term": "within",
-      "definition": "в пределах, в течение"
+      "definition": "в пределах, в течение",
+      "transcription": "[wɪˈðɪn]"
     },
     {
       "term": "wonder",
-      "definition": "удивление, чудо"
+      "definition": "удивление, чудо",
+      "transcription": "[ˈwʌndə]"
     },
     {
       "term": "wool",
-      "definition": "шерсть"
+      "definition": "шерсть",
+      "transcription": "[wʊl]"
     },
     {
       "term": "worldwide",
-      "definition": "всемирный, мировой, во всем мире"
+      "definition": "всемирный, мировой, во всем мире",
+      "transcription": "[ˈwɜːldwaɪd]"
     },
     {
       "term": "worry",
-      "definition": "беспокойство, озабоченность"
+      "definition": "беспокойство, озабоченность",
+      "transcription": "[ˈwʌrɪ]"
     },
     {
       "term": "worse",
-      "definition": "хуже, сильнее"
+      "definition": "хуже, сильнее",
+      "transcription": "[wɜːs]"
     },
     {
       "term": "worst",
-      "definition": "хуже всего, очень сильно"
+      "definition": "хуже всего, очень сильно",
+      "transcription": "[wɜːst]"
     },
     {
       "term": "worth",
-      "definition": "стоимость, ценность, стоящий, заслуживающий"
+      "definition": "стоимость, ценность, стоящий, заслуживающий",
+      "transcription": "[wɜːθ]"
     },
     {
       "term": "written",
-      "definition": "письменный, написанный"
+      "definition": "письменный, написанный",
+      "transcription": "[rɪtn]"
     },
     {
       "term": "yard",
-      "definition": "двор, ярд"
+      "definition": "двор, ярд",
+      "transcription": "[jɑːd]"
     },
     {
       "term": "youth",
-      "definition": "молодость"
+      "definition": "молодость",
+      "transcription": "[juːθ]"
     }
   ]
 }

@@ -8,6 +8,7 @@ import { prisma } from '@/lib/prisma';
 interface SeedWord {
   term: string;
   definition: string;
+  transcription: string | null;
 }
 interface SeedSet {
   title: string;
@@ -146,7 +147,12 @@ export const resolvers = {
       for (const seed of loadSeedSets()) {
         const wordSet = await prisma.wordSet.create({ data: { title: seed.title, userId: user.id } });
         await prisma.word.createMany({
-          data: seed.words.map(w => ({ term: w.term, definition: w.definition, wordSetId: wordSet.id })),
+          data: seed.words.map(w => ({
+            term: w.term,
+            definition: w.definition,
+            transcription: w.transcription,
+            wordSetId: wordSet.id,
+          })),
         });
       }
       return user;

@@ -40,13 +40,14 @@ model WordSet {
 }
 
 model Word {
-  id         String     @id @default(cuid())
-  term       String
-  definition String
-  wordSet    WordSet    @relation(fields: [wordSetId], references: [id])
-  wordSetId  String
-  progress   Progress[]
-  createdAt  DateTime   @default(now())
+  id            String     @id @default(cuid())
+  term          String
+  definition    String
+  transcription String?
+  wordSet       WordSet    @relation(fields: [wordSetId], references: [id])
+  wordSetId     String
+  progress      Progress[]
+  createdAt     DateTime   @default(now())
 }
 
 model Progress {
