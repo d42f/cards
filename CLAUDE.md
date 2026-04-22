@@ -1,5 +1,26 @@
 # Cards Project
 
+## Maintaining This File
+
+This file is shared context between sessions — the only persistent project knowledge a new conversation starts with.
+
+**Add:**
+
+- Architectural decisions with reasoning: what was chosen, why, what alternatives were considered and rejected. A decision without "why" is dead: a month later it's unclear whether it can be revisited.
+- What cannot be broken and why (auth invariants, data model constraints, external contracts).
+
+**Don't add:**
+
+- Code retelling, folder structure, file names, function names — readable from the repo.
+- Current progress, TODOs, or session-specific notes — use the in-chat plan for that.
+- Decisions without reasoning.
+
+**Update regularly:** after any architectural decision, convention change, or non-obvious gotcha discovered during work — update this file before closing the task. A stale CLAUDE.md is worse than none: it misleads instead of helping.
+
+**Update carefully:** when a decision changes, edit the existing entry — don't create a second one. Delete outdated entries immediately; don't mark them "outdated".
+
+---
+
 ## Stack
 
 - **Next.js 16** (App Router, Turbopack, `src/` dir, TypeScript)
@@ -21,6 +42,7 @@
 
 ### NextAuth v5
 
+- Config is split into two files because `proxy.ts` runs on the Edge runtime, which cannot import Node.js modules (Prisma). Edge-safe parts go in `auth.config.ts`; full Node.js config (Credentials + Prisma) goes in `auth.ts`.
 - `src/auth.config.ts` — edge-safe config (no Prisma), used by proxy
 - `src/auth.ts` — full config with Credentials provider + Prisma
 - `src/proxy.ts` — route protection (`NextAuth(authConfig).auth`)
@@ -36,18 +58,20 @@
 
 ### Apollo Server
 
-- Do **not** use `@as-integrations/next` (incompatible with Next.js 16)
+- `@as-integrations/next` produces a type conflict with Next.js 16 App Router route handler signatures — it cannot be used. The only working approach is calling `server.executeOperation()` directly inside a manually written `GET`/`POST` handler.
+- Do **not** use `@as-integrations/next` (type conflict with Next.js 16 App Router)
 - Use `server.executeOperation()` directly in `src/app/api/graphql/route.ts`
 - Export named `GET`/`POST` functions (not `export { handler as GET }`)
 
 ### Next.js 16
 
+- Next.js 16 renamed the middleware entry point from `middleware.ts` to `proxy.ts` for route protection — do not revert to `middleware.ts`.
 - Route protection file: `src/proxy.ts` (not `middleware.ts`)
-- `turbopack.root: __dirname` in `next.config.ts` (avoids workspace root warning)
+- `turbopack.root: __dirname` in `next.config.ts` (avoids workspace root warning when parent dirs also have `package-lock.json`)
 
 ### Components
 
-- Use **named exports** for all components (no `export default`)
+- Use **named exports** for all components (no `export default`) — avoids ambiguous re-exports in barrel files and makes renames refactor-safe
 
 ### Dialogs
 
