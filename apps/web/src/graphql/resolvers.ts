@@ -1,7 +1,32 @@
 import type { Session } from 'next-auth';
 import bcrypt from 'bcryptjs';
+import { readFileSync } from 'fs';
+import path from 'path';
 
 import { prisma } from '@/lib/prisma';
+
+interface SeedWord {
+  term: string;
+  definition: string;
+}
+interface SeedSet {
+  title: string;
+  words: SeedWord[];
+}
+
+const SEED_FILES = [
+  'oxford3000_a1.json',
+  'oxford3000_a2.json',
+  'oxford3000_b1.json',
+  'oxford3000_b2.json',
+  'oxford5000_b2.json',
+  'oxford5000_c1.json',
+];
+
+function loadSeedSets(): SeedSet[] {
+  const dir = path.join(process.cwd(), 'prisma', 'seeds');
+  return SEED_FILES.map(f => JSON.parse(readFileSync(path.join(dir, f), 'utf-8')) as SeedSet);
+}
 
 interface Context {
   session: Session | null;
@@ -110,30 +135,21 @@ export const resolvers = {
       { email, password, name, role }: { email: string; password: string; name: string; role?: string },
     ) => {
       const hashed = await bcrypt.hash(password, 10);
-      const templates = await prisma.wordSet.findMany({
-        where: { userId: null },
-        include: { words: { select: { term: true, definition: true } } },
+      const user = await prisma.user.create({
+        data: {
+          email,
+          password: hashed,
+          name,
+          role: (role as 'STUDENT' | 'TEACHER') ?? 'STUDENT',
+        },
       });
-      return prisma.$transaction(async tx => {
-        const user = await tx.user.create({
-          data: {
-            email,
-            password: hashed,
-            name,
-            role: (role as 'STUDENT' | 'TEACHER') ?? 'STUDENT',
-          },
+      for (const seed of loadSeedSets()) {
+        const wordSet = await prisma.wordSet.create({ data: { title: seed.title, userId: user.id } });
+        await prisma.word.createMany({
+          data: seed.words.map(w => ({ term: w.term, definition: w.definition, wordSetId: wordSet.id })),
         });
-        for (const template of templates) {
-          await tx.wordSet.create({
-            data: {
-              title: template.title,
-              userId: user.id,
-              words: { create: template.words },
-            },
-          });
-        }
-        return user;
-      });
+      }
+      return user;
     },
 
     createWordSet: async (_: unknown, { title }: { title: string }, ctx: Context) => {

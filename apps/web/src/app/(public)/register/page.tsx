@@ -1,7 +1,7 @@
 'use client';
 
-import { useForm } from 'react-hook-form';
-import { useRouter } from 'next/navigation';
+import { Controller, useForm } from 'react-hook-form';
+import { signIn } from 'next-auth/react';
 import { gql } from '@apollo/client';
 import { useMutation } from '@apollo/client/react';
 
@@ -10,6 +10,7 @@ import { Card } from '@/shared/components/Card';
 import { FormInput } from '@/shared/components/FormInput';
 import { Link } from '@/shared/components/Link';
 import { Logo } from '@/shared/components/Logo';
+import { RoleToggle } from '@/shared/components/RoleToggle';
 import { Role } from '@/types/prisma';
 
 const REGISTER = gql`
@@ -29,19 +30,19 @@ interface RegisterFormValues {
 }
 
 export default function RegisterPage() {
-  const router = useRouter();
   const [register] = useMutation(REGISTER);
   const {
     register: field,
     handleSubmit,
     setError,
+    control,
     formState: { errors, isSubmitting },
   } = useForm<RegisterFormValues>({ defaultValues: { role: Role.STUDENT } });
 
   async function onSubmit(data: RegisterFormValues) {
     try {
       await register({ variables: data });
-      router.push('/login');
+      await signIn('credentials', { email: data.email, password: data.password, redirectTo: '/' });
     } catch (err: unknown) {
       setError('root', {
         message: err instanceof Error ? err.message : 'Registration failed',
@@ -77,6 +78,11 @@ export default function RegisterPage() {
             required: 'Password is required',
             minLength: { value: 6, message: 'Minimum 6 characters' },
           })}
+        />
+        <Controller
+          control={control}
+          name="role"
+          render={({ field: { value, onChange } }) => <RoleToggle value={value} onChange={onChange} />}
         />
         <Button className="w-full" type="submit" disabled={isSubmitting}>
           Create account
