@@ -25,15 +25,18 @@ export const typeDefs = `#graphql
 
   type Word {
     id: ID!
-    term: String!
-    definition: String!
+    word: String!
+    translation: String!
   }
 
   type Progress {
     id: ID!
     wordId: ID!
     wordSetId: ID!
-    score: Int!
+    easeFactor: Float!
+    interval: Int!
+    repetitions: Int!
+    nextReviewAt: String
   }
 
   type TrainingSession {
@@ -58,6 +61,7 @@ export const typeDefs = `#graphql
     myStats: MyStats!
     wordSets: [WordSet!]!
     wordSet(id: ID!): WordSet
+    dueWords(wordSetId: ID!): [Word!]!
     myStudents: [User!]!
     myTeachers: [User!]!
   }
@@ -65,8 +69,8 @@ export const typeDefs = `#graphql
   type Mutation {
     register(email: String!, password: String!, name: String!, role: Role): User!
     createWordSet(title: String!): WordSet!
-    addWord(wordSetId: ID!, term: String!, definition: String!): Word!
-    updateProgress(wordId: ID!, wordSetId: ID!, score: Int!): Progress!
+    addWord(wordSetId: ID!, word: String!, translation: String!): Word!
+    reviewWord(wordId: ID!, wordSetId: ID!, quality: Int!): Progress!
     addStudent(studentId: ID!): User!
     removeStudent(studentId: ID!): User!
     finishSession(wordSetId: ID!, totalWords: Int!, knownWords: Int!): TrainingSession!

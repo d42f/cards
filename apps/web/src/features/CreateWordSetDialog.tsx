@@ -21,16 +21,16 @@ const CREATE_WORD_SET = gql`
 `;
 
 const ADD_WORD = gql`
-  mutation AddWord($wordSetId: ID!, $term: String!, $definition: String!) {
-    addWord(wordSetId: $wordSetId, term: $term, definition: $definition) {
+  mutation AddWord($wordSetId: ID!, $word: String!, $translation: String!) {
+    addWord(wordSetId: $wordSetId, word: $word, translation: $translation) {
       id
     }
   }
 `;
 
 interface WordRow {
-  term: string;
-  definition: string;
+  word: string;
+  translation: string;
 }
 
 interface FormValues {
@@ -45,7 +45,7 @@ function CreateWordSetDialogContent({ onClose }: Pick<DialogProps, 'onClose'>) {
     handleSubmit,
     formState: { isSubmitting },
   } = useForm<FormValues>({
-    defaultValues: { title: '', rows: [{ term: '', definition: '' }] },
+    defaultValues: { title: '', rows: [{ word: '', translation: '' }] },
   });
 
   const { fields, append, remove } = useFieldArray({ control, name: 'rows' });
@@ -59,11 +59,11 @@ function CreateWordSetDialogContent({ onClose }: Pick<DialogProps, 'onClose'>) {
     const result = await createWordSet({ variables: { title: values.title } });
     const wordSetId = result.data?.createWordSet.id;
     if (!wordSetId) return;
-    const filledRows = values.rows.filter(r => r.term.trim() && r.definition.trim());
+    const filledRows = values.rows.filter(r => r.word.trim() && r.translation.trim());
     await Promise.all(
       filledRows.map(r =>
         addWord({
-          variables: { wordSetId, term: r.term, definition: r.definition },
+          variables: { wordSetId, word: r.word, translation: r.translation },
         }),
       ),
     );
@@ -75,18 +75,18 @@ function CreateWordSetDialogContent({ onClose }: Pick<DialogProps, 'onClose'>) {
       <FormInput label="Title" placeholder="Enter word set title" {...register('title', { required: true })} />
       <div className="space-y-2">
         <div className="grid grid-cols-[1fr_1fr_2rem] gap-3 text-sm font-medium">
-          <span>Term</span>
-          <span>Definition</span>
+          <span>Word</span>
+          <span>Translation</span>
         </div>
         {fields.map((field, i) => (
           <div key={field.id} className="grid grid-cols-[1fr_1fr_2rem] items-center gap-3">
-            <Input placeholder="Term" {...register(`rows.${i}.term`, { required: true })} />
-            <Input placeholder="Definition" {...register(`rows.${i}.definition`, { required: true })} />
+            <Input placeholder="Word" {...register(`rows.${i}.word`, { required: true })} />
+            <Input placeholder="Translation" {...register(`rows.${i}.translation`, { required: true })} />
             <CloseButton disabled={fields.length === 1} onClick={() => remove(i)} />
           </div>
         ))}
       </div>
-      <Button variant="ghost" size="sm" type="button" onClick={() => append({ term: '', definition: '' })}>
+      <Button variant="ghost" size="sm" type="button" onClick={() => append({ word: '', translation: '' })}>
         + Add word
       </Button>
       <div className="flex justify-end gap-2">

@@ -42,8 +42,8 @@ model WordSet {
 
 model Word {
   id            String     @id @default(cuid())
-  term          String
-  definition    String
+  word          String
+  translation   String
   transcription String?
   wordSet       WordSet    @relation(fields: [wordSetId], references: [id])
   wordSetId     String
@@ -52,15 +52,18 @@ model Word {
 }
 
 model Progress {
-  id        String   @id @default(cuid())
-  user      User     @relation(fields: [userId], references: [id])
-  userId    String
-  wordSet   WordSet  @relation(fields: [wordSetId], references: [id])
-  wordSetId String
-  word      Word     @relation(fields: [wordId], references: [id])
-  wordId    String
-  score     Int      @default(0)
-  updatedAt DateTime @updatedAt
+  id           String    @id @default(cuid())
+  user         User      @relation(fields: [userId], references: [id])
+  userId       String
+  wordSet      WordSet   @relation(fields: [wordSetId], references: [id])
+  wordSetId    String
+  word         Word      @relation(fields: [wordId], references: [id])
+  wordId       String
+  easeFactor   Float     @default(2.5)
+  interval     Int       @default(0)
+  repetitions  Int       @default(0)
+  nextReviewAt DateTime?
+  updatedAt    DateTime  @updatedAt
 
   @@unique([userId, wordId])
 }
