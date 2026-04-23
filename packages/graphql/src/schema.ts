@@ -9,10 +9,7 @@ export const typeDefs = `#graphql
     email: String!
     name: String!
     role: Role!
-    streak: Int!
     dailyGoal: Int!
-    students: [User!]!
-    teachers: [User!]!
   }
 
   type WordSet {
@@ -49,8 +46,6 @@ export const typeDefs = `#graphql
 
   type MyStats {
     totalWords: Int!
-    studiedWords: Int!
-    wordSetCount: Int!
     streak: Int!
     todayCount: Int!
     weekActivity: [Boolean!]!
@@ -62,8 +57,6 @@ export const typeDefs = `#graphql
     wordSets: [WordSet!]!
     wordSet(id: ID!): WordSet
     dueWords(wordSetId: ID!): [Word!]!
-    myStudents: [User!]!
-    myTeachers: [User!]!
   }
 
   type Mutation {
@@ -71,8 +64,7 @@ export const typeDefs = `#graphql
     createWordSet(title: String!): WordSet!
     addWord(wordSetId: ID!, word: String!, translation: String!): Word!
     reviewWord(wordId: ID!, wordSetId: ID!, quality: Int!): Progress!
-    addStudent(studentId: ID!): User!
-    removeStudent(studentId: ID!): User!
+    markKnown(wordId: ID!, wordSetId: ID!): Progress!
     finishSession(wordSetId: ID!, totalWords: Int!, knownWords: Int!): TrainingSession!
   }
 `;

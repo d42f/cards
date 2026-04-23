@@ -4,9 +4,9 @@ import { readFileSync } from 'fs';
 import path from 'path';
 
 import { shuffle } from '@/lib/array';
-import { startOfDay } from '@/lib/date';
+import { daysFromNow, startOfDay, startOfWeek } from '@/lib/date';
 import { prisma } from '@/lib/prisma';
-import { INITIAL_EASE_FACTOR, sm2 } from '@/lib/spaced-repetition';
+import { INITIAL_EASE_FACTOR, LEARNING_INTERVALS, sm2 } from '@/lib/spaced-repetition';
 
 interface SeedWord {
   word: string;
@@ -41,35 +41,25 @@ function requireAuth(ctx: Context) {
   return ctx.session.user;
 }
 
-function requireTeacher(ctx: Context) {
-  const user = requireAuth(ctx);
-  if (user.role !== 'TEACHER') throw new Error('Requires TEACHER role');
-  return user;
+function upsertProgress(
+  userId: string,
+  wordId: string,
+  wordSetId: string,
+  fields: { easeFactor: number; interval: number; repetitions: number; nextReviewAt: Date },
+) {
+  return prisma.progress.upsert({
+    where: { userId_wordId: { userId, wordId } },
+    update: fields,
+    create: { userId, wordId, wordSetId, ...fields },
+  });
 }
 
 export const resolvers = {
-  User: {
-    students: async (parent: { id: string }) => {
-      const user = await prisma.user.findUnique({
-        where: { id: parent.id },
-        include: { students: true },
-      });
-      return user?.students ?? [];
-    },
-    teachers: async (parent: { id: string }) => {
-      const user = await prisma.user.findUnique({
-        where: { id: parent.id },
-        include: { teachers: true },
-      });
-      return user?.teachers ?? [];
-    },
-  },
-
   WordSet: {
     studiedCount: async (parent: { id: string }, _: unknown, ctx: Context) => {
       const user = requireAuth(ctx);
       return prisma.progress.count({
-        where: { userId: user.id, wordSetId: parent.id, repetitions: { gte: 1 } },
+        where: { userId: user.id, wordSetId: parent.id, repetitions: { gte: LEARNING_INTERVALS.length } },
       });
     },
     dueCount: async (parent: { id: string }, _: unknown, ctx: Context) => {
@@ -96,14 +86,10 @@ export const resolvers = {
 
       const now = new Date();
       const todayStart = startOfDay(now);
-      const weekStart = startOfDay(now);
-      const dow = weekStart.getDay();
-      weekStart.setDate(weekStart.getDate() - (dow === 0 ? 6 : dow - 1));
+      const weekStart = startOfWeek(now);
 
-      const [totalWords, studiedWords, wordSetCount, sessions] = await Promise.all([
+      const [totalWords, sessions] = await Promise.all([
         prisma.word.count({ where: { wordSet: { userId: user.id } } }),
-        prisma.progress.count({ where: { userId: user.id } }),
-        prisma.wordSet.count({ where: { userId: user.id } }),
         prisma.trainingSession.findMany({
           where: { userId: user.id },
           select: { completedAt: true, totalWords: true },
@@ -128,7 +114,7 @@ export const resolvers = {
         cursor.setDate(cursor.getDate() - 1);
       }
 
-      return { totalWords, studiedWords, wordSetCount, streak, todayCount, weekActivity };
+      return { totalWords, streak, todayCount, weekActivity };
     },
 
     wordSets: async (_: unknown, __: unknown, ctx: Context) => {
@@ -172,24 +158,6 @@ export const resolvers = {
       const combined = [...dueWords, ...newWords];
       shuffle(combined);
       return combined;
-    },
-
-    myStudents: async (_: unknown, __: unknown, ctx: Context) => {
-      const user = requireTeacher(ctx);
-      const teacher = await prisma.user.findUnique({
-        where: { id: user.id },
-        include: { students: true },
-      });
-      return teacher?.students ?? [];
-    },
-
-    myTeachers: async (_: unknown, __: unknown, ctx: Context) => {
-      const user = requireAuth(ctx);
-      const student = await prisma.user.findUnique({
-        where: { id: user.id },
-        include: { teachers: true },
-      });
-      return student?.teachers ?? [];
     },
   },
 
@@ -250,32 +218,23 @@ export const resolvers = {
 
       const prev = existing ?? { easeFactor: INITIAL_EASE_FACTOR, interval: 0, repetitions: 0 };
       const { easeFactor, interval, repetitions } = sm2(prev, quality);
-
-      const nextReviewAt = new Date();
-      nextReviewAt.setDate(nextReviewAt.getDate() + interval);
-
-      return prisma.progress.upsert({
-        where: { userId_wordId: { userId: user.id, wordId } },
-        update: { easeFactor, interval, repetitions, nextReviewAt },
-        create: { userId: user.id, wordId, wordSetId, easeFactor, interval, repetitions, nextReviewAt },
+      return upsertProgress(user.id, wordId, wordSetId, {
+        easeFactor,
+        interval,
+        repetitions,
+        nextReviewAt: daysFromNow(interval),
       });
     },
 
-    addStudent: async (_: unknown, { studentId }: { studentId: string }, ctx: Context) => {
-      const user = requireTeacher(ctx);
-      return prisma.user.update({
-        where: { id: user.id },
-        data: { students: { connect: { id: studentId } } },
-        include: { students: true },
-      });
-    },
-
-    removeStudent: async (_: unknown, { studentId }: { studentId: string }, ctx: Context) => {
-      const user = requireTeacher(ctx);
-      return prisma.user.update({
-        where: { id: user.id },
-        data: { students: { disconnect: { id: studentId } } },
-        include: { students: true },
+    markKnown: async (_: unknown, { wordId, wordSetId }: { wordId: string; wordSetId: string }, ctx: Context) => {
+      const user = requireAuth(ctx);
+      const repetitions = LEARNING_INTERVALS.length;
+      const interval = LEARNING_INTERVALS[LEARNING_INTERVALS.length - 1];
+      return upsertProgress(user.id, wordId, wordSetId, {
+        easeFactor: INITIAL_EASE_FACTOR,
+        interval,
+        repetitions,
+        nextReviewAt: daysFromNow(interval),
       });
     },
 
