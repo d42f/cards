@@ -1,40 +1,32 @@
 'use client';
 
-import { useState } from 'react';
-import { use } from 'react';
+import { use, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { gql } from '@apollo/client';
 import { useMutation, useQuery } from '@apollo/client/react';
 
-import { QUALITY_AGAIN, QUALITY_GOOD, QUALITY_PASS_THRESHOLD } from '@/lib/spaced-repetition';
+import { type DueWord } from '@/entities/word';
 import { Button } from '@/shared/components/Button';
+import { WordCard } from '@/widgets/WordCard';
 
 const GET_DUE_WORDS = gql`
   query DueWords($id: ID!) {
     wordSet(id: $id) {
       id
       title
+      studiedCount
+      wordsCount
     }
     dueWords(wordSetId: $id) {
       id
+      wordSetId
       word
       translation
-    }
-  }
-`;
-
-const REVIEW_WORD = gql`
-  mutation ReviewWord($wordId: ID!, $wordSetId: ID!, $quality: Int!) {
-    reviewWord(wordId: $wordId, wordSetId: $wordSetId, quality: $quality) {
-      id
-    }
-  }
-`;
-
-const MARK_KNOWN = gql`
-  mutation MarkKnown($wordId: ID!, $wordSetId: ID!) {
-    markKnown(wordId: $wordId, wordSetId: $wordSetId) {
-      id
+      transcription
+      progress {
+        id
+        repetitions
+      }
     }
   }
 `;
@@ -47,60 +39,44 @@ const FINISH_SESSION = gql`
   }
 `;
 
-interface Word {
-  id: string;
-  word: string;
-  translation: string;
-}
-
 export default function TrainPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = use(params);
   const router = useRouter();
 
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [flipped, setFlipped] = useState(false);
   const [results, setResults] = useState({ known: 0, unknown: 0 });
   const [done, setDone] = useState(false);
 
   const { data, loading } = useQuery<{
-    wordSet: { title: string };
-    dueWords: Word[];
-  }>(GET_DUE_WORDS, {
-    variables: { id },
-  });
+    wordSet: { title: string; studiedCount: number; wordsCount: number };
+    dueWords: DueWord[];
+  }>(GET_DUE_WORDS, { variables: { id } });
 
-  const [reviewWord] = useMutation(REVIEW_WORD);
-  const [markKnownMutation] = useMutation(MARK_KNOWN);
   const [finishSession] = useMutation(FINISH_SESSION);
 
-  const words = data?.dueWords ?? [];
+  const words = (data?.dueWords ?? []) as DueWord[];
   const word = words[currentIndex];
   const total = words.length;
 
-  const next = async (known: boolean) => {
+  const goNext = async (known: boolean) => {
     const newResults = known ? { ...results, known: results.known + 1 } : { ...results, unknown: results.unknown + 1 };
     setResults(newResults);
-    if (currentIndex + 1 >= total) {
+
+    const nextIndex = currentIndex + 1;
+    if (nextIndex >= total) {
       await finishSession({ variables: { wordSetId: id, totalWords: total, knownWords: newResults.known } });
       setDone(true);
     } else {
-      setCurrentIndex(i => i + 1);
-      setFlipped(false);
+      setCurrentIndex(nextIndex);
     }
   };
 
-  const advance = async (quality: number) => {
-    await reviewWord({ variables: { wordId: word.id, wordSetId: id, quality } });
-    await next(quality >= QUALITY_PASS_THRESHOLD);
-  };
-
-  const markKnown = async () => {
-    await markKnownMutation({ variables: { wordId: word.id, wordSetId: id } });
-    await next(true);
-  };
+  const { studiedCount = 0, wordsCount = 0 } = data?.wordSet ?? {};
+  const mastery = wordsCount > 0 ? Math.round((studiedCount / wordsCount) * 100) : 0;
+  const progressPercent = total > 0 ? Math.round((currentIndex / total) * 100) : 0;
 
   if (loading) {
-    return <div className="m-auto flex items-center justify-center text-gray-400">Loading…</div>;
+    return <div className="text-neutral-black m-auto flex items-center justify-center">Loading…</div>;
   }
 
   if (!loading && total === 0) {
@@ -117,14 +93,14 @@ export default function TrainPage({ params }: { params: Promise<{ id: string }> 
   if (done) {
     return (
       <div className="m-auto flex flex-col items-center justify-center gap-6">
-        <div className="text-2xl font-bold">Done!</div>
+        <div className="text-neutral text-2xl font-semibold">Session complete</div>
         <div className="flex gap-12 text-center">
           <div>
-            <div className="text-4xl font-bold">{results.known}</div>
+            <div className="text-neutral text-4xl font-bold">{results.known}</div>
             <div className="text-neutral-black mt-1 text-sm">Got it</div>
           </div>
           <div>
-            <div className="text-4xl font-bold">{results.unknown}</div>
+            <div className="text-neutral text-4xl font-bold">{results.unknown}</div>
             <div className="text-neutral-black mt-1 text-sm">Need practice</div>
           </div>
         </div>
@@ -133,40 +109,30 @@ export default function TrainPage({ params }: { params: Promise<{ id: string }> 
     );
   }
 
+  if (!word) return null;
+
   return (
-    <div className="m-auto flex w-full flex-col items-center justify-center gap-6">
-      <div className="w-full">
-        <div className="mb-6 text-center text-2xl font-bold">{data?.wordSet?.title}</div>
-        <div className="text-neutral-black mb-4 text-center text-sm">
-          {currentIndex + 1} / {total}
+    <div className="flex flex-1 flex-col">
+      <div className="flex items-center justify-between pb-4">
+        <div className="flex items-center gap-3">
+          <span className="text-neutral font-semibold">{data?.wordSet?.title}</span>
+          <span className="bg-sage-light text-sage rounded-full px-3 py-0.5 text-xs font-semibold tracking-wide uppercase">
+            Mastery {mastery}%
+          </span>
         </div>
-        <div className="bg-neutral-light border-neutral-deep mx-auto w-full max-w-lg rounded-2xl border p-10 text-center shadow-md">
-          <div className="text-neutral text-3xl font-bold">{word.translation}</div>
-          {flipped && (
-            <>
-              <div className="border-neutral-deep my-6 border-t" />
-              <div className="text-neutral-coal text-xl">{word.word}</div>
-            </>
-          )}
-        </div>
+        <span className="text-neutral-black text-xs font-semibold tracking-widest uppercase">
+          {currentIndex + 1} / {total} Cards
+        </span>
       </div>
-      <div className="flex gap-4">
-        {!flipped ? (
-          <Button onClick={() => setFlipped(true)}>Show answer</Button>
-        ) : (
-          <>
-            <Button variant="ghost" onClick={() => advance(QUALITY_GOOD)}>
-              Got it
-            </Button>
-            <Button variant="ghost" onClick={() => advance(QUALITY_AGAIN)}>
-              Need practice
-            </Button>
-            <Button variant="ghost" onClick={markKnown}>
-              I know this
-            </Button>
-          </>
-        )}
+
+      <div className="bg-neutral-deep mb-10 h-0.5 w-full overflow-hidden rounded-full">
+        <div
+          className="bg-sage h-full rounded-full transition-all duration-500"
+          style={{ width: `${progressPercent}%` }}
+        />
       </div>
+
+      <WordCard key={word.id} word={word} onNext={goNext} />
     </div>
   );
 }

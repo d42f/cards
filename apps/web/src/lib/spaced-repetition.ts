@@ -1,9 +1,10 @@
 export const INITIAL_EASE_FACTOR = 2.5;
-export const QUALITY_GOOD = 4;
 export const QUALITY_AGAIN = 1;
+export const QUALITY_GOOD = 4;
+export const QUALITY_KNOWN = 6;
 export const QUALITY_PASS_THRESHOLD = 3;
-const MIN_EASE_FACTOR = 1.3;
 const MAX_QUALITY = 5;
+const MIN_EASE_FACTOR = 1.3;
 const EASE_FACTOR_BASE_BONUS = 0.1;
 const EASE_FACTOR_PENALTY_A = 0.08;
 const EASE_FACTOR_PENALTY_B = 0.02;

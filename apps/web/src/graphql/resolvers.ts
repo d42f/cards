@@ -3,10 +3,11 @@ import bcrypt from 'bcryptjs';
 import { readFileSync } from 'fs';
 import path from 'path';
 
+import { type DueWord } from '@/entities/word';
 import { shuffle } from '@/lib/array';
 import { daysFromNow, startOfDay, startOfWeek } from '@/lib/date';
 import { prisma } from '@/lib/prisma';
-import { INITIAL_EASE_FACTOR, LEARNING_INTERVALS, sm2 } from '@/lib/spaced-repetition';
+import { INITIAL_EASE_FACTOR, LEARNING_INTERVALS, QUALITY_KNOWN, sm2 } from '@/lib/spaced-repetition';
 
 interface SeedWord {
   word: string;
@@ -41,19 +42,6 @@ function requireAuth(ctx: Context) {
   return ctx.session.user;
 }
 
-function upsertProgress(
-  userId: string,
-  wordId: string,
-  wordSetId: string,
-  fields: { easeFactor: number; interval: number; repetitions: number; nextReviewAt: Date },
-) {
-  return prisma.progress.upsert({
-    where: { userId_wordId: { userId, wordId } },
-    update: fields,
-    create: { userId, wordId, wordSetId, ...fields },
-  });
-}
-
 export const resolvers = {
   WordSet: {
     studiedCount: async (parent: { id: string }, _: unknown, ctx: Context) => {
@@ -62,6 +50,11 @@ export const resolvers = {
         where: { userId: user.id, wordSetId: parent.id, repetitions: { gte: LEARNING_INTERVALS.length } },
       });
     },
+
+    wordsCount: async (parent: { id: string }) => {
+      return prisma.word.count({ where: { wordSetId: parent.id } });
+    },
+
     dueCount: async (parent: { id: string }, _: unknown, ctx: Context) => {
       const user = requireAuth(ctx);
       const now = new Date();
@@ -144,15 +137,24 @@ export const resolvers = {
         orderBy: { nextReviewAt: 'asc' },
         take: limit,
       });
-      const dueWords = dueProgress.map(p => p.word);
+      const dueWords: DueWord[] = dueProgress.map(p => ({
+        ...p.word,
+        progress: {
+          id: p.id,
+          nextReviewAt: p.nextReviewAt?.toISOString() ?? null,
+          easeFactor: p.easeFactor,
+          interval: p.interval,
+          repetitions: p.repetitions,
+        },
+      }));
 
-      let newWords: (typeof dueWords)[number][] = [];
+      const newWords: DueWord[] = [];
       if (dueWords.length < limit) {
         const allNew = await prisma.word.findMany({
           where: { wordSetId, progress: { none: { userId: user.id } } },
         });
         shuffle(allNew);
-        newWords = allNew.slice(0, limit - dueWords.length);
+        newWords.push(...allNew.slice(0, limit - dueWords.length).map(w => ({ ...w, progress: null })));
       }
 
       const combined = [...dueWords, ...newWords];
@@ -212,29 +214,27 @@ export const resolvers = {
       ctx: Context,
     ) => {
       const user = requireAuth(ctx);
-      const existing = await prisma.progress.findUnique({
+
+      const fields =
+        quality === QUALITY_KNOWN
+          ? {
+              easeFactor: INITIAL_EASE_FACTOR,
+              interval: LEARNING_INTERVALS.at(-1)!,
+              repetitions: LEARNING_INTERVALS.length,
+            }
+          : sm2(
+              (await prisma.progress.findUnique({ where: { userId_wordId: { userId: user.id, wordId } } })) ?? {
+                easeFactor: INITIAL_EASE_FACTOR,
+                interval: 0,
+                repetitions: 0,
+              },
+              quality,
+            );
+
+      return prisma.progress.upsert({
         where: { userId_wordId: { userId: user.id, wordId } },
-      });
-
-      const prev = existing ?? { easeFactor: INITIAL_EASE_FACTOR, interval: 0, repetitions: 0 };
-      const { easeFactor, interval, repetitions } = sm2(prev, quality);
-      return upsertProgress(user.id, wordId, wordSetId, {
-        easeFactor,
-        interval,
-        repetitions,
-        nextReviewAt: daysFromNow(interval),
-      });
-    },
-
-    markKnown: async (_: unknown, { wordId, wordSetId }: { wordId: string; wordSetId: string }, ctx: Context) => {
-      const user = requireAuth(ctx);
-      const repetitions = LEARNING_INTERVALS.length;
-      const interval = LEARNING_INTERVALS[LEARNING_INTERVALS.length - 1];
-      return upsertProgress(user.id, wordId, wordSetId, {
-        easeFactor: INITIAL_EASE_FACTOR,
-        interval,
-        repetitions,
-        nextReviewAt: daysFromNow(interval),
+        update: { ...fields, nextReviewAt: daysFromNow(fields.interval) },
+        create: { userId: user.id, wordId, wordSetId, ...fields, nextReviewAt: daysFromNow(fields.interval) },
       });
     },
 

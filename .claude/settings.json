@@ -28,7 +28,8 @@
       "Bash(xargs grep *)",
       "Bash(npx prisma *)",
       "Bash(grep -v \"//\")",
-      "Bash(./node_modules/.bin/tsc --noEmit)"
+      "Bash(./node_modules/.bin/tsc --noEmit)",
+      "Bash(npx --yes tsc --noEmit)"
     ]
   },
   "hooks": {

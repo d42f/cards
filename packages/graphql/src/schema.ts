@@ -18,12 +18,23 @@ export const typeDefs = `#graphql
     words: [Word!]!
     studiedCount: Int!
     dueCount: Int!
+    wordsCount: Int!
   }
 
   type Word {
     id: ID!
     word: String!
     translation: String!
+    transcription: String
+  }
+
+  type DueWord {
+    id: ID!
+    wordSetId: ID!
+    word: String!
+    translation: String!
+    transcription: String
+    progress: Progress
   }
 
   type Progress {
@@ -56,7 +67,7 @@ export const typeDefs = `#graphql
     myStats: MyStats!
     wordSets: [WordSet!]!
     wordSet(id: ID!): WordSet
-    dueWords(wordSetId: ID!): [Word!]!
+    dueWords(wordSetId: ID!): [DueWord!]!
   }
 
   type Mutation {
@@ -64,7 +75,6 @@ export const typeDefs = `#graphql
     createWordSet(title: String!): WordSet!
     addWord(wordSetId: ID!, word: String!, translation: String!): Word!
     reviewWord(wordId: ID!, wordSetId: ID!, quality: Int!): Progress!
-    markKnown(wordId: ID!, wordSetId: ID!): Progress!
     finishSession(wordSetId: ID!, totalWords: Int!, knownWords: Int!): TrainingSession!
   }
 `;
