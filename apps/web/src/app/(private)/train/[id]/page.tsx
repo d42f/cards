@@ -5,6 +5,8 @@ import { useRouter } from 'next/navigation';
 import { gql } from '@apollo/client';
 import { useMutation, useQuery } from '@apollo/client/react';
 
+import ChevronLeft from '@/shared/icons/ChevronLeft.svg';
+
 import { type DueWord } from '@/entities/word';
 import { Button } from '@/shared/components/Button';
 import { WordCard } from '@/widgets/WordCard';
@@ -112,27 +114,29 @@ export default function TrainPage({ params }: { params: Promise<{ id: string }> 
   if (!word) return null;
 
   return (
-    <div className="flex flex-1 flex-col">
-      <div className="flex items-center justify-between pb-4">
-        <div className="flex items-center gap-3">
-          <span className="text-neutral font-semibold">{data?.wordSet?.title}</span>
-          <span className="bg-sage-light text-sage rounded-full px-3 py-0.5 text-xs font-semibold tracking-wide uppercase">
-            Mastery {mastery}%
-          </span>
+    <div className="mx-auto flex w-full max-w-3xl flex-1 flex-col gap-8">
+      <div className="flex items-center gap-4">
+        <Button className="shrink-0" variant="inline" size="inline" onClick={() => router.push('/')}>
+          <ChevronLeft />
+        </Button>
+        <span className="text-terra shrink-0 text-xs font-semibold tracking-widest uppercase">
+          {data?.wordSet?.title}
+        </span>
+        <span className="bg-sage-light text-sage shrink-0 rounded-full px-3 py-1 text-xs font-semibold tracking-wide uppercase">
+          Mastery {mastery}%
+        </span>
+        <div className="bg-neutral-deep h-1 flex-1 overflow-hidden rounded-full">
+          <div
+            className="bg-sage h-full rounded-full transition-all duration-500"
+            style={{ width: `${progressPercent}%` }}
+          />
         </div>
-        <span className="text-neutral-black text-xs font-semibold tracking-widest uppercase">
-          {currentIndex + 1} / {total} Cards
+        <span className="text-neutral-black shrink-0 text-xs font-semibold tabular-nums">
+          {currentIndex + 1} / {total}
         </span>
       </div>
 
-      <div className="bg-neutral-deep mb-10 h-0.5 w-full overflow-hidden rounded-full">
-        <div
-          className="bg-sage h-full rounded-full transition-all duration-500"
-          style={{ width: `${progressPercent}%` }}
-        />
-      </div>
-
-      <WordCard key={word.id} word={word} onNext={goNext} />
+      <WordCard className="mx-auto w-full max-w-xl" key={word.id} word={word} onNext={goNext} />
     </div>
   );
 }

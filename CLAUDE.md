@@ -73,6 +73,12 @@ This file is shared context between sessions — the only persistent project kno
 
 - Use **named exports** for all components (no `export default`) — avoids ambiguous re-exports in barrel files and makes renames refactor-safe
 
+### Icons
+
+- Icons live in `src/shared/icons/` as **`.svg` files** (not `.tsx` components)
+- Imported as default React components via SVGR: `import ChevronLeft from '@/shared/icons/ChevronLeft.svg'`
+- Use `default import` (not named) — SVGR exports the component as default
+
 ### Dialogs
 
 - Library: **`@radix-ui/react-dialog`** — `Root`, `Portal`, `Overlay`, `Content`, `Title`, `Close`

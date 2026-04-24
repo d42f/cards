@@ -19,11 +19,12 @@ const REVIEW_WORD = gql`
 `;
 
 interface WordCardProps {
+  className?: string;
   word: DueWord;
   onNext: (known: boolean) => void;
 }
 
-export function WordCard({ word, onNext }: WordCardProps) {
+export function WordCard({ className, word, onNext }: WordCardProps) {
   const { wordSetId } = word;
   const [revealed, setRevealed] = useState(false);
   const [answer, setAnswer] = useState('');
@@ -67,12 +68,11 @@ export function WordCard({ word, onNext }: WordCardProps) {
   const check = () => {
     const correct = answer.trim().toLowerCase() === word.word.trim().toLowerCase();
     if (correct) {
-      setIsCorrect(true);
       setRevealed(true);
     } else {
       setAttempts(a => a + 1);
-      setIsCorrect(false);
     }
+    setIsCorrect(correct);
   };
 
   const showAnswer = () => {
@@ -82,7 +82,7 @@ export function WordCard({ word, onNext }: WordCardProps) {
   };
 
   return (
-    <div className="m-auto flex w-full max-w-lg flex-col">
+    <div className={cn('flex flex-col', className)}>
       <div className="bg-neutral-light border-neutral-deep rounded-3xl border p-10 shadow-sm">
         {phase === 'typing' && (
           <div className="mb-6 flex justify-end">
