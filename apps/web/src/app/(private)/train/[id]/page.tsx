@@ -77,66 +77,70 @@ export default function TrainPage({ params }: { params: Promise<{ id: string }> 
   const mastery = wordsCount > 0 ? Math.round((studiedCount / wordsCount) * 100) : 0;
   const progressPercent = total > 0 ? Math.round((currentIndex / total) * 100) : 0;
 
-  if (loading) {
-    return <div className="text-neutral-black m-auto flex items-center justify-center">Loading…</div>;
-  }
-
-  if (!loading && total === 0) {
-    return (
-      <div className="m-auto flex flex-col items-center justify-center gap-6">
-        <div className="text-neutral-coal text-lg font-medium">No words due today — come back tomorrow!</div>
-        <Button variant="ghost" onClick={() => router.push('/')}>
-          Back to dashboard
-        </Button>
-      </div>
-    );
-  }
-
-  if (done) {
-    return (
-      <div className="m-auto flex flex-col items-center justify-center gap-6">
-        <div className="text-neutral text-2xl font-semibold">Session complete</div>
-        <div className="flex gap-12 text-center">
-          <div>
-            <div className="text-neutral text-4xl font-bold">{results.known}</div>
-            <div className="text-neutral-black mt-1 text-sm">Got it</div>
-          </div>
-          <div>
-            <div className="text-neutral text-4xl font-bold">{results.unknown}</div>
-            <div className="text-neutral-black mt-1 text-sm">Need practice</div>
-          </div>
-        </div>
-        <Button onClick={() => router.push('/')}>Back to dashboard</Button>
-      </div>
-    );
-  }
-
-  if (!word) return null;
-
   return (
     <div className="mx-auto flex w-full max-w-3xl flex-1 flex-col gap-8">
       <div className="flex items-center gap-4">
-        <Button className="shrink-0" variant="inline" size="inline" onClick={() => router.push('/')}>
-          <ChevronLeft />
-        </Button>
-        <span className="text-terra shrink-0 text-xs font-semibold tracking-widest uppercase">
-          {data?.wordSet?.title}
-        </span>
-        <span className="bg-sage-light text-sage shrink-0 rounded-full px-3 py-1 text-xs font-semibold tracking-wide uppercase">
-          Mastery {mastery}%
-        </span>
-        <div className="bg-neutral-deep h-1 flex-1 overflow-hidden rounded-full">
-          <div
-            className="bg-sage h-full rounded-full transition-all duration-500"
-            style={{ width: `${progressPercent}%` }}
-          />
-        </div>
-        <span className="text-neutral-black shrink-0 text-xs font-semibold tabular-nums">
-          {currentIndex + 1} / {total}
-        </span>
+        {loading ? (
+          <>
+            <div className="bg-neutral-deep h-4 w-4 animate-pulse rounded" />
+            <div className="bg-neutral-deep h-3 w-32 animate-pulse rounded-full" />
+            <div className="bg-neutral-deep h-6 w-20 animate-pulse rounded-full" />
+            <div className="bg-neutral-deep h-1 flex-1 animate-pulse rounded-full" />
+            <div className="bg-neutral-deep h-3 w-8 animate-pulse rounded-full" />
+          </>
+        ) : (
+          <>
+            <Button className="shrink-0" variant="inline" size="inline" onClick={() => router.push('/')}>
+              <ChevronLeft />
+            </Button>
+            <span className="text-terra shrink-0 text-xs font-semibold tracking-widest uppercase">
+              {data?.wordSet?.title}
+            </span>
+            <span className="bg-sage-light text-sage shrink-0 rounded-full px-3 py-1 text-xs font-semibold tracking-wide uppercase">
+              Mastery {mastery}%
+            </span>
+            <div className="bg-neutral-deep h-1 flex-1 overflow-hidden rounded-full">
+              <div
+                className="bg-sage h-full rounded-full transition-all duration-500"
+                style={{ width: `${progressPercent}%` }}
+              />
+            </div>
+            <span className="text-neutral-black shrink-0 text-xs font-semibold tabular-nums">
+              {currentIndex + 1} / {total}
+            </span>
+          </>
+        )}
       </div>
 
-      <WordCard className="mx-auto w-full max-w-xl" key={word.id} word={word} onNext={goNext} />
+      <div className="mx-auto w-full max-w-xl">
+        {loading ? (
+          <></>
+        ) : !word || total === 0 ? (
+          <div className="flex flex-col items-center justify-center gap-6">
+            <div className="text-neutral-coal text-lg font-medium">No words due today — come back tomorrow!</div>
+            <Button variant="ghost" onClick={() => router.push('/')}>
+              Back to dashboard
+            </Button>
+          </div>
+        ) : done ? (
+          <div className="flex flex-col items-center justify-center gap-6">
+            <div className="text-neutral text-2xl font-semibold">Session complete</div>
+            <div className="flex gap-12 text-center">
+              <div>
+                <div className="text-neutral text-4xl font-bold">{results.known}</div>
+                <div className="text-neutral-black mt-1 text-sm">Got it</div>
+              </div>
+              <div>
+                <div className="text-neutral text-4xl font-bold">{results.unknown}</div>
+                <div className="text-neutral-black mt-1 text-sm">Need practice</div>
+              </div>
+            </div>
+            <Button onClick={() => router.push('/')}>Back to dashboard</Button>
+          </div>
+        ) : (
+          <WordCard key={word.id} word={word} onNext={goNext} />
+        )}
+      </div>
     </div>
   );
 }
